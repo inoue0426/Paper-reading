@@ -230,22 +230,18 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 > Issue [#26](https://github.com/inoue0426/Paper-reading/issues/26)
 
-- **BioCG: Constrained Generative Modeling for Biochemical Interaction Prediction**
-  - https://neurips.cc/virtual/2025/poster/117894
+- **[BioCG: Constrained Generative Modeling for Biochemical Interaction Prediction](https://neurips.cc/virtual/2025/poster/117894)**
   - https://openreview.net/pdf/e888694d2a8f7af2d08c2e095aab2d544eaae072.pdf
   - BioCG reframes biochemical interaction prediction as a constrained sequence generation task instead of binary classification. It learns to generate valid interacting partners from a finite biochemical catalog using trie-guided decoding. Achieves state-of-the-art accuracy and strong generalization to unseen proteins and drugs.
 
-- **CellVerse: Do Large Language Models Really Understand Cell Biology?**
-  - https://cellverse-cuhk.github.io/
+- **[CellVerse: Do Large Language Models Really Understand Cell Biology?](https://cellverse-cuhk.github.io/)**
   - https://arxiv.org/abs/2505.07865
   - CELLVERSE introduces a benchmark to test whether large language models truly understand cell biology. It evaluates 14 LLMs across multi-omics, cell, drug, and gene-level reasoning tasks. Results show that LLMs exhibit limited biological understanding.
 
-- **Measuring Scientific Capabilities of Language Models with a Systems Biology Dry Lab**
-  - https://arxiv.org/abs/2507.02083
+- **[Measuring Scientific Capabilities of Language Models with a Systems Biology Dry Lab](https://arxiv.org/abs/2507.02083)**
   - SCIGYM's dry lab uses SBML models to define biochemical or metabolic reaction networks. These models are numerically simulated with Tellurium to generate time-series data of molecular concentrations. LLMs then use this simulated data to design experiments and reconstruct missing reaction pathways.
 
-- **BIOREASON: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model**
-  - https://arxiv.org/abs/2505.23579
+- **[BIOREASON: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model](https://arxiv.org/abs/2505.23579)**
   - https://github.com/bowang-lab/BioReason
   - BioReason integrates DNA foundation models with large language models to enable biological reasoning. It combines existing methods like GRPO and multimodal embeddings in a well-engineered, interpretable system. First solid demo of AI-driven biological insight.
 
@@ -281,48 +277,27 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 > Issue [#22](https://github.com/inoue0426/Paper-reading/issues/22)
 
-1. **RedCDR: Dual Relation Distillation for Cancer Drug Response Prediction**
-   - https://ieeexplore.ieee.org/abstract/document/10536635
-2. **Predicting cancer drug response using parallel heterogeneous graph convolutional networks with neighborhood interactions**
-   - https://pubmed.ncbi.nlm.nih.gov/35997568/
-3. **Predicting Drug Response Based on Multi-Omics Fusion and Graph Convolution**
-   - https://pubmed.ncbi.nlm.nih.gov/34347616/
-4. **DeepCDR: a hybrid graph convolutional network for predicting cancer drug response**
-   - https://academic.oup.com/bioinformatics/article/36/Supplement_2/i911/6055929
-5. **DeepDSC: A Deep Learning Method to Predict Drug Sensitivity of Cancer Cell Lines**
-   - https://pubmed.ncbi.nlm.nih.gov/31150344/
-6. **GraphCDR: a graph neural network method with contrastive learning for cancer drug response prediction**
-   - https://academic.oup.com/bib/article/23/1/bbab457/6415314
-7. **A subcomponent-guided deep learning method for interpretable cancer drug response prediction**
-   - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011382
-8. **DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer**
-   - https://pubmed.ncbi.nlm.nih.gov/36430395/
-9. **TGSA: protein–protein association-based twin graph neural networks for drug response prediction with similarity augmentation**
-   - https://academic.oup.com/bioinformatics/article/38/2/461/6374919
-10. **HANSynergy: Heterogeneous Graph Attention Network for Drug Synergy Prediction** (Knowledge Graph)
-    - https://pubs.acs.org/doi/10.1021/acs.jcim.4c00003
-11. **Hi-GeoMVP: a hierarchical geometry-enhanced deep learning model for drug response prediction** (Pathway-based loss function)
-    - https://academic.oup.com/bioinformatics/article/40/4/btae204/7645413
-12. **A granularity-level information fusion strategy on hypergraph transformer for predicting synergistic effects of anticancer drugs**
-    - https://academic.oup.com/bib/article/25/1/bbad522/7571386
-13. **TransCDR: a deep learning model for enhancing the generalizability of drug activity prediction through transfer learning and multimodal data fusion**
-    - https://link.springer.com/article/10.1186/s12915-024-02023-8
-14. **ExplainMIX: Explaining Drug Response Prediction in Directed Graph Neural Networks with Multi-Omics Fusion** (Edge Loss)
-    - https://ieeexplore.ieee.org/abstract/document/10921675
-15. **DTLCDR: A target-based multimodal fusion deep learning framework for cancer drug response prediction** (Add Target embedding)
-    - https://www.sciencedirect.com/science/article/pii/S2095177925001327
-16. **Interpretable Drug Response Prediction through Molecule Structure-aware and Knowledge-Guided Visible Neural Network** (ACM BCB)
-    - https://ieeexplore.ieee.org/abstract/document/10822211
-17. **A Drug-Drug Interaction Prediction Method Based on Atomic 3D Position Encoding and Elastic Message Passing Graph Neural Network**
-    - https://ieeexplore.ieee.org/document/10964840
-18. **Improving drug response prediction based on two-space graph convolution** (Close to NIHGCN)
-    - https://www.sciencedirect.com/science/article/pii/S0010482523003244
-19. **Graph Neural Networks With Multiple Prior Knowledge for Multi-Omics Data Analysis** (Prior Knowledge)
-    - https://ieeexplore.ieee.org/abstract/document/10148642
-20. **DeepAEG: a model for predicting cancer drug response based on data enhancement and edge-collaborative update strategies**
-    - https://link.springer.com/article/10.1186/s12859-024-05723-8
-21. **Predicting Anti-Cancer Drug Response Based on Hypergraph Representation Learning**
-    - https://ieeexplore.ieee.org/abstract/document/10857656
+1. **[RedCDR: Dual Relation Distillation for Cancer Drug Response Prediction](https://ieeexplore.ieee.org/abstract/document/10536635)**
+2. **[Predicting cancer drug response using parallel heterogeneous graph convolutional networks with neighborhood interactions](https://pubmed.ncbi.nlm.nih.gov/35997568/)**
+3. **[Predicting Drug Response Based on Multi-Omics Fusion and Graph Convolution](https://pubmed.ncbi.nlm.nih.gov/34347616/)**
+4. **[DeepCDR: a hybrid graph convolutional network for predicting cancer drug response](https://academic.oup.com/bioinformatics/article/36/Supplement_2/i911/6055929)**
+5. **[DeepDSC: A Deep Learning Method to Predict Drug Sensitivity of Cancer Cell Lines](https://pubmed.ncbi.nlm.nih.gov/31150344/)**
+6. **[GraphCDR: a graph neural network method with contrastive learning for cancer drug response prediction](https://academic.oup.com/bib/article/23/1/bbab457/6415314)**
+7. **[A subcomponent-guided deep learning method for interpretable cancer drug response prediction](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011382)**
+8. **[DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer](https://pubmed.ncbi.nlm.nih.gov/36430395/)**
+9. **[TGSA: protein–protein association-based twin graph neural networks for drug response prediction with similarity augmentation](https://academic.oup.com/bioinformatics/article/38/2/461/6374919)**
+10. **[HANSynergy: Heterogeneous Graph Attention Network for Drug Synergy Prediction](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00003)** (Knowledge Graph)
+11. **[Hi-GeoMVP: a hierarchical geometry-enhanced deep learning model for drug response prediction](https://academic.oup.com/bioinformatics/article/40/4/btae204/7645413)** (Pathway-based loss function)
+12. **[A granularity-level information fusion strategy on hypergraph transformer for predicting synergistic effects of anticancer drugs](https://academic.oup.com/bib/article/25/1/bbad522/7571386)**
+13. **[TransCDR: a deep learning model for enhancing the generalizability of drug activity prediction through transfer learning and multimodal data fusion](https://link.springer.com/article/10.1186/s12915-024-02023-8)**
+14. **[ExplainMIX: Explaining Drug Response Prediction in Directed Graph Neural Networks with Multi-Omics Fusion](https://ieeexplore.ieee.org/abstract/document/10921675)** (Edge Loss)
+15. **[DTLCDR: A target-based multimodal fusion deep learning framework for cancer drug response prediction](https://www.sciencedirect.com/science/article/pii/S2095177925001327)** (Add Target embedding)
+16. **[Interpretable Drug Response Prediction through Molecule Structure-aware and Knowledge-Guided Visible Neural Network](https://ieeexplore.ieee.org/abstract/document/10822211)** (ACM BCB)
+17. **[A Drug-Drug Interaction Prediction Method Based on Atomic 3D Position Encoding and Elastic Message Passing Graph Neural Network](https://ieeexplore.ieee.org/document/10964840)**
+18. **[Improving drug response prediction based on two-space graph convolution](https://www.sciencedirect.com/science/article/pii/S0010482523003244)** (Close to NIHGCN)
+19. **[Graph Neural Networks With Multiple Prior Knowledge for Multi-Omics Data Analysis](https://ieeexplore.ieee.org/abstract/document/10148642)** (Prior Knowledge)
+20. **[DeepAEG: a model for predicting cancer drug response based on data enhancement and edge-collaborative update strategies](https://link.springer.com/article/10.1186/s12859-024-05723-8)**
+21. **[Predicting Anti-Cancer Drug Response Based on Hypergraph Representation Learning](https://ieeexplore.ieee.org/abstract/document/10857656)**
 
 ---
 
@@ -330,8 +305,7 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 > Issue [#21](https://github.com/inoue0426/Paper-reading/issues/21)
 
-- **BounDr.E: Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization**
-  - https://icml.cc/virtual/2025/poster/44875
+- **[BounDr.E: Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization](https://icml.cc/virtual/2025/poster/44875)**
   - Note: rejected ICLR and accepted at ICML
 
 ---
@@ -342,85 +316,85 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 ### Biology & Genomics
 
-- **BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments**
-  - https://openreview.net/forum?id=HAwZGLcye3 — Score: 6.4
+- **[BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments](https://openreview.net/forum?id=HAwZGLcye3)**
+  - Score: 6.4
   - BioDiscoveryAgent efficiently uses large language models to design genetic perturbation experiments, outperforming Bayesian optimization methods by 21% across six datasets.
 
-- **Rethinking the generalization of drug target affinity prediction algorithms via similarity aware evaluation**
-  - https://openreview.net/forum?id=j7cyANIAxV — Score: 7.5
+- **[Rethinking the generalization of drug target affinity prediction algorithms via similarity aware evaluation](https://openreview.net/forum?id=j7cyANIAxV)**
+  - Score: 7.5
   - Proposes a "Similarity Aware Evaluation" (SAE) framework to address biased evaluations in drug-target affinity prediction.
 
-- **GeSubNet: Gene Interaction Inference for Disease Subtype Network Generation**
-  - https://openreview.net/forum?id=ja4rpheN2n — Score: 8
+- **[GeSubNet: Gene Interaction Inference for Disease Subtype Network Generation](https://openreview.net/forum?id=ja4rpheN2n)**
+  - Score: 8
   - Introduces GeSubNet, a framework for inferring gene interactions specific to disease subtypes using a deep generative model and GNN.
 
-- **Learning to Discover Regulatory Elements for Gene Expression Prediction**
-  - https://openreview.net/forum?id=Mfnh1Sqdwf — Score: 7.5
+- **[Learning to Discover Regulatory Elements for Gene Expression Prediction](https://openreview.net/forum?id=Mfnh1Sqdwf)**
+  - Score: 7.5
   - Introduces Seq2Exp for predicting gene expression by integrating DNA sequences and epigenomic signals using an information bottleneck.
 
-- **Diffusion Generative Modeling for Spatially Resolved Gene Expression Inference from Histology Images**
-  - https://openreview.net/forum?id=FtjLUHyZAO — Score: 6.67
+- **[Diffusion Generative Modeling for Spatially Resolved Gene Expression Inference from Histology Images](https://openreview.net/forum?id=FtjLUHyZAO)**
+  - Score: 6.67
   - Introduces Stem, a conditional diffusion generative model to infer spatially resolved gene expressions from H&E stained histology images.
 
-- **Learning Molecular Representation in a Cell**
-  - https://openreview.net/forum?id=BbZy8nI1si — Score: 5.75
+- **[Learning Molecular Representation in a Cell](https://openreview.net/forum?id=BbZy8nI1si)**
+  - Score: 5.75
   - Introduces InfoAlign, learning molecular representations by integrating molecular structures with cellular responses (cell morphology and gene expression).
 
-- **Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Causal Disentanglement**
-  - https://openreview.net/forum?id=Tqdsruwyac — Score: 6.67
+- **[Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Causal Disentanglement](https://openreview.net/forum?id=Tqdsruwyac)**
+  - Score: 6.67
   - Introduces Celcomen, a generative GNN that uses causal inference to disentangle intra- and inter-cellular gene regulation in spatial transcriptomics.
 
-- **Interpretable Causal Representation Learning for Biological Data in the Pathway Space**
-  - https://openreview.net/forum?id=3Fgylj4uqL — Score: 6
+- **[Interpretable Causal Representation Learning for Biological Data in the Pathway Space](https://openreview.net/forum?id=3Fgylj4uqL)**
+  - Score: 6
   - Introduces SENA-discrepancy-VAE, an approach for interpretable causal representation learning in biological data incorporating prior knowledge of biological pathways.
 
 ### Interpretability
 
-- **Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models**
-  - https://openreview.net/forum?id=I4e82CIDxv — Score: 8 (all reviewers)
+- **[Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models](https://openreview.net/forum?id=I4e82CIDxv)**
+  - Score: 8 (all reviewers)
   - Introduces sparse feature circuits — interpretable causal subnetworks of language models using fine-grained features identified by sparse autoencoders.
 
-- **Unlearning-based Neural Interpretations**
-  - https://openreview.net/forum?id=PBjCTeDL6o — Score: 8
+- **[Unlearning-based Neural Interpretations](https://openreview.net/forum?id=PBjCTeDL6o)**
+  - Score: 8
   - Introduces UNI, a novel approach for generating explanations of neural network decisions via an unlearning process to compute the baseline.
 
-- **KAN: Kolmogorov–Arnold Networks**
-  - https://openreview.net/forum?id=Ozo7qJ5vZi — Score: 8 (×3), 6 (×2)
+- **[KAN: Kolmogorov–Arnold Networks](https://openreview.net/forum?id=Ozo7qJ5vZi)**
+  - Score: 8 (×3), 6 (×2)
 
-- **Scaling and evaluating sparse autoencoders**
-  - https://openreview.net/forum?id=tcsZt9ZNKD — Score: 8.2
+- **[Scaling and evaluating sparse autoencoders](https://openreview.net/forum?id=tcsZt9ZNKD)**
+  - Score: 8.2
   - Presents a comprehensive study on scaling and evaluating sparse autoencoders for extracting interpretable features from language models. Introduces k-sparse autoencoder with TopK activation.
 
-- **Bilinear MLPs enable weight-based mechanistic interpretability**
-  - https://openreview.net/forum?id=gI0kPklUKS — Score: 8, 8, 8, 6
+- **[Bilinear MLPs enable weight-based mechanistic interpretability](https://openreview.net/forum?id=gI0kPklUKS)**
+  - Score: 8, 8, 8, 6
   - Introduces bilinear MLPs as an interpretable alternative to standard MLPs — fully expressible using linear operations with a third-order tensor.
 
-- **Enhancing Pre-trained Representation Classifiability can Boost its Interpretability**
-  - https://openreview.net/forum?id=GjfIZan5jN — Score: 8, 8, 8, 8, 6, 6
+- **[Enhancing Pre-trained Representation Classifiability can Boost its Interpretability](https://openreview.net/forum?id=GjfIZan5jN)**
+  - Score: 8, 8, 8, 8, 6, 6
   - Investigates the relationship between interpretability and classifiability in pre-trained visual representations; proposes the Inherent Interpretability Score (IIS) metric.
 
-- **NetFormer: An interpretable model for recovering dynamical connectivity in neuronal population dynamics**
-  - https://openreview.net/forum?id=bcTjW5kS4W — Score: 8, 8, 8, 6
+- **[NetFormer: An interpretable model for recovering dynamical connectivity in neuronal population dynamics](https://openreview.net/forum?id=bcTjW5kS4W)**
+  - Score: 8, 8, 8, 6
   - Uses linearized attention to capture nonstationary and nonlinear structural information in neural networks.
 
-- **Towards Automated Knowledge Integration From Human-Interpretable Representations**
-  - https://openreview.net/forum?id=NTHMw8S1Ow — Score: 8, 8, 6
+- **[Towards Automated Knowledge Integration From Human-Interpretable Representations](https://openreview.net/forum?id=NTHMw8S1Ow)**
+  - Score: 8, 8, 6
   - Introduces informed meta-learning with Informed Neural Processes (INPs) for automated and controllable selection of inductive biases.
 
-- **Shedding Light on Time Series Classification using Interpretability Gated Networks**
-  - https://openreview.net/forum?id=n34taxF0TC — Score: 8, 8, 6, 5, 6
+- **[Shedding Light on Time Series Classification using Interpretability Gated Networks](https://openreview.net/forum?id=n34taxF0TC)**
+  - Score: 8, 8, 6, 5, 6
   - Introduces InterpGN, combining an interpretable Shapelet Bottleneck Model with a deep neural network via a gating function.
 
-- **Large Language Models are Interpretable Learners**
-  - https://openreview.net/forum?id=hTphfqtafO — Score: 8, 6, 5
+- **[Large Language Models are Interpretable Learners](https://openreview.net/forum?id=hTphfqtafO)**
+  - Score: 8, 6, 5
   - Introduces LLM-based Symbolic Programs (LSPs) combining LLMs with symbolic programs to create interpretable and expressive predictive models.
 
-- **Gnothi Seauton: Empowering Faithful Self-Interpretability in Black-Box Transformers**
-  - https://openreview.net/forum?id=UvMSKonce8 — Score: 6, 6, 6
+- **[Gnothi Seauton: Empowering Faithful Self-Interpretability in Black-Box Transformers](https://openreview.net/forum?id=UvMSKonce8)**
+  - Score: 6, 6, 6
   - Introduces AutoGnothi, enabling black-box transformer models to generate Shapley value explanations efficiently via a lightweight side network.
 
-- **From GNNs to Trees: Multi-Granular Interpretability for Graph Neural Networks**
-  - https://openreview.net/forum?id=KEUPk0wXXe — Score: 6, 6, 6
+- **[From GNNs to Trees: Multi-Granular Interpretability for Graph Neural Networks](https://openreview.net/forum?id=KEUPk0wXXe)**
+  - Score: 6, 6, 6
   - Introduces Tree-like Interpretable Framework (TIF) for graph classification that transforms GNNs into hierarchical trees.
 
 ---
@@ -429,11 +403,9 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 > Issue [#19](https://github.com/inoue0426/Paper-reading/issues/19)
 
-- **Efficient Evolutionary Search Over Chemical Space with Large Language Models**
-  - https://arxiv.org/pdf/2406.16976
+- **[Efficient Evolutionary Search Over Chemical Space with Large Language Models](https://arxiv.org/pdf/2406.16976)**
 
-- **Equivariant 3D-conditional diffusion model for molecular linker design**
-  - https://www.nature.com/articles/s42256-024-00815-9
+- **[Equivariant 3D-conditional diffusion model for molecular linker design](https://www.nature.com/articles/s42256-024-00815-9)**
 
 ---
 
@@ -441,17 +413,13 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 > Issue [#18](https://github.com/inoue0426/Paper-reading/issues/18)
 
-- **Fostering Collective Action in Complex Societies Using Community-Based Agents**
-  - https://www.ijcai.org/Proceedings/2024/0024.pdf
+- **[Fostering Collective Action in Complex Societies Using Community-Based Agents](https://www.ijcai.org/Proceedings/2024/0024.pdf)**
 
-- **Zero-shot Learning for Preclinical Drug Screening**
-  - https://www.ijcai.org/Proceedings/2024/0234.pdf
+- **[Zero-shot Learning for Preclinical Drug Screening](https://www.ijcai.org/Proceedings/2024/0234.pdf)**
 
-- **Contrastive Learning Drug Response Models from Natural Language Supervision**
-  - https://www.ijcai.org/Proceedings/2024/0235.pdf
+- **[Contrastive Learning Drug Response Models from Natural Language Supervision](https://www.ijcai.org/Proceedings/2024/0235.pdf)**
 
-- **ZeroDDI: A Zero-Shot Drug-Drug Interaction Event Prediction Method with Semantic Enhanced Learning and Dual-Modal Uniform Alignment**
-  - https://www.ijcai.org/Proceedings/2024/0671.pdf
+- **[ZeroDDI: A Zero-Shot Drug-Drug Interaction Event Prediction Method with Semantic Enhanced Learning and Dual-Modal Uniform Alignment](https://www.ijcai.org/Proceedings/2024/0671.pdf)**
 
 - **SCTrans: Multi-scale scRNA-seq Sub-vector Completion Transformer for Gene-selective Cell Type Annotation**
 
@@ -461,20 +429,16 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 > Issue [#17](https://github.com/inoue0426/Paper-reading/issues/17)
 
-- **Representing Molecules as Random Walks Over Interpretable Grammars**
-  - https://arxiv.org/abs/2403.08147
+- **[Representing Molecules as Random Walks Over Interpretable Grammars](https://arxiv.org/abs/2403.08147)**
   - https://github.com/shiningsunnyday/polymer_walk
 
-- **Drug Discovery with Dynamic Goal-aware Fragments**
-  - https://arxiv.org/abs/2310.00841
+- **[Drug Discovery with Dynamic Goal-aware Fragments](https://arxiv.org/abs/2310.00841)**
   - https://github.com/SeulLee05/GEAM
 
-- **Predicting Dose-Response Curves with Deep Neural Networks**
-  - https://openreview.net/pdf?id=MDAg5Q7IsI
+- **[Predicting Dose-Response Curves with Deep Neural Networks](https://openreview.net/pdf?id=MDAg5Q7IsI)**
   - https://github.com/alonsocampana/ARCANet
 
-- **WISER: Weak supervISion and supErvised Representation learning to improve drug response prediction in cancer**
-  - https://arxiv.org/abs/2405.04078
+- **[WISER: Weak supervISion and supErvised Representation learning to improve drug response prediction in cancer](https://arxiv.org/abs/2405.04078)**
   - https://github.com/kyrs/WISER
 
 ---
@@ -560,34 +524,26 @@ Unsupervised embedding-to-embedding translation without paired data or encoder a
 
 Reference: https://www.ijcai.org/proceedings/2023/
 
-- **CSGCL: Community-Strength-Enhanced Graph Contrastive Learning**
-  - https://www.ijcai.org/proceedings/2023/0229.pdf
+- **[CSGCL: Community-Strength-Enhanced Graph Contrastive Learning](https://www.ijcai.org/proceedings/2023/0229.pdf)**
   - https://github.com/HanChen-HUST/CSGCL
 
-- **Gapformer: Graph Transformer with Graph Pooling for Node Classification**
-  - https://www.ijcai.org/proceedings/2023/0244.pdf
+- **[Gapformer: Graph Transformer with Graph Pooling for Node Classification](https://www.ijcai.org/proceedings/2023/0244.pdf)**
 
-- **Deep Multi-View Subspace Clustering with Anchor Graph**
-  - https://www.ijcai.org/proceedings/2023/0398.pdf
+- **[Deep Multi-View Subspace Clustering with Anchor Graph](https://www.ijcai.org/proceedings/2023/0398.pdf)**
   - 2AE + spectral clustering
 
-- **SemiGNN-PPI: Self-Ensembling Multi-Graph Neural Network for Efficient and Generalizable Protein-Protein Interaction Prediction**
-  - https://www.ijcai.org/proceedings/2023/0554.pdf
+- **[SemiGNN-PPI: Self-Ensembling Multi-Graph Neural Network for Efficient and Generalizable Protein-Protein Interaction Prediction](https://www.ijcai.org/proceedings/2023/0554.pdf)**
 
-- **Toward Convex Manifolds: A Geometric Perspective for Deep Graph Clustering of Single-cell RNA-seq Data**
-  - https://www.ijcai.org/proceedings/2023/0540.pdf
+- **[Toward Convex Manifolds: A Geometric Perspective for Deep Graph Clustering of Single-cell RNA-seq Data](https://www.ijcai.org/proceedings/2023/0540.pdf)**
   - https://github.com/MMAMAR/scTConvexMan
 
-- **Multi-view Contrastive Learning Hypergraph Neural Network for Drug-Microbe-Disease Association Prediction**
-  - https://www.ijcai.org/proceedings/2023/0537.pdf
+- **[Multi-view Contrastive Learning Hypergraph Neural Network for Drug-Microbe-Disease Association Prediction](https://www.ijcai.org/proceedings/2023/0537.pdf)**
   - https://github.com/Liuluotao/MCHNN
 
-- **MolHF: A Hierarchical Normalizing Flow for Molecular Graph Generation**
-  - https://www.ijcai.org/proceedings/2023/0556.pdf
+- **[MolHF: A Hierarchical Normalizing Flow for Molecular Graph Generation](https://www.ijcai.org/proceedings/2023/0556.pdf)**
   - https://github.com/violet-sto/MolHF
 
-- **A Systematic Survey of Chemical Pre-trained Models**
-  - https://www.ijcai.org/proceedings/2023/0760.pdf
+- **[A Systematic Survey of Chemical Pre-trained Models](https://www.ijcai.org/proceedings/2023/0760.pdf)**
   - https://github.com/junxia97/awesome-pretrain-on-molecules
 
 ---
@@ -598,15 +554,12 @@ Reference: https://www.ijcai.org/proceedings/2023/
 
 Reference: https://proceedings.mlr.press/v231/
 
-- **PyTorch Geometric Signed Directed: A Software Package on Graph Neural Networks for Signed and Directed Graphs**
-  - https://proceedings.mlr.press/v231/he24a/he24a.pdf
+- **[PyTorch Geometric Signed Directed: A Software Package on Graph Neural Networks for Signed and Directed Graphs](https://proceedings.mlr.press/v231/he24a/he24a.pdf)**
 
-- **A Latent Diffusion Model for Protein Structure Generation**
-  - https://proceedings.mlr.press/v231/fu24a/fu24a.pdf
+- **[A Latent Diffusion Model for Protein Structure Generation](https://proceedings.mlr.press/v231/fu24a/fu24a.pdf)**
   - https://github.com/divelab/AIRS/tree/main/OpenProt/LatentDiff
 
-- **MUDiff: Unified Diffusion for Complete Molecule Generation**
-  - https://proceedings.mlr.press/v231/hua24a/hua24a.pdf
+- **[MUDiff: Unified Diffusion for Complete Molecule Generation](https://proceedings.mlr.press/v231/hua24a/hua24a.pdf)**
   - https://github.com/WillHua127/mudiff
 
 ---
@@ -681,62 +634,45 @@ Reference: https://proceedings.mlr.press/v231/
 
 > Issue [#2](https://github.com/inoue0426/Paper-reading/issues/2)
 
-- **A deep graph convolution network with attention for clustering scRNA-seq data**
+- **[A deep graph convolution network with attention for clustering scRNA-seq data](https://ieeexplore-ieee-org.ezp1.lib.umn.edu/document/10385323)**
   - GCN encoder decoder with ZINB loss
-  - https://ieeexplore-ieee-org.ezp1.lib.umn.edu/document/10385323
 
-- **SEDGCN: Sentiment Enhanced Dual Graph Convolutional Networks for Detecting Adverse Drug Reactions**
+- **[SEDGCN: Sentiment Enhanced Dual Graph Convolutional Networks for Detecting Adverse Drug Reactions](https://ieeexplore-ieee-org.ezp1.lib.umn.edu/document/10385261)**
   - BERT + GCN + HGCN
-  - https://ieeexplore-ieee-org.ezp1.lib.umn.edu/document/10385261
 
-- **Enhancing Protein Solubility Prediction through Pre-trained Language Models and Graph Convolutional Neural Networks**
+- **[Enhancing Protein Solubility Prediction through Pre-trained Language Models and Graph Convolutional Neural Networks](https://ieeexplore.ieee.org/document/10385858)**
   - https://github.com/CJ-eeww/PPSol
-  - https://ieeexplore.ieee.org/document/10385858
 
-- **Predicting Associations between circRNAs and Drug Sensitivity using Heterogeneous Graphs and Graph Attention Networks**
-  - https://ieeexplore.ieee.org/document/10385513
+- **[Predicting Associations between circRNAs and Drug Sensitivity using Heterogeneous Graphs and Graph Attention Networks](https://ieeexplore.ieee.org/document/10385513)**
 
-- **Multi-omics Sampling-based Graph Transformer for Synthetic Lethality Prediction**
-  - https://ieeexplore.ieee.org/document/10385953
+- **[Multi-omics Sampling-based Graph Transformer for Synthetic Lethality Prediction](https://ieeexplore.ieee.org/document/10385953)**
 
-- **Diffusion-Enhanced Graph Attention Network for Cancer Type Classification**
-  - https://ieeexplore.ieee.org/document/10386042
+- **[Diffusion-Enhanced Graph Attention Network for Cancer Type Classification](https://ieeexplore.ieee.org/document/10386042)**
 
-- **Imputing single-cell RNA-seq data by graph autoencoder with multi-kernel**
+- **[Imputing single-cell RNA-seq data by graph autoencoder with multi-kernel](https://ieeexplore.ieee.org/document/10385675)**
   - GCN + AE
-  - https://ieeexplore.ieee.org/document/10385675
 
-- **MoSCHG: Multi-omics Single-cell Classification based on Heterogeneous Graphs and Supervised Contrastive Learning**
-  - https://ieeexplore.ieee.org/document/10385631
+- **[MoSCHG: Multi-omics Single-cell Classification based on Heterogeneous Graphs and Supervised Contrastive Learning](https://ieeexplore.ieee.org/document/10385631)**
 
-- **An Effective Microbial–drug Relation Extraction Model Based on Dual Graph Convolutional Networks**
-  - https://ieeexplore.ieee.org/document/10385893
+- **[An Effective Microbial–drug Relation Extraction Model Based on Dual Graph Convolutional Networks](https://ieeexplore.ieee.org/document/10385893)**
 
-- **Enhancing Cancer Gene Prediction through Aligned Fusion of Multiple PPI Networks Using Graph Transformer Models**
-  - https://ieeexplore.ieee.org/document/10385593
+- **[Enhancing Cancer Gene Prediction through Aligned Fusion of Multiple PPI Networks Using Graph Transformer Models](https://ieeexplore.ieee.org/document/10385593)**
 
-- **scGEMOC, A Graph Embedded Contrastive Learning Single-cell Multiomics Clustering Model**
-  - https://ieeexplore.ieee.org/document/10385267
+- **[scGEMOC, A Graph Embedded Contrastive Learning Single-cell Multiomics Clustering Model](https://ieeexplore.ieee.org/document/10385267)**
 
-- **GTDDA: Graph Convolutional Network and Graph Transformer Structure for Drug Repositioning**
-  - https://ieeexplore.ieee.org/document/10386002
+- **[GTDDA: Graph Convolutional Network and Graph Transformer Structure for Drug Repositioning](https://ieeexplore.ieee.org/document/10386002)**
 
-- **Integrating Heterogeneous Biological Networks and Ontologies for Improved Protein Function Prediction with Graph Neural Networks**
-  - https://ieeexplore.ieee.org/document/10385281
+- **[Integrating Heterogeneous Biological Networks and Ontologies for Improved Protein Function Prediction with Graph Neural Networks](https://ieeexplore.ieee.org/document/10385281)**
 
-- **Graph Neural Networks with Geometric Edge Fusion and Point Downsampling for Drug-Target Interaction Prediction**
-  - https://ieeexplore.ieee.org/document/10385906
+- **[Graph Neural Networks with Geometric Edge Fusion and Point Downsampling for Drug-Target Interaction Prediction](https://ieeexplore.ieee.org/document/10385906)**
   - https://github.com/Hienyriux/GeoPD-DTI
 
-- **KSGTN-DDI: Key Substructure-aware Graph Transformer Network for Drug-drug Interaction Prediction**
-  - https://ieeexplore.ieee.org/document/10385795
+- **[KSGTN-DDI: Key Substructure-aware Graph Transformer Network for Drug-drug Interaction Prediction](https://ieeexplore.ieee.org/document/10385795)**
 
-- **HGTDG: An Interpretable Heterogeneous Graph Transformer Framework for Cancer Driver Gene Prediction**
-  - https://ieeexplore.ieee.org/document/10385343
+- **[HGTDG: An Interpretable Heterogeneous Graph Transformer Framework for Cancer Driver Gene Prediction](https://ieeexplore.ieee.org/document/10385343)**
   - https://github.com/ZhangLab312/HGTDG
 
-- **Integrating Multi-omics Data into A Gated Graph Convolutional Networks for Identifying Cancer Driver Genes and Function Modules**
-  - https://ieeexplore.ieee.org/document/10385796
+- **[Integrating Multi-omics Data into A Gated Graph Convolutional Networks for Identifying Cancer Driver Genes and Function Modules](https://ieeexplore.ieee.org/document/10385796)**
   - https://github.com/bionlp-hzau/DGGAT
 
 ---
@@ -745,104 +681,76 @@ Reference: https://proceedings.mlr.press/v231/
 
 > Issue [#1](https://github.com/inoue0426/Paper-reading/issues/1)
 
-- **Drug editing with RAG**
-  - https://openreview.net/forum?id=yRrPfKyJQ2
+- **[Drug editing with RAG](https://openreview.net/forum?id=yRrPfKyJQ2)**
   - https://github.com/chao1224/ChatDrug
 
-- **LATENT 3D GRAPH DIFFUSION**
-  - https://openreview.net/forum?id=cXbnGtO0NZ
+- **[LATENT 3D GRAPH DIFFUSION](https://openreview.net/forum?id=cXbnGtO0NZ)**
   - https://github.com/Shen-Lab/LDM-3DG
 
-- **Protein Structure with BERT**
-  - https://openreview.net/forum?id=6MRm3G4NiU
+- **[Protein Structure with BERT](https://openreview.net/forum?id=6MRm3G4NiU)**
   - https://github.com/westlake-repl/SaProt
 
-- **Retro synthesis modeling with Markov bridge**
-  - https://openreview.net/forum?id=770DetV8He
+- **[Retro synthesis modeling with Markov bridge](https://openreview.net/forum?id=770DetV8He)**
   - https://github.com/igashov/RetroBridge
 
-- **Biological knowledge graph**
-  - https://openreview.net/forum?id=jJCeMiwHdH
+- **[Biological knowledge graph](https://openreview.net/forum?id=jJCeMiwHdH)**
   - https://github.com/RyanWangZf/BioBridge
 
-- **BioMolecular data with LLM**
-  - https://openreview.net/forum?id=Tlsdsb6l9n
+- **[BioMolecular data with LLM](https://openreview.net/forum?id=Tlsdsb6l9n)**
   - https://github.com/zjunlp/Mol-Instructions
 
-- **Benchmark dataset with 3D conformer**
-  - https://openreview.net/forum?id=kFiMXnLH9x
+- **[Benchmark dataset with 3D conformer](https://openreview.net/forum?id=kFiMXnLH9x)**
   - https://github.com/SXKDZ/MARCEL
 
-- **Molecular generation with LLM**
-  - https://openreview.net/forum?id=9rPyHyjfwP
+- **[Molecular generation with LLM](https://openreview.net/forum?id=9rPyHyjfwP)**
   - https://github.com/zjunlp/MolGen
 
-- **Atomic property prediction with catalysis and small molecule information**
-  - https://openreview.net/forum?id=PfPnugdxupc
+- **[Atomic property prediction with catalysis and small molecule information](https://openreview.net/forum?id=PfPnugdxupc)**
 
-- **Transformer Fusion with Optimal Transport**
-  - https://openreview.net/forum?id=LjeqMvQpen
+- **[Transformer Fusion with Optimal Transport](https://openreview.net/forum?id=LjeqMvQpen)**
   - TM Flow looks interesting
 
-- **Pre-training Sequence, Structure, and Surface Features for Comprehensive Protein Representation Learning**
-  - https://openreview.net/forum?id=BEH4mGo7zP
+- **[Pre-training Sequence, Structure, and Surface Features for Comprehensive Protein Representation Learning](https://openreview.net/forum?id=BEH4mGo7zP)**
   - Sequence, Structure (Graph), Surface (Point Cloud) embedding
 
-- **Evaluating Representation Learning on the Protein Structure Universe**
-  - https://openreview.net/forum?id=sTYuRVrdK3
+- **[Evaluating Representation Learning on the Protein Structure Universe](https://openreview.net/forum?id=sTYuRVrdK3)**
   - Benchmark for: Node-level (Inverse Folding, PPI Site Prediction, Metal Bind Site Prediction, PTM Site Prediction) and Graph-level (Fold Prediction, Gene Ontology Prediction, Reaction Class Prediction, Antibody Dev. Prediction)
 
-- **Improving protein optimization with smoothed fitness landscapes**
-  - https://openreview.net/forum?id=jZPqf2G9Sw
+- **[Improving protein optimization with smoothed fitness landscapes](https://openreview.net/forum?id=jZPqf2G9Sw)**
   - Gibbs sampling with Graph-based Smoothing
 
-- **Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models**
-  - https://openreview.net/forum?id=qH9nrMNTIW
+- **[Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models](https://openreview.net/forum?id=qH9nrMNTIW)**
 
-- **Learning to design protein-protein interactions with enhanced generalization**
-  - https://openreview.net/forum?id=xcMmebCT7s
+- **[Learning to design protein-protein interactions with enhanced generalization](https://openreview.net/forum?id=xcMmebCT7s)**
 
-- **BMDock: Neural Probabilistic Protein-Protein Docking via a Differentiable Energy Model**
-  - https://openreview.net/forum?id=qg2boc2AwU
+- **[BMDock: Neural Probabilistic Protein-Protein Docking via a Differentiable Energy Model](https://openreview.net/forum?id=qg2boc2AwU)**
 
-- **Str2Str: A Score-based Framework for Zero-shot Protein Conformation Sampling**
-  - https://openreview.net/forum?id=C4BikKsgmK
+- **[Str2Str: A Score-based Framework for Zero-shot Protein Conformation Sampling](https://openreview.net/forum?id=C4BikKsgmK)**
   - https://github.com/lujiarui/Str2Str
 
-- **MOL-INSTRUCTIONS: A LARGE-SCALE BIOMOLECULAR INSTRUCTION DATASET FOR LLMS**
-  - https://openreview.net/pdf?id=Tlsdsb6l9n
+- **[MOL-INSTRUCTIONS: A LARGE-SCALE BIOMOLECULAR INSTRUCTION DATASET FOR LLMS](https://openreview.net/pdf?id=Tlsdsb6l9n)**
   - https://github.com/zjunlp/Mol-Instructions
 
-- **RDesign: Hierarchical Data-efficient Representation Learning for Tertiary Structure-based RNA Design**
-  - https://openreview.net/forum?id=RemfXx7ebP
+- **[RDesign: Hierarchical Data-efficient Representation Learning for Tertiary Structure-based RNA Design](https://openreview.net/forum?id=RemfXx7ebP)**
 
-- **Searching for High-Value Molecules Using Reinforcement Learning and Transformers**
-  - https://openreview.net/forum?id=nqlymMx42E
+- **[Searching for High-Value Molecules Using Reinforcement Learning and Transformers](https://openreview.net/forum?id=nqlymMx42E)**
   - New string representation like SMILES using RL
 
-- **Self-supervised Pocket Pretraining via Protein Fragment-Surroundings Alignment**
-  - https://openreview.net/forum?id=uMAujpVi9m
+- **[Self-supervised Pocket Pretraining via Protein Fragment-Surroundings Alignment](https://openreview.net/forum?id=uMAujpVi9m)**
 
-- **Removing Biases from Molecular Representations via Information Maximization**
-  - https://openreview.net/forum?id=7TOs9gjAg1
+- **[Removing Biases from Molecular Representations via Information Maximization](https://openreview.net/forum?id=7TOs9gjAg1)**
 
-- **GraphCare: Enhancing Healthcare Predictions with Personalized Knowledge Graphs**
-  - https://openreview.net/forum?id=tVTN7Zs0ml
+- **[GraphCare: Enhancing Healthcare Predictions with Personalized Knowledge Graphs](https://openreview.net/forum?id=tVTN7Zs0ml)**
   - Bi-Directional Attention Augmented GNN
 
-- **Learning Over Molecular Conformer Ensembles: Datasets and Benchmarks**
-  - https://openreview.net/forum?id=NSDszJ2uIV
+- **[Learning Over Molecular Conformer Ensembles: Datasets and Benchmarks](https://openreview.net/forum?id=NSDszJ2uIV)**
 
-- **Domain-Agnostic Molecular Generation with Chemical Feedback**
-  - https://openreview.net/forum?id=9rPyHyjfwP
+- **[Domain-Agnostic Molecular Generation with Chemical Feedback](https://openreview.net/forum?id=9rPyHyjfwP)**
   - Using LLM for molecule generation with feedback
 
-- **Multimodal Molecular Pretraining via Modality Blending**
-  - https://openreview.net/forum?id=oM7Jbxdk6Z
+- **[Multimodal Molecular Pretraining via Modality Blending](https://openreview.net/forum?id=oM7Jbxdk6Z)**
   - Blending 3D and 3D input for the encoding with Transformer
 
-- **Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel**
-  - https://openreview.net/forum?id=CUfSCwcgqm
+- **[Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel](https://openreview.net/forum?id=CUfSCwcgqm)**
 
-- **KW-Design: Pushing the Limit of Protein Design via Knowledge Refinement**
-  - https://openreview.net/forum?id=mpqMVWgqjn
+- **[KW-Design: Pushing the Limit of Protein Design via Knowledge Refinement](https://openreview.net/forum?id=mpqMVWgqjn)**
