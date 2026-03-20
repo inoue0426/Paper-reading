@@ -2106,7 +2106,7 @@ const papers = [
     "id": 153,
     "title": "Benchmarking algorithms for generalizable single-cell perturbation response prediction",
     "url": "https://www.nature.com/articles/s41592-025-02980-0",
-    "summary": "Systematically benchmarks computational methods for predicting single-cell transcriptomic responses to perturbations (drugs, genetic knockouts) across diverse datasets. Evaluates generalizability to unseen cell types, perturbations, and conditions. Provides guidelines for method selection and highlights key challenges in the field.",
+    "summary": "Comprehensive benchmark of 27 methods for single-cell perturbation response prediction (e.g., Perturb-seq, sciPlex) evaluated across 29 datasets using 6 complementary performance metrics. Systematically assesses generalizability to unseen cell types, perturbations, and conditions, including emerging foundation models. Key finding: cellular context embedding is critical for improving generalizability. Results provide practical guidance for method selection in single-cell perturbation research.",
     "tags": [
       "Nature Methods 2025",
       "2025",
