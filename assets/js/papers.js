@@ -2101,5 +2101,21 @@ const papers = [
     ],
     "section": "ICLR 2024",
     "issue": 1
+  },
+  {
+    "id": 153,
+    "title": "Benchmarking algorithms for generalizable single-cell perturbation response prediction",
+    "url": "https://www.nature.com/articles/s41592-025-02980-0",
+    "summary": "Comprehensive benchmark of 27 methods for single-cell perturbation response prediction (e.g., Perturb-seq, sciPlex) evaluated across 29 datasets using 6 complementary performance metrics. Systematically assesses generalizability to unseen cell types, perturbations, and conditions, including emerging foundation models. Key finding: cellular context embedding is critical for improving generalizability. Results provide practical guidance for method selection in single-cell perturbation research.",
+    "tags": [
+      "Nature Methods 2025",
+      "2025",
+      "Single-cell",
+      "Genomics",
+      "Perturbation Prediction",
+      "Benchmarking"
+    ],
+    "section": "Nature Methods 2025",
+    "issue": 35
   }
 ];
