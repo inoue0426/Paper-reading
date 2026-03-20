@@ -648,6 +648,34 @@ Reference: https://proceedings.mlr.press/v231/
 - **[Is ChatGPT a Good Sentiment Analyzer? A Preliminary Study](https://www.sciencedirect.com/science/article/pii/S0306457324000785)** `Information Processing & Management 2024`
   - ChatGPT をゼロショット感情分析の評価者として系統的に評価。18 データセット・5 タスクで既存の SOTA と比較し、few-shot プロンプトの効果・ドメイン依存性・バイアスを分析。LLM が judge として機能する範囲と限界を示す実証研究。
 
+#### Transactions on Machine Learning Research (TMLR) — 2024
+
+- **[Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=a6CpElUsur)** `TMLR 2024`
+  - LMSYS が構築したオープンな LLM 評価プラットフォーム（TMLR Featured Certification）。ユーザーが 2 モデルの出力を比較し優劣を投票する Elo レーティング方式を採用。GPT-4・Claude・Llama など主要モデルを人間選好に基づいてランキング。NeurIPS 2023 の MT-Bench/Chatbot Arena 論文の拡張版。
+
+- **[PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://openreview.net/forum?id=mAV4SFXIXU)** `TMLR 2024`
+  - PROMETHEUS の後継となるオープンソース評価専用 LLM（7B・8×7B）。直接評価とペア比較の両方に対応し、GPT-4 ベースジャッジとの相関を大幅に向上。ルーブリック付き評価データで訓練し、多様な評価基準に対応。
+
+#### IEEE Transactions on Knowledge and Data Engineering (TKDE) — 2024
+
+- **[Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://ieeexplore.ieee.org/document/10453110)** `IEEE TKDE 2024`
+  - ChatGPT を中心に実務応用における LLM 活用法を体系化したサーベイ（IEEE TKDE）。テキスト分類・情報抽出・要約・翻訳・QA など多タスクでの評価方法論を整理。LLM を judge として利用する際の実践的ガイドラインを提供。
+
+#### ACM Computing Surveys (CSUR) — 2023
+
+- **[Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/10.1145/3560815)** `ACM CSUR 2023`
+  - プロンプトベースの NLP 手法を体系的にまとめたサーベイ（ACM CSUR）。LLM-as-a-Judge で広く用いられる評価プロンプト設計の理論的基盤を提供。Chain-of-Thought・few-shot プロンプティングなど評価タスクで利用される技術を網羅。
+
+#### Expert Systems with Applications (Elsevier) — 2024
+
+- **[Can Large Language Models Serve as Evaluators for Code Summarization?](https://www.sciencedirect.com/science/article/pii/S0957417424003592)** `Expert Systems with Applications 2024`
+  - GPT-3.5・GPT-4 を用いてコード要約の品質を自動評価する研究（Elsevier ESWA）。人間評価との相関・一貫性・再現性を実験的に測定し、LLM ジャッジの強みと限界をコード生成ドメインで明確化。
+
+#### Artificial Intelligence Review (Springer) — 2024
+
+- **[Large Language Models: A Survey](https://link.springer.com/article/10.1007/s10462-024-10808-0)** `Artificial Intelligence Review 2024`
+  - 大規模言語モデルの現状を包括的にまとめたサーベイ（Springer AI Review）。アーキテクチャ・学習・ファインチューニング・評価手法を横断的に調査。LLM-as-a-Judge を含む自動評価の潮流と課題を多角的に整理し、評価研究者にとっての全体像を提供。
+
 ---
 
 ## LLM

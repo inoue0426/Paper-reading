@@ -7,9 +7,10 @@
   const VENUE_TAGS = new Set([
     'NeurIPS 2025', 'ICML 2025', 'ICLR 2025',
     'ICML 2024', 'ICLR 2024', 'IJCAI 2024', 'ACL 2024', 'AAAI 2024',
-    'ACM TIST 2024', 'Information Processing & Management 2024',
+    'ACM TIST 2024', 'Information Processing & Management 2024', 'TMLR 2024',
+    'IEEE TKDE 2024', 'Expert Systems with Applications 2024', 'Artificial Intelligence Review 2024',
     'NeurIPS 2023', 'IJCAI 2023', 'LoG 2023', 'BIBM 2023', 'EMNLP 2023', 'ACL 2023',
-    'EMNLP Findings 2023', 'TMLR 2023',
+    'EMNLP Findings 2023', 'TMLR 2023', 'ACM CSUR 2023',
     'arXiv',
   ]);
 
