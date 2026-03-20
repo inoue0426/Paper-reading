@@ -570,6 +570,7 @@ Reference: https://proceedings.mlr.press/v231/
 
 > Issue [#30](https://github.com/inoue0426/Paper-reading/issues/30)
 
+参考リンク（ブログ・ドキュメント）:
 - https://docs.langchain.com/langsmith/llm-as-judge
 - https://arxiv.org/pdf/2501.14851
 - https://www.blueguardrails.com/en/blog/placebo-bench-an-llm-hallucination-benchmark-for-pharma
@@ -578,6 +579,52 @@ Reference: https://proceedings.mlr.press/v231/
 - https://hamel.dev/blog/posts/llm-judge/
 - https://langfuse.com/docs/evaluation/evaluation-methods/llm-as-a-judge
 - https://www.montecarlodata.com/blog-llm-as-judge/
+
+### Peer-Reviewed Papers (査読済み論文) `Copilot`
+
+#### NeurIPS 2023
+
+- **[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html)** `NeurIPS 2023`
+  - LLM-as-a-Judge パラダイムを提唱した seminal paper。MT-Bench（マルチターン問題集）と Chatbot Arena（クラウドソーシングによるペア比較）を導入し、GPT-4 が人間の好みと約80%一致することを示した。position bias・verbosity bias などの限界も体系的に分析。
+
+- **[Benchmarking Foundation Models with Language-Model-as-an-Examiner](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html)** `NeurIPS 2023`
+  - LLM を "試験官" として動的に評価するフレームワーク。反復的な質問生成と採点を行い、固定ベンチマークでは測れない開放的能力を評価。知識の深さと応答の一貫性を多角的に検証できる。
+
+#### EMNLP 2023
+
+- **[G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment](https://aclanthology.org/2023.emnlp-main.153/)** `EMNLP 2023`
+  - GPT-4 を用いた NLG 評価フレームワーク。Chain-of-Thought によって評価基準を明示化し、フォーム形式のスコアリングで ROUGE・BERTScore より高い人間との相関を達成。テキスト要約・ダイアログ生成タスクで有効性を実証。
+
+#### ACL 2023
+
+- **[Can Large Language Models Be an Alternative to Human Evaluations?](https://aclanthology.org/2023.acl-long.870/)** `ACL 2023`
+  - LLM（ChatGPT など）が人間評価者の代替として機能するかを網羅的に検証した研究。人間とのアノテーション一致率・費用・一貫性を多タスクで比較し、テキスト生成品質評価における LLM の有効性と限界を明らかにした。
+
+#### ICLR 2024
+
+- **[ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://openreview.net/forum?id=FQepisCUWu)** `ICLR 2024`
+  - 複数の LLM エージェントがディベートを通じて合意を形成する評価フレームワーク。単一エージェント評価に比べ position bias を低減し、Human 判定との一致率が向上。MT-Bench・FairEval での評価で優位性を示した。
+
+- **[FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets](https://openreview.net/forum?id=rKBBs4xPMc)** `ICLR 2024`
+  - LLM の能力を「論理的思考」「事実性」「指示追従」など細粒度スキルに分解して評価するプロトコル。スキル単位のスコアで弱点を特定でき、汎用スコアでは隠れていたモデル間の差異を可視化。
+
+- **[PROMETHEUS: Inducing Fine-grained Evaluation Capability in Language Models](https://openreview.net/forum?id=8euJaTveKw)** `ICLR 2024`
+  - ルーブリック（採点基準）付きフィードバックデータで訓練したオープンソース評価 LLM（7B・13B）。GPT-4 に匹敵する評価性能を達成しつつ、ローカル実行可能でプロプライエタリ API 依存を回避。
+
+#### AAAI 2024
+
+- **[LLMEVAL: A Preliminary Study on How to Evaluate Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29934)** `AAAI 2024`
+  - 中国語・英語の LLM に対する多次元評価フレームワーク。タスク設計・評価者選択・スコアリング基準など評価プロセス全体を体系化し、GPT-4 ベースの自動評価と人間評価の相関分析を実施。
+
+#### ACL 2024
+
+- **[AlignBench: Benchmarking Chinese Alignment of Large Language Models](https://aclanthology.org/2024.acl-long.703/)** `ACL 2024`
+  - 中国語 LLM のアライメントを評価するベンチマーク。8 カテゴリ・700 以上の問題で構成され、GPT-4 による自動採点に rule-calibration を導入して position bias を軽減。中国語 LLM の能力比較に広く利用される。
+
+#### ICLR 2025
+
+- **[Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://openreview.net/forum?id=DJDPlpd36N)** `ICLR 2025`
+  - LLM ジャッジに内在する12種類のバイアス（verbosity・authority・beauty など）を定量評価した研究。バイアスの種類・強度をモデル横断で測定し、信頼性の高い評価のためのデバイアス手法を提案。
 
 ---
 
