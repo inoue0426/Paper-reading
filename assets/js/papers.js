@@ -2101,5 +2101,21 @@ const papers = [
     ],
     "section": "ICLR 2024",
     "issue": 1
+  },
+  {
+    "id": 153,
+    "title": "Benchmarking algorithms for generalizable single-cell perturbation response prediction",
+    "url": "https://www.nature.com/articles/s41592-025-02980-0",
+    "summary": "Systematically benchmarks computational methods for predicting single-cell transcriptomic responses to perturbations (drugs, genetic knockouts) across diverse datasets. Evaluates generalizability to unseen cell types, perturbations, and conditions. Provides guidelines for method selection and highlights key challenges in the field.",
+    "tags": [
+      "Nature Methods 2025",
+      "2025",
+      "Single-cell",
+      "Genomics",
+      "Perturbation Prediction",
+      "Benchmarking"
+    ],
+    "section": "Nature Methods 2025",
+    "issue": 35
   }
 ];
