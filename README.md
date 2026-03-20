@@ -626,6 +626,28 @@ Reference: https://proceedings.mlr.press/v231/
 - **[Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://openreview.net/forum?id=DJDPlpd36N)** `ICLR 2025`
   - LLM ジャッジに内在する12種類のバイアス（verbosity・authority・beauty など）を定量評価した研究。バイアスの種類・強度をモデル横断で測定し、信頼性の高い評価のためのデバイアス手法を提案。
 
+### Journal Papers (雑誌掲載論文) `Copilot`
+
+#### ACM Transactions on Intelligent Systems and Technology (ACM TIST) — 2024
+
+- **[A Survey on Evaluation of Large Language Models](https://dl.acm.org/doi/10.1145/3641289)** `ACM TIST 2024`
+  - LLM 評価手法を網羅的にまとめたサーベイ（ACM TIST vol.15, no.3）。LLM-as-a-Judge を含む自動評価・人間評価・ベンチマーク評価を体系化し、知識・推論・コード生成・倫理など多次元の評価軸を整理。200 本以上の論文を網羅し、今後の研究課題も提示。
+
+#### Transactions on Machine Learning Research (TMLR) — 2023
+
+- **[HELM: Holistic Evaluation of Language Models](https://openreview.net/forum?id=iO4LZibEqW)** `TMLR 2023`
+  - 42 シナリオ・7 評価軸にわたる包括的 LLM 評価フレームワーク（Stanford CRFM）。単一指標に依存しない多面的評価を提案し、モデルのトレードオフを可視化。LLM-as-a-Judge 研究の基盤となる評価設計思想を確立。
+
+#### EMNLP Findings (ACL Anthology) — 2023
+
+- **[Large Language Models Are Not Yet Human-Level Evaluators for Abstractive Summarization](https://aclanthology.org/2023.findings-emnlp.278/)** `EMNLP Findings 2023`
+  - LLM（GPT-3.5/GPT-4）が抽象型要約の評価者として人間レベルに達していないことを示した論文。一貫性・関連性・流暢性などの次元で人間との相関を測定し、LLM ジャッジの限界と適用条件を明確化。
+
+#### Information Processing & Management (Elsevier) — 2024
+
+- **[Is ChatGPT a Good Sentiment Analyzer? A Preliminary Study](https://www.sciencedirect.com/science/article/pii/S0306457324000785)** `Information Processing & Management 2024`
+  - ChatGPT をゼロショット感情分析の評価者として系統的に評価。18 データセット・5 タスクで既存の SOTA と比較し、few-shot プロンプトの効果・ドメイン依存性・バイアスを分析。LLM が judge として機能する範囲と限界を示す実証研究。
+
 ---
 
 ## LLM
