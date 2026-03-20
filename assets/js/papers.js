@@ -2117,5 +2117,322 @@ const papers = [
     ],
     "section": "Nature Methods 2025",
     "issue": 35
+  },
+  {
+    "id": 154,
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html",
+    "summary": "LLM-as-a-Judge パラダイムを提唱した seminal paper。MT-Bench（マルチターン問題集）と Chatbot Arena（クラウドソーシングによるペア比較）を導入し、GPT-4 が人間の好みと約80%一致することを示した。position bias・verbosity bias などの限界も体系的に分析。",
+    "tags": [
+      "NeurIPS 2023",
+      "2023",
+      "LLM",
+      "Evaluation",
+      "Benchmarking",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 155,
+    "title": "Benchmarking Foundation Models with Language-Model-as-an-Examiner",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html",
+    "summary": "LLM を \"試験官\" として動的に評価するフレームワーク。反復的な質問生成と採点を行い、固定ベンチマークでは測れない開放的能力を評価。知識の深さと応答の一貫性を多角的に検証できる。",
+    "tags": [
+      "NeurIPS 2023",
+      "2023",
+      "LLM",
+      "Evaluation",
+      "Benchmarking",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 156,
+    "title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
+    "url": "https://aclanthology.org/2023.emnlp-main.153/",
+    "summary": "GPT-4 を用いた NLG 評価フレームワーク。Chain-of-Thought によって評価基準を明示化し、フォーム形式のスコアリングで ROUGE・BERTScore より高い人間との相関を達成。テキスト要約・ダイアログ生成タスクで有効性を実証。",
+    "tags": [
+      "EMNLP 2023",
+      "2023",
+      "LLM",
+      "Evaluation",
+      "NLG",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 157,
+    "title": "Can Large Language Models Be an Alternative to Human Evaluations?",
+    "url": "https://aclanthology.org/2023.acl-long.870/",
+    "summary": "LLM（ChatGPT など）が人間評価者の代替として機能するかを網羅的に検証した研究。人間とのアノテーション一致率・費用・一貫性を多タスクで比較し、テキスト生成品質評価における LLM の有効性と限界を明らかにした。",
+    "tags": [
+      "ACL 2023",
+      "2023",
+      "LLM",
+      "Evaluation",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 158,
+    "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
+    "url": "https://openreview.net/forum?id=FQepisCUWu",
+    "summary": "複数の LLM エージェントがディベートを通じて合意を形成する評価フレームワーク。単一エージェント評価に比べ position bias を低減し、Human 判定との一致率が向上。MT-Bench・FairEval での評価で優位性を示した。",
+    "tags": [
+      "ICLR 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Multi-Agent",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 159,
+    "title": "FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets",
+    "url": "https://openreview.net/forum?id=rKBBs4xPMc",
+    "summary": "LLM の能力を「論理的思考」「事実性」「指示追従」など細粒度スキルに分解して評価するプロトコル。スキル単位のスコアで弱点を特定でき、汎用スコアでは隠れていたモデル間の差異を可視化。",
+    "tags": [
+      "ICLR 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Benchmarking",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 160,
+    "title": "PROMETHEUS: Inducing Fine-grained Evaluation Capability in Language Models",
+    "url": "https://openreview.net/forum?id=8euJaTveKw",
+    "summary": "ルーブリック（採点基準）付きフィードバックデータで訓練したオープンソース評価 LLM（7B・13B）。GPT-4 に匹敵する評価性能を達成しつつ、ローカル実行可能でプロプライエタリ API 依存を回避。",
+    "tags": [
+      "ICLR 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Open Source",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 161,
+    "title": "LLMEVAL: A Preliminary Study on How to Evaluate Large Language Models",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29934",
+    "summary": "中国語・英語の LLM に対する多次元評価フレームワーク。タスク設計・評価者選択・スコアリング基準など評価プロセス全体を体系化し、GPT-4 ベースの自動評価と人間評価の相関分析を実施。",
+    "tags": [
+      "AAAI 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Benchmarking",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 162,
+    "title": "AlignBench: Benchmarking Chinese Alignment of Large Language Models",
+    "url": "https://aclanthology.org/2024.acl-long.703/",
+    "summary": "中国語 LLM のアライメントを評価するベンチマーク。8 カテゴリ・700 以上の問題で構成され、GPT-4 による自動採点に rule-calibration を導入して position bias を軽減。中国語 LLM の能力比較に広く利用される。",
+    "tags": [
+      "ACL 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Benchmarking",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 163,
+    "title": "Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge",
+    "url": "https://openreview.net/forum?id=DJDPlpd36N",
+    "summary": "LLM ジャッジに内在する12種類のバイアス（verbosity・authority・beauty など）を定量評価した研究。バイアスの種類・強度をモデル横断で測定し、信頼性の高い評価のためのデバイアス手法を提案。",
+    "tags": [
+      "ICLR 2025",
+      "2025",
+      "LLM",
+      "Evaluation",
+      "Bias",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 164,
+    "title": "A Survey on Evaluation of Large Language Models",
+    "url": "https://dl.acm.org/doi/10.1145/3641289",
+    "summary": "LLM 評価手法を網羅的にまとめたサーベイ（ACM TIST vol.15, no.3）。LLM-as-a-Judge を含む自動評価・人間評価・ベンチマーク評価を体系化し、知識・推論・コード生成・倫理など多次元の評価軸を整理。200 本以上の論文を網羅し、今後の研究課題も提示。",
+    "tags": [
+      "ACM TIST 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Survey",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 165,
+    "title": "HELM: Holistic Evaluation of Language Models",
+    "url": "https://openreview.net/forum?id=iO4LZibEqW",
+    "summary": "42 シナリオ・7 評価軸にわたる包括的 LLM 評価フレームワーク（Stanford CRFM）。単一指標に依存しない多面的評価を提案し、モデルのトレードオフを可視化。LLM-as-a-Judge 研究の基盤となる評価設計思想を確立。",
+    "tags": [
+      "TMLR 2023",
+      "2023",
+      "LLM",
+      "Evaluation",
+      "Benchmarking",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 166,
+    "title": "Large Language Models Are Not Yet Human-Level Evaluators for Abstractive Summarization",
+    "url": "https://aclanthology.org/2023.findings-emnlp.278/",
+    "summary": "LLM（GPT-3.5/GPT-4）が抽象型要約の評価者として人間レベルに達していないことを示した論文。一貫性・関連性・流暢性などの次元で人間との相関を測定し、LLM ジャッジの限界と適用条件を明確化。",
+    "tags": [
+      "EMNLP Findings 2023",
+      "2023",
+      "LLM",
+      "Evaluation",
+      "NLG",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 167,
+    "title": "Is ChatGPT a Good Sentiment Analyzer? A Preliminary Study",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306457324000785",
+    "summary": "ChatGPT をゼロショット感情分析の評価者として系統的に評価。18 データセット・5 タスクで既存の SOTA と比較し、few-shot プロンプトの効果・ドメイン依存性・バイアスを分析。LLM が judge として機能する範囲と限界を示す実証研究。",
+    "tags": [
+      "Information Processing & Management 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 168,
+    "title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
+    "url": "https://openreview.net/forum?id=a6CpElUsur",
+    "summary": "LMSYS が構築したオープンな LLM 評価プラットフォーム（TMLR Featured Certification）。ユーザーが 2 モデルの出力を比較し優劣を投票する Elo レーティング方式を採用。GPT-4・Claude・Llama など主要モデルを人間選好に基づいてランキング。",
+    "tags": [
+      "TMLR 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Benchmarking",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 169,
+    "title": "PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models",
+    "url": "https://openreview.net/forum?id=mAV4SFXIXU",
+    "summary": "PROMETHEUS の後継となるオープンソース評価専用 LLM（7B・8×7B）。直接評価とペア比較の両方に対応し、GPT-4 ベースジャッジとの相関を大幅に向上。ルーブリック付き評価データで訓練し、多様な評価基準に対応。",
+    "tags": [
+      "TMLR 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 170,
+    "title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+    "url": "https://ieeexplore.ieee.org/document/10453110",
+    "summary": "ChatGPT を中心に実務応用における LLM 活用法を体系化したサーベイ（IEEE TKDE）。テキスト分類・情報抽出・要約・翻訳・QA など多タスクでの評価方法論を整理。LLM を judge として利用する際の実践的ガイドラインを提供。",
+    "tags": [
+      "IEEE TKDE 2024",
+      "2024",
+      "LLM",
+      "Survey",
+      "Evaluation",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 171,
+    "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+    "url": "https://dl.acm.org/doi/10.1145/3560815",
+    "summary": "プロンプトベースの NLP 手法を体系的にまとめたサーベイ（ACM CSUR）。LLM-as-a-Judge で広く用いられる評価プロンプト設計の理論的基盤を提供。Chain-of-Thought・few-shot プロンプティングなど評価タスクで利用される技術を網羅。",
+    "tags": [
+      "ACM CSUR 2023",
+      "2023",
+      "LLM",
+      "Prompting",
+      "Survey",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 172,
+    "title": "Can Large Language Models Serve as Evaluators for Code Summarization?",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0957417424003592",
+    "summary": "GPT-3.5・GPT-4 を用いてコード要約の品質を自動評価する研究（Elsevier ESWA）。人間評価との相関・一貫性・再現性を実験的に測定し、LLM ジャッジの強みと限界をコード生成ドメインで明確化。",
+    "tags": [
+      "Expert Systems with Applications 2024",
+      "2024",
+      "LLM",
+      "Evaluation",
+      "Code",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
+  },
+  {
+    "id": 173,
+    "title": "Large Language Models: A Survey",
+    "url": "https://link.springer.com/article/10.1007/s10462-024-10808-0",
+    "summary": "大規模言語モデルの現状を包括的にまとめたサーベイ（Springer AI Review）。アーキテクチャ・学習・ファインチューニング・評価手法を横断的に調査。LLM-as-a-Judge を含む自動評価の潮流と課題を多角的に整理し、評価研究者にとっての全体像を提供。",
+    "tags": [
+      "Artificial Intelligence Review 2024",
+      "2024",
+      "LLM",
+      "Survey",
+      "Evaluation",
+      "Copilot"
+    ],
+    "section": "LLM as a Judge",
+    "issue": 30
   }
 ];

@@ -570,6 +570,7 @@ Reference: https://proceedings.mlr.press/v231/
 
 > Issue [#30](https://github.com/inoue0426/Paper-reading/issues/30)
 
+参考リンク（ブログ・ドキュメント）:
 - https://docs.langchain.com/langsmith/llm-as-judge
 - https://arxiv.org/pdf/2501.14851
 - https://www.blueguardrails.com/en/blog/placebo-bench-an-llm-hallucination-benchmark-for-pharma
@@ -578,6 +579,102 @@ Reference: https://proceedings.mlr.press/v231/
 - https://hamel.dev/blog/posts/llm-judge/
 - https://langfuse.com/docs/evaluation/evaluation-methods/llm-as-a-judge
 - https://www.montecarlodata.com/blog-llm-as-judge/
+
+### Peer-Reviewed Papers (査読済み論文) `Copilot`
+
+#### NeurIPS 2023
+
+- **[Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html)** `NeurIPS 2023`
+  - LLM-as-a-Judge パラダイムを提唱した seminal paper。MT-Bench（マルチターン問題集）と Chatbot Arena（クラウドソーシングによるペア比較）を導入し、GPT-4 が人間の好みと約80%一致することを示した。position bias・verbosity bias などの限界も体系的に分析。
+
+- **[Benchmarking Foundation Models with Language-Model-as-an-Examiner](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html)** `NeurIPS 2023`
+  - LLM を "試験官" として動的に評価するフレームワーク。反復的な質問生成と採点を行い、固定ベンチマークでは測れない開放的能力を評価。知識の深さと応答の一貫性を多角的に検証できる。
+
+#### EMNLP 2023
+
+- **[G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment](https://aclanthology.org/2023.emnlp-main.153/)** `EMNLP 2023`
+  - GPT-4 を用いた NLG 評価フレームワーク。Chain-of-Thought によって評価基準を明示化し、フォーム形式のスコアリングで ROUGE・BERTScore より高い人間との相関を達成。テキスト要約・ダイアログ生成タスクで有効性を実証。
+
+#### ACL 2023
+
+- **[Can Large Language Models Be an Alternative to Human Evaluations?](https://aclanthology.org/2023.acl-long.870/)** `ACL 2023`
+  - LLM（ChatGPT など）が人間評価者の代替として機能するかを網羅的に検証した研究。人間とのアノテーション一致率・費用・一貫性を多タスクで比較し、テキスト生成品質評価における LLM の有効性と限界を明らかにした。
+
+#### ICLR 2024
+
+- **[ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://openreview.net/forum?id=FQepisCUWu)** `ICLR 2024`
+  - 複数の LLM エージェントがディベートを通じて合意を形成する評価フレームワーク。単一エージェント評価に比べ position bias を低減し、Human 判定との一致率が向上。MT-Bench・FairEval での評価で優位性を示した。
+
+- **[FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets](https://openreview.net/forum?id=rKBBs4xPMc)** `ICLR 2024`
+  - LLM の能力を「論理的思考」「事実性」「指示追従」など細粒度スキルに分解して評価するプロトコル。スキル単位のスコアで弱点を特定でき、汎用スコアでは隠れていたモデル間の差異を可視化。
+
+- **[PROMETHEUS: Inducing Fine-grained Evaluation Capability in Language Models](https://openreview.net/forum?id=8euJaTveKw)** `ICLR 2024`
+  - ルーブリック（採点基準）付きフィードバックデータで訓練したオープンソース評価 LLM（7B・13B）。GPT-4 に匹敵する評価性能を達成しつつ、ローカル実行可能でプロプライエタリ API 依存を回避。
+
+#### AAAI 2024
+
+- **[LLMEVAL: A Preliminary Study on How to Evaluate Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29934)** `AAAI 2024`
+  - 中国語・英語の LLM に対する多次元評価フレームワーク。タスク設計・評価者選択・スコアリング基準など評価プロセス全体を体系化し、GPT-4 ベースの自動評価と人間評価の相関分析を実施。
+
+#### ACL 2024
+
+- **[AlignBench: Benchmarking Chinese Alignment of Large Language Models](https://aclanthology.org/2024.acl-long.703/)** `ACL 2024`
+  - 中国語 LLM のアライメントを評価するベンチマーク。8 カテゴリ・700 以上の問題で構成され、GPT-4 による自動採点に rule-calibration を導入して position bias を軽減。中国語 LLM の能力比較に広く利用される。
+
+#### ICLR 2025
+
+- **[Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://openreview.net/forum?id=DJDPlpd36N)** `ICLR 2025`
+  - LLM ジャッジに内在する12種類のバイアス（verbosity・authority・beauty など）を定量評価した研究。バイアスの種類・強度をモデル横断で測定し、信頼性の高い評価のためのデバイアス手法を提案。
+
+### Journal Papers (雑誌掲載論文) `Copilot`
+
+#### ACM Transactions on Intelligent Systems and Technology (ACM TIST) — 2024
+
+- **[A Survey on Evaluation of Large Language Models](https://dl.acm.org/doi/10.1145/3641289)** `ACM TIST 2024`
+  - LLM 評価手法を網羅的にまとめたサーベイ（ACM TIST vol.15, no.3）。LLM-as-a-Judge を含む自動評価・人間評価・ベンチマーク評価を体系化し、知識・推論・コード生成・倫理など多次元の評価軸を整理。200 本以上の論文を網羅し、今後の研究課題も提示。
+
+#### Transactions on Machine Learning Research (TMLR) — 2023
+
+- **[HELM: Holistic Evaluation of Language Models](https://openreview.net/forum?id=iO4LZibEqW)** `TMLR 2023`
+  - 42 シナリオ・7 評価軸にわたる包括的 LLM 評価フレームワーク（Stanford CRFM）。単一指標に依存しない多面的評価を提案し、モデルのトレードオフを可視化。LLM-as-a-Judge 研究の基盤となる評価設計思想を確立。
+
+#### EMNLP Findings (ACL Anthology) — 2023
+
+- **[Large Language Models Are Not Yet Human-Level Evaluators for Abstractive Summarization](https://aclanthology.org/2023.findings-emnlp.278/)** `EMNLP Findings 2023`
+  - LLM（GPT-3.5/GPT-4）が抽象型要約の評価者として人間レベルに達していないことを示した論文。一貫性・関連性・流暢性などの次元で人間との相関を測定し、LLM ジャッジの限界と適用条件を明確化。
+
+#### Information Processing & Management (Elsevier) — 2024
+
+- **[Is ChatGPT a Good Sentiment Analyzer? A Preliminary Study](https://www.sciencedirect.com/science/article/pii/S0306457324000785)** `Information Processing & Management 2024`
+  - ChatGPT をゼロショット感情分析の評価者として系統的に評価。18 データセット・5 タスクで既存の SOTA と比較し、few-shot プロンプトの効果・ドメイン依存性・バイアスを分析。LLM が judge として機能する範囲と限界を示す実証研究。
+
+#### Transactions on Machine Learning Research (TMLR) — 2024
+
+- **[Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=a6CpElUsur)** `TMLR 2024`
+  - LMSYS が構築したオープンな LLM 評価プラットフォーム（TMLR Featured Certification）。ユーザーが 2 モデルの出力を比較し優劣を投票する Elo レーティング方式を採用。GPT-4・Claude・Llama など主要モデルを人間選好に基づいてランキング。NeurIPS 2023 の MT-Bench/Chatbot Arena 論文の拡張版。
+
+- **[PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://openreview.net/forum?id=mAV4SFXIXU)** `TMLR 2024`
+  - PROMETHEUS の後継となるオープンソース評価専用 LLM（7B・8×7B）。直接評価とペア比較の両方に対応し、GPT-4 ベースジャッジとの相関を大幅に向上。ルーブリック付き評価データで訓練し、多様な評価基準に対応。
+
+#### IEEE Transactions on Knowledge and Data Engineering (TKDE) — 2024
+
+- **[Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://ieeexplore.ieee.org/document/10453110)** `IEEE TKDE 2024`
+  - ChatGPT を中心に実務応用における LLM 活用法を体系化したサーベイ（IEEE TKDE）。テキスト分類・情報抽出・要約・翻訳・QA など多タスクでの評価方法論を整理。LLM を judge として利用する際の実践的ガイドラインを提供。
+
+#### ACM Computing Surveys (CSUR) — 2023
+
+- **[Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/10.1145/3560815)** `ACM CSUR 2023`
+  - プロンプトベースの NLP 手法を体系的にまとめたサーベイ（ACM CSUR）。LLM-as-a-Judge で広く用いられる評価プロンプト設計の理論的基盤を提供。Chain-of-Thought・few-shot プロンプティングなど評価タスクで利用される技術を網羅。
+
+#### Expert Systems with Applications (Elsevier) — 2024
+
+- **[Can Large Language Models Serve as Evaluators for Code Summarization?](https://www.sciencedirect.com/science/article/pii/S0957417424003592)** `Expert Systems with Applications 2024`
+  - GPT-3.5・GPT-4 を用いてコード要約の品質を自動評価する研究（Elsevier ESWA）。人間評価との相関・一貫性・再現性を実験的に測定し、LLM ジャッジの強みと限界をコード生成ドメインで明確化。
+
+#### Artificial Intelligence Review (Springer) — 2024
+
+- **[Large Language Models: A Survey](https://link.springer.com/article/10.1007/s10462-024-10808-0)** `Artificial Intelligence Review 2024`
+  - 大規模言語モデルの現状を包括的にまとめたサーベイ（Springer AI Review）。アーキテクチャ・学習・ファインチューニング・評価手法を横断的に調査。LLM-as-a-Judge を含む自動評価の潮流と課題を多角的に整理し、評価研究者にとっての全体像を提供。
 
 ---
 
