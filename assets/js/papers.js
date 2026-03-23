@@ -2113,7 +2113,8 @@ const papers = [
       "Single-cell",
       "Genomics",
       "Perturbation Prediction",
-      "Benchmarking"
+      "Benchmarking",
+      "Copilot"
     ],
     "section": "Nature Methods 2025",
     "issue": 35
