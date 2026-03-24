@@ -2438,137 +2438,53 @@ const papers = [
   },
   {
     "id": 174,
-    "title": "https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf",
-    "url": "https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf",
-    "summary": "",
-    "tags": [],
-    "section": "添付した論文を元に新しいIssueを作成して.",
+    "title": "Multi-Level Domain Adaptation and Contrastive Domain Isolation with Bilinear Fusion for Patient Drug Response Prediction",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39048",
+    "summary": "Proposes MACB-DRP, a hierarchical transfer learning framework for accurate patient drug response prediction. Performs domain adaptation at three levels (tissue, drug, sample) and models high-order gene-drug interactions via bilinear fusion. Contrastive anchoring enables sample-level alignment while preserving irreducible biological disparities. Achieves robust performance across multiple cancer types and nine drugs, enabling biologically guided cross-domain transfer from cell lines (GDSC) to patient samples (TCGA).",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "Drug Response",
+      "Domain Adaptation",
+      "Transfer Learning",
+      "Cancer",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
     "issue": 43
   },
   {
     "id": 175,
-    "title": "https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf",
-    "url": "https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf",
-    "summary": "",
-    "tags": [],
-    "section": "添付した論文を元に新しいIssueを作成して.",
+    "title": "Informative Subgraph Extraction with Deep Reinforcement Learning for Drug-Drug Interaction Prediction",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37105",
+    "summary": "Proposes RISE-DDI, a reinforcement learning-based informative subgraph extraction framework for drug-drug interaction (DDI) prediction. Formulates subgraph extraction as a Markov Decision Process and uses a deep RL agent to dynamically select the most informative, context-specific subgraphs per drug pair. A structure-aware reward model incorporates both topological context from the knowledge graph and molecular features of the drug pair. Outperforms state-of-the-art baselines by up to 20% on DDI benchmarks in both transductive and inductive scenarios.",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "Drug-Drug Interaction",
+      "Reinforcement Learning",
+      "Knowledge Graph",
+      "GNN",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
     "issue": 43
   },
   {
     "id": 176,
-    "title": "https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf",
-    "url": "https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf",
-    "summary": "",
-    "tags": [],
-    "section": "添付した論文を元に新しいIssueを作成して.",
+    "title": "A graph-based learning approach to predict the effects of gene perturbations on molecular phenotypes",
+    "url": "https://doi.org/10.64898/2026.03.20.712202",
+    "summary": "Presents a general graph-based machine learning approach for predicting the effects of gene perturbations on molecular phenotypes. Uses diverse evidence graphs (e.g., protein-protein interaction networks) as input, evaluated with four learning methods across four phenotypes including cell morphology and cholesterol metabolism. Demonstrates high predictive accuracy, outperforms standard baselines, works well with small training sets, benefits from multiple evidence sources, and supports transfer to other unmeasured phenotypes.",
+    "tags": [
+      "bioRxiv 2026",
+      "2026",
+      "Gene Perturbation",
+      "Graph Neural Network",
+      "Molecular Phenotype",
+      "Perturbational Genomics",
+      "Copilot"
+    ],
+    "section": "bioRxiv 2026",
     "issue": 43
-  },
-  {
-    "id": 177,
-    "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37020",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 178,
-    "title": "S²Drug: Bridging Protein Sequence and 3D Structure in Contrastive Representation Learning for Virtual Screening\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36997",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 179,
-    "title": "Topology-Enhanced and Label Correlation-Aware Model for Protein-Protein Interaction Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36980",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 180,
-    "title": "PLA-MGRA: Multi-Granularity and Relation-Aware Learning for Efficient and Generalizable Protein-Ligand Binding Affinity Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37031",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 181,
-    "title": "ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37044",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 182,
-    "title": "Generalizable Drug–Target Interaction Prediction via ESM-2 Representations and Progressive Contrastive Curriculum Learning\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37100",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 183,
-    "title": "Refinement Contrastive Learning of Cell–Gene Associations for Unsupervised Cell Type Identification\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37059",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 184,
-    "title": "GenePheno: Interpretable Gene Knockout-Induced Phenotype Abnormality Prediction from Gene Sequences\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37114",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 185,
-    "title": "MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37052",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 186,
-    "title": "Multi-Level Domain Adaptation and Contrastive Domain Isolation with Bilinear Fusion for Patient Drug Response Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39048",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 187,
-    "title": "Closer to Biological Mechanism: Drug-Drug Interaction Prediction from the Perspective of Pharmacophore\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39229",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
-  },
-  {
-    "id": 188,
-    "title": "CMedBench: A Comprehensive Benchmark for Efficient Medical Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
-    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39264",
-    "summary": "",
-    "tags": [],
-    "section": "AAAI 2026",
-    "issue": 45
   }
 ];
