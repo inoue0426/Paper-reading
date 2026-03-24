@@ -2440,7 +2440,7 @@ const papers = [
     "id": 174,
     "title": "Multi-Level Domain Adaptation and Contrastive Domain Isolation with Bilinear Fusion for Patient Drug Response Prediction",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39048",
-    "summary": "精度の高い患者薬物応答予測のための階層的転移学習フレームワーク MACB-DRP を提案。組織・薬物・サンプルの 3 段階でドメイン適応を行い、双線形融合で遺伝子-薬物の高次相互作用をモデル化。対照アンカリングでサンプルレベルのアライメントを実現し、複数のがん種・9 種類の薬物で堅牢な予測性能を達成。細胞株 (GDSC) から患者 (TCGA) へのクロスドメイン転移を生物学的に誘導。",
+    "summary": "Proposes MACB-DRP, a hierarchical transfer learning framework for accurate patient drug response prediction. Performs domain adaptation at three levels (tissue, drug, sample) and models high-order gene-drug interactions via bilinear fusion. Contrastive anchoring enables sample-level alignment while preserving irreducible biological disparities. Achieves robust performance across multiple cancer types and nine drugs, enabling biologically guided cross-domain transfer from cell lines (GDSC) to patient samples (TCGA).",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -2457,7 +2457,7 @@ const papers = [
     "id": 175,
     "title": "Informative Subgraph Extraction with Deep Reinforcement Learning for Drug-Drug Interaction Prediction",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37105",
-    "summary": "深層強化学習を用いた知識グラフからの情報サブグラフ抽出フレームワーク RISE-DDI を提案。DDI 予測をマルコフ決定過程として定式化し、RL エージェントが薬物ペアごとに最適なサブグラフを動的抽出。構造認識報酬モデルで分子特異性を考慮し、DDI ベンチマークで SOTA を最大 20% 上回る性能を達成。帰納・トランスダクティブ両シナリオで有効。",
+    "summary": "Proposes RISE-DDI, a reinforcement learning-based informative subgraph extraction framework for drug-drug interaction (DDI) prediction. Formulates subgraph extraction as a Markov Decision Process and uses a deep RL agent to dynamically select the most informative, context-specific subgraphs per drug pair. A structure-aware reward model incorporates both topological context from the knowledge graph and molecular features of the drug pair. Outperforms state-of-the-art baselines by up to 20% on DDI benchmarks in both transductive and inductive scenarios.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -2474,7 +2474,7 @@ const papers = [
     "id": 176,
     "title": "A graph-based learning approach to predict the effects of gene perturbations on molecular phenotypes",
     "url": "https://doi.org/10.64898/2026.03.20.712202",
-    "summary": "グラフベースの機械学習を用いた遺伝子摂動の分子表現型への影響予測手法を提案。タンパク質相互作用ネットワーク等の多様な証拠グラフを入力として 4 種の学習手法を評価し、細胞形態・コレステロール代謝など 4 表現型で標準ベースラインを上回る予測精度を達成。小規模学習データや複数の証拠源でも有効であり、他の表現型への転移学習も可能。",
+    "summary": "Presents a general graph-based machine learning approach for predicting the effects of gene perturbations on molecular phenotypes. Uses diverse evidence graphs (e.g., protein-protein interaction networks) as input, evaluated with four learning methods across four phenotypes including cell morphology and cholesterol metabolism. Demonstrates high predictive accuracy, outperforms standard baselines, works well with small training sets, benefits from multiple evidence sources, and supports transfer to other unmeasured phenotypes.",
     "tags": [
       "bioRxiv 2026",
       "2026",
