@@ -14,7 +14,7 @@
     'arXiv',
   ]);
 
-  const YEAR_TAGS = new Set(['2023', '2024', '2025']);
+  const YEAR_TAGS = new Set(['2016', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']);
 
   // Everything else is a topic tag
 
