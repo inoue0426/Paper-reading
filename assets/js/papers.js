@@ -2462,5 +2462,113 @@ const papers = [
     "tags": [],
     "section": "添付した論文を元に新しいIssueを作成して.",
     "issue": 43
+  },
+  {
+    "id": 177,
+    "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37020",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 178,
+    "title": "S²Drug: Bridging Protein Sequence and 3D Structure in Contrastive Representation Learning for Virtual Screening\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36997",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 179,
+    "title": "Topology-Enhanced and Label Correlation-Aware Model for Protein-Protein Interaction Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36980",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 180,
+    "title": "PLA-MGRA: Multi-Granularity and Relation-Aware Learning for Efficient and Generalizable Protein-Ligand Binding Affinity Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37031",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 181,
+    "title": "ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37044",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 182,
+    "title": "Generalizable Drug–Target Interaction Prediction via ESM-2 Representations and Progressive Contrastive Curriculum Learning\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37100",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 183,
+    "title": "Refinement Contrastive Learning of Cell–Gene Associations for Unsupervised Cell Type Identification\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37059",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 184,
+    "title": "GenePheno: Interpretable Gene Knockout-Induced Phenotype Abnormality Prediction from Gene Sequences\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37114",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 185,
+    "title": "MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37052",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 186,
+    "title": "Multi-Level Domain Adaptation and Contrastive Domain Isolation with Bilinear Fusion for Patient Drug Response Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39048",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 187,
+    "title": "Closer to Biological Mechanism: Drug-Drug Interaction Prediction from the Perspective of Pharmacophore\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39229",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 188,
+    "title": "CMedBench: A Comprehensive Benchmark for Efficient Medical Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39264",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
   }
 ];
