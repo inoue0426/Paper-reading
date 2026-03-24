@@ -81,6 +81,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2302.00993",
     "summary": "NeurIPS 2023 — MIT, Broad, TUM Proves that shared latent causal variables can be uniquely identified from unpaired multi-domain data. Provides theoretical identifiability conditions and a linear method for recovering the shared causal graph.",
     "tags": [
+      "2023",
       "Causal Learning",
       "Representation Learning"
     ],
@@ -93,6 +94,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2506.04515",
     "summary": "Arxiv — Oxford Proposes that all medical data—genomic, imaging, physiological, and textual—are projections of a shared latent physiological space. Presents a conceptual framework that unifies multimodal medical foundation models via a latent space, linking biological hierarchy, interpretability, and causal reasoning.",
     "tags": [
+      "2025",
       "Causal Learning",
       "Representation Learning",
       "Genomics",
@@ -107,6 +109,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2402.00849",
     "summary": "JMLR — CMU, Amazon, RPI, DeepMind Examines how causal latent variables can be learned and identified when only observational data are available, but with implicit generative interventions. Proves identifiability conditions for nonlinear models and proposes a practical algorithm to recover the underlying causal structure.",
     "tags": [
+      "2024",
       "Causal Learning",
       "Representation Learning",
       "Generative Models"
@@ -120,6 +123,7 @@ const papers = [
     "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/4ae163cb8788970e53b4fd9578141139-Abstract-Conference.html",
     "summary": "NeurIPS 2024 — UT Austin, Chicago, CMU Explores how to detect and characterize changes in causal mechanisms across multiple environments. Provides identifiability conditions for recognizing which causal relations have changed and proposes a method to recover the shared and shifted parts of a causal graph.",
     "tags": [
+      "2024",
       "Causal Learning",
       "Representation Learning"
     ],
@@ -132,6 +136,7 @@ const papers = [
     "url": "https://openreview.net/forum?id=hjROBHstZ3",
     "summary": "ICLR 2025 — CMU, Broad, U Bristol Extends causal representation learning to multi-modal biomedical data such as gene expression, imaging, and physiological signals. Provides nonparametric identifiability theorems for shared and modality-specific causal variables.",
     "tags": [
+      "2025",
       "Causal Learning",
       "Representation Learning",
       "Genomics"
@@ -145,6 +150,7 @@ const papers = [
     "url": "https://ieeexplore.ieee.org/abstract/document/10536635",
     "summary": "",
     "tags": [
+      "2024",
       "Drug Response",
       "Drug Discovery",
       "Cancer"
@@ -158,6 +164,7 @@ const papers = [
     "url": "https://pubmed.ncbi.nlm.nih.gov/35997568/",
     "summary": "",
     "tags": [
+      "2022",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -172,6 +179,7 @@ const papers = [
     "url": "https://pubmed.ncbi.nlm.nih.gov/34347616/",
     "summary": "",
     "tags": [
+      "2021",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -186,6 +194,7 @@ const papers = [
     "url": "https://academic.oup.com/bioinformatics/article/36/Supplement_2/i911/6055929",
     "summary": "",
     "tags": [
+      "2020",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -200,6 +209,7 @@ const papers = [
     "url": "https://pubmed.ncbi.nlm.nih.gov/31150344/",
     "summary": "",
     "tags": [
+      "2019",
       "Drug Response",
       "Drug Discovery",
       "Cancer"
@@ -213,6 +223,7 @@ const papers = [
     "url": "https://academic.oup.com/bib/article/23/1/bbab457/6415314",
     "summary": "",
     "tags": [
+      "2022",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -228,6 +239,7 @@ const papers = [
     "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011382",
     "summary": "",
     "tags": [
+      "2023",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -242,6 +254,7 @@ const papers = [
     "url": "https://pubmed.ncbi.nlm.nih.gov/36430395/",
     "summary": "",
     "tags": [
+      "2022",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -258,6 +271,7 @@ const papers = [
     "url": "https://academic.oup.com/bioinformatics/article/38/2/461/6374919",
     "summary": "",
     "tags": [
+      "2022",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -273,6 +287,7 @@ const papers = [
     "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.4c00003",
     "summary": "",
     "tags": [
+      "2024",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -289,6 +304,7 @@ const papers = [
     "url": "https://academic.oup.com/bioinformatics/article/40/4/btae204/7645413",
     "summary": "",
     "tags": [
+      "2024",
       "Drug Response",
       "Drug Discovery",
       "Cancer"
@@ -302,6 +318,7 @@ const papers = [
     "url": "https://academic.oup.com/bib/article/25/1/bbad522/7571386",
     "summary": "",
     "tags": [
+      "2024",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -317,6 +334,7 @@ const papers = [
     "url": "https://link.springer.com/article/10.1186/s12915-024-02023-8",
     "summary": "",
     "tags": [
+      "2024",
       "Drug Response",
       "Drug Discovery",
       "Cancer"
@@ -330,6 +348,7 @@ const papers = [
     "url": "https://ieeexplore.ieee.org/abstract/document/10921675",
     "summary": "",
     "tags": [
+      "2025",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -346,6 +365,7 @@ const papers = [
     "url": "https://www.sciencedirect.com/science/article/pii/S2095177925001327",
     "summary": "",
     "tags": [
+      "2025",
       "Drug Response",
       "Drug Discovery",
       "Cancer"
@@ -359,6 +379,7 @@ const papers = [
     "url": "https://ieeexplore.ieee.org/abstract/document/10822211",
     "summary": "",
     "tags": [
+      "2025",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -375,6 +396,7 @@ const papers = [
     "url": "https://ieeexplore.ieee.org/document/10964840",
     "summary": "",
     "tags": [
+      "2025",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -389,6 +411,7 @@ const papers = [
     "url": "https://www.sciencedirect.com/science/article/pii/S0010482523003244",
     "summary": "",
     "tags": [
+      "2023",
       "Drug Response",
       "Drug Discovery",
       "Cancer"
@@ -402,6 +425,7 @@ const papers = [
     "url": "https://ieeexplore.ieee.org/abstract/document/10148642",
     "summary": "",
     "tags": [
+      "2023",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -418,6 +442,7 @@ const papers = [
     "url": "https://link.springer.com/article/10.1186/s12859-024-05723-8",
     "summary": "",
     "tags": [
+      "2024",
       "Drug Response",
       "Drug Discovery",
       "Cancer"
@@ -431,6 +456,7 @@ const papers = [
     "url": "https://ieeexplore.ieee.org/abstract/document/10857656",
     "summary": "",
     "tags": [
+      "2025",
       "Drug Response",
       "Drug Discovery",
       "Cancer",
@@ -764,6 +790,7 @@ const papers = [
     "url": "https://arxiv.org/pdf/2406.16976",
     "summary": "",
     "tags": [
+      "2024",
       "Molecule Optimization",
       "Drug Discovery",
       "LLM"
@@ -777,6 +804,7 @@ const papers = [
     "url": "https://www.nature.com/articles/s42256-024-00815-9",
     "summary": "",
     "tags": [
+      "2024",
       "Molecule Optimization",
       "Drug Discovery",
       "Molecular Biology",
@@ -918,6 +946,7 @@ const papers = [
     "url": "https://arxiv.org/pdf/2307.03672",
     "summary": "Introduces [SF]²M for learning stochastic dynamics between arbitrary source and target distributions using score-based and flow-based generative modeling. First method to accurately model cell dynamics in high dimensions.",
     "tags": [
+      "2023",
       "Optimal Transport",
       "scRNA-seq",
       "Genomics",
@@ -932,6 +961,7 @@ const papers = [
     "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007828",
     "summary": "",
     "tags": [
+      "2020",
       "Optimal Transport",
       "scRNA-seq",
       "Genomics"
@@ -945,6 +975,7 @@ const papers = [
     "url": "https://proceedings.mlr.press/v119/tong20a/tong20a.pdf",
     "summary": "",
     "tags": [
+      "2020",
       "Optimal Transport",
       "scRNA-seq",
       "Genomics"
@@ -958,6 +989,7 @@ const papers = [
     "url": "https://proceedings.mlr.press/v151/bunne22a/bunne22a.pdf",
     "summary": "",
     "tags": [
+      "2022",
       "Optimal Transport",
       "scRNA-seq",
       "Genomics"
@@ -971,6 +1003,7 @@ const papers = [
     "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/bfc03f077688d8885c0a9389d77616d0-Paper-Conference.pdf",
     "summary": "",
     "tags": [
+      "2022",
       "Optimal Transport",
       "scRNA-seq",
       "Genomics"
@@ -996,6 +1029,7 @@ const papers = [
     "url": "https://www.nature.com/articles/s41592-023-01969-x",
     "summary": "",
     "tags": [
+      "2023",
       "Optimal Transport",
       "Genomics"
     ],
@@ -1008,6 +1042,7 @@ const papers = [
     "url": "https://link.springer.com/article/10.1186/s13059-023-02989-8",
     "summary": "",
     "tags": [
+      "2023",
       "Optimal Transport"
     ],
     "section": "Optimal Transport",
@@ -1019,6 +1054,7 @@ const papers = [
     "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_Multimodal_Optimal_Transport-based_Co-Attention_Transformer_with_Global_Structure_Consistency_for_ICCV_2023_paper.pdf",
     "summary": "ICCV 2023",
     "tags": [
+      "2023",
       "Optimal Transport",
       "Transformer"
     ],
@@ -1031,6 +1067,7 @@ const papers = [
     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10980029/",
     "summary": "",
     "tags": [
+      "2024",
       "Interpretability",
       "Drug Discovery",
       "Genomics"
@@ -1044,6 +1081,7 @@ const papers = [
     "url": "https://www.nature.com/articles/s41551-023-01034-0",
     "summary": "",
     "tags": [
+      "2023",
       "Interpretability",
       "Drug Response",
       "Drug Discovery"
@@ -1057,6 +1095,7 @@ const papers = [
     "url": "https://academic.oup.com/nargab/article/4/2/lqac044/6617323",
     "summary": "",
     "tags": [
+      "2022",
       "Interpretability"
     ],
     "section": "Explainability",
@@ -1068,6 +1107,7 @@ const papers = [
     "url": "https://academic.oup.com/bioinformatics/article/36/Supplement_2/i573/6055930",
     "summary": "",
     "tags": [
+      "2020",
       "Interpretability",
       "Drug Discovery",
       "Genomics",
@@ -1082,6 +1122,7 @@ const papers = [
     "url": "https://openreview.net/forum?id=Mg2DM0F3AY",
     "summary": "",
     "tags": [
+      "2023",
       "Interpretability",
       "Genomics",
       "Generative Models"
@@ -1095,6 +1136,7 @@ const papers = [
     "url": "https://link.springer.com/article/10.1186/s13059-023-02901-4",
     "summary": "",
     "tags": [
+      "2023",
       "Interpretability",
       "Genomics"
     ],
@@ -1107,6 +1149,7 @@ const papers = [
     "url": "https://link.springer.com/article/10.1186/s13073-016-0319-7",
     "summary": "",
     "tags": [
+      "2016",
       "Interpretability",
       "Drug Discovery",
       "Genomics"
@@ -1120,6 +1163,7 @@ const papers = [
     "url": "https://link.springer.com/article/10.1186/s13073-016-0281-4",
     "summary": "",
     "tags": [
+      "2016",
       "Interpretability",
       "Classification"
     ],
@@ -1132,6 +1176,7 @@ const papers = [
     "url": "https://graphdeeplearning.github.io/post/transformers-are-gnns/",
     "summary": "",
     "tags": [
+      "2020",
       "GNN",
       "Transformer"
     ],
@@ -1144,6 +1189,7 @@ const papers = [
     "url": "https://arxiv.org/abs/1806.01261",
     "summary": "",
     "tags": [
+      "2018",
       "GNN"
     ],
     "section": "GNN and Transformers",
@@ -1310,6 +1356,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2306.11644",
     "summary": "1/10 model params and 1/100 data size are enough if you have high quality data",
     "tags": [
+      "2023",
       "LLM"
     ],
     "section": "LLM",
@@ -1321,6 +1368,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2211.04325",
     "summary": "Around 2030, data shortage will happen",
     "tags": [
+      "2022",
       "LLM"
     ],
     "section": "LLM",
@@ -1332,6 +1380,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2305.11206",
     "summary": "Difference in quality is more important than difference in quantity",
     "tags": [
+      "2023",
       "LLM"
     ],
     "section": "LLM",
@@ -1343,6 +1392,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2311.14648",
     "summary": "We can't avoid hallucination — this might be the biggest problem for biomed research",
     "tags": [
+      "2023",
       "LLM"
     ],
     "section": "LLM",
@@ -1354,6 +1404,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2002.02492",
     "summary": "Addresses problems of maximum likelihood: recursive generation and length bias",
     "tags": [
+      "2020",
       "LLM"
     ],
     "section": "LLM",
@@ -1365,6 +1416,7 @@ const papers = [
     "url": "https://arxiv.org/abs/1904.09751",
     "summary": "Exploring the importance of the temperature param, top-k, top-p",
     "tags": [
+      "2019",
       "LLM"
     ],
     "section": "LLM",
@@ -1376,6 +1428,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2305.10601",
     "summary": "Finding the best output from \"Thought\" with tree-based search",
     "tags": [
+      "2023",
       "LLM"
     ],
     "section": "LLM",
@@ -1387,6 +1440,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2305.14992",
     "summary": "Thought with Monte Carlo Tree Search",
     "tags": [
+      "2023",
       "LLM"
     ],
     "section": "LLM",
@@ -1398,6 +1452,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2305.16291",
     "summary": "AI agent using GPT-4 for autonomous exploration and skill acquisition in Minecraft",
     "tags": [
+      "2023",
       "LLM"
     ],
     "section": "LLM",
@@ -1409,6 +1464,7 @@ const papers = [
     "url": "https://arxiv.org/abs/2403.18666",
     "summary": "FBA with GAT",
     "tags": [
+      "2024",
       "GNN",
       "Classification"
     ],
@@ -1421,6 +1477,7 @@ const papers = [
     "url": "https://arxiv.org/pdf/2505.11529",
     "summary": "",
     "tags": [
+      "2025",
       "Drug Discovery"
     ],
     "section": "From Scholar Inbox",
@@ -1432,6 +1489,7 @@ const papers = [
     "url": "https://arxiv.org/pdf/2505.12534",
     "summary": "A 250 GB diverse and curated dataset for chemistry and drug discovery machine learning.",
     "tags": [
+      "2025",
       "Drug Discovery",
       "Molecular Biology"
     ],
@@ -1444,6 +1502,7 @@ const papers = [
     "url": "https://arxiv.org/pdf/2505.12329",
     "summary": "",
     "tags": [
+      "2025",
       "Interpretability",
       "Knowledge Graph"
     ],
@@ -1456,6 +1515,7 @@ const papers = [
     "url": "https://arxiv.org/pdf/2505.11023",
     "summary": "",
     "tags": [
+      "2025",
       "GNN"
     ],
     "section": "From Scholar Inbox",
@@ -2492,7 +2552,9 @@ const papers = [
     "title": "Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI | npj Digital Medicine",
     "url": "https://www.nature.com/articles/s41746-024-01074-z",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "2026"
+    ],
     "section": "Foundation Models for Cancer 2026",
     "issue": 50
   },
@@ -2501,7 +2563,9 @@ const papers = [
     "title": "Generalizable AI predicts immunotherapy outcomes across cancers and treatments | medRxiv",
     "url": "https://www.medrxiv.org/content/10.1101/2025.05.01.25326820v2",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "2026"
+    ],
     "section": "Foundation Models for Cancer 2026",
     "issue": 50
   },
@@ -2510,7 +2574,9 @@ const papers = [
     "title": "https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1.full.pdf",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1.full.pdf",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "2026"
+    ],
     "section": "Foundation Models for Cancer 2026",
     "issue": 50
   },
@@ -2519,7 +2585,9 @@ const papers = [
     "title": "[2501.06039] AI-powered virtual tissues from spatial proteomics for clinical diagnostics and biomedical discovery",
     "url": "https://arxiv.org/abs/2501.06039",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "2026"
+    ],
     "section": "Foundation Models for Cancer 2026",
     "issue": 50
   },
@@ -2528,7 +2596,9 @@ const papers = [
     "title": "[2511.20490] MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology",
     "url": "https://arxiv.org/abs/2511.20490",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "2026"
+    ],
     "section": "Foundation Models for Cancer 2026",
     "issue": 50
   }
