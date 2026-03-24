@@ -35,17 +35,24 @@ jobs:
           ISSUE_BODY:   ${{ github.event.issue.body }}
         run: python scripts/update_papers.py
 
+      - name: Update README.md from issue
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE:  ${{ github.event.issue.title }}
+          GITHUB_REPO:  ${{ github.repository }}
+        run: python scripts/update_readme.py
+
       - name: Commit and push changes
         id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/js/papers.js
+          git add assets/js/papers.js README.md
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes to commit."
           else
-            git commit -m "chore: update papers.js from issue #${{ github.event.issue.number }}"
+            git commit -m "chore: update papers.js and README from issue #${{ github.event.issue.number }}"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
