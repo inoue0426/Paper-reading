@@ -29,6 +29,19 @@ A curated collection of research papers organized by conference and topic.
 - [From Scholar Inbox](#from-scholar-inbox)
 - [BIBM 2023](#bibm-2023)
 - [ICLR 2024](#iclr-2024)
+- [Foundation Models for Cancer 2026](#foundation-models-for-cancer-2026)
+
+---
+
+## Foundation Models for Cancer 2026
+
+> Issue [#50](https://github.com/inoue0426/Paper-reading/issues/50)
+
+- **[Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI | npj Digital Medicine](https://www.nature.com/articles/s41746-024-01074-z)**
+- **[Generalizable AI predicts immunotherapy outcomes across cancers and treatments | medRxiv](https://www.medrxiv.org/content/10.1101/2025.05.01.25326820v2)**
+- **[https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1.full.pdf](https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1.full.pdf)**
+- **[[2501.06039] AI-powered virtual tissues from spatial proteomics for clinical diagnostics and biomedical discovery](https://arxiv.org/abs/2501.06039)**
+- **[[2511.20490] MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology](https://arxiv.org/abs/2511.20490)**
 
 ---
 

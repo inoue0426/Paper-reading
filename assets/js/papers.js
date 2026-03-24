@@ -2486,5 +2486,50 @@ const papers = [
     ],
     "section": "bioRxiv 2026",
     "issue": 43
+  },
+  {
+    "id": 177,
+    "title": "Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI | npj Digital Medicine",
+    "url": "https://www.nature.com/articles/s41746-024-01074-z",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 178,
+    "title": "Generalizable AI predicts immunotherapy outcomes across cancers and treatments | medRxiv",
+    "url": "https://www.medrxiv.org/content/10.1101/2025.05.01.25326820v2",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 179,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1.full.pdf",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1.full.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 180,
+    "title": "[2501.06039] AI-powered virtual tissues from spatial proteomics for clinical diagnostics and biomedical discovery",
+    "url": "https://arxiv.org/abs/2501.06039",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 181,
+    "title": "[2511.20490] MTBBench: A Multimodal Sequential Clinical Decision-Making Benchmark in Oncology",
+    "url": "https://arxiv.org/abs/2511.20490",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
   }
 ];
