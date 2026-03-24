@@ -2435,5 +2435,56 @@ const papers = [
     ],
     "section": "LLM as a Judge",
     "issue": 30
+  },
+  {
+    "id": 174,
+    "title": "Multi-Level Domain Adaptation and Contrastive Domain Isolation with Bilinear Fusion for Patient Drug Response Prediction",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39048",
+    "summary": "精度の高い患者薬物応答予測のための階層的転移学習フレームワーク MACB-DRP を提案。組織・薬物・サンプルの 3 段階でドメイン適応を行い、双線形融合で遺伝子-薬物の高次相互作用をモデル化。対照アンカリングでサンプルレベルのアライメントを実現し、複数のがん種・9 種類の薬物で堅牢な予測性能を達成。細胞株 (GDSC) から患者 (TCGA) へのクロスドメイン転移を生物学的に誘導。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "Drug Response",
+      "Domain Adaptation",
+      "Transfer Learning",
+      "Cancer",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 43
+  },
+  {
+    "id": 175,
+    "title": "Informative Subgraph Extraction with Deep Reinforcement Learning for Drug-Drug Interaction Prediction",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37105",
+    "summary": "深層強化学習を用いた知識グラフからの情報サブグラフ抽出フレームワーク RISE-DDI を提案。DDI 予測をマルコフ決定過程として定式化し、RL エージェントが薬物ペアごとに最適なサブグラフを動的抽出。構造認識報酬モデルで分子特異性を考慮し、DDI ベンチマークで SOTA を最大 20% 上回る性能を達成。帰納・トランスダクティブ両シナリオで有効。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "Drug-Drug Interaction",
+      "Reinforcement Learning",
+      "Knowledge Graph",
+      "GNN",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 43
+  },
+  {
+    "id": 176,
+    "title": "A graph-based learning approach to predict the effects of gene perturbations on molecular phenotypes",
+    "url": "https://doi.org/10.64898/2026.03.20.712202",
+    "summary": "グラフベースの機械学習を用いた遺伝子摂動の分子表現型への影響予測手法を提案。タンパク質相互作用ネットワーク等の多様な証拠グラフを入力として 4 種の学習手法を評価し、細胞形態・コレステロール代謝など 4 表現型で標準ベースラインを上回る予測精度を達成。小規模学習データや複数の証拠源でも有効であり、他の表現型への転移学習も可能。",
+    "tags": [
+      "bioRxiv 2026",
+      "2026",
+      "Gene Perturbation",
+      "Graph Neural Network",
+      "Molecular Phenotype",
+      "Perturbational Genomics",
+      "Copilot"
+    ],
+    "section": "bioRxiv 2026",
+    "issue": 43
   }
 ];
