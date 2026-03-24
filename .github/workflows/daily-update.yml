@@ -1,0 +1,125 @@
+name: Daily update – rebuild README and deploy GitHub Pages
+
+on:
+  schedule:
+    - cron: '0 20 * * *'   # 05:00 JST (UTC+9)
+  workflow_dispatch:
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  # ── Job 1: process all issues → update papers.js + README → push ──────────
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch all issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list \
+            --repo "${{ github.repository }}" \
+            --state all \
+            --json number,title,body \
+            --limit 1000 \
+            > /tmp/issues.json
+          echo "Fetched $(python3 -c 'import json,sys; print(len(json.load(open("/tmp/issues.json"))))') issues."
+
+      - name: Process each issue
+        env:
+          GITHUB_REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, subprocess, sys
+
+          with open("/tmp/issues.json", encoding="utf-8") as fh:
+              issues = json.load(fh)
+
+          repo = os.environ["GITHUB_REPO"]
+
+          for issue in issues:
+              number = str(issue["number"])
+              title  = issue.get("title", "") or ""
+              body   = issue.get("body",  "") or ""
+
+              env = {
+                  **os.environ,
+                  "ISSUE_NUMBER": number,
+                  "ISSUE_TITLE":  title,
+                  "ISSUE_BODY":   body,
+                  "GITHUB_REPO":  repo,
+              }
+
+              print(f"\n── Issue #{number}: {title[:80]}")
+              try:
+                  subprocess.run(
+                      [sys.executable, "scripts/update_papers.py"],
+                      env=env, check=True,
+                  )
+                  subprocess.run(
+                      [sys.executable, "scripts/update_readme.py"],
+                      env=env, check=True,
+                  )
+              except subprocess.CalledProcessError as exc:
+                  print(f"WARNING: failed to process issue #{number}: {exc}", file=sys.stderr)
+          EOF
+
+      - name: Commit and push changes
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/js/papers.js README.md
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to commit."
+          else
+            git commit -m "chore: daily update of papers.js and README [skip ci]"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # ── Job 2: always re-deploy GitHub Pages ─────────────────────────────────
+  deploy:
+    needs: rebuild
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository (latest)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
