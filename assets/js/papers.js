@@ -2601,5 +2601,914 @@ const papers = [
     ],
     "section": "Foundation Models for Cancer 2026",
     "issue": 50
+  },
+  {
+    "id": 182,
+    "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37020",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 183,
+    "title": "S²Drug: Bridging Protein Sequence and 3D Structure in Contrastive Representation Learning for Virtual Screening\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36997",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 184,
+    "title": "Topology-Enhanced and Label Correlation-Aware Model for Protein-Protein Interaction Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36980",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 185,
+    "title": "PLA-MGRA: Multi-Granularity and Relation-Aware Learning for Efficient and Generalizable Protein-Ligand Binding Affinity Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37031",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 186,
+    "title": "ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37044",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 187,
+    "title": "Generalizable Drug–Target Interaction Prediction via ESM-2 Representations and Progressive Contrastive Curriculum Learning\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37100",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 188,
+    "title": "Refinement Contrastive Learning of Cell–Gene Associations for Unsupervised Cell Type Identification\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37059",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 189,
+    "title": "GenePheno: Interpretable Gene Knockout-Induced Phenotype Abnormality Prediction from Gene Sequences\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37114",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 190,
+    "title": "MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37052",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 191,
+    "title": "Closer to Biological Mechanism: Drug-Drug Interaction Prediction from the Perspective of Pharmacophore\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39229",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 192,
+    "title": "CMedBench: A Comprehensive Benchmark for Efficient Medical Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39264",
+    "summary": "",
+    "tags": [],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 193,
+    "title": "https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf",
+    "url": "https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "添付した論文を元に新しいIssueを作成して.",
+    "issue": 43
+  },
+  {
+    "id": 194,
+    "title": "https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf",
+    "url": "https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "添付した論文を元に新しいIssueを作成して.",
+    "issue": 43
+  },
+  {
+    "id": 195,
+    "title": "https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf",
+    "url": "https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "添付した論文を元に新しいIssueを作成して.",
+    "issue": 43
+  },
+  {
+    "id": 196,
+    "title": "How to define an LLM-as-a-judge evaluator - Docs by LangChain",
+    "url": "https://docs.langchain.com/langsmith/llm-as-judge",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 197,
+    "title": "https://arxiv.org/pdf/2501.14851",
+    "url": "https://arxiv.org/pdf/2501.14851",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 198,
+    "title": "PlaceboBench: An LLM Hallucination Benchmark for Pharma | Blue Guardrails",
+    "url": "https://www.blueguardrails.com/en/blog/placebo-bench-an-llm-hallucination-benchmark-for-pharma",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 199,
+    "title": "https://www.reddit.com/r/LocalLLaMA/comments/1r9t259/introducing_legal_rag_bench/",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r9t259/introducing_legal_rag_bench/",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 200,
+    "title": "LLM-as-a-Judge Simply Explained: The Complete Guide to Run LLM Evals at Scale - Confident AI",
+    "url": "https://www.confident-ai.com/blog/why-llm-as-a-judge-is-the-best-llm-evaluation-method",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 201,
+    "title": "Using LLM-as-a-Judge For Evaluation: A Complete Guide – Hamel's Blog - Hamel Husain",
+    "url": "https://hamel.dev/blog/posts/llm-judge/",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 202,
+    "title": "LLM-as-a-Judge - Langfuse",
+    "url": "https://langfuse.com/docs/evaluation/evaluation-methods/llm-as-a-judge",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 203,
+    "title": "LLM-As-Judge: 7 Best Practices & Evaluation Templates",
+    "url": "https://www.montecarlodata.com/blog-llm-as-judge/",
+    "summary": "",
+    "tags": [],
+    "section": "LLM as a judge",
+    "issue": 30
+  },
+  {
+    "id": 204,
+    "title": "Machine Learning in Drug Discovery Symposium | Broad Institute",
+    "url": "https://www.broadinstitute.org/machine-learning-drug-discovery-symposium/machine-learning-drug-discovery",
+    "summary": "",
+    "tags": [],
+    "section": "ML in DD Broad Institute",
+    "issue": 28
+  },
+  {
+    "id": 205,
+    "title": "https://openreview.net/forum?id=jiCLUPq5xv&referrer=%5Bthe%20profile%20of%20Rishi%20Dev%20Jha%5D(%2Fprofile%3Fid%3D~Rishi_Dev_Jha1",
+    "url": "https://openreview.net/forum?id=jiCLUPq5xv&referrer=%5Bthe%20profile%20of%20Rishi%20Dev%20Jha%5D(%2Fprofile%3Fid%3D~Rishi_Dev_Jha1",
+    "summary": "",
+    "tags": [],
+    "section": "vec2vec review @ Neurips 2025",
+    "issue": 27
+  },
+  {
+    "id": 206,
+    "title": "https://openreview.net/pdf/e888694d2a8f7af2d08c2e095aab2d544eaae072.pdf",
+    "url": "https://openreview.net/pdf/e888694d2a8f7af2d08c2e095aab2d544eaae072.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "Neurips 2025",
+    "issue": 26
+  },
+  {
+    "id": 207,
+    "title": "https://github.com/user-attachments/assets/654f0c95-9249-4a57-8262-a6138da00ab3",
+    "url": "https://github.com/user-attachments/assets/654f0c95-9249-4a57-8262-a6138da00ab3",
+    "summary": "",
+    "tags": [],
+    "section": "Neurips 2025",
+    "issue": 26
+  },
+  {
+    "id": 208,
+    "title": "[2505.07865] CellVerse: Do Large Language Models Really Understand Cell Biology?",
+    "url": "https://arxiv.org/abs/2505.07865",
+    "summary": "",
+    "tags": [],
+    "section": "Neurips 2025",
+    "issue": 26
+  },
+  {
+    "id": 209,
+    "title": "https://github.com/user-attachments/assets/4db439af-af9b-48c2-83f4-a8c717507d27",
+    "url": "https://github.com/user-attachments/assets/4db439af-af9b-48c2-83f4-a8c717507d27",
+    "summary": "",
+    "tags": [],
+    "section": "Neurips 2025",
+    "issue": 26
+  },
+  {
+    "id": 210,
+    "title": "https://github.com/user-attachments/assets/a3a0276d-b80d-47c7-aedd-843b39aaf5fe",
+    "url": "https://github.com/user-attachments/assets/a3a0276d-b80d-47c7-aedd-843b39aaf5fe",
+    "summary": "",
+    "tags": [],
+    "section": "Neurips 2025",
+    "issue": 26
+  },
+  {
+    "id": 211,
+    "title": "GitHub - bowang-lab/BioReason: BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model  |  NeurIPS '25 · GitHub",
+    "url": "https://github.com/bowang-lab/BioReason",
+    "summary": "",
+    "tags": [],
+    "section": "Neurips 2025",
+    "issue": 26
+  },
+  {
+    "id": 212,
+    "title": "https://github.com/user-attachments/assets/cbdc7392-8850-4a20-845d-f54af51e2dad",
+    "url": "https://github.com/user-attachments/assets/cbdc7392-8850-4a20-845d-f54af51e2dad",
+    "summary": "",
+    "tags": [],
+    "section": "Neurips 2025",
+    "issue": 26
+  },
+  {
+    "id": 213,
+    "title": "https://github.com/user-attachments/assets/01fd1514-b9f5-45dc-910b-cbf95445c01c",
+    "url": "https://github.com/user-attachments/assets/01fd1514-b9f5-45dc-910b-cbf95445c01c",
+    "summary": "",
+    "tags": [],
+    "section": "Causal & Geometric Representation Learning",
+    "issue": 24
+  },
+  {
+    "id": 214,
+    "title": "https://github.com/user-attachments/assets/142f62b9-148d-461d-829e-faf4ec48f355",
+    "url": "https://github.com/user-attachments/assets/142f62b9-148d-461d-829e-faf4ec48f355",
+    "summary": "",
+    "tags": [],
+    "section": "Causal & Geometric Representation Learning",
+    "issue": 24
+  },
+  {
+    "id": 215,
+    "title": "https://github.com/user-attachments/assets/99171db1-2aa3-4102-a2da-8fe3715eb0e0",
+    "url": "https://github.com/user-attachments/assets/99171db1-2aa3-4102-a2da-8fe3715eb0e0",
+    "summary": "",
+    "tags": [],
+    "section": "Causal & Geometric Representation Learning",
+    "issue": 24
+  },
+  {
+    "id": 216,
+    "title": "https://github.com/user-attachments/assets/92b22cfd-1c18-4acd-8097-c649e162e5f2",
+    "url": "https://github.com/user-attachments/assets/92b22cfd-1c18-4acd-8097-c649e162e5f2",
+    "summary": "",
+    "tags": [],
+    "section": "Causal & Geometric Representation Learning",
+    "issue": 24
+  },
+  {
+    "id": 217,
+    "title": "https://github.com/user-attachments/assets/f41e0459-8de6-4885-bb31-699764bb31a4",
+    "url": "https://github.com/user-attachments/assets/f41e0459-8de6-4885-bb31-699764bb31a4",
+    "summary": "",
+    "tags": [],
+    "section": "Causal & Geometric Representation Learning",
+    "issue": 24
+  },
+  {
+    "id": 218,
+    "title": "https://github.com/user-attachments/assets/9c179fc8-6a67-46f4-8de0-23d7f7c8e9d8",
+    "url": "https://github.com/user-attachments/assets/9c179fc8-6a67-46f4-8de0-23d7f7c8e9d8",
+    "summary": "",
+    "tags": [],
+    "section": "Causal & Geometric Representation Learning",
+    "issue": 24
+  },
+  {
+    "id": 219,
+    "title": "ICML Poster Identifying biological perturbation targets through causal differential networks",
+    "url": "https://icml.cc/virtual/2025/poster/45518",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 220,
+    "title": "[2410.03380] Identifying biological perturbation targets through causal differential networks",
+    "url": "https://arxiv.org/abs/2410.03380",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 221,
+    "title": "ICML Poster PertEval-scFM: Benchmarking Single-Cell Foundation Models for Perturbation Effect Prediction",
+    "url": "https://icml.cc/virtual/2025/poster/43799",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 222,
+    "title": "https://www.biorxiv.org/content/10.1101/2024.10.02.616248v2",
+    "url": "https://www.biorxiv.org/content/10.1101/2024.10.02.616248v2",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 223,
+    "title": "ICML Poster sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior Knowledge from Large Language Models",
+    "url": "https://icml.cc/virtual/2025/poster/46669",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 224,
+    "title": "https://www.biorxiv.org/content/10.1101/2025.01.28.635153v2",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.01.28.635153v2",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 225,
+    "title": "ICML Poster scSSL-Bench: Benchmarking Self-Supervised Learning for Single-Cell Data",
+    "url": "https://icml.cc/virtual/2025/poster/44286",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 226,
+    "title": "[2506.10031] scSSL-Bench: Benchmarking Self-Supervised Learning for Single-Cell Data",
+    "url": "https://arxiv.org/abs/2506.10031",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 227,
+    "title": "ICML Poster Enforcing Latent Euclidean Geometry in Single-Cell VAEs for Manifold Interpolation",
+    "url": "https://icml.cc/virtual/2025/poster/45983",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 228,
+    "title": "https://openreview.net/forum?id=a72vorQK8v",
+    "url": "https://openreview.net/forum?id=a72vorQK8v",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2025",
+    "issue": 21
+  },
+  {
+    "id": 229,
+    "title": "https://github.com/user-attachments/assets/d640aa34-2e44-4af9-8dcb-3cc315caffc9",
+    "url": "https://github.com/user-attachments/assets/d640aa34-2e44-4af9-8dcb-3cc315caffc9",
+    "summary": "",
+    "tags": [],
+    "section": "Molecule Optimization",
+    "issue": 19
+  },
+  {
+    "id": 230,
+    "title": "https://github.com/user-attachments/assets/d5e372d5-1152-4e2c-ae92-68e76c6a2414",
+    "url": "https://github.com/user-attachments/assets/d5e372d5-1152-4e2c-ae92-68e76c6a2414",
+    "summary": "",
+    "tags": [],
+    "section": "Molecule Optimization",
+    "issue": 19
+  },
+  {
+    "id": 231,
+    "title": "https://github.com/user-attachments/assets/1ccf7de7-9303-4aef-868a-7f410b0c4a75",
+    "url": "https://github.com/user-attachments/assets/1ccf7de7-9303-4aef-868a-7f410b0c4a75",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI2024",
+    "issue": 18
+  },
+  {
+    "id": 232,
+    "title": "https://github.com/user-attachments/assets/4896b7e0-2c54-4676-a174-bad6a9afc572",
+    "url": "https://github.com/user-attachments/assets/4896b7e0-2c54-4676-a174-bad6a9afc572",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI2024",
+    "issue": 18
+  },
+  {
+    "id": 233,
+    "title": "https://github.com/user-attachments/assets/645c63b4-5312-49be-9d21-0a086bf898ec",
+    "url": "https://github.com/user-attachments/assets/645c63b4-5312-49be-9d21-0a086bf898ec",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI2024",
+    "issue": 18
+  },
+  {
+    "id": 234,
+    "title": "https://github.com/user-attachments/assets/13d9e069-d283-4bef-a87c-648f76b24103",
+    "url": "https://github.com/user-attachments/assets/13d9e069-d283-4bef-a87c-648f76b24103",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI2024",
+    "issue": 18
+  },
+  {
+    "id": 235,
+    "title": "https://github.com/user-attachments/assets/c78dbdac-bc3b-460b-92b5-2cf36563fb79",
+    "url": "https://github.com/user-attachments/assets/c78dbdac-bc3b-460b-92b5-2cf36563fb79",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI2024",
+    "issue": 18
+  },
+  {
+    "id": 236,
+    "title": "https://github.com/user-attachments/assets/49014424-c66e-4364-a4e9-948fa216da9b",
+    "url": "https://github.com/user-attachments/assets/49014424-c66e-4364-a4e9-948fa216da9b",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 237,
+    "title": "GitHub - shiningsunnyday/RandomWalk: Representing Molecules over Interpretable Grammars (ICML 2024 Spotlight) · GitHub",
+    "url": "https://github.com/shiningsunnyday/polymer_walk",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 238,
+    "title": "https://github.com/user-attachments/assets/da9840e4-3b4c-4167-895f-f2b465498a8f",
+    "url": "https://github.com/user-attachments/assets/da9840e4-3b4c-4167-895f-f2b465498a8f",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 239,
+    "title": "GitHub - SeulLee05/GEAM: Official code repository for the paper Drug Discovery with Dynamic Goal-aware Fragments (ICML 2024) · GitHub",
+    "url": "https://github.com/SeulLee05/GEAM",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 240,
+    "title": "https://github.com/user-attachments/assets/442fcef6-9047-4c5b-81a1-e21a01919bf8",
+    "url": "https://github.com/user-attachments/assets/442fcef6-9047-4c5b-81a1-e21a01919bf8",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 241,
+    "title": "https://github.com/user-attachments/assets/5ff61e42-157c-4415-8641-bb16c387fb47",
+    "url": "https://github.com/user-attachments/assets/5ff61e42-157c-4415-8641-bb16c387fb47",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 242,
+    "title": "GitHub - alonsocampana/ARCANet: Pedro A. Campana, Paul Prasse, Tobias Scheffer. Predicting dose-response curves with deep neural networks. Proceedings of the 41st International Conference on Machine Learning, PMLR 235, 2024 · GitHub",
+    "url": "https://github.com/alonsocampana/ARCANet",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 243,
+    "title": "https://github.com/user-attachments/assets/8e5adde6-5db6-4837-988b-8e425abfc105",
+    "url": "https://github.com/user-attachments/assets/8e5adde6-5db6-4837-988b-8e425abfc105",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 244,
+    "title": "GitHub - kyrs/WISER · GitHub",
+    "url": "https://github.com/kyrs/WISER",
+    "summary": "",
+    "tags": [],
+    "section": "ICML2024",
+    "issue": 17
+  },
+  {
+    "id": 245,
+    "title": "https://github.com/user-attachments/assets/4f6a562f-f46b-4eac-a175-39d05fa944e3",
+    "url": "https://github.com/user-attachments/assets/4f6a562f-f46b-4eac-a175-39d05fa944e3",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Transport with scRNA",
+    "issue": 16
+  },
+  {
+    "id": 246,
+    "title": "https://www.cell.com/cell/fulltext/S0092-8674(19",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(19",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Transport with scRNA",
+    "issue": 16
+  },
+  {
+    "id": 247,
+    "title": "https://github.com/user-attachments/assets/13f54980-1447-4df0-8b40-c38a9a9f9627",
+    "url": "https://github.com/user-attachments/assets/13f54980-1447-4df0-8b40-c38a9a9f9627",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Transport with scRNA",
+    "issue": 16
+  },
+  {
+    "id": 248,
+    "title": "https://github.com/user-attachments/assets/251c6b8f-73d0-4f60-8aeb-6be1f89cf5eb",
+    "url": "https://github.com/user-attachments/assets/251c6b8f-73d0-4f60-8aeb-6be1f89cf5eb",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Transport with scRNA",
+    "issue": 16
+  },
+  {
+    "id": 249,
+    "title": "https://github.com/user-attachments/assets/cbda802d-0565-4d01-a1b2-0f0657751dd2",
+    "url": "https://github.com/user-attachments/assets/cbda802d-0565-4d01-a1b2-0f0657751dd2",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Transport with scRNA",
+    "issue": 16
+  },
+  {
+    "id": 250,
+    "title": "https://github.com/user-attachments/assets/6e95ef6d-0915-48ba-8917-08d0f3ffeb9f",
+    "url": "https://github.com/user-attachments/assets/6e95ef6d-0915-48ba-8917-08d0f3ffeb9f",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Transport with scRNA",
+    "issue": 16
+  },
+  {
+    "id": 251,
+    "title": "https://github.com/user-attachments/assets/d34fe02f-918b-417e-83ea-5d29e309151d",
+    "url": "https://github.com/user-attachments/assets/d34fe02f-918b-417e-83ea-5d29e309151d",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Transport with scRNA",
+    "issue": 16
+  },
+  {
+    "id": 252,
+    "title": "https://github.com/user-attachments/assets/9007748f-5b26-4b98-9fe5-a9a95c1a9a7a",
+    "url": "https://github.com/user-attachments/assets/9007748f-5b26-4b98-9fe5-a9a95c1a9a7a",
+    "summary": "",
+    "tags": [],
+    "section": "08/30/2024",
+    "issue": 15
+  },
+  {
+    "id": 253,
+    "title": "https://github.com/user-attachments/assets/6d79486a-61f1-4074-ada4-407cbb33eac4",
+    "url": "https://github.com/user-attachments/assets/6d79486a-61f1-4074-ada4-407cbb33eac4",
+    "summary": "",
+    "tags": [],
+    "section": "08/30/2024",
+    "issue": 15
+  },
+  {
+    "id": 254,
+    "title": "https://github.com/user-attachments/assets/c7b53899-9d6b-46d7-a56c-54e3369d5b45",
+    "url": "https://github.com/user-attachments/assets/c7b53899-9d6b-46d7-a56c-54e3369d5b45",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Trasport",
+    "issue": 14
+  },
+  {
+    "id": 255,
+    "title": "GitHub - bunnech/cellot: Learning Single-Cell Perturbation Responses using Neural Optimal Transport · GitHub",
+    "url": "https://github.com/bunnech/cellot",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Trasport",
+    "issue": 14
+  },
+  {
+    "id": 256,
+    "title": "https://github.com/user-attachments/assets/8ec6a07b-931f-43f4-bea3-72c5d1665ba0",
+    "url": "https://github.com/user-attachments/assets/8ec6a07b-931f-43f4-bea3-72c5d1665ba0",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Trasport",
+    "issue": 14
+  },
+  {
+    "id": 257,
+    "title": "GitHub - daifengwanglab/CMOT: Cross Modality Optimal Transport for multimodal inference · GitHub",
+    "url": "https://github.com/daifengwanglab/CMOT",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Trasport",
+    "issue": 14
+  },
+  {
+    "id": 258,
+    "title": "https://github.com/user-attachments/assets/2860ad0f-a34e-4e5e-b75d-a1782146e197",
+    "url": "https://github.com/user-attachments/assets/2860ad0f-a34e-4e5e-b75d-a1782146e197",
+    "summary": "",
+    "tags": [],
+    "section": "Optimal Trasport",
+    "issue": 14
+  },
+  {
+    "id": 259,
+    "title": "CoINcIDE: A framework for discovery of patient subtypes across multiple datasets | Genome Medicine | Springer Nature Link",
+    "url": "https://link.springer.com/article/10.1186/s13073-016-0281-4?fromPaywallRec=false",
+    "summary": "",
+    "tags": [],
+    "section": "Explainability",
+    "issue": 13
+  },
+  {
+    "id": 260,
+    "title": "Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence | IJCAI",
+    "url": "https://www.ijcai.org/proceedings/2023/",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI 2023",
+    "issue": 11
+  },
+  {
+    "id": 261,
+    "title": "GitHub - HanChen-HUST/CSGCL: source code for IJCAI 2023 accpeted Paper CSGCL:Community Strength Enhanced Graph Contrastive Learning · GitHub",
+    "url": "https://github.com/HanChen-HUST/CSGCL",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI 2023",
+    "issue": 11
+  },
+  {
+    "id": 262,
+    "title": "GitHub - MMAMAR/scTConvexMan · GitHub",
+    "url": "https://github.com/MMAMAR/scTConvexMan",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI 2023",
+    "issue": 11
+  },
+  {
+    "id": 263,
+    "title": "GitHub - Liuluotao/MCHNN: Source code and supplementary materials for paper \"Multi-view Contrastive Learning Hypergraph Neural Network for Drug-Microbe-Disease Association Prediction (IJCAI 2023)\" · GitHub",
+    "url": "https://github.com/Liuluotao/MCHNN",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI 2023",
+    "issue": 11
+  },
+  {
+    "id": 264,
+    "title": "GitHub - violet-sto/MolHF: Official implementation of IJCAI'23 paper \"MolHF: A Hierarchical Normalizing Flow for Molecular Graph Generation\" · GitHub",
+    "url": "https://github.com/violet-sto/MolHF",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI 2023",
+    "issue": 11
+  },
+  {
+    "id": 265,
+    "title": "GitHub - junxia97/awesome-pretrain-on-molecules: [IJCAI 2023 survey track]A curated list of resources for chemical pre-trained models · GitHub",
+    "url": "https://github.com/junxia97/awesome-pretrain-on-molecules",
+    "summary": "",
+    "tags": [],
+    "section": "IJCAI 2023",
+    "issue": 11
+  },
+  {
+    "id": 266,
+    "title": "Proceedings of Machine Learning Research | Proceedings of the Second Learning on Graphs Conference Held in Virtual on 27-30 November 2023 Published as Volume 231 by the Proceedings of Machine Learning Research on 17 April 2024. Volume Edited by: Soledad Villar Benjamin Chamberlain Series Editors: Neil D. Lawrence",
+    "url": "https://proceedings.mlr.press/v231/",
+    "summary": "",
+    "tags": [],
+    "section": "Learning on Graphs Conference, 27-30 November 2023,",
+    "issue": 10
+  },
+  {
+    "id": 267,
+    "title": "AIRS/OpenProt/LatentDiff at main · divelab/AIRS · GitHub",
+    "url": "https://github.com/divelab/AIRS/tree/main/OpenProt/LatentDiff",
+    "summary": "",
+    "tags": [],
+    "section": "Learning on Graphs Conference, 27-30 November 2023,",
+    "issue": 10
+  },
+  {
+    "id": 268,
+    "title": "GitHub - WillHua127/mudiff · GitHub",
+    "url": "https://github.com/WillHua127/mudiff",
+    "summary": "",
+    "tags": [],
+    "section": "Learning on Graphs Conference, 27-30 November 2023,",
+    "issue": 10
+  },
+  {
+    "id": 269,
+    "title": "GitHub - lamalab-org/chempile: ChemPile project · GitHub",
+    "url": "https://github.com/lamalab-org/chempile/tree/main",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
+  },
+  {
+    "id": 270,
+    "title": "https://github.com/CJ-eeww/PPSol",
+    "url": "https://github.com/CJ-eeww/PPSol",
+    "summary": "",
+    "tags": [],
+    "section": "BIBM 2023",
+    "issue": 2
+  },
+  {
+    "id": 271,
+    "title": "GitHub - Hienyriux/GeoPD-DTI: Graph Neural Networks with Geometric Edge Fusion and Point Downsampling for Drug-Target Interaction Prediction · GitHub",
+    "url": "https://github.com/Hienyriux/GeoPD-DTI",
+    "summary": "",
+    "tags": [],
+    "section": "BIBM 2023",
+    "issue": 2
+  },
+  {
+    "id": 272,
+    "title": "GitHub - ZhangLab312/HGTDG · GitHub",
+    "url": "https://github.com/ZhangLab312/HGTDG",
+    "summary": "",
+    "tags": [],
+    "section": "BIBM 2023",
+    "issue": 2
+  },
+  {
+    "id": 273,
+    "title": "GitHub - bionlp-hzau/DGGAT · GitHub",
+    "url": "https://github.com/bionlp-hzau/DGGAT",
+    "summary": "",
+    "tags": [],
+    "section": "BIBM 2023",
+    "issue": 2
+  },
+  {
+    "id": 274,
+    "title": "GitHub - chao1224/ChatDrug: LLM for Drug Editing, ICLR 2024 · GitHub",
+    "url": "https://github.com/chao1224/ChatDrug",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 275,
+    "title": "GitHub - Shen-Lab/LDM-3DG: [ICLR 2024] \"Latent 3D Graph Diffusion\" by Yuning You, Ruida Zhou, Jiwoong Park, Haotian Xu, Chao Tian, Zhangyang Wang, Yang Shen · GitHub",
+    "url": "https://github.com/Shen-Lab/LDM-3DG",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 276,
+    "title": "GitHub - westlake-repl/SaProt: Saprot: Protein Language Model with Structural Alphabet (AA+3Di) · GitHub",
+    "url": "https://github.com/westlake-repl/SaProt",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 277,
+    "title": "GitHub - igashov/RetroBridge: RetroBridge: Markov Bridge Model for Retrosynthesis Planning · GitHub",
+    "url": "https://github.com/igashov/RetroBridge",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 278,
+    "title": "GitHub - RyanWangZf/BioBridge: ICLR'24 | BioBridge: Bridging Biomedical Foundation Models via Knowledge Graphs · GitHub",
+    "url": "https://github.com/RyanWangZf/BioBridge",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 279,
+    "title": "GitHub - zjunlp/Mol-Instructions: [ICLR 2024] Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models · GitHub",
+    "url": "https://github.com/zjunlp/Mol-Instructions",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 280,
+    "title": "GitHub - SXKDZ/MARCEL: [ICLR 2024] MARCEL: Machine Learning over Molecular Conformer Ensembles · GitHub",
+    "url": "https://github.com/SXKDZ/MARCEL",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 281,
+    "title": "GitHub - zjunlp/MolGen: [ICLR 2024] Domain-Agnostic Molecular Generation with Chemical Feedback · GitHub",
+    "url": "https://github.com/zjunlp/MolGen",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
+  },
+  {
+    "id": 282,
+    "title": "GitHub - lujiarui/Str2Str: Codebase of the paper \"Str2Str: A Score-based Framework for Zero-shot Protein Conformation Sampling\" (ICLR 2024) · GitHub",
+    "url": "https://github.com/lujiarui/Str2Str",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR 2024",
+    "issue": 1
   }
 ];

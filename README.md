@@ -30,6 +30,48 @@ A curated collection of research papers organized by conference and topic.
 - [BIBM 2023](#bibm-2023)
 - [ICLR 2024](#iclr-2024)
 - [Foundation Models for Cancer 2026](#foundation-models-for-cancer-2026)
+- [AAAI 2026](#aaai-2026)
+- [添付した論文を元に新しいIssueを作成して.](#issue)
+- [論文追加](#)
+
+---
+
+## 論文追加
+
+> Issue [#35](https://github.com/inoue0426/Paper-reading/issues/35)
+
+- **[Benchmarking algorithms for generalizable single-cell perturbation response prediction](https://www.nature.com/articles/s41592-025-02980-0)**
+
+---
+
+## 添付した論文を元に新しいIssueを作成して.
+
+> Issue [#43](https://github.com/inoue0426/Paper-reading/issues/43)
+
+- **[Multi-Level Domain Adaptation and Contrastive Domain Isolation with Bilinear Fusion for Patient Drug Response Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/39048)**
+- **[Informative Subgraph Extraction with Deep Reinforcement Learning for Drug-Drug Interaction Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/37105)**
+- **[A graph-based learning approach to predict the effects of gene perturbations on molecular phenotypes](https://doi.org/10.64898/2026.03.20.712202)**
+- **[https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf](https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf)**
+- **[https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf](https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf)**
+- **[https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf](https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf)**
+
+---
+
+## AAAI 2026
+
+> Issue [#45](https://github.com/inoue0426/Paper-reading/issues/45)
+
+- **[RAG-Enhanced Collaborative LLM Agents for Drug Discovery | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/37020)**
+- **[S²Drug: Bridging Protein Sequence and 3D Structure in Contrastive Representation Learning for Virtual Screening | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/36997)**
+- **[Topology-Enhanced and Label Correlation-Aware Model for Protein-Protein Interaction Prediction | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/36980)**
+- **[PLA-MGRA: Multi-Granularity and Relation-Aware Learning for Efficient and Generalizable Protein-Ligand Binding Affinity Prediction | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/37031)**
+- **[ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/37044)**
+- **[Generalizable Drug–Target Interaction Prediction via ESM-2 Representations and Progressive Contrastive Curriculum Learning | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/37100)**
+- **[Refinement Contrastive Learning of Cell–Gene Associations for Unsupervised Cell Type Identification | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/37059)**
+- **[GenePheno: Interpretable Gene Knockout-Induced Phenotype Abnormality Prediction from Gene Sequences | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/37114)**
+- **[MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/37052)**
+- **[Closer to Biological Mechanism: Drug-Drug Interaction Prediction from the Perspective of Pharmacophore | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/39229)**
+- **[CMedBench: A Comprehensive Benchmark for Efficient Medical Large Language Models | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/39264)**
 
 ---
 
