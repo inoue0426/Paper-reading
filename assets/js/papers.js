@@ -2435,5 +2435,32 @@ const papers = [
     ],
     "section": "LLM as a Judge",
     "issue": 30
+  },
+  {
+    "id": 174,
+    "title": "https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf",
+    "url": "https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "添付した論文を元に新しいIssueを作成して.",
+    "issue": 43
+  },
+  {
+    "id": 175,
+    "title": "https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf",
+    "url": "https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "添付した論文を元に新しいIssueを作成して.",
+    "issue": 43
+  },
+  {
+    "id": 176,
+    "title": "https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf",
+    "url": "https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "添付した論文を元に新しいIssueを作成して.",
+    "issue": 43
   }
 ];
