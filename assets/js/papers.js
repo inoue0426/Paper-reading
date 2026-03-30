@@ -3510,5 +3510,50 @@ const papers = [
     "tags": [],
     "section": "ICLR 2024",
     "issue": 1
+  },
+  {
+    "id": 283,
+    "title": "https://www.biorxiv.org/content/10.1101/2024.11.01.621087v1",
+    "url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621087v1",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 284,
+    "title": "https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 285,
+    "title": "Real-world deployment of a fine-tuned pathology foundation model for lung cancer biomarker detection | Nature Medicine",
+    "url": "https://www.nature.com/articles/s41591-025-03780-x",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 286,
+    "title": "Artificial-intelligence-based molecular classification of diffuse gliomas using rapid, label-free optical imaging | Nature Medicine",
+    "url": "https://www.nature.com/articles/s41591-023-02252-4",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
+  },
+  {
+    "id": 287,
+    "title": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2844908",
+    "url": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2844908",
+    "summary": "",
+    "tags": [],
+    "section": "Foundation Models for Cancer 2026",
+    "issue": 50
   }
 ];
