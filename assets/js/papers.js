@@ -4242,5 +4242,50 @@ const papers = [
     ],
     "section": "ArcのEvoについてまとめて",
     "issue": 66
+  },
+  {
+    "id": 329,
+    "title": "GitHub - snap-stanford/GEARS: GEARS is a geometric deep learning model that predicts outcomes of novel multi-gene perturbations · GitHub",
+    "url": "https://github.com/snap-stanford/GEARS",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
+  },
+  {
+    "id": 330,
+    "title": "GitHub - gefeiwang/scLAMBDA: Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA · GitHub",
+    "url": "https://github.com/gefeiwang/scLAMBDA",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
+  },
+  {
+    "id": 331,
+    "title": "Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
+  },
+  {
+    "id": 332,
+    "title": "GitHub - perturblib/perturblib · GitHub",
+    "url": "https://github.com/perturblib/perturblib",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
+  },
+  {
+    "id": 333,
+    "title": "In silico biological discovery with large perturbation models | Nature Computational Science",
+    "url": "https://www.nature.com/articles/s43588-025-00870-1",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
   }
 ];
