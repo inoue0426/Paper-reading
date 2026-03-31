@@ -4294,5 +4294,32 @@ const papers = [
     ],
     "section": "GEARS scLAMBDA LPMについてまとめて",
     "issue": 68
+  },
+  {
+    "id": 332,
+    "title": "GitHub - snap-stanford/GEARS: GEARS is a geometric deep learning model that predicts outcomes of novel multi-gene perturbations · GitHub",
+    "url": "https://github.com/snap-stanford/GEARS",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
+  },
+  {
+    "id": 333,
+    "title": "GitHub - gefeiwang/scLAMBDA: Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA · GitHub",
+    "url": "https://github.com/gefeiwang/scLAMBDA",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
+  },
+  {
+    "id": 334,
+    "title": "GitHub - perturblib/perturblib · GitHub",
+    "url": "https://github.com/perturblib/perturblib",
+    "summary": "",
+    "tags": [],
+    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "issue": 68
   }
 ];
