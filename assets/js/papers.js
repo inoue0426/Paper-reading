@@ -3741,5 +3741,155 @@ const papers = [
     ],
     "section": "Virtual Cell 2026",
     "issue": 55
+  },
+  {
+    "id": 299,
+    "title": "World Models",
+    "url": "https://arxiv.org/abs/1803.10122",
+    "summary": "Introduces the World Models framework: an agent learns a compressed spatial (V) and temporal (M) representation of its environment using a VAE and an RNN, then trains a controller entirely within the learned latent world model. Demonstrates that policies learned inside the dream can transfer to the real environment. Foundational paper for the concept of latent-space world modeling that underpins the Virtual Cell paradigm—treating cellular state as a latent world to be simulated.",
+    "tags": [
+      "arXiv",
+      "2018",
+      "World Model",
+      "Generative Models",
+      "Reinforcement Learning",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 300,
+    "title": "Mastering Diverse Domains through World Models (DreamerV3)",
+    "url": "https://arxiv.org/abs/2301.04104",
+    "summary": "DreamerV3 learns a recurrent world model entirely from raw sensory inputs and trains an actor–critic agent purely in the model's latent imagination without environment interaction during training. Achieves human-level or super-human performance across 150+ tasks spanning continuous control, Atari, and Minecraft with a single fixed algorithm and hyperparameter set. Provides the computational blueprint—latent dynamics, reward prediction, and actor–critic planning—that maps naturally onto virtual cell simulation and perturbation design.",
+    "tags": [
+      "arXiv",
+      "2023",
+      "World Model",
+      "Reinforcement Learning",
+      "Generative Models",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 301,
+    "title": "Deep Generative Modeling for Single-Cell Transcriptomics (scVI)",
+    "url": "https://www.nature.com/articles/s41592-018-0229-2",
+    "summary": "scVI uses a hierarchical Bayesian model with a deep neural network encoder/decoder to learn low-dimensional latent representations of single-cell RNA-seq data, accounting for technical noise and batch effects. Enables joint analysis of heterogeneous datasets and serves as a foundational representation backbone for virtual cell world models by mapping high-dimensional gene expression into a structured latent state space.",
+    "tags": [
+      "Nature Methods",
+      "2018",
+      "Single-cell",
+      "Generative Models",
+      "Representation Learning",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 302,
+    "title": "Neural Ordinary Differential Equations",
+    "url": "https://arxiv.org/abs/1806.07366",
+    "summary": "Proposes to parameterize the derivative of a hidden state with a neural network, yielding continuous-depth residual networks and latent variable models defined by ODEs. Enables memory-efficient training via the adjoint method and naturally models continuous-time dynamics. Directly applicable to modeling continuous transcriptional dynamics in virtual cell world models, where gene expression trajectories are treated as solutions to a learned ODE in latent space.",
+    "tags": [
+      "NeurIPS 2018",
+      "2018",
+      "Differential Equations",
+      "Generative Models",
+      "World Model",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 303,
+    "title": "Predicting Single-Cell Perturbation Responses Using Neural Optimal Transport (scGEN)",
+    "url": "https://www.nature.com/articles/s41592-019-0494-8",
+    "summary": "scGEN learns a latent representation of cell states with a VAE and performs perturbation prediction by vector arithmetic in latent space—adding a perturbation vector to control cell embeddings to generate stimulated cell distributions. Accurately predicts gene expression after unseen drug treatments and cross-species perturbations. Embodies the world model idea of state + action → next state in transcriptomic space, making it a core building block for virtual cell simulation.",
+    "tags": [
+      "Nature Methods",
+      "2019",
+      "Single-cell",
+      "Perturbation Prediction",
+      "Generative Models",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 304,
+    "title": "Exploring Genetic Interaction Manifolds Constructed from Rich Single-Cell Phenotypes (Perturb-seq)",
+    "url": "https://www.science.org/doi/10.1126/science.aax4438",
+    "summary": "Develops a pooled CRISPR screening approach (Perturb-seq) that simultaneously captures single-cell transcriptomes and genetic perturbations at scale, mapping combinatorial gene-knockdown effects across thousands of cells. Constructs high-dimensional genetic interaction manifolds revealing epistasis and redundancy. Provides the empirical ground-truth data substrate essential for training and evaluating virtual cell world models that must predict complex multi-gene perturbation outcomes.",
+    "tags": [
+      "Science",
+      "2019",
+      "Single-cell",
+      "Perturbation Prediction",
+      "CRISPR",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 305,
+    "title": "Generative Modeling of Single-Cell Time Series with PRESCIENT (PRESCIENT)",
+    "url": "https://www.nature.com/articles/s41587-021-00937-6",
+    "summary": "PRESCIENT formulates single-cell developmental trajectories as a Waddington potential landscape learned via Wasserstein gradient flows. A neural network parameterizes the potential energy function, and future cell population distributions are predicted by simulating Langevin dynamics from initial cell states. Represents the clearest instantiation of a biological world model: given current cell state, simulate how the population evolves over time under stochastic dynamics.",
+    "tags": [
+      "Nature Biotechnology",
+      "2021",
+      "Single-cell",
+      "Trajectory Inference",
+      "Generative Models",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 306,
+    "title": "Mapping Transcriptomic Vector Fields of Single Cells (Dynamo)",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(22)00477-1",
+    "summary": "Dynamo reconstructs continuous RNA velocity vector fields from metabolic labeling data using a thermodynamically consistent kinetic model, enabling analytical computation of cell fate trajectories, Jacobian-based gene regulatory analysis, and in-silico perturbation simulations. Predicts cell cycle arrest and reprogramming outcomes. Provides an explicit mechanistic world model for transcriptional dynamics where the state-transition function is a learned vector field over gene expression space.",
+    "tags": [
+      "Cell",
+      "2022",
+      "Single-cell",
+      "RNA Velocity",
+      "Trajectory Inference",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
+  },
+  {
+    "id": 307,
+    "title": "Dissecting Cell Identity via Network Inference and In Silico Gene Perturbation (CellOracle)",
+    "url": "https://www.nature.com/articles/s41586-022-05688-9",
+    "summary": "CellOracle integrates single-cell ATAC-seq and RNA-seq to construct cell-type-specific gene regulatory network (GRN) models, then simulates transcriptional shifts caused by transcription factor (TF) perturbations via network propagation. Predicts cell identity changes and developmental trajectories under genetic interventions. Operationalizes a mechanistic world model in which the GRN is the transition function: given current cell state + TF perturbation action, predict the new transcriptional state.",
+    "tags": [
+      "Nature",
+      "2023",
+      "Single-cell",
+      "Gene Regulatory Network",
+      "Perturbation Prediction",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell World Model 2026",
+    "issue": 57
   }
 ];
