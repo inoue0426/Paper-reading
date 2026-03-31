@@ -4247,7 +4247,7 @@ const papers = [
     "id": 329,
     "title": "Predicting transcriptional outcomes of novel multi-gene perturbations with GEARS",
     "url": "https://www.nature.com/articles/s41587-023-01905-6",
-    "summary": "Presents GEARS (Gene Expression and Regulation from Sequences), a graph neural network framework that predicts transcriptional responses to single and combinatorial multi-gene perturbations in single-cell RNA-seq data. Constructs a perturbation graph capturing co-expression relationships and integrates a Gene Ontology knowledge graph to embed prior biological knowledge. Enables zero-shot prediction of unseen combinatorial perturbation outcomes and outperforms prior methods on the Norman, Adamson, and Replogle 2022 benchmark datasets.",
+    "summary": "Presents GEARS, a graph neural network framework that predicts transcriptional responses to single and combinatorial multi-gene perturbations from scRNA-seq data. Integrates a Gene Ontology knowledge graph for biological priors and constructs a co-expression perturbation graph, enabling zero-shot prediction of unseen combinatorial outcomes. Outperforms prior methods on Norman, Adamson, and Replogle 2022 benchmarks. Code available at https://github.com/snap-stanford/GEARS as the `cell-gears` pip package.",
     "tags": [
       "Nature Biotechnology",
       "2023",
@@ -4262,26 +4262,9 @@ const papers = [
   },
   {
     "id": 330,
-    "title": "GitHub - snap-stanford/GEARS: Predicting transcriptional outcomes of novel multi-gene perturbations",
-    "url": "https://github.com/snap-stanford/GEARS",
-    "summary": "Official PyTorch implementation of GEARS, installable as the `cell-gears` pip package. Provides preprocessed dataloaders for Norman 2019, Adamson 2016, Dixit 2016, and Replogle 2022 (RPE1/K562) datasets. Includes tutorials for dataset loading, model training, top-20 DE gene plotting, uncertainty-aware training, and genetic interaction (GI) prediction for gene pairs.",
-    "tags": [
-      "GitHub",
-      "2023",
-      "Perturbation",
-      "scRNA-seq",
-      "GNN",
-      "PyTorch",
-      "PyG"
-    ],
-    "section": "GEARS scLAMBDA LPMについてまとめて",
-    "issue": 68
-  },
-  {
-    "id": 331,
     "title": "Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/",
-    "summary": "Introduces scLAMBDA, a deep generative framework for modeling single-cell transcriptional responses to genetic perturbations. Uses a disentangled variational autoencoder to separate basal cell state representations from perturbation-induced salient representations, enabling single-cell level generation rather than only population averages. Leverages large language model gene embeddings to generalize to unobserved target genes and combinatorial perturbations. Also introduces reliability scores to assess prediction confidence without ground-truth data.",
+    "summary": "Introduces scLAMBDA, a deep generative framework using a disentangled VAE to separate basal cell state from perturbation-induced representations, enabling single-cell level generation rather than population averages. Leverages LLM gene embeddings to generalize to unobserved target genes and combinatorial perturbations, and introduces reliability scores for confidence estimation without ground-truth data. Code at https://github.com/gefeiwang/scLAMBDA with support for multi-cell-line training via context embeddings.",
     "tags": [
       "Genome Research",
       "2024",
@@ -4296,27 +4279,10 @@ const papers = [
     "issue": 68
   },
   {
-    "id": 332,
-    "title": "GitHub - gefeiwang/scLAMBDA",
-    "url": "https://github.com/gefeiwang/scLAMBDA",
-    "summary": "Official implementation of scLAMBDA with a conda environment setup. Accepts logarithmized AnnData objects with LLM-derived gene embedding dictionaries as input. Provides tutorials on the Norman et al. 2019 Perturb-seq dataset and multi-cell-line training with context embeddings for cell-type-aware prediction. Includes utilities for data splitting, reliability score computation, and optional target-gene coordinate conditioning to improve perturbation effect prediction.",
-    "tags": [
-      "GitHub",
-      "2024",
-      "Perturbation",
-      "scRNA-seq",
-      "VAE",
-      "LLM",
-      "PyTorch"
-    ],
-    "section": "GEARS scLAMBDA LPMについてまとめて",
-    "issue": 68
-  },
-  {
-    "id": 333,
+    "id": 331,
     "title": "In silico biological discovery with large perturbation models",
     "url": "https://www.nature.com/articles/s43588-025-00870-1",
-    "summary": "Presents the Large Perturbation Model (LPM), a deep learning model with a PRC-conditioned architecture that learns from heterogeneous pooled perturbation experiments by explicitly conditioning on symbolic representations of Perturbation, Readout, and Context. Trained on LINCS L1000 chemical perturbation and Replogle 2022 genetic perturbation scRNA-seq datasets. Predicts unseen perturbation outcomes and generates information-rich transferable embeddings for diverse downstream biological discovery tasks including target identification and mechanism-of-action prediction.",
+    "summary": "Presents the Large Perturbation Model (LPM), with a PRC-conditioned architecture that jointly conditions on symbolic Perturbation, Readout, and Context representations to learn from heterogeneous pooled experiments (LINCS L1000 and Replogle 2022 scRNA-seq). Disentangles perturbation-response rules from context-specific biases, enabling prediction of unseen outcomes and transferable embeddings for target identification and mechanism-of-action tasks. Implemented in the open-source perturb-lib / perturb-gym framework at https://github.com/perturblib/perturblib.",
     "tags": [
       "Nature Computational Science",
       "2025",
@@ -4325,23 +4291,6 @@ const papers = [
       "LINCS L1000",
       "Foundation Model",
       "Drug Discovery"
-    ],
-    "section": "GEARS scLAMBDA LPMについてまとめて",
-    "issue": 68
-  },
-  {
-    "id": 334,
-    "title": "GitHub - perturblib/perturblib: Perturbation modeling at scale",
-    "url": "https://github.com/perturblib/perturblib",
-    "summary": "Open-source library implementing the Large Perturbation Model (LPM) and a general perturbation modeling framework from GSK and Helmholtz AI. Includes perturb-gym, a scalable and configurable training suite supporting LINCS L1000 and Replogle et al. datasets. The PRC-conditioned architecture handles heterogeneous experiments that differ in perturbation type, readout modality, or experimental context, disentangling perturbation-response rules from context-specific biases.",
-    "tags": [
-      "GitHub",
-      "2025",
-      "Perturbation",
-      "scRNA-seq",
-      "LINCS L1000",
-      "Foundation Model",
-      "PyTorch"
     ],
     "section": "GEARS scLAMBDA LPMについてまとめて",
     "issue": 68
