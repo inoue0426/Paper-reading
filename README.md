@@ -35,6 +35,19 @@ A curated collection of research papers organized by conference and topic.
 - [論文追加](#)
 - [最新のVirtual Cellの動向について, Issueにまとめて.](#virtual-cell-issue)
 - [World Model方面でのVirtual Cellっていう研究をまとめて](#world-modelvirtual-cell)
+- [Universal Cell Embeddings: A Foundation Model for Cell Biology 周りを全体的に整理して.](#universal-cell-embeddings-a-foundation-model-for-cell-biology)
+
+---
+
+## Universal Cell Embeddings: A Foundation Model for Cell Biology 周りを全体的に整理して.
+
+> Issue [#61](https://github.com/inoue0426/Paper-reading/issues/61)
+
+- **[How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities](https://www.cell.com/cell-systems/fulltext/S2405-4712(24)00027-4)**
+- **[Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model (ESM2)](https://www.science.org/doi/10.1126/science.ade2574)**
+- **[GenePT: A Simple But Hard-to-Beat Baseline for Non-Sequential Pre-Training of Genomic Data](https://www.biorxiv.org/content/10.1101/2023.10.16.562533)**
+- **[Mapping Single-Cell Data to Reference Atlases by Transfer Learning (scArches)](https://www.nature.com/articles/s41587-021-01001-7)**
+- **[Fast, Sensitive, and Accurate Integration of Single-Cell Data with Harmony](https://www.nature.com/articles/s41592-019-0619-0)**
 
 ---
 
