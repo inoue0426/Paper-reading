@@ -38,6 +38,19 @@ A curated collection of research papers organized by conference and topic.
 - [Universal Cell Embeddings: A Foundation Model for Cell Biology 周りを全体的に整理して.](#universal-cell-embeddings-a-foundation-model-for-cell-biology)
 - [JEPAについてまとめて.](#jepa)
 - [ArcのVirtual Cellについてまとめて](#arcvirtual-cell)
+- [Arc Institute関連の論文で抜けてるものがあれば追加して.](#arc-institute)
+
+---
+
+## Arc Institute関連の論文で抜けてるものがあれば追加して.
+
+> Issue [#66](https://github.com/inoue0426/Paper-reading/issues/66)
+
+- **[scBaseCount: An AI agent-curated, uniformly processed, and continually expanding single cell data repository](https://doi.org/10.1101/2025.02.27.640494)**
+- **[GitHub - ArcInstitute/SRAgent: LLM agents for working with the SRA and associated bioinformatics databases · GitHub](https://github.com/ArcInstitute/SRAgent)**
+- **[Sequence modeling and design from molecular to genome scale with Evo](https://www.science.org/doi/10.1126/science.ado9336)**
+- **[Genome modeling and design across all domains of life with Evo 2](https://www.nature.com/articles/s41586-026-10176-5)**
+- **[GitHub - ArcInstitute/evo2: Genome modeling and design across all domains of life · GitHub](https://github.com/ArcInstitute/evo2)**
 
 ---
 
