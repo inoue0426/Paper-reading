@@ -4155,5 +4155,92 @@ const papers = [
     ],
     "section": "ArcのVirtual Cellについてまとめて",
     "issue": 63
+  },
+  {
+    "id": 324,
+    "title": "scBaseCount: An AI agent-curated, uniformly processed, and continually expanding single cell data repository",
+    "url": "https://doi.org/10.1101/2025.02.27.640494",
+    "summary": "Presents scBaseCount, an AI agent-curated repository of uniformly processed single-cell RNA-seq data built using the SRAgent LLM-agent pipeline. SRAgent autonomously searches the NCBI Sequence Read Archive, extracts metadata, selects 10x Genomics scRNA-seq datasets, and schedules STARsolo alignment at scale, continuously expanding the corpus without manual curation. scBaseCount is integrated into the Arc Virtual Cell Atlas as its AI-curated component and provides a standardized, ever-growing data substrate for training and benchmarking virtual cell models.",
+    "tags": [
+      "bioRxiv",
+      "2025",
+      "Arc Institute",
+      "Single-cell",
+      "Dataset",
+      "AI Agent",
+      "LLM",
+      "scRNA-seq"
+    ],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 66
+  },
+  {
+    "id": 325,
+    "title": "GitHub - ArcInstitute/SRAgent: LLM agents for working with the SRA and associated bioinformatics databases · GitHub",
+    "url": "https://github.com/ArcInstitute/SRAgent",
+    "summary": "SRAgent is an open-source agentic workflow system using LLMs to automate querying, metadata extraction, and dataset discovery from the NCBI Sequence Read Archive (SRA). It provides multiple specialized agents—Entrez, SRX-info, papers, tissue-ontology, and disease-ontology—that collaborate to locate, annotate, and curate single-cell RNA-seq datasets at scale. SRAgent was used to construct scBaseCount, the AI agent-curated component of the Arc Virtual Cell Atlas, and supports both OpenAI and Anthropic model backends.",
+    "tags": [
+      "GitHub",
+      "2025",
+      "Arc Institute",
+      "AI Agent",
+      "LLM",
+      "SRA",
+      "Single-cell",
+      "Python"
+    ],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 66
+  },
+  {
+    "id": 326,
+    "title": "Sequence modeling and design from molecular to genome scale with Evo",
+    "url": "https://www.science.org/doi/10.1126/science.ado9336",
+    "summary": "Presents Evo, a 7B-parameter DNA language model using the StripedHyena hybrid architecture with 131K-token context length, pretrained on a genomic corpus spanning prokaryotes, phages, and eukaryotes at single-nucleotide resolution. Evo performs zero-shot prediction of gene essentiality, splice site strength, and regulatory element activity, and enables multi-scale de novo sequence design from individual genes to whole-genome-length sequences. It establishes the first Arc Institute foundation model for genomics and demonstrates that autoregressive DNA pretraining transfers across the full hierarchy of biological organization.",
+    "tags": [
+      "Science",
+      "2024",
+      "Arc Institute",
+      "DNA Language Model",
+      "Genomics",
+      "Foundation Model",
+      "StripedHyena"
+    ],
+    "section": "ArcのEvoについてまとめて",
+    "issue": 66
+  },
+  {
+    "id": 327,
+    "title": "Genome modeling and design across all domains of life with Evo 2",
+    "url": "https://www.nature.com/articles/s41586-026-10176-5",
+    "summary": "Presents Evo 2, a DNA language model scaled to 40B parameters using the StripedHyena 2 architecture, trained autoregressively on the OpenGenome2 dataset containing 8.8 trillion tokens from bacteria, archaea, viruses, and eukaryotes at 1 million base pair context length. Achieves state-of-the-art zero-shot variant effect prediction, gene function annotation, and de novo genome-scale sequence design. Includes sparse autoencoders for mechanistic interpretability and is deployed via NVIDIA NIM for accessible hosted inference.",
+    "tags": [
+      "Nature",
+      "2026",
+      "Arc Institute",
+      "DNA Language Model",
+      "Genomics",
+      "Foundation Model",
+      "StripedHyena"
+    ],
+    "section": "ArcのEvoについてまとめて",
+    "issue": 66
+  },
+  {
+    "id": 328,
+    "title": "GitHub - ArcInstitute/evo2: Genome modeling and design across all domains of life · GitHub",
+    "url": "https://github.com/ArcInstitute/evo2",
+    "summary": "Open-source implementation of Evo 2, providing model weights for 1B, 7B, 20B, and 40B parameter checkpoints with context lengths up to 1 million base pairs. Inference is powered by Vortex and supports FP8 precision on NVIDIA Hopper GPUs. Includes notebooks for zero-shot variant effect prediction (BRCA1), DNA sequence generation, exon classification, and sparse autoencoder feature visualization. Available on NVIDIA NIM for hosted API access and compatible with BioNemo for finetuning.",
+    "tags": [
+      "GitHub",
+      "2026",
+      "Arc Institute",
+      "DNA Language Model",
+      "Genomics",
+      "Foundation Model",
+      "PyTorch"
+    ],
+    "section": "ArcのEvoについてまとめて",
+    "issue": 66
   }
 ];
