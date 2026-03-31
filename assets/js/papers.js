@@ -4245,47 +4245,54 @@ const papers = [
   },
   {
     "id": 329,
-    "title": "GitHub - snap-stanford/GEARS: GEARS is a geometric deep learning model that predicts outcomes of novel multi-gene perturbations · GitHub",
-    "url": "https://github.com/snap-stanford/GEARS",
-    "summary": "",
-    "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "title": "Predicting transcriptional outcomes of novel multi-gene perturbations with GEARS",
+    "url": "https://www.nature.com/articles/s41587-023-01905-6",
+    "summary": "Presents GEARS, a graph neural network framework that predicts transcriptional responses to single and combinatorial multi-gene perturbations from scRNA-seq data. Integrates a Gene Ontology knowledge graph for biological priors and constructs a co-expression perturbation graph, enabling zero-shot prediction of unseen combinatorial outcomes. Outperforms prior methods on Norman, Adamson, and Replogle 2022 benchmarks. Code available at https://github.com/snap-stanford/GEARS as the `cell-gears` pip package.",
+    "tags": [
+      "Nature Biotechnology",
+      "2023",
+      "Perturbation",
+      "scRNA-seq",
+      "GNN",
+      "Gene Ontology",
+      "Combinatorial Perturbation"
+    ],
+    "section": "GEARS scLAMBDA LPMについてまとめて",
     "issue": 68
   },
   {
     "id": 330,
-    "title": "GitHub - gefeiwang/scLAMBDA: Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA · GitHub",
-    "url": "https://github.com/gefeiwang/scLAMBDA",
-    "summary": "",
-    "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "title": "Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/",
+    "summary": "Introduces scLAMBDA, a deep generative framework using a disentangled VAE to separate basal cell state from perturbation-induced representations, enabling single-cell level generation rather than population averages. Leverages LLM gene embeddings to generalize to unobserved target genes and combinatorial perturbations, and introduces reliability scores for confidence estimation without ground-truth data. Code at https://github.com/gefeiwang/scLAMBDA with support for multi-cell-line training via context embeddings.",
+    "tags": [
+      "Genome Research",
+      "2024",
+      "Perturbation",
+      "scRNA-seq",
+      "VAE",
+      "LLM",
+      "Combinatorial Perturbation",
+      "Generative Models"
+    ],
+    "section": "GEARS scLAMBDA LPMについてまとめて",
     "issue": 68
   },
   {
     "id": 331,
-    "title": "Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA - PMC",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/",
-    "summary": "",
-    "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
-    "issue": 68
-  },
-  {
-    "id": 332,
-    "title": "GitHub - perturblib/perturblib · GitHub",
-    "url": "https://github.com/perturblib/perturblib",
-    "summary": "",
-    "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
-    "issue": 68
-  },
-  {
-    "id": 333,
-    "title": "In silico biological discovery with large perturbation models | Nature Computational Science",
+    "title": "In silico biological discovery with large perturbation models",
     "url": "https://www.nature.com/articles/s43588-025-00870-1",
-    "summary": "",
-    "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "summary": "Presents the Large Perturbation Model (LPM), with a PRC-conditioned architecture that jointly conditions on symbolic Perturbation, Readout, and Context representations to learn from heterogeneous pooled experiments (LINCS L1000 and Replogle 2022 scRNA-seq). Disentangles perturbation-response rules from context-specific biases, enabling prediction of unseen outcomes and transferable embeddings for target identification and mechanism-of-action tasks. Implemented in the open-source perturb-lib / perturb-gym framework at https://github.com/perturblib/perturblib.",
+    "tags": [
+      "Nature Computational Science",
+      "2025",
+      "Perturbation",
+      "scRNA-seq",
+      "LINCS L1000",
+      "Foundation Model",
+      "Drug Discovery"
+    ],
+    "section": "GEARS scLAMBDA LPMについてまとめて",
     "issue": 68
   }
 ];

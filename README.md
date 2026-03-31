@@ -39,19 +39,17 @@ A curated collection of research papers organized by conference and topic.
 - [JEPAについてまとめて.](#jepa)
 - [ArcのVirtual Cellについてまとめて](#arcvirtual-cell)
 - [Arc Institute関連の論文で抜けてるものがあれば追加して.](#arc-institute)
-- [GEARS	scLAMBDA	LPMについてまとめて.](#gears	sclambda	lpm)
+- [GEARS scLAMBDA LPMについてまとめて](#gears-sclambda-lpm)
 
 ---
 
-## GEARS	scLAMBDA	LPMについてまとめて.
+## GEARS scLAMBDA LPMについてまとめて
 
 > Issue [#68](https://github.com/inoue0426/Paper-reading/issues/68)
 
-- **[GitHub - snap-stanford/GEARS: GEARS is a geometric deep learning model that predicts outcomes of novel multi-gene perturbations · GitHub](https://github.com/snap-stanford/GEARS)**
-- **[GitHub - gefeiwang/scLAMBDA: Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA · GitHub](https://github.com/gefeiwang/scLAMBDA)**
-- **[Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/)**
-- **[GitHub - perturblib/perturblib · GitHub](https://github.com/perturblib/perturblib)**
-- **[In silico biological discovery with large perturbation models | Nature Computational Science](https://www.nature.com/articles/s43588-025-00870-1)**
+- **[Predicting transcriptional outcomes of novel multi-gene perturbations with GEARS](https://www.nature.com/articles/s41587-023-01905-6)** — Nature Biotechnology 2023. Code: [snap-stanford/GEARS](https://github.com/snap-stanford/GEARS)
+- **[Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA](https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/)** — Genome Research 2024. Code: [gefeiwang/scLAMBDA](https://github.com/gefeiwang/scLAMBDA)
+- **[In silico biological discovery with large perturbation models](https://www.nature.com/articles/s43588-025-00870-1)** — Nature Computational Science 2025. Code: [perturblib/perturblib](https://github.com/perturblib/perturblib)
 
 ---
 
