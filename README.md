@@ -36,6 +36,19 @@ A curated collection of research papers organized by conference and topic.
 - [最新のVirtual Cellの動向について, Issueにまとめて.](#virtual-cell-issue)
 - [World Model方面でのVirtual Cellっていう研究をまとめて](#world-modelvirtual-cell)
 - [Universal Cell Embeddings: A Foundation Model for Cell Biology 周りを全体的に整理して.](#universal-cell-embeddings-a-foundation-model-for-cell-biology)
+- [JEPAについてまとめて.](#jepa)
+
+---
+
+## JEPAについてまとめて.
+
+> Issue [#59](https://github.com/inoue0426/Paper-reading/issues/59)
+
+- **[A Path Towards Autonomous Machine Intelligence](https://openreview.net/forum?id=BZ5a1r-kVsf)**
+- **[Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture (I-JEPA)](https://arxiv.org/abs/2301.08243)**
+- **[Revisiting Feature Prediction for Learning Visual Representations from Video (V-JEPA)](https://arxiv.org/abs/2404.08471)**
+- **[MC-JEPA: A Joint-Embedding Predictive Architecture for Self-Supervised Learning of Motion and Content Features](https://arxiv.org/abs/2307.12698)**
+- **[V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985)**
 
 ---
 
