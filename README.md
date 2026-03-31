@@ -34,6 +34,23 @@ A curated collection of research papers organized by conference and topic.
 - [添付した論文を元に新しいIssueを作成して.](#issue)
 - [論文追加](#)
 - [最新のVirtual Cellの動向について, Issueにまとめて.](#virtual-cell-issue)
+- [World Model方面でのVirtual Cellっていう研究をまとめて](#world-modelvirtual-cell)
+
+---
+
+## World Model方面でのVirtual Cellっていう研究をまとめて
+
+> Issue [#57](https://github.com/inoue0426/Paper-reading/issues/57)
+
+- **[World Models](https://arxiv.org/abs/1803.10122)**
+- **[Mastering Diverse Domains through World Models (DreamerV3)](https://arxiv.org/abs/2301.04104)**
+- **[Deep Generative Modeling for Single-Cell Transcriptomics (scVI)](https://www.nature.com/articles/s41592-018-0229-2)**
+- **[Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366)**
+- **[Predicting Single-Cell Perturbation Responses Using Neural Optimal Transport (scGEN)](https://www.nature.com/articles/s41592-019-0494-8)**
+- **[Exploring Genetic Interaction Manifolds Constructed from Rich Single-Cell Phenotypes (Perturb-seq)](https://www.science.org/doi/10.1126/science.aax4438)**
+- **[Generative Modeling of Single-Cell Time Series with PRESCIENT (PRESCIENT)](https://www.nature.com/articles/s41587-021-00937-6)**
+- **[Mapping Transcriptomic Vector Fields of Single Cells (Dynamo)](https://www.cell.com/cell/fulltext/S0092-8674(22)00477-1)**
+- **[Dissecting Cell Identity via Network Inference and In Silico Gene Perturbation (CellOracle)](https://www.nature.com/articles/s41586-022-05688-9)**
 
 ---
 
