@@ -3891,5 +3891,87 @@ const papers = [
     ],
     "section": "Virtual Cell World Model 2026",
     "issue": 57
+  },
+  {
+    "id": 308,
+    "title": "How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities",
+    "url": "https://www.cell.com/cell-systems/fulltext/S2405-4712(24)00027-4",
+    "summary": "A perspective paper outlining priorities and opportunities for building AI-powered virtual cells that can simulate any cellular process. Argues for tight integration of large-scale single-cell atlases, protein structure prediction, and generative world models to create mechanistic digital twins of cells. Identifies key challenges including causal reasoning, multi-scale modeling, and experimental validation loops as the critical next steps for the field.",
+    "tags": [
+      "Cell Systems",
+      "2024",
+      "Virtual Cell",
+      "Foundation Model",
+      "Perspective",
+      "AI"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 309,
+    "title": "Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model (ESM2)",
+    "url": "https://www.science.org/doi/10.1126/science.ade2574",
+    "summary": "Trains ESM2, a protein language model scaled to 15 billion parameters on 250 million protein sequences, and the paired structure prediction model ESMFold. ESM2 embeddings capture evolutionary co-variation and functional constraints across the protein universe. Directly relevant to UCE, which uses ESM2 protein embeddings as the gene representation backbone to build species-agnostic cell embeddings.",
+    "tags": [
+      "Science",
+      "2023",
+      "Protein Language Model",
+      "Representation Learning",
+      "Foundation Model",
+      "Structure Prediction"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 310,
+    "title": "GenePT: A Simple But Hard-to-Beat Baseline for Non-Sequential Pre-Training of Genomic Data",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.10.16.562533",
+    "summary": "Uses GPT-3.5 text embeddings of NCBI gene descriptions as fixed gene representations and feeds them into a simple transformer to encode single-cell transcriptomes. Surprisingly competitive with models pretrained on millions of cells for cell type annotation and perturbation prediction. Highlights that high-quality prior biological knowledge embedded in protein/gene descriptions is a strong and underutilized signal for cell representation—supporting the design philosophy of UCE.",
+    "tags": [
+      "bioRxiv",
+      "2023",
+      "Single-cell",
+      "Foundation Model",
+      "Representation Learning",
+      "LLM",
+      "Genomics"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 311,
+    "title": "Mapping Single-Cell Data to Reference Atlases by Transfer Learning (scArches)",
+    "url": "https://www.nature.com/articles/s41587-021-01001-7",
+    "summary": "scArches enables transfer learning from pre-trained single-cell reference models to new query datasets without retraining the full model. Uses architectural surgery to add dataset-specific query encoders that align new data into the reference latent space. Operationalizes the atlas-mapping use case that universal cell embeddings such as UCE target: project any new cell into a shared biological coordinate system without fine-tuning.",
+    "tags": [
+      "Nature Biotechnology",
+      "2022",
+      "Single-cell",
+      "Transfer Learning",
+      "Representation Learning",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 312,
+    "title": "Fast, Sensitive, and Accurate Integration of Single-Cell Data with Harmony",
+    "url": "https://www.nature.com/articles/s41592-019-0619-0",
+    "summary": "Harmony iteratively clusters cells in a shared embedding space and applies linear corrections to remove batch effects while preserving biological variation. Scales to hundreds of thousands of cells and integrates datasets across technologies, species, and tissues. Represents the batch-integration baseline that large-scale universal cell embedding models like UCE aim to supersede through end-to-end representation learning.",
+    "tags": [
+      "Nature Methods",
+      "2019",
+      "Single-cell",
+      "Batch Integration",
+      "Representation Learning",
+      "Genomics"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
   }
 ];
