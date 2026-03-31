@@ -4055,5 +4055,59 @@ const papers = [
     ],
     "section": "JEPA 2026",
     "issue": 59
+  },
+  {
+    "id": 318,
+    "title": "Virtual Cell Initiative | Arc Institute",
+    "url": "https://arcinstitute.org/virtual-cell-initiative",
+    "summary": "",
+    "tags": [],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 63
+  },
+  {
+    "id": 319,
+    "title": "Arc Institute launches its inaugural “virtual cell” competition using AI to solve one of biology’s biggest challenges | Arc Institute",
+    "url": "https://arcinstitute.org/news/virtual-cell-challenge-2025",
+    "summary": "",
+    "tags": [],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 63
+  },
+  {
+    "id": 320,
+    "title": "GitHub - ArcInstitute/state: State is a machine learning model that predicts cellular perturbation response across diverse contexts · GitHub",
+    "url": "https://github.com/ArcInstitute/state",
+    "summary": "",
+    "tags": [],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 63
+  },
+  {
+    "id": 321,
+    "title": "GitHub - ArcInstitute/arc-virtual-cell-atlas: Arc Virtual Cell Atlas · GitHub",
+    "url": "https://github.com/ArcInstitute/arc-virtual-cell-atlas",
+    "summary": "",
+    "tags": [],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 63
+  },
+  {
+    "id": 322,
+    "title": "GitHub - ArcInstitute/cell-eval: Comprehensive suite for evaluating perturbation prediction models · GitHub",
+    "url": "https://github.com/ArcInstitute/cell-eval",
+    "summary": "",
+    "tags": [],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 63
+  },
+  {
+    "id": 323,
+    "title": "GitHub - ArcInstitute/cell-load: pytorch dataloaders for single-cell perturbation data · GitHub",
+    "url": "https://github.com/ArcInstitute/cell-load",
+    "summary": "",
+    "tags": [],
+    "section": "ArcのVirtual Cellについてまとめて",
+    "issue": 63
   }
 ];

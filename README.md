@@ -37,6 +37,20 @@ A curated collection of research papers organized by conference and topic.
 - [World Model方面でのVirtual Cellっていう研究をまとめて](#world-modelvirtual-cell)
 - [Universal Cell Embeddings: A Foundation Model for Cell Biology 周りを全体的に整理して.](#universal-cell-embeddings-a-foundation-model-for-cell-biology)
 - [JEPAについてまとめて.](#jepa)
+- [ArcのVirtual Cellについてまとめて](#arcvirtual-cell)
+
+---
+
+## ArcのVirtual Cellについてまとめて
+
+> Issue [#63](https://github.com/inoue0426/Paper-reading/issues/63)
+
+- **[Virtual Cell Initiative | Arc Institute](https://arcinstitute.org/virtual-cell-initiative)**
+- **[Arc Institute launches its inaugural “virtual cell” competition using AI to solve one of biology’s biggest challenges | Arc Institute](https://arcinstitute.org/news/virtual-cell-challenge-2025)**
+- **[GitHub - ArcInstitute/state: State is a machine learning model that predicts cellular perturbation response across diverse contexts · GitHub](https://github.com/ArcInstitute/state)**
+- **[GitHub - ArcInstitute/arc-virtual-cell-atlas: Arc Virtual Cell Atlas · GitHub](https://github.com/ArcInstitute/arc-virtual-cell-atlas)**
+- **[GitHub - ArcInstitute/cell-eval: Comprehensive suite for evaluating perturbation prediction models · GitHub](https://github.com/ArcInstitute/cell-eval)**
+- **[GitHub - ArcInstitute/cell-load: pytorch dataloaders for single-cell perturbation data · GitHub](https://github.com/ArcInstitute/cell-load)**
 
 ---
 
