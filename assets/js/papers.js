@@ -3891,5 +3891,87 @@ const papers = [
     ],
     "section": "Virtual Cell World Model 2026",
     "issue": 57
+  },
+  {
+    "id": 308,
+    "title": "A Path Towards Autonomous Machine Intelligence",
+    "url": "https://openreview.net/forum?id=BZ5a1r-kVsf",
+    "summary": "LeCun proposes a modular cognitive architecture for autonomous AI centered on a Joint-Embedding Predictive Architecture (JEPA). Unlike generative models that reconstruct raw inputs, JEPA learns by predicting abstract representations of missing or future information in a shared latent space, discarding unpredictable details. The architecture couples a world model, a cost module, an actor, and a short-term memory into a unified energy-based framework that enables planning and goal-directed behavior without requiring contrastive samples or pixel-level reconstruction.",
+    "tags": [
+      "OpenReview",
+      "2022",
+      "JEPA",
+      "World Models",
+      "Self-Supervised Learning",
+      "Architecture",
+      "Energy-Based Models"
+    ],
+    "section": "JEPA 2026",
+    "issue": 59
+  },
+  {
+    "id": 309,
+    "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture (I-JEPA)",
+    "url": "https://arxiv.org/abs/2301.08243",
+    "summary": "I-JEPA trains a Vision Transformer encoder by predicting the representations of multiple target image blocks from a single context block entirely in latent space, with no hand-crafted data augmentations. A target encoder (EMA of the online encoder) provides stable prediction targets, and a lightweight predictor conditioned on positional information generates block-level embeddings. I-JEPA matches or surpasses contrastive and masked-image-modeling baselines on ImageNet linear probing, few-shot, and transfer benchmarks while using significantly less compute.",
+    "tags": [
+      "CVPR",
+      "2023",
+      "JEPA",
+      "Self-Supervised Learning",
+      "Vision Transformer",
+      "Image Representation"
+    ],
+    "section": "JEPA 2026",
+    "issue": 59
+  },
+  {
+    "id": 310,
+    "title": "Revisiting Feature Prediction for Learning Visual Representations from Video (V-JEPA)",
+    "url": "https://arxiv.org/abs/2404.08471",
+    "summary": "V-JEPA extends the JEPA principle to video by training a video encoder to predict the latent representations of masked spatio-temporal tube regions from unmasked context, using a frozen EMA target encoder and a lightweight predictor. The method requires no pixel reconstruction, no pre-trained image encoders, and no text supervision. V-JEPA achieves strong performance on motion-centric downstream tasks (Something-Something v2, Kinetics) and image understanding benchmarks, demonstrating that feature-level prediction from video alone is a powerful self-supervised signal.",
+    "tags": [
+      "arXiv",
+      "2024",
+      "JEPA",
+      "Self-Supervised Learning",
+      "Video Representation",
+      "Vision Transformer"
+    ],
+    "section": "JEPA 2026",
+    "issue": 59
+  },
+  {
+    "id": 311,
+    "title": "MC-JEPA: A Joint-Embedding Predictive Architecture for Self-Supervised Learning of Motion and Content Features",
+    "url": "https://arxiv.org/abs/2307.12698",
+    "summary": "MC-JEPA jointly learns motion and content representations from video within a single JEPA framework. A shared encoder produces interleaved motion and content tokens; separate predictors forecast masked motion-flow targets and masked content targets in latent space. The dual-objective formulation prevents content features from collapsing to trivial motion statistics and vice versa. MC-JEPA achieves competitive results on action recognition and optical-flow estimation without task-specific pre-training or dense pixel supervision.",
+    "tags": [
+      "arXiv",
+      "2023",
+      "JEPA",
+      "Self-Supervised Learning",
+      "Video Representation",
+      "Motion Estimation"
+    ],
+    "section": "JEPA 2026",
+    "issue": 59
+  },
+  {
+    "id": 312,
+    "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+    "url": "https://arxiv.org/abs/2506.09985",
+    "summary": "V-JEPA 2 scales the video JEPA paradigm to 1.1B parameters and introduces an action-conditioned world model built on top of frozen V-JEPA features. The system (i) pre-trains a video encoder via masked latent prediction, (ii) trains an action-conditioned latent predictor on human demonstration video, and (iii) uses the predictor as a world model for model-predictive control. V-JEPA 2 achieves state-of-the-art zero-shot performance on video understanding benchmarks and enables a robot to acquire contact-rich manipulation skills from only 20 demonstrations.",
+    "tags": [
+      "arXiv",
+      "2025",
+      "JEPA",
+      "World Models",
+      "Video Representation",
+      "Robotics",
+      "Self-Supervised Learning"
+    ],
+    "section": "JEPA 2026",
+    "issue": 59
   }
 ];
