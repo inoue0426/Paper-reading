@@ -3894,6 +3894,88 @@ const papers = [
   },
   {
     "id": 308,
+    "title": "How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities",
+    "url": "https://www.cell.com/cell-systems/fulltext/S2405-4712(24)00027-4",
+    "summary": "A perspective paper outlining priorities and opportunities for building AI-powered virtual cells that can simulate any cellular process. Argues for tight integration of large-scale single-cell atlases, protein structure prediction, and generative world models to create mechanistic digital twins of cells. Identifies key challenges including causal reasoning, multi-scale modeling, and experimental validation loops as the critical next steps for the field.",
+    "tags": [
+      "Cell Systems",
+      "2024",
+      "Virtual Cell",
+      "Foundation Model",
+      "Perspective",
+      "AI"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 309,
+    "title": "Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model (ESM2)",
+    "url": "https://www.science.org/doi/10.1126/science.ade2574",
+    "summary": "Trains ESM2, a protein language model scaled to 15 billion parameters on 250 million protein sequences, and the paired structure prediction model ESMFold. ESM2 embeddings capture evolutionary co-variation and functional constraints across the protein universe. Directly relevant to UCE, which uses ESM2 protein embeddings as the gene representation backbone to build species-agnostic cell embeddings.",
+    "tags": [
+      "Science",
+      "2023",
+      "Protein Language Model",
+      "Representation Learning",
+      "Foundation Model",
+      "Structure Prediction"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 310,
+    "title": "GenePT: A Simple But Hard-to-Beat Baseline for Non-Sequential Pre-Training of Genomic Data",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.10.16.562533",
+    "summary": "Uses GPT-3.5 text embeddings of NCBI gene descriptions as fixed gene representations and feeds them into a simple transformer to encode single-cell transcriptomes. Surprisingly competitive with models pretrained on millions of cells for cell type annotation and perturbation prediction. Highlights that high-quality prior biological knowledge embedded in protein/gene descriptions is a strong and underutilized signal for cell representation—supporting the design philosophy of UCE.",
+    "tags": [
+      "bioRxiv",
+      "2023",
+      "Single-cell",
+      "Foundation Model",
+      "Representation Learning",
+      "LLM",
+      "Genomics"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 311,
+    "title": "Mapping Single-Cell Data to Reference Atlases by Transfer Learning (scArches)",
+    "url": "https://www.nature.com/articles/s41587-021-01001-7",
+    "summary": "scArches enables transfer learning from pre-trained single-cell reference models to new query datasets without retraining the full model. Uses architectural surgery to add dataset-specific query encoders that align new data into the reference latent space. Operationalizes the atlas-mapping use case that universal cell embeddings such as UCE target: project any new cell into a shared biological coordinate system without fine-tuning.",
+    "tags": [
+      "Nature Biotechnology",
+      "2022",
+      "Single-cell",
+      "Transfer Learning",
+      "Representation Learning",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 312,
+    "title": "Fast, Sensitive, and Accurate Integration of Single-Cell Data with Harmony",
+    "url": "https://www.nature.com/articles/s41592-019-0619-0",
+    "summary": "Harmony iteratively clusters cells in a shared embedding space and applies linear corrections to remove batch effects while preserving biological variation. Scales to hundreds of thousands of cells and integrates datasets across technologies, species, and tissues. Represents the batch-integration baseline that large-scale universal cell embedding models like UCE aim to supersede through end-to-end representation learning.",
+    "tags": [
+      "Nature Methods",
+      "2019",
+      "Single-cell",
+      "Batch Integration",
+      "Representation Learning",
+      "Genomics"
+    ],
+    "section": "Universal Cell Embeddings 2026",
+    "issue": 61
+  },
+  {
+    "id": 313,
     "title": "A Path Towards Autonomous Machine Intelligence",
     "url": "https://openreview.net/forum?id=BZ5a1r-kVsf",
     "summary": "LeCun proposes a modular cognitive architecture for autonomous AI centered on a Joint-Embedding Predictive Architecture (JEPA). Unlike generative models that reconstruct raw inputs, JEPA learns by predicting abstract representations of missing or future information in a shared latent space, discarding unpredictable details. The architecture couples a world model, a cost module, an actor, and a short-term memory into a unified energy-based framework that enables planning and goal-directed behavior without requiring contrastive samples or pixel-level reconstruction.",
@@ -3910,7 +3992,7 @@ const papers = [
     "issue": 59
   },
   {
-    "id": 309,
+    "id": 314,
     "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture (I-JEPA)",
     "url": "https://arxiv.org/abs/2301.08243",
     "summary": "I-JEPA trains a Vision Transformer encoder by predicting the representations of multiple target image blocks from a single context block entirely in latent space, with no hand-crafted data augmentations. A target encoder (EMA of the online encoder) provides stable prediction targets, and a lightweight predictor conditioned on positional information generates block-level embeddings. I-JEPA matches or surpasses contrastive and masked-image-modeling baselines on ImageNet linear probing, few-shot, and transfer benchmarks while using significantly less compute.",
@@ -3926,7 +4008,7 @@ const papers = [
     "issue": 59
   },
   {
-    "id": 310,
+    "id": 315,
     "title": "Revisiting Feature Prediction for Learning Visual Representations from Video (V-JEPA)",
     "url": "https://arxiv.org/abs/2404.08471",
     "summary": "V-JEPA extends the JEPA principle to video by training a video encoder to predict the latent representations of masked spatio-temporal tube regions from unmasked context, using a frozen EMA target encoder and a lightweight predictor. The method requires no pixel reconstruction, no pre-trained image encoders, and no text supervision. V-JEPA achieves strong performance on motion-centric downstream tasks (Something-Something v2, Kinetics) and image understanding benchmarks, demonstrating that feature-level prediction from video alone is a powerful self-supervised signal.",
@@ -3942,7 +4024,7 @@ const papers = [
     "issue": 59
   },
   {
-    "id": 311,
+    "id": 316,
     "title": "MC-JEPA: A Joint-Embedding Predictive Architecture for Self-Supervised Learning of Motion and Content Features",
     "url": "https://arxiv.org/abs/2307.12698",
     "summary": "MC-JEPA jointly learns motion and content representations from video within a single JEPA framework. A shared encoder produces interleaved motion and content tokens; separate predictors forecast masked motion-flow targets and masked content targets in latent space. The dual-objective formulation prevents content features from collapsing to trivial motion statistics and vice versa. MC-JEPA achieves competitive results on action recognition and optical-flow estimation without task-specific pre-training or dense pixel supervision.",
@@ -3958,7 +4040,7 @@ const papers = [
     "issue": 59
   },
   {
-    "id": 312,
+    "id": 317,
     "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
     "url": "https://arxiv.org/abs/2506.09985",
     "summary": "V-JEPA 2 scales the video JEPA paradigm to 1.1B parameters and introduces an action-conditioned world model built on top of frozen V-JEPA features. The system (i) pre-trains a video encoder via masked latent prediction, (ii) trains an action-conditioned latent predictor on human demonstration video, and (iii) uses the predictor as a world model for model-predictive control. V-JEPA 2 achieves state-of-the-art zero-shot performance on video understanding benchmarks and enables a robot to acquire contact-rich manipulation skills from only 20 demonstrations.",
