@@ -3555,5 +3555,191 @@ const papers = [
     "tags": [],
     "section": "Foundation Models for Cancer 2026",
     "issue": 50
+  },
+  {
+    "id": 288,
+    "title": "scGPT: Toward Building a Foundation Model for Single-Cell Multi-omics Using Generative AI",
+    "url": "https://www.nature.com/articles/s41592-024-02201-0",
+    "summary": "Proposes scGPT, a generative pre-trained transformer pretrained on 33 million human single-cell sequences across 51 organs and 1,000+ cell types. Achieves state-of-the-art performance on cell type annotation, batch integration, multi-omic integration, perturbation response prediction, and gene network inference. A key step toward a foundation model for virtual cell simulation.",
+    "tags": [
+      "Nature Methods",
+      "2024",
+      "Single-cell",
+      "Foundation Model",
+      "Generative Models",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 289,
+    "title": "Transfer Learning Enables Predictions in Network Biology (Geneformer)",
+    "url": "https://www.nature.com/articles/s41586-023-06139-9",
+    "summary": "Introduces Geneformer, a context-aware attention-based deep learning model pretrained on ~30 million single-cell transcriptomes from a diverse human corpus. Fine-tuned for predictions in network biology, accurately predicting network dynamics and identifying novel therapeutic targets for cardiomyopathy. Demonstrates broad transfer learning capability across cell and tissue types.",
+    "tags": [
+      "Nature",
+      "2023",
+      "Single-cell",
+      "Foundation Model",
+      "Transfer Learning",
+      "Network Biology",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 290,
+    "title": "Universal Cell Embeddings: A Foundation Model for Cell Biology",
+    "url": "https://arxiv.org/abs/2309.05923",
+    "summary": "Presents Universal Cell Embeddings (UCE), a large-scale self-supervised model trained on 36 million cells from 1,000+ datasets spanning 38 species. Encodes cells using a protein-weighted ESM2 gene embedding, enabling zero-shot biological analysis across cell types and species without fine-tuning. Provides a species-agnostic universal representation of cellular identity.",
+    "tags": [
+      "arXiv",
+      "2023",
+      "Single-cell",
+      "Foundation Model",
+      "Representation Learning",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 291,
+    "title": "Cell2Sentence: Teaching Large Language Models the Language of Biology",
+    "url": "https://arxiv.org/abs/2309.11631",
+    "summary": "Converts single-cell RNA-seq profiles into natural language sentences by ranking genes in order of expression level. Enables general-purpose LLMs to perform cell type prediction, cell generation conditioned on text prompts, and cross-dataset integration without architectural changes. Shows that language models can acquire biological knowledge from transcriptomic data alone.",
+    "tags": [
+      "arXiv",
+      "2023",
+      "Single-cell",
+      "LLM",
+      "Genomics",
+      "Generative Models",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 292,
+    "title": "Large Scale Foundation Model on Single-Cell Transcriptomics (scFoundation)",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.05.29.542705v2",
+    "summary": "Pretrains a 100-million-parameter model on 50 million human single-cell transcriptomes covering 19,264 genes. Employs a read-depth-aware modeling strategy to handle sequencing depth variation. Achieves consistent improvements on diverse downstream tasks including cell clustering, gene expression enhancement, drug response prediction, and spatial transcriptomics.",
+    "tags": [
+      "bioRxiv",
+      "2023",
+      "Single-cell",
+      "Foundation Model",
+      "Genomics",
+      "Drug Discovery",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 293,
+    "title": "Predicting Transcriptional Outcomes of Novel Multigene Perturbations with GEARS",
+    "url": "https://www.nature.com/articles/s41587-023-01905-6",
+    "summary": "GEARS (Graph-Enhanced Activation Repression Structure) integrates gene-gene relationship graphs from biological knowledge bases with a neural network to predict transcriptional responses after novel single- and multi-gene CRISPR perturbations. Accurately predicts out-of-distribution perturbations including unseen gene combinations, advancing virtual cell modeling for genetic screen design.",
+    "tags": [
+      "Nature Biotechnology",
+      "2024",
+      "Single-cell",
+      "Perturbation Prediction",
+      "GNN",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 294,
+    "title": "Predicting Single-Cell Perturbation Responses for Unseen Drugs (CPA)",
+    "url": "https://www.embopress.org/doi/full/10.15252/msb.2022115",
+    "summary": "Compositional Perturbation Autoencoder (CPA) disentangles cell-intrinsic and perturbation-specific representations, enabling prediction of single-cell transcriptomic responses to unseen drug combinations and concentrations. Uses a structured latent space with covariate embeddings to generalize across novel drug-dose pairs. A foundational method for in-silico drug screening within the virtual cell framework.",
+    "tags": [
+      "Molecular Systems Biology",
+      "2023",
+      "Single-cell",
+      "Perturbation Prediction",
+      "Drug Discovery",
+      "Generative Models",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 295,
+    "title": "scBERT as a Large-Scale Pretrained Deep Language Model for Cell Type Annotation of Single-Cell RNA-seq Data",
+    "url": "https://www.nature.com/articles/s42256-022-00534-z",
+    "summary": "Adapts BERT-style pretraining to single-cell RNA-seq data by tokenizing genes via expression bin embeddings and performing masked gene expression prediction. Outperforms existing supervised and self-supervised methods for cell type annotation, especially on rare cell types and cross-dataset transfer. Demonstrates the effectiveness of large-scale pretraining for transcriptomic data.",
+    "tags": [
+      "Nature Machine Intelligence",
+      "2022",
+      "Single-cell",
+      "Foundation Model",
+      "Transfer Learning",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 296,
+    "title": "Assigning Cells New Identities: Benchmarking Algorithms for Generalizable Single-Cell Perturbation Response Prediction",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.12.28.573533v1",
+    "summary": "Comprehensive benchmark of 27 methods for single-cell perturbation response prediction across 29 datasets using 6 performance metrics. Assesses generalizability to unseen cell types, perturbations, and conditions including emerging foundation models. Finds that cellular context embedding is critical for generalizability. Provides guidance for method selection in virtual-cell perturbation research.",
+    "tags": [
+      "bioRxiv",
+      "2023",
+      "Single-cell",
+      "Perturbation Prediction",
+      "Benchmark",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 297,
+    "title": "Towards a Foundation Model for Single-Cell Biology: A Systematic Evaluation of the State of the Field",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538490v2",
+    "summary": "Systematically evaluates the landscape of single-cell foundation models across key tasks: cell type annotation, batch correction, trajectory inference, and perturbation prediction. Identifies critical gaps between benchmark performance and real-world utility. Proposes a standardized evaluation framework and highlights the data biases that limit current virtual-cell foundation models.",
+    "tags": [
+      "bioRxiv",
+      "2023",
+      "Single-cell",
+      "Foundation Model",
+      "Benchmark",
+      "Genomics",
+      "Virtual Cell"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
+  },
+  {
+    "id": 298,
+    "title": "A Virtual Cell Model for the Next Generation of Biological Research",
+    "url": "https://arxiv.org/abs/2409.11654",
+    "summary": "Conceptual framework and research agenda for building a Virtual Cell—a comprehensive, trainable computational model that can simulate any cell type, molecular state, and cellular process. Argues that single-cell multi-omics, spatial transcriptomics, and protein structure prediction together create the data substrate for a universal cell simulator. Discusses key challenges including causal modeling, multi-scale integration, and experimental validation.",
+    "tags": [
+      "arXiv",
+      "2024",
+      "Virtual Cell",
+      "Foundation Model",
+      "Genomics",
+      "Perspective"
+    ],
+    "section": "Virtual Cell 2026",
+    "issue": 55
   }
 ];
