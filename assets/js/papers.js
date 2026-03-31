@@ -4060,8 +4060,15 @@ const papers = [
     "id": 318,
     "title": "Virtual Cell Initiative | Arc Institute",
     "url": "https://arcinstitute.org/virtual-cell-initiative",
-    "summary": "",
-    "tags": [],
+    "summary": "Arc Institute’s Virtual Cell Initiative aims to build AI-powered digital models of cells capable of predicting how cells behave under any condition or perturbation. The initiative combines large-scale single-cell datasets, foundation models, and mechanistic insights to create generalizable virtual cell simulators. It coordinates open data resources (Arc Virtual Cell Atlas), model development (State), evaluation infrastructure (cell-eval, cell-load), and community competitions (Virtual Cell Challenge) to accelerate progress toward a true computational cell.",
+    "tags": [
+      "Arc Institute",
+      "2025",
+      "Virtual Cell",
+      "Foundation Model",
+      "Single-cell",
+      "Initiative"
+    ],
     "section": "ArcのVirtual Cellについてまとめて",
     "issue": 63
   },
@@ -4069,8 +4076,15 @@ const papers = [
     "id": 319,
     "title": "Arc Institute launches its inaugural “virtual cell” competition using AI to solve one of biology’s biggest challenges | Arc Institute",
     "url": "https://arcinstitute.org/news/virtual-cell-challenge-2025",
-    "summary": "",
-    "tags": [],
+    "summary": "Announcement of the Arc Institute’s inaugural Virtual Cell Challenge 2025, a community competition asking participants to build AI models that predict how cells respond to genetic perturbations. Competitors are given access to the Arc Virtual Cell Atlas (including Tahoe-100M perturbation data) and are evaluated using cell-eval metrics. The challenge is designed to benchmark progress toward building generalizable virtual cell models and to foster collaboration across the computational biology community.",
+    "tags": [
+      "Arc Institute",
+      "2025",
+      "Virtual Cell",
+      "Competition",
+      "Perturbation Prediction",
+      "Single-cell"
+    ],
     "section": "ArcのVirtual Cellについてまとめて",
     "issue": 63
   },
@@ -4078,8 +4092,16 @@ const papers = [
     "id": 320,
     "title": "GitHub - ArcInstitute/state: State is a machine learning model that predicts cellular perturbation response across diverse contexts · GitHub",
     "url": "https://github.com/ArcInstitute/state",
-    "summary": "",
-    "tags": [],
+    "summary": "State is Arc Institute’s open-source machine learning framework for predicting single-cell transcriptomic responses to genetic perturbations. It provides two model types: a State Transition (ST) model that predicts post-perturbation gene expression from control cells, and a State Embedding (SE) model that generates universal cell embeddings. Both support zero-shot and few-shot generalization across cell types and perturbations. State is the reference model for the Virtual Cell Challenge and is trained on the Tahoe-100M dataset from the Arc Virtual Cell Atlas.",
+    "tags": [
+      "GitHub",
+      "2025",
+      "Arc Institute",
+      "Perturbation Prediction",
+      "Single-cell",
+      "Foundation Model",
+      "PyTorch"
+    ],
     "section": "ArcのVirtual Cellについてまとめて",
     "issue": 63
   },
@@ -4087,8 +4109,16 @@ const papers = [
     "id": 321,
     "title": "GitHub - ArcInstitute/arc-virtual-cell-atlas: Arc Virtual Cell Atlas · GitHub",
     "url": "https://github.com/ArcInstitute/arc-virtual-cell-atlas",
-    "summary": "",
-    "tags": [],
+    "summary": "The Arc Virtual Cell Atlas is a curated open collection of single-cell datasets assembled to accelerate virtual cell model development. It currently spans over 602 million cells, including Tahoe-100M (a 100-million-cell genetic perturbation dataset from Tahoe Bio) and scBaseCount (an AI agent-curated compendium of public single-cell RNA-seq data). Data is hosted on Google Cloud and accessible via the Google Cloud Marketplace, and is the primary training corpus for the Virtual Cell Challenge.",
+    "tags": [
+      "GitHub",
+      "2025",
+      "Arc Institute",
+      "Dataset",
+      "Single-cell",
+      "Virtual Cell",
+      "Atlas"
+    ],
     "section": "ArcのVirtual Cellについてまとめて",
     "issue": 63
   },
@@ -4096,8 +4126,16 @@ const papers = [
     "id": 322,
     "title": "GitHub - ArcInstitute/cell-eval: Comprehensive suite for evaluating perturbation prediction models · GitHub",
     "url": "https://github.com/ArcInstitute/cell-eval",
-    "summary": "",
-    "tags": [],
+    "summary": "cell-eval is an open-source Python library providing a standardized suite of metrics for evaluating models that predict single-cell responses to perturbations. It computes differential expression for predicted and real AnnData objects and then applies a panel of statistical metrics (including distribution-level and gene-rank-based scores) to compare them. It is used as the official scoring framework for the Arc Virtual Cell Challenge and integrates directly with the State model’s evaluation pipeline.",
+    "tags": [
+      "GitHub",
+      "2025",
+      "Arc Institute",
+      "Evaluation",
+      "Perturbation Prediction",
+      "Single-cell",
+      "Python"
+    ],
     "section": "ArcのVirtual Cellについてまとめて",
     "issue": 63
   },
@@ -4105,8 +4143,16 @@ const papers = [
     "id": 323,
     "title": "GitHub - ArcInstitute/cell-load: pytorch dataloaders for single-cell perturbation data · GitHub",
     "url": "https://github.com/ArcInstitute/cell-load",
-    "summary": "",
-    "tags": [],
+    "summary": "cell-load is a PyTorch data-loading library tailored for single-cell perturbation datasets stored in H5/H5AD format. It supports flexible TOML-based dataset configuration, zero-shot and few-shot training splits, and multiple control-cell mapping strategies. Key features include consecutive loading for fast I/O, optional cell barcode tracking, and integration with gene embedding files. It serves as the data-pipeline backbone for the State model and is designed to scale to the 100-million-cell Tahoe-100M dataset in the Arc Virtual Cell Atlas.",
+    "tags": [
+      "GitHub",
+      "2025",
+      "Arc Institute",
+      "Data Loading",
+      "Single-cell",
+      "PyTorch",
+      "Perturbation Prediction"
+    ],
     "section": "ArcのVirtual Cellについてまとめて",
     "issue": 63
   }
