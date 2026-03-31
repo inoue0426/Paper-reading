@@ -33,6 +33,25 @@ A curated collection of research papers organized by conference and topic.
 - [AAAI 2026](#aaai-2026)
 - [添付した論文を元に新しいIssueを作成して.](#issue)
 - [論文追加](#)
+- [最新のVirtual Cellの動向について, Issueにまとめて.](#virtual-cell-issue)
+
+---
+
+## 最新のVirtual Cellの動向について, Issueにまとめて.
+
+> Issue [#55](https://github.com/inoue0426/Paper-reading/issues/55)
+
+- **[scGPT: Toward Building a Foundation Model for Single-Cell Multi-omics Using Generative AI](https://www.nature.com/articles/s41592-024-02201-0)**
+- **[Transfer Learning Enables Predictions in Network Biology (Geneformer)](https://www.nature.com/articles/s41586-023-06139-9)**
+- **[Universal Cell Embeddings: A Foundation Model for Cell Biology](https://arxiv.org/abs/2309.05923)**
+- **[Cell2Sentence: Teaching Large Language Models the Language of Biology](https://arxiv.org/abs/2309.11631)**
+- **[Large Scale Foundation Model on Single-Cell Transcriptomics (scFoundation)](https://www.biorxiv.org/content/10.1101/2023.05.29.542705v2)**
+- **[Predicting Transcriptional Outcomes of Novel Multigene Perturbations with GEARS](https://www.nature.com/articles/s41587-023-01905-6)**
+- **[Predicting Single-Cell Perturbation Responses for Unseen Drugs (CPA)](https://www.embopress.org/doi/full/10.15252/msb.2022115)**
+- **[scBERT as a Large-Scale Pretrained Deep Language Model for Cell Type Annotation of Single-Cell RNA-seq Data](https://www.nature.com/articles/s42256-022-00534-z)**
+- **[Assigning Cells New Identities: Benchmarking Algorithms for Generalizable Single-Cell Perturbation Response Prediction](https://www.biorxiv.org/content/10.1101/2023.12.28.573533v1)**
+- **[Towards a Foundation Model for Single-Cell Biology: A Systematic Evaluation of the State of the Field](https://www.biorxiv.org/content/10.1101/2023.04.28.538490v2)**
+- **[A Virtual Cell Model for the Next Generation of Biological Research](https://arxiv.org/abs/2409.11654)**
 
 ---
 
