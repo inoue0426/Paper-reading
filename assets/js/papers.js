@@ -4492,5 +4492,246 @@ const papers = [
     "tags": [],
     "section": "ICLR2026",
     "issue": 70
+  },
+  {
+    "id": 354,
+    "title": "CellStream: Dynamical Optimal Transport Informed Embeddings for Reconstructing Cellular Trajectories from Snapshots Data | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37041",
+    "summary": "スナップショットの単一細胞データから細胞軌跡を再構築する手法。動的最適輸送（Dynamical Optimal Transport）を用いてスナップショット間のカップリングを推定し、細胞埋め込みを学習する。細胞の発生・分化過程の理解に有用。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "single-cell",
+      "trajectory",
+      "optimal transport",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 355,
+    "title": "CLM-Access: A Specialized Foundation Model for High-Dimensional Single-Cell ATAC-Seq Analysis | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37046",
+    "summary": "高次元の単一細胞ATAC-seqデータを解析するための専用基盤モデル。クロマチンアクセシビリティの高次元性・スパース性に対応した設計で、細胞型同定・ピーク重要度の解釈・トレイン外データへの汎化が可能。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "single-cell",
+      "ATAC-seq",
+      "foundation model",
+      "epigenomics",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 356,
+    "title": "When Genes Speak: A Semantic-Guided Framework for Spatially Resolved Transcriptomics Data Clustering | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37047",
+    "summary": "空間的トランスクリプトミクスデータのクラスタリングにセマンティック誘導フレームワークを提案。遺伝子発現の空間的コンテキストと意味的情報を統合し、組織ドメインの精密な同定を実現する。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "clustering",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 357,
+    "title": "Gene Incremental Learning for Single-Cell Transcriptomics | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37062",
+    "summary": "単一細胞トランスクリプトミクスにおける遺伝子の逐次学習問題を扱う研究。新しい遺伝子情報が追加された際のモデル更新において、壊滅的忘却を防ぎながら継続的に学習できるフレームワークを提案。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "single-cell",
+      "continual learning",
+      "scRNA-seq",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 358,
+    "title": "GROVER: Graph-guided Representation of Omics and Vision with Expert Regulation for Adaptive Spatial Multi-omics Fusion | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37104",
+    "summary": "空間マルチオミクスデータの融合のためのグラフ誘導表現学習フレームワーク。遺伝子発現（omics）と組織画像（vision）をグラフ構造で統合し、エキスパート規制付きMixture-of-Expertsで適応的に融合する。空間ドメイン同定や細胞型注釈に活用可能。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "multi-omics",
+      "graph neural network",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 359,
+    "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37110",
+    "summary": "単一細胞RNAシーケンシングのクラスタリングアルゴリズムを包括的にベンチマーク。多様なデータセット・メトリクス・手法を統一した評価フレームワークで比較し、各手法の強み・弱みを明確化する。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "single-cell",
+      "scRNA-seq",
+      "clustering",
+      "benchmark",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 360,
+    "title": "Learning to Cluster Rare Cell Types: Implicit Semantic Data Augmentation for Spatial Multi-modal Omics Analysis | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37646",
+    "summary": "空間マルチモーダルオミクスにおいて稀な細胞型をクラスタリングする手法。暗黙的意味的データ拡張（Implicit Semantic Data Augmentation）を用いて、少数しか存在しない稀な細胞型の表現を豊かにし、クラスタリング精度を向上させる。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "rare cell types",
+      "clustering",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 361,
+    "title": "Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37857",
+    "summary": "空間的遺伝子発現を推定するために補助遺伝子選択を活用する手法。組織切片画像から空間遺伝子発現を予測する際、補助遺伝子を動的に選択して学習を安定化・向上させるフレームワーク。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "gene expression",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 362,
+    "title": "HiFusion: Hierarchical Intra-Spot Alignment and Regional Context Fusion for Spatial Gene Expression Prediction from Histopathology | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38036",
+    "summary": "病理組織画像から空間的遺伝子発現を予測するHiFusionを提案。スポット内の階層的アライメントと隣接スポットからの領域コンテキスト融合により、より精密な遺伝子発現予測を実現する。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "histopathology",
+      "gene expression prediction",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 363,
+    "title": "SpaCRD: Multimodal Deep Fusion of Histology and Spatial Transcriptomics for Cancer Region Detection | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38135",
+    "summary": "病理組織学と空間的トランスクリプトミクスのマルチモーダル深層融合によるがん領域検出。組織画像の視覚的特徴と遺伝子発現プロファイルを統合し、がん領域を高精度に同定するSpaCRDを提案。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "cancer",
+      "histopathology",
+      "multimodal",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 364,
+    "title": "SSL-CST: Cell Segmentation for Single-Cell Spatial Transcriptome Based on Self-Supervised Learning | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38804",
+    "summary": "単一細胞空間トランスクリプトームにおける細胞セグメンテーション手法。自己教師あり学習を基盤とし、ラベルなしデータから細胞境界を学習することで、空間オミクスデータの細胞解像度での解析を可能にする。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "cell segmentation",
+      "self-supervised",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 365,
+    "title": "Dual-Path Knowledge-Augmented Contrastive Alignment Network for Spatially Resolved Transcriptomics | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38278",
+    "summary": "空間的解像度のあるトランスクリプトミクスのための知識拡張対照アライメントネットワーク。デュアルパス設計で画像・遺伝子発現の特徴をアライメントし、空間ドメイン同定の精度を向上させる。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "contrastive learning",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 366,
+    "title": "Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39190",
+    "summary": "ニューラル・シュレーディンガーブリッジを用いた単一細胞摂動予測のための分布輸送手法。細胞の摂動前後の状態間の確率的輸送写像を学習し、未見の薬剤・遺伝子操作に対する細胞応答の分布を予測する。最適輸送の視点から摂動効果を捉える新規アプローチ。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "single-cell",
+      "perturbation",
+      "optimal transport",
+      "Schrödinger bridge",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 367,
+    "title": "TLAGC: Taylor Linear Attention-Guided Graph Convolutions for Revealing Spatial Domains in Spatial Multi-Omics Data | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39272",
+    "summary": "空間マルチオミクスデータの空間ドメインを明らかにするためのグラフ畳み込み手法。テイラー展開に基づく線形アテンションを誘導とし、計算効率と表現力を両立させる。組織切片内の生物学的に意味のある空間構造を高精度に同定。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "multi-omics",
+      "graph neural network",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
+  },
+  {
+    "id": 368,
+    "title": "ST-LLM: Spatial Transcriptomics Embedding with Large Language Models | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40713",
+    "summary": "大規模言語モデルを活用した空間的トランスクリプトミクスの埋め込み手法。LLMのテキスト理解能力を空間遺伝子発現データと組み合わせることで、組織の空間構造解析・細胞型アノテーション・下流タスクへの転用が可能。",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "spatial transcriptomics",
+      "LLM",
+      "foundation model",
+      "Copilot"
+    ],
+    "section": "AAAI 2026",
+    "issue": 45
   }
 ];
