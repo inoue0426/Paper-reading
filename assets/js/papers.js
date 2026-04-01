@@ -4321,5 +4321,14 @@ const papers = [
     "tags": [],
     "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
     "issue": 68
+  },
+  {
+    "id": 335,
+    "title": "https://openreview.net/forum?id=1pAW0y8WLH",
+    "url": "https://openreview.net/forum?id=1pAW0y8WLH",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
   }
 ];

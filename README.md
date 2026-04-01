@@ -40,6 +40,15 @@ A curated collection of research papers organized by conference and topic.
 - [ArcのVirtual Cellについてまとめて](#arcvirtual-cell)
 - [Arc Institute関連の論文で抜けてるものがあれば追加して.](#arc-institute)
 - [GEARS scLAMBDA LPMについてまとめて](#gears-sclambda-lpm)
+- [ICLR2026](#iclr2026)
+
+---
+
+## ICLR2026
+
+> Issue [#70](https://github.com/inoue0426/Paper-reading/issues/70)
+
+- **[https://openreview.net/forum?id=1pAW0y8WLH](https://openreview.net/forum?id=1pAW0y8WLH)**
 
 ---
 
