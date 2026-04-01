@@ -40,7 +40,25 @@ A curated collection of research papers organized by conference and topic.
 - [ArcのVirtual Cellについてまとめて](#arcvirtual-cell)
 - [Arc Institute関連の論文で抜けてるものがあれば追加して.](#arc-institute)
 - [GEARS scLAMBDA LPMについてまとめて](#gears-sclambda-lpm)
-- [ICLR2026](#iclr2026)
+- [ICLR2026](#iclr2026-1)
+- [ICLR2026関連で飛ばしているけど好きかもしれない論文](#iclr2026)
+
+---
+
+## ICLR2026関連で飛ばしているけど好きかもしれない論文
+
+> Issue [#73](https://github.com/inoue0426/Paper-reading/issues/73)
+
+- **[mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules](https://openreview.net/forum?id=r2HG3xOMJI)**
+- **[Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute](https://openreview.net/forum?id=qmCpJtFZra)**
+- **[Exploring Synthesizable Chemical Space with Iterative Pathway Refinements](https://openreview.net/forum?id=aQKVfKOkR5)**
+- **[DCFold: Efficient Protein Structure Generation with Single Forward Pass](https://openreview.net/forum?id=LMsdys7t1L)**
+- **[Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction](https://openreview.net/forum?id=wwPSfcf5Pj)**
+- **[Refine Drugs, Don't Complete Them: Uniform-Source Discrete Flows for Fragment-Based Drug Discovery](https://openreview.net/forum?id=Qdu92a5DiM)**
+- **[SYNC: Measuring and Advancing Synthesizability in Structure-Based Drug Design](https://openreview.net/forum?id=y1tPw4Uuzg)**
+- **[SubDyve: Subgraph-Driven Dynamic Propagation for Virtual Screening Enhancement Controlling False Positive](https://openreview.net/forum?id=9vo3J4LwoT)**
+- **[3D RNA Inverse Design with Reinforcement Learning-Guided Diffusion Models](https://openreview.net/forum?id=lDyS4Qg5Ww)**
+- **[Test-Time Adaptation without Source Data for Out-of-Domain Bioactivity Prediction](https://openreview.net/forum?id=0R6HLWvWYk)**
 
 ---
 

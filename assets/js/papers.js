@@ -4492,5 +4492,159 @@ const papers = [
     "tags": [],
     "section": "ICLR2026",
     "issue": 70
+  },
+  {
+    "id": 354,
+    "title": "mCLM: A Modular Chemical Language Model that Generates Functional and Makeable Molecules",
+    "url": "https://openreview.net/forum?id=r2HG3xOMJI",
+    "summary": "Tokenizes molecules at functional building-block level (analogous to sub-word tokenization in NLP) rather than atom level, enabling a bilingual LLM that jointly understands natural-language function descriptions and molecular fragments. Tested on 430 FDA-approved drugs, outperforms GPT-5 in synthetic accessibility while substantially improving drug-like properties. Can iteratively self-improve and rescue late-stage \"fallen angel\" drug candidates.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Drug Discovery",
+      "LLM",
+      "Generative Models",
+      "Oral"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 355,
+    "title": "Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute",
+    "url": "https://openreview.net/forum?id=qmCpJtFZra",
+    "summary": "Proposes Complexa, a fully atomistic protein binder generator that unifies conditional generative modeling and hallucination-based sequence optimization via flow-based pretraining on Teddymer, a new large-scale synthetic binder–target dataset. Inference-time optimization bridges the two paradigms and sets new SOTA in binder design benchmarks. Extensions to small-molecule targets and enzyme design are demonstrated.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Drug Discovery",
+      "Protein Design",
+      "Generative Models",
+      "Oral"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 356,
+    "title": "Exploring Synthesizable Chemical Space with Iterative Pathway Refinements",
+    "url": "https://openreview.net/forum?id=aQKVfKOkR5",
+    "summary": "ReaSyn navigates synthesizable chemical space through bidirectional synthetic pathway generation (bottom-up and top-down) and holistic discrete flow-based editing. A unified autoregressive model samples both traversal directions; an iterative cycle of generation and editing explores the combinatorially large space of synthesizable molecules. Outperforms prior work in synthesizable molecule reconstruction, goal-directed optimization, and hit expansion.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Drug Discovery",
+      "Molecular Biology",
+      "Generative Models",
+      "Oral"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 357,
+    "title": "DCFold: Efficient Protein Structure Generation with Single Forward Pass",
+    "url": "https://openreview.net/forum?id=LMsdys7t1L",
+    "summary": "Achieves AlphaFold3-level all-atom protein structure prediction accuracy in a single forward pass using Dual Consistency training with a Temporal Geodesic Matching scheduler. Delivers a 15× inference speedup over AlphaFold3, enabling practical deployment in high-throughput virtual screening and protein design settings.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Protein Structure",
+      "Drug Discovery",
+      "Generative Models",
+      "Oral"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 358,
+    "title": "Extending Sequence Length is Not All You Need: Effective Integration of Multimodal Signals for Gene Expression Prediction",
+    "url": "https://openreview.net/forum?id=wwPSfcf5Pj",
+    "summary": "Challenges the prevailing assumption that longer DNA sequence context improves gene expression prediction: longer sequences can hurt performance by introducing confounding background chromatin signals. Proposes Prism, which learns multiple combinations of epigenomic features and applies backdoor adjustment to disentangle background chromatin state from active regulatory elements. Achieves SOTA gene expression prediction with short sequences only.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Genomics",
+      "Epigenomics",
+      "Oral"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 359,
+    "title": "Refine Drugs, Don't Complete Them: Uniform-Source Discrete Flows for Fragment-Based Drug Discovery",
+    "url": "https://openreview.net/forum?id=Qdu92a5DiM",
+    "summary": "Reframes structure-based drug design as a refinement task rather than de novo generation: given a fragment with known pharmacophore, uniform-source discrete flows iteratively complete and optimize the rest of the molecule. This preserves known binding anchors while reducing hallucination of infeasible structures, improving binding affinity and synthesizability jointly.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Drug Discovery",
+      "Generative Models",
+      "Molecular Biology"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 360,
+    "title": "SYNC: Measuring and Advancing Synthesizability in Structure-Based Drug Design",
+    "url": "https://openreview.net/forum?id=y1tPw4Uuzg",
+    "summary": "Introduces SYNC, a benchmark and metric that explicitly measures synthesizability of generated drug candidates in structure-based drug design. Reveals a large gap between state-of-the-art generative models (which optimize binding affinity) and synthesis-aware design. Proposes training objectives that jointly maximize binding affinity and synthetic accessibility.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Drug Discovery",
+      "Benchmark",
+      "Molecular Biology"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 361,
+    "title": "SubDyve: Subgraph-Driven Dynamic Propagation for Virtual Screening Enhancement Controlling False Positive",
+    "url": "https://openreview.net/forum?id=9vo3J4LwoT",
+    "summary": "Applies subgraph-driven dynamic message propagation to virtual screening for drug–protein interactions, learning substructure-level binding patterns to explicitly control false positives. Improves hit rate and selectivity metrics over standard GNN-based virtual screening, addressing a key bottleneck in early-stage drug discovery.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Drug Discovery",
+      "GNN",
+      "Virtual Screening"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 362,
+    "title": "3D RNA Inverse Design with Reinforcement Learning-Guided Diffusion Models",
+    "url": "https://openreview.net/forum?id=lDyS4Qg5Ww",
+    "summary": "Proposes an RL-guided diffusion framework for 3D RNA inverse design—predicting RNA sequences that fold into a target 3D structure. Reinforcement learning provides reward signals from structure prediction models, guiding the diffusion sampler toward sequences that satisfy folding constraints. Outperforms prior inverse design methods in designability, diversity, and novelty.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "RNA Design",
+      "Generative Models",
+      "Reinforcement Learning"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
+  },
+  {
+    "id": 363,
+    "title": "Test-Time Adaptation without Source Data for Out-of-Domain Bioactivity Prediction",
+    "url": "https://openreview.net/forum?id=0R6HLWvWYk",
+    "summary": "Addresses the challenge of generalizing drug–target bioactivity prediction to out-of-distribution compound–protein pairs without access to source training data. Introduces a test-time adaptation strategy that adapts the pretrained model to novel biological contexts at inference time using only target-domain examples. Significantly improves performance on unseen protein families, a critical requirement for real-world drug discovery.",
+    "tags": [
+      "ICLR 2026",
+      "2026",
+      "Drug Discovery",
+      "Drug-Target Interaction",
+      "Test-Time Adaptation"
+    ],
+    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "issue": 73
   }
 ];
