@@ -2183,7 +2183,7 @@ const papers = [
     "id": 154,
     "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html",
-    "summary": "LLM-as-a-Judge パラダイムを提唱した seminal paper。MT-Bench（マルチターン問題集）と Chatbot Arena（クラウドソーシングによるペア比較）を導入し、GPT-4 が人間の好みと約80%一致することを示した。position bias・verbosity bias などの限界も体系的に分析。",
+    "summary": "The seminal paper proposing the LLM-as-a-Judge paradigm. Introduces MT-Bench (multi-turn question set) and Chatbot Arena (crowdsourced pairwise comparison), demonstrating that GPT-4 agrees with human preferences approximately 80% of the time. Systematically analyzes limitations such as position bias and verbosity bias.",
     "tags": [
       "NeurIPS 2023",
       "2023",
@@ -2199,7 +2199,7 @@ const papers = [
     "id": 155,
     "title": "Benchmarking Foundation Models with Language-Model-as-an-Examiner",
     "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html",
-    "summary": "LLM を \"試験官\" として動的に評価するフレームワーク。反復的な質問生成と採点を行い、固定ベンチマークでは測れない開放的能力を評価。知識の深さと応答の一貫性を多角的に検証できる。",
+    "summary": "A framework that dynamically evaluates LLMs as an \"examiner\". Performs iterative question generation and scoring to assess open-ended capabilities that fixed benchmarks cannot measure. Allows multi-faceted verification of knowledge depth and response consistency.",
     "tags": [
       "NeurIPS 2023",
       "2023",
@@ -2215,7 +2215,7 @@ const papers = [
     "id": 156,
     "title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
     "url": "https://aclanthology.org/2023.emnlp-main.153/",
-    "summary": "GPT-4 を用いた NLG 評価フレームワーク。Chain-of-Thought によって評価基準を明示化し、フォーム形式のスコアリングで ROUGE・BERTScore より高い人間との相関を達成。テキスト要約・ダイアログ生成タスクで有効性を実証。",
+    "summary": "An NLG evaluation framework using GPT-4. Clarifies evaluation criteria through Chain-of-Thought reasoning and achieves higher correlation with human judgments than ROUGE and BERTScore via form-based scoring. Effectiveness demonstrated on text summarization and dialog generation tasks.",
     "tags": [
       "EMNLP 2023",
       "2023",
@@ -2231,7 +2231,7 @@ const papers = [
     "id": 157,
     "title": "Can Large Language Models Be an Alternative to Human Evaluations?",
     "url": "https://aclanthology.org/2023.acl-long.870/",
-    "summary": "LLM（ChatGPT など）が人間評価者の代替として機能するかを網羅的に検証した研究。人間とのアノテーション一致率・費用・一貫性を多タスクで比較し、テキスト生成品質評価における LLM の有効性と限界を明らかにした。",
+    "summary": "A comprehensive study verifying whether LLMs (e.g., ChatGPT) can serve as substitutes for human evaluators. Compares annotation agreement rates, cost, and consistency with humans across multiple tasks, clarifying the effectiveness and limitations of LLMs for text generation quality evaluation.",
     "tags": [
       "ACL 2023",
       "2023",
@@ -2246,7 +2246,7 @@ const papers = [
     "id": 158,
     "title": "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate",
     "url": "https://openreview.net/forum?id=FQepisCUWu",
-    "summary": "複数の LLM エージェントがディベートを通じて合意を形成する評価フレームワーク。単一エージェント評価に比べ position bias を低減し、Human 判定との一致率が向上。MT-Bench・FairEval での評価で優位性を示した。",
+    "summary": "An evaluation framework in which multiple LLM agents reach consensus through debate. Reduces position bias compared to single-agent evaluation and improves agreement with human judgments. Demonstrates superiority on MT-Bench and FairEval.",
     "tags": [
       "ICLR 2024",
       "2024",
@@ -2262,7 +2262,7 @@ const papers = [
     "id": 159,
     "title": "FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets",
     "url": "https://openreview.net/forum?id=rKBBs4xPMc",
-    "summary": "LLM の能力を「論理的思考」「事実性」「指示追従」など細粒度スキルに分解して評価するプロトコル。スキル単位のスコアで弱点を特定でき、汎用スコアでは隠れていたモデル間の差異を可視化。",
+    "summary": "A protocol that decomposes LLM capabilities into fine-grained skills such as \"logical reasoning\", \"factuality\", and \"instruction following\" for evaluation. Identifies weaknesses at the skill level and visualizes inter-model differences that are hidden behind overall scores.",
     "tags": [
       "ICLR 2024",
       "2024",
@@ -2278,7 +2278,7 @@ const papers = [
     "id": 160,
     "title": "PROMETHEUS: Inducing Fine-grained Evaluation Capability in Language Models",
     "url": "https://openreview.net/forum?id=8euJaTveKw",
-    "summary": "ルーブリック（採点基準）付きフィードバックデータで訓練したオープンソース評価 LLM（7B・13B）。GPT-4 に匹敵する評価性能を達成しつつ、ローカル実行可能でプロプライエタリ API 依存を回避。",
+    "summary": "Open-source evaluator LLMs (7B and 13B) trained on feedback data with rubrics (scoring criteria). Achieves evaluation performance comparable to GPT-4 while being locally executable, avoiding reliance on proprietary APIs.",
     "tags": [
       "ICLR 2024",
       "2024",
@@ -2294,7 +2294,7 @@ const papers = [
     "id": 161,
     "title": "LLMEVAL: A Preliminary Study on How to Evaluate Large Language Models",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29934",
-    "summary": "中国語・英語の LLM に対する多次元評価フレームワーク。タスク設計・評価者選択・スコアリング基準など評価プロセス全体を体系化し、GPT-4 ベースの自動評価と人間評価の相関分析を実施。",
+    "summary": "A multi-dimensional evaluation framework for Chinese and English LLMs. Systematizes the entire evaluation process including task design, evaluator selection, and scoring criteria, and conducts correlation analysis between GPT-4-based automated evaluation and human evaluation.",
     "tags": [
       "AAAI 2024",
       "2024",
@@ -2310,7 +2310,7 @@ const papers = [
     "id": 162,
     "title": "AlignBench: Benchmarking Chinese Alignment of Large Language Models",
     "url": "https://aclanthology.org/2024.acl-long.703/",
-    "summary": "中国語 LLM のアライメントを評価するベンチマーク。8 カテゴリ・700 以上の問題で構成され、GPT-4 による自動採点に rule-calibration を導入して position bias を軽減。中国語 LLM の能力比較に広く利用される。",
+    "summary": "A benchmark for evaluating the alignment of Chinese LLMs. Comprises 8 categories and over 700 questions, and introduces rule-calibration to GPT-4-based automatic scoring to reduce position bias. Widely used for comparing Chinese LLM capabilities.",
     "tags": [
       "ACL 2024",
       "2024",
@@ -2326,7 +2326,7 @@ const papers = [
     "id": 163,
     "title": "Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge",
     "url": "https://openreview.net/forum?id=DJDPlpd36N",
-    "summary": "LLM ジャッジに内在する12種類のバイアス（verbosity・authority・beauty など）を定量評価した研究。バイアスの種類・強度をモデル横断で測定し、信頼性の高い評価のためのデバイアス手法を提案。",
+    "summary": "A study quantitatively evaluating 12 types of biases inherent in LLM judges (such as verbosity, authority, and beauty). Measures the type and magnitude of biases across models and proposes debiasing methods for more reliable evaluation.",
     "tags": [
       "ICLR 2025",
       "2025",
@@ -2342,7 +2342,7 @@ const papers = [
     "id": 164,
     "title": "A Survey on Evaluation of Large Language Models",
     "url": "https://dl.acm.org/doi/10.1145/3641289",
-    "summary": "LLM 評価手法を網羅的にまとめたサーベイ（ACM TIST vol.15, no.3）。LLM-as-a-Judge を含む自動評価・人間評価・ベンチマーク評価を体系化し、知識・推論・コード生成・倫理など多次元の評価軸を整理。200 本以上の論文を網羅し、今後の研究課題も提示。",
+    "summary": "A comprehensive survey of LLM evaluation methods (ACM TIST vol.15, no.3). Systematizes automated, human, and benchmark evaluation including LLM-as-a-Judge, and organizes multi-dimensional evaluation axes such as knowledge, reasoning, code generation, and ethics. Covers over 200 papers and identifies future research challenges.",
     "tags": [
       "ACM TIST 2024",
       "2024",
@@ -2358,7 +2358,7 @@ const papers = [
     "id": 165,
     "title": "HELM: Holistic Evaluation of Language Models",
     "url": "https://openreview.net/forum?id=iO4LZibEqW",
-    "summary": "42 シナリオ・7 評価軸にわたる包括的 LLM 評価フレームワーク（Stanford CRFM）。単一指標に依存しない多面的評価を提案し、モデルのトレードオフを可視化。LLM-as-a-Judge 研究の基盤となる評価設計思想を確立。",
+    "summary": "A comprehensive LLM evaluation framework covering 42 scenarios and 7 evaluation axes (Stanford CRFM). Proposes multi-faceted evaluation not dependent on a single metric and visualizes model tradeoffs. Establishes an evaluation design philosophy that forms the foundation of LLM-as-a-Judge research.",
     "tags": [
       "TMLR 2023",
       "2023",
@@ -2374,7 +2374,7 @@ const papers = [
     "id": 166,
     "title": "Large Language Models Are Not Yet Human-Level Evaluators for Abstractive Summarization",
     "url": "https://aclanthology.org/2023.findings-emnlp.278/",
-    "summary": "LLM（GPT-3.5/GPT-4）が抽象型要約の評価者として人間レベルに達していないことを示した論文。一貫性・関連性・流暢性などの次元で人間との相関を測定し、LLM ジャッジの限界と適用条件を明確化。",
+    "summary": "A paper showing that LLMs (GPT-3.5/GPT-4) have not yet reached human-level performance as evaluators of abstractive summarization. Measures human correlation on dimensions such as consistency, relevance, and fluency, and clarifies the limitations and applicable conditions of LLM judges.",
     "tags": [
       "EMNLP Findings 2023",
       "2023",
@@ -2390,7 +2390,7 @@ const papers = [
     "id": 167,
     "title": "Is ChatGPT a Good Sentiment Analyzer? A Preliminary Study",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306457324000785",
-    "summary": "ChatGPT をゼロショット感情分析の評価者として系統的に評価。18 データセット・5 タスクで既存の SOTA と比較し、few-shot プロンプトの効果・ドメイン依存性・バイアスを分析。LLM が judge として機能する範囲と限界を示す実証研究。",
+    "summary": "A systematic evaluation of ChatGPT as a zero-shot sentiment analysis evaluator. Compares with existing SOTA across 18 datasets and 5 tasks, analyzing the effects of few-shot prompting, domain dependency, and bias. An empirical study demonstrating the scope and limitations of LLMs functioning as judges.",
     "tags": [
       "Information Processing & Management 2024",
       "2024",
@@ -2405,7 +2405,7 @@ const papers = [
     "id": 168,
     "title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
     "url": "https://openreview.net/forum?id=a6CpElUsur",
-    "summary": "LMSYS が構築したオープンな LLM 評価プラットフォーム（TMLR Featured Certification）。ユーザーが 2 モデルの出力を比較し優劣を投票する Elo レーティング方式を採用。GPT-4・Claude・Llama など主要モデルを人間選好に基づいてランキング。",
+    "summary": "An open LLM evaluation platform built by LMSYS (TMLR Featured Certification). Adopts an Elo rating system where users compare outputs of 2 models and vote for the better one. Rankings of major models including GPT-4, Claude, and Llama based on human preferences. Extended version of the MT-Bench/Chatbot Arena paper from NeurIPS 2023.",
     "tags": [
       "TMLR 2024",
       "2024",
@@ -2421,7 +2421,7 @@ const papers = [
     "id": 169,
     "title": "PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models",
     "url": "https://openreview.net/forum?id=mAV4SFXIXU",
-    "summary": "PROMETHEUS の後継となるオープンソース評価専用 LLM（7B・8×7B）。直接評価とペア比較の両方に対応し、GPT-4 ベースジャッジとの相関を大幅に向上。ルーブリック付き評価データで訓練し、多様な評価基準に対応。",
+    "summary": "Open-source evaluator-only LLMs (7B and 8×7B) that succeed PROMETHEUS. Supports both direct evaluation and pairwise comparison, significantly improving correlation with GPT-4-based judges. Trained on rubric-annotated evaluation data to accommodate diverse evaluation criteria.",
     "tags": [
       "TMLR 2024",
       "2024",
@@ -2436,7 +2436,7 @@ const papers = [
     "id": 170,
     "title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
     "url": "https://ieeexplore.ieee.org/document/10453110",
-    "summary": "ChatGPT を中心に実務応用における LLM 活用法を体系化したサーベイ（IEEE TKDE）。テキスト分類・情報抽出・要約・翻訳・QA など多タスクでの評価方法論を整理。LLM を judge として利用する際の実践的ガイドラインを提供。",
+    "summary": "A survey systematizing LLM utilization in practical applications centered on ChatGPT (IEEE TKDE). Organizes evaluation methodologies across multiple tasks including text classification, information extraction, summarization, translation, and QA. Provides practical guidelines for using LLMs as judges.",
     "tags": [
       "IEEE TKDE 2024",
       "2024",
@@ -2452,7 +2452,7 @@ const papers = [
     "id": 171,
     "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
     "url": "https://dl.acm.org/doi/10.1145/3560815",
-    "summary": "プロンプトベースの NLP 手法を体系的にまとめたサーベイ（ACM CSUR）。LLM-as-a-Judge で広く用いられる評価プロンプト設計の理論的基盤を提供。Chain-of-Thought・few-shot プロンプティングなど評価タスクで利用される技術を網羅。",
+    "summary": "A survey systematically summarizing prompt-based NLP methods (ACM CSUR). Provides the theoretical foundation for evaluation prompt design widely used in LLM-as-a-Judge. Covers techniques used in evaluation tasks such as Chain-of-Thought and few-shot prompting.",
     "tags": [
       "ACM CSUR 2023",
       "2023",
@@ -2468,7 +2468,7 @@ const papers = [
     "id": 172,
     "title": "Can Large Language Models Serve as Evaluators for Code Summarization?",
     "url": "https://www.sciencedirect.com/science/article/pii/S0957417424003592",
-    "summary": "GPT-3.5・GPT-4 を用いてコード要約の品質を自動評価する研究（Elsevier ESWA）。人間評価との相関・一貫性・再現性を実験的に測定し、LLM ジャッジの強みと限界をコード生成ドメインで明確化。",
+    "summary": "A study automatically evaluating code summarization quality using GPT-3.5 and GPT-4 (Elsevier ESWA). Experimentally measures correlation, consistency, and reproducibility with human evaluation, clarifying the strengths and limitations of LLM judges in the code generation domain.",
     "tags": [
       "Expert Systems with Applications 2024",
       "2024",
@@ -2484,7 +2484,7 @@ const papers = [
     "id": 173,
     "title": "Large Language Models: A Survey",
     "url": "https://link.springer.com/article/10.1007/s10462-024-10808-0",
-    "summary": "大規模言語モデルの現状を包括的にまとめたサーベイ（Springer AI Review）。アーキテクチャ・学習・ファインチューニング・評価手法を横断的に調査。LLM-as-a-Judge を含む自動評価の潮流と課題を多角的に整理し、評価研究者にとっての全体像を提供。",
+    "summary": "A comprehensive survey of the current state of large language models (Springer AI Review). Covers architecture, training, fine-tuning, and evaluation methods broadly. Organizes the trends and challenges of automated evaluation including LLM-as-a-Judge from multiple perspectives, providing an overview for evaluation researchers.",
     "tags": [
       "Artificial Intelligence Review 2024",
       "2024",
@@ -2707,7 +2707,7 @@ const papers = [
     "url": "https://github.com/user-attachments/files/26216828/39048-Article.Text-43140-1-2-20260314.3.pdf",
     "summary": "",
     "tags": [],
-    "section": "添付した論文を元に新しいIssueを作成して.",
+    "section": "Create a New Issue Based on the Attached Paper",
     "issue": 43
   },
   {
@@ -2716,7 +2716,7 @@ const papers = [
     "url": "https://github.com/user-attachments/files/26216834/37105-Article.Text-41197-1-2-20260314.1.pdf",
     "summary": "",
     "tags": [],
-    "section": "添付した論文を元に新しいIssueを作成して.",
+    "section": "Create a New Issue Based on the Attached Paper",
     "issue": 43
   },
   {
@@ -2725,7 +2725,7 @@ const papers = [
     "url": "https://github.com/user-attachments/files/26216881/2026.03.20.712202v1.full.pdf",
     "summary": "",
     "tags": [],
-    "section": "添付した論文を元に新しいIssueを作成して.",
+    "section": "Create a New Issue Based on the Attached Paper",
     "issue": 43
   },
   {
@@ -4069,7 +4069,7 @@ const papers = [
       "Single-cell",
       "Initiative"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 63
   },
   {
@@ -4085,7 +4085,7 @@ const papers = [
       "Perturbation Prediction",
       "Single-cell"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 63
   },
   {
@@ -4102,7 +4102,7 @@ const papers = [
       "Foundation Model",
       "PyTorch"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 63
   },
   {
@@ -4119,7 +4119,7 @@ const papers = [
       "Virtual Cell",
       "Atlas"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 63
   },
   {
@@ -4136,7 +4136,7 @@ const papers = [
       "Single-cell",
       "Python"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 63
   },
   {
@@ -4153,7 +4153,7 @@ const papers = [
       "PyTorch",
       "Perturbation Prediction"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 63
   },
   {
@@ -4171,7 +4171,7 @@ const papers = [
       "LLM",
       "scRNA-seq"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 66
   },
   {
@@ -4189,7 +4189,7 @@ const papers = [
       "Single-cell",
       "Python"
     ],
-    "section": "ArcのVirtual Cellについてまとめて",
+    "section": "Summary of Arc's Virtual Cell Research",
     "issue": 66
   },
   {
@@ -4206,7 +4206,7 @@ const papers = [
       "Foundation Model",
       "StripedHyena"
     ],
-    "section": "ArcのEvoについてまとめて",
+    "section": "Summary of Arc's Evo Research",
     "issue": 66
   },
   {
@@ -4223,7 +4223,7 @@ const papers = [
       "Foundation Model",
       "StripedHyena"
     ],
-    "section": "ArcのEvoについてまとめて",
+    "section": "Summary of Arc's Evo Research",
     "issue": 66
   },
   {
@@ -4240,7 +4240,7 @@ const papers = [
       "Foundation Model",
       "PyTorch"
     ],
-    "section": "ArcのEvoについてまとめて",
+    "section": "Summary of Arc's Evo Research",
     "issue": 66
   },
   {
@@ -4257,7 +4257,7 @@ const papers = [
       "Gene Ontology",
       "Combinatorial Perturbation"
     ],
-    "section": "GEARS scLAMBDA LPMについてまとめて",
+    "section": "Summary of GEARS, scLAMBDA, and LPM",
     "issue": 68
   },
   {
@@ -4275,7 +4275,7 @@ const papers = [
       "Combinatorial Perturbation",
       "Generative Models"
     ],
-    "section": "GEARS scLAMBDA LPMについてまとめて",
+    "section": "Summary of GEARS, scLAMBDA, and LPM",
     "issue": 68
   },
   {
@@ -4292,7 +4292,7 @@ const papers = [
       "Foundation Model",
       "Drug Discovery"
     ],
-    "section": "GEARS scLAMBDA LPMについてまとめて",
+    "section": "Summary of GEARS, scLAMBDA, and LPM",
     "issue": 68
   },
   {
@@ -4301,7 +4301,7 @@ const papers = [
     "url": "https://github.com/snap-stanford/GEARS",
     "summary": "",
     "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "section": "Summary of GEARS, scLAMBDA, and LPM",
     "issue": 68
   },
   {
@@ -4310,7 +4310,7 @@ const papers = [
     "url": "https://github.com/gefeiwang/scLAMBDA",
     "summary": "",
     "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "section": "Summary of GEARS, scLAMBDA, and LPM",
     "issue": 68
   },
   {
@@ -4319,7 +4319,7 @@ const papers = [
     "url": "https://github.com/perturblib/perturblib",
     "summary": "",
     "tags": [],
-    "section": "GEARS\tscLAMBDA\tLPMについてまとめて.",
+    "section": "Summary of GEARS, scLAMBDA, and LPM",
     "issue": 68
   },
   {
@@ -4506,7 +4506,7 @@ const papers = [
       "Generative Models",
       "Oral"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4522,7 +4522,7 @@ const papers = [
       "Generative Models",
       "Oral"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4538,7 +4538,7 @@ const papers = [
       "Generative Models",
       "Oral"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4554,7 +4554,7 @@ const papers = [
       "Generative Models",
       "Oral"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4569,7 +4569,7 @@ const papers = [
       "Epigenomics",
       "Oral"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4584,7 +4584,7 @@ const papers = [
       "Generative Models",
       "Molecular Biology"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4599,7 +4599,7 @@ const papers = [
       "Benchmark",
       "Molecular Biology"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4614,7 +4614,7 @@ const papers = [
       "GNN",
       "Virtual Screening"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4629,7 +4629,7 @@ const papers = [
       "Generative Models",
       "Reinforcement Learning"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
@@ -4644,14 +4644,14 @@ const papers = [
       "Drug-Target Interaction",
       "Test-Time Adaptation"
     ],
-    "section": "ICLR2026関連で飛ばしているけど好きかもしれない論文",
+    "section": "ICLR 2026 Papers That Were Skipped but May Be Interesting",
     "issue": 73
   },
   {
     "id": 364,
     "title": "CellStream: Dynamical Optimal Transport Informed Embeddings for Reconstructing Cellular Trajectories from Snapshots Data | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37041",
-    "summary": "スナップショットの単一細胞データから細胞軌跡を再構築する手法。動的最適輸送（Dynamical Optimal Transport）を用いてスナップショット間のカップリングを推定し、細胞埋め込みを学習する。細胞の発生・分化過程の理解に有用。",
+    "summary": "A method for reconstructing cell trajectories from snapshot single-cell data. Uses Dynamical Optimal Transport to estimate coupling between snapshots and learns cell embeddings. Useful for understanding cell development and differentiation processes.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4667,7 +4667,7 @@ const papers = [
     "id": 365,
     "title": "CLM-Access: A Specialized Foundation Model for High-Dimensional Single-Cell ATAC-Seq Analysis | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37046",
-    "summary": "高次元の単一細胞ATAC-seqデータを解析するための専用基盤モデル。クロマチンアクセシビリティの高次元性・スパース性に対応した設計で、細胞型同定・ピーク重要度の解釈・トレイン外データへの汎化が可能。",
+    "summary": "A dedicated foundation model for analyzing high-dimensional single-cell ATAC-seq data. Designed to handle the high dimensionality and sparsity of chromatin accessibility data, enabling cell type identification, peak importance interpretation, and generalization to out-of-training data.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4684,7 +4684,7 @@ const papers = [
     "id": 366,
     "title": "When Genes Speak: A Semantic-Guided Framework for Spatially Resolved Transcriptomics Data Clustering | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37047",
-    "summary": "空間的トランスクリプトミクスデータのクラスタリングにセマンティック誘導フレームワークを提案。遺伝子発現の空間的コンテキストと意味的情報を統合し、組織ドメインの精密な同定を実現する。",
+    "summary": "Proposes a semantic-guided framework for clustering spatial transcriptomics data. Integrates spatial context and semantic information of gene expression to achieve precise identification of tissue domains.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4699,7 +4699,7 @@ const papers = [
     "id": 367,
     "title": "Gene Incremental Learning for Single-Cell Transcriptomics | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37062",
-    "summary": "単一細胞トランスクリプトミクスにおける遺伝子の逐次学習問題を扱う研究。新しい遺伝子情報が追加された際のモデル更新において、壊滅的忘却を防ぎながら継続的に学習できるフレームワークを提案。",
+    "summary": "A study addressing the continual learning problem of genes in single-cell transcriptomics. Proposes a framework that enables continual learning while preventing catastrophic forgetting when model updates occur as new gene information is added.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4715,7 +4715,7 @@ const papers = [
     "id": 368,
     "title": "GROVER: Graph-guided Representation of Omics and Vision with Expert Regulation for Adaptive Spatial Multi-omics Fusion | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37104",
-    "summary": "空間マルチオミクスデータの融合のためのグラフ誘導表現学習フレームワーク。遺伝子発現（omics）と組織画像（vision）をグラフ構造で統合し、エキスパート規制付きMixture-of-Expertsで適応的に融合する。空間ドメイン同定や細胞型注釈に活用可能。",
+    "summary": "A graph-guided representation learning framework for fusing spatial multi-omics data. Integrates gene expression (omics) and tissue images (vision) using graph structures and adaptively fuses them with expert-regulated Mixture-of-Experts. Applicable to spatial domain identification and cell type annotation.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4731,7 +4731,7 @@ const papers = [
     "id": 369,
     "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37110",
-    "summary": "単一細胞RNAシーケンシングのクラスタリングアルゴリズムを包括的にベンチマーク。多様なデータセット・メトリクス・手法を統一した評価フレームワークで比較し、各手法の強み・弱みを明確化する。",
+    "summary": "A comprehensive benchmark of clustering algorithms for single-cell RNA sequencing. Compares diverse datasets, metrics, and methods using a unified evaluation framework, clarifying the strengths and weaknesses of each approach.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4748,7 +4748,7 @@ const papers = [
     "id": 370,
     "title": "Learning to Cluster Rare Cell Types: Implicit Semantic Data Augmentation for Spatial Multi-modal Omics Analysis | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37646",
-    "summary": "空間マルチモーダルオミクスにおいて稀な細胞型をクラスタリングする手法。暗黙的意味的データ拡張（Implicit Semantic Data Augmentation）を用いて、少数しか存在しない稀な細胞型の表現を豊かにし、クラスタリング精度を向上させる。",
+    "summary": "A method for clustering rare cell types in spatial multimodal omics. Uses Implicit Semantic Data Augmentation to enrich representations of rare cell types that exist in small numbers, improving clustering accuracy.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4764,7 +4764,7 @@ const papers = [
     "id": 371,
     "title": "Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37857",
-    "summary": "空間的遺伝子発現を推定するために補助遺伝子選択を活用する手法。組織切片画像から空間遺伝子発現を予測する際、補助遺伝子を動的に選択して学習を安定化・向上させるフレームワーク。",
+    "summary": "A method leveraging auxiliary gene selection to estimate spatial gene expression. A framework that dynamically selects auxiliary genes when predicting spatial gene expression from tissue section images to stabilize and improve learning.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4779,7 +4779,7 @@ const papers = [
     "id": 372,
     "title": "HiFusion: Hierarchical Intra-Spot Alignment and Regional Context Fusion for Spatial Gene Expression Prediction from Histopathology | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38036",
-    "summary": "病理組織画像から空間的遺伝子発現を予測するHiFusionを提案。スポット内の階層的アライメントと隣接スポットからの領域コンテキスト融合により、より精密な遺伝子発現予測を実現する。",
+    "summary": "Proposes HiFusion for predicting spatial gene expression from histopathology images. Achieves more precise gene expression prediction through hierarchical alignment within spots and regional context fusion from neighboring spots.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4795,7 +4795,7 @@ const papers = [
     "id": 373,
     "title": "SpaCRD: Multimodal Deep Fusion of Histology and Spatial Transcriptomics for Cancer Region Detection | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38135",
-    "summary": "病理組織学と空間的トランスクリプトミクスのマルチモーダル深層融合によるがん領域検出。組織画像の視覚的特徴と遺伝子発現プロファイルを統合し、がん領域を高精度に同定するSpaCRDを提案。",
+    "summary": "Cancer region detection through multimodal deep fusion of histopathology and spatial transcriptomics. Proposes SpaCRD, which integrates visual features of tissue images and gene expression profiles to identify cancer regions with high accuracy.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4812,7 +4812,7 @@ const papers = [
     "id": 374,
     "title": "SSL-CST: Cell Segmentation for Single-Cell Spatial Transcriptome Based on Self-Supervised Learning | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38804",
-    "summary": "単一細胞空間トランスクリプトームにおける細胞セグメンテーション手法。自己教師あり学習を基盤とし、ラベルなしデータから細胞境界を学習することで、空間オミクスデータの細胞解像度での解析を可能にする。",
+    "summary": "A cell segmentation method for single-cell spatial transcriptomics. Based on self-supervised learning, it learns cell boundaries from unlabeled data, enabling analysis of spatial omics data at cellular resolution.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4828,7 +4828,7 @@ const papers = [
     "id": 375,
     "title": "Dual-Path Knowledge-Augmented Contrastive Alignment Network for Spatially Resolved Transcriptomics | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38278",
-    "summary": "空間的解像度のあるトランスクリプトミクスのための知識拡張対照アライメントネットワーク。デュアルパス設計で画像・遺伝子発現の特徴をアライメントし、空間ドメイン同定の精度を向上させる。",
+    "summary": "A knowledge-enhanced contrastive alignment network for spatially resolved transcriptomics. Uses a dual-path design to align image and gene expression features, improving the accuracy of spatial domain identification.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4843,7 +4843,7 @@ const papers = [
     "id": 376,
     "title": "Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39190",
-    "summary": "ニューラル・シュレーディンガーブリッジを用いた単一細胞摂動予測のための分布輸送手法。細胞の摂動前後の状態間の確率的輸送写像を学習し、未見の薬剤・遺伝子操作に対する細胞応答の分布を予測する。最適輸送の視点から摂動効果を捉える新規アプローチ。",
+    "summary": "A distribution transport method for single-cell perturbation prediction using neural Schrödinger bridges. Learns stochastic transport maps between pre- and post-perturbation cell states, predicting the distribution of cellular responses to unseen drugs and genetic manipulations. A novel approach capturing perturbation effects from an optimal transport perspective.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4860,7 +4860,7 @@ const papers = [
     "id": 377,
     "title": "TLAGC: Taylor Linear Attention-Guided Graph Convolutions for Revealing Spatial Domains in Spatial Multi-Omics Data | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39272",
-    "summary": "空間マルチオミクスデータの空間ドメインを明らかにするためのグラフ畳み込み手法。テイラー展開に基づく線形アテンションを誘導とし、計算効率と表現力を両立させる。組織切片内の生物学的に意味のある空間構造を高精度に同定。",
+    "summary": "A graph convolution method for uncovering spatial domains in spatial multi-omics data. Guides learning with linear attention based on Taylor expansion, balancing computational efficiency and representational power. Identifies biologically meaningful spatial structures within tissue sections with high accuracy.",
     "tags": [
       "AAAI 2026",
       "2026",
@@ -4876,7 +4876,7 @@ const papers = [
     "id": 378,
     "title": "ST-LLM: Spatial Transcriptomics Embedding with Large Language Models | Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40713",
-    "summary": "大規模言語モデルを活用した空間的トランスクリプトミクスの埋め込み手法。LLMのテキスト理解能力を空間遺伝子発現データと組み合わせることで、組織の空間構造解析・細胞型アノテーション・下流タスクへの転用が可能。",
+    "summary": "An embedding method for spatial transcriptomics leveraging large language models. By combining LLM text understanding capabilities with spatial gene expression data, enables spatial structure analysis of tissue, cell type annotation, and transfer to downstream tasks.",
     "tags": [
       "AAAI 2026",
       "2026",
