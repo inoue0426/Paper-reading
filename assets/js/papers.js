@@ -4330,5 +4330,167 @@ const papers = [
     "tags": [],
     "section": "ICLR2026",
     "issue": 70
+  },
+  {
+    "id": 336,
+    "title": "ICLR Poster DeepSADR: Deep Transfer Learning with Subsequence Interaction and Adaptive Readout for Cancer Drug Response Prediction",
+    "url": "https://iclr.cc/virtual/2026/poster/10007850",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 337,
+    "title": "ICLR Poster GALAX: Graph-Augmented Language Model for Explainable Reinforcement-Guided Subgraph Reasoning in Precision Medicine",
+    "url": "https://iclr.cc/virtual/2026/poster/10011059",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 338,
+    "title": "https://openreview.net/forum?id=dbZeLxOCIs",
+    "url": "https://openreview.net/forum?id=dbZeLxOCIs",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 339,
+    "title": "https://openreview.net/forum?id=hhq89Hs7T3",
+    "url": "https://openreview.net/forum?id=hhq89Hs7T3",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 340,
+    "title": "https://openreview.net/forum?id=lK82jpa8jr",
+    "url": "https://openreview.net/forum?id=lK82jpa8jr",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 341,
+    "title": "https://openreview.net/forum?id=40QphlZ9fY",
+    "url": "https://openreview.net/forum?id=40QphlZ9fY",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 342,
+    "title": "https://openreview.net/forum?id=Hk4Fb6kaYF",
+    "url": "https://openreview.net/forum?id=Hk4Fb6kaYF",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 343,
+    "title": "https://openreview.net/forum?id=RDAhLHEHDm",
+    "url": "https://openreview.net/forum?id=RDAhLHEHDm",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 344,
+    "title": "https://openreview.net/forum?id=QSGanMEcUV",
+    "url": "https://openreview.net/forum?id=QSGanMEcUV",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 345,
+    "title": "https://openreview.net/forum?id=UoYdZQIZWj",
+    "url": "https://openreview.net/forum?id=UoYdZQIZWj",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 346,
+    "title": "https://openreview.net/forum?id=I4meJN28Ol",
+    "url": "https://openreview.net/forum?id=I4meJN28Ol",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 347,
+    "title": "https://openreview.net/forum?id=o0Qfsq1fK8",
+    "url": "https://openreview.net/forum?id=o0Qfsq1fK8",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 348,
+    "title": "https://openreview.net/forum?id=24QX6XpvSL",
+    "url": "https://openreview.net/forum?id=24QX6XpvSL",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 349,
+    "title": "https://openreview.net/forum?id=KbXl2jfFRn",
+    "url": "https://openreview.net/forum?id=KbXl2jfFRn",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 350,
+    "title": "https://openreview.net/forum?id=DzSNH5APPl",
+    "url": "https://openreview.net/forum?id=DzSNH5APPl",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 351,
+    "title": "https://openreview.net/forum?id=5RcoUe1tA1",
+    "url": "https://openreview.net/forum?id=5RcoUe1tA1",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 352,
+    "title": "https://openreview.net/forum?id=7BLnSeWuei",
+    "url": "https://openreview.net/forum?id=7BLnSeWuei",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
+  },
+  {
+    "id": 353,
+    "title": "https://openreview.net/pdf?id=BUUfUcIcfE",
+    "url": "https://openreview.net/pdf?id=BUUfUcIcfE",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
   }
 ];
