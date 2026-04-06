@@ -4950,5 +4950,14 @@ const papers = [
     "tags": [],
     "section": "From scholar inbox",
     "issue": 3
+  },
+  {
+    "id": 386,
+    "title": "https://openreview.net/forum?id=rvpDHfoTd2",
+    "url": "https://openreview.net/forum?id=rvpDHfoTd2",
+    "summary": "",
+    "tags": [],
+    "section": "ICLR2026",
+    "issue": 70
   }
 ];
