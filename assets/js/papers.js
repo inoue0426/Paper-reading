@@ -4887,5 +4887,68 @@ const papers = [
     ],
     "section": "AAAI 2026",
     "issue": 45
+  },
+  {
+    "id": 379,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.02.14.705918v1.full.pdf",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.02.14.705918v1.full.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
+  },
+  {
+    "id": 380,
+    "title": "https://arxiv.org/pdf/2602.17532",
+    "url": "https://arxiv.org/pdf/2602.17532",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
+  },
+  {
+    "id": 381,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.02.19.706756v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.02.19.706756v1",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
+  },
+  {
+    "id": 382,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
+  },
+  {
+    "id": 383,
+    "title": "Foundation Models Improve Perturbation Response Prediction - Genbio AI",
+    "url": "https://genbio.ai/foundation-models-improve-perturbation-response-prediction/",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
+  },
+  {
+    "id": 384,
+    "title": "GitHub - genbio-ai/foundation-models-perturbation: Code for \"Foundation Models Improve Perturbation Response Prediction\" · GitHub",
+    "url": "https://github.com/genbio-ai/foundation-models-perturbation",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
+  },
+  {
+    "id": 385,
+    "title": "[2604.02346] DrugPlayGround: Benchmarking Large Language Models and Embeddings for Drug Discovery",
+    "url": "https://arxiv.org/abs/2604.02346",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
   }
 ];
