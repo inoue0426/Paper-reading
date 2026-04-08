@@ -4959,5 +4959,14 @@ const papers = [
     "tags": [],
     "section": "ICLR2026",
     "issue": 70
+  },
+  {
+    "id": 387,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.03.715101v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.715101v1",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
   }
 ];
