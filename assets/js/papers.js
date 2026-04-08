@@ -2607,7 +2607,10 @@ const papers = [
     "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37020",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2616,7 +2619,10 @@ const papers = [
     "title": "S²Drug: Bridging Protein Sequence and 3D Structure in Contrastive Representation Learning for Virtual Screening\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36997",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2625,7 +2631,10 @@ const papers = [
     "title": "Topology-Enhanced and Label Correlation-Aware Model for Protein-Protein Interaction Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/36980",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2634,7 +2643,10 @@ const papers = [
     "title": "PLA-MGRA: Multi-Granularity and Relation-Aware Learning for Efficient and Generalizable Protein-Ligand Binding Affinity Prediction\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37031",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2643,7 +2655,10 @@ const papers = [
     "title": "ProtSAE: Disentangling and Interpreting Protein Language Models via Semantically-Guided Sparse Autoencoders\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37044",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2652,7 +2667,10 @@ const papers = [
     "title": "Generalizable Drug–Target Interaction Prediction via ESM-2 Representations and Progressive Contrastive Curriculum Learning\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37100",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2661,7 +2679,10 @@ const papers = [
     "title": "Refinement Contrastive Learning of Cell–Gene Associations for Unsupervised Cell Type Identification\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37059",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2670,7 +2691,10 @@ const papers = [
     "title": "GenePheno: Interpretable Gene Knockout-Induced Phenotype Abnormality Prediction from Gene Sequences\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37114",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2679,7 +2703,10 @@ const papers = [
     "title": "MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37052",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2688,7 +2715,10 @@ const papers = [
     "title": "Closer to Biological Mechanism: Drug-Drug Interaction Prediction from the Perspective of Pharmacophore\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39229",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -2697,7 +2727,10 @@ const papers = [
     "title": "CMedBench: A Comprehensive Benchmark for Efficient Medical Large Language Models\n\t\t\t\t\t\t\t| Proceedings of the AAAI Conference on Artificial Intelligence",
     "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39264",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "AAAI 2026",
+      "2026"
+    ],
     "section": "AAAI 2026",
     "issue": 45
   },
@@ -4327,7 +4360,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=1pAW0y8WLH",
     "url": "https://openreview.net/forum?id=1pAW0y8WLH",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4336,7 +4372,10 @@ const papers = [
     "title": "ICLR Poster DeepSADR: Deep Transfer Learning with Subsequence Interaction and Adaptive Readout for Cancer Drug Response Prediction",
     "url": "https://iclr.cc/virtual/2026/poster/10007850",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4345,7 +4384,10 @@ const papers = [
     "title": "ICLR Poster GALAX: Graph-Augmented Language Model for Explainable Reinforcement-Guided Subgraph Reasoning in Precision Medicine",
     "url": "https://iclr.cc/virtual/2026/poster/10011059",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4354,7 +4396,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=dbZeLxOCIs",
     "url": "https://openreview.net/forum?id=dbZeLxOCIs",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4363,7 +4408,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=hhq89Hs7T3",
     "url": "https://openreview.net/forum?id=hhq89Hs7T3",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4372,7 +4420,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=lK82jpa8jr",
     "url": "https://openreview.net/forum?id=lK82jpa8jr",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4381,7 +4432,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=40QphlZ9fY",
     "url": "https://openreview.net/forum?id=40QphlZ9fY",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4390,7 +4444,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=Hk4Fb6kaYF",
     "url": "https://openreview.net/forum?id=Hk4Fb6kaYF",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4399,7 +4456,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=RDAhLHEHDm",
     "url": "https://openreview.net/forum?id=RDAhLHEHDm",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4408,7 +4468,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=QSGanMEcUV",
     "url": "https://openreview.net/forum?id=QSGanMEcUV",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4417,7 +4480,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=UoYdZQIZWj",
     "url": "https://openreview.net/forum?id=UoYdZQIZWj",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4426,7 +4492,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=I4meJN28Ol",
     "url": "https://openreview.net/forum?id=I4meJN28Ol",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4435,7 +4504,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=o0Qfsq1fK8",
     "url": "https://openreview.net/forum?id=o0Qfsq1fK8",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4444,7 +4516,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=24QX6XpvSL",
     "url": "https://openreview.net/forum?id=24QX6XpvSL",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4453,7 +4528,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=KbXl2jfFRn",
     "url": "https://openreview.net/forum?id=KbXl2jfFRn",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4462,7 +4540,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=DzSNH5APPl",
     "url": "https://openreview.net/forum?id=DzSNH5APPl",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4471,7 +4552,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=5RcoUe1tA1",
     "url": "https://openreview.net/forum?id=5RcoUe1tA1",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4480,7 +4564,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=7BLnSeWuei",
     "url": "https://openreview.net/forum?id=7BLnSeWuei",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4489,7 +4576,10 @@ const papers = [
     "title": "https://openreview.net/pdf?id=BUUfUcIcfE",
     "url": "https://openreview.net/pdf?id=BUUfUcIcfE",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   },
@@ -4956,7 +5046,10 @@ const papers = [
     "title": "https://openreview.net/forum?id=rvpDHfoTd2",
     "url": "https://openreview.net/forum?id=rvpDHfoTd2",
     "summary": "",
-    "tags": [],
+    "tags": [
+      "ICLR 2026",
+      "2026"
+    ],
     "section": "ICLR2026",
     "issue": 70
   }
