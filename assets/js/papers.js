@@ -5061,5 +5061,14 @@ const papers = [
     "tags": [],
     "section": "From scholar inbox",
     "issue": 3
+  },
+  {
+    "id": 388,
+    "title": "[2604.06264] ToxReason: A Benchmark for Mechanistic Chemical Toxicity Reasoning via Adverse Outcome Pathway",
+    "url": "https://arxiv.org/abs/2604.06264",
+    "summary": "",
+    "tags": [],
+    "section": "From scholar inbox",
+    "issue": 3
   }
 ];
