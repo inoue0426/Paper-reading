@@ -5070,5 +5070,23 @@ const papers = [
     "tags": [],
     "section": "From scholar inbox",
     "issue": 3
+  },
+  {
+    "id": 389,
+    "title": "https://arxiv.org/pdf/2604.11661",
+    "url": "https://arxiv.org/pdf/2604.11661",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 390,
+    "title": "[2604.10452] NOSE: Neural Olfactory-Semantic Embedding with Tri-Modal Orthogonal Contrastive Learning",
+    "url": "https://arxiv.org/abs/2604.10452",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];

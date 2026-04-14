@@ -42,6 +42,16 @@ A curated collection of research papers organized by conference and topic.
 - [Summary of GEARS, scLAMBDA, and LPM](#gears-sclambda-lpm)
 - [ICLR2026](#iclr2026-1)
 - [ICLR 2026 Papers That Were Skipped but May Be Interesting](#iclr2026)
+- [Scholar Inbox new](#scholar-inbox-new)
+
+---
+
+## Scholar Inbox new
+
+> Issue [#82](https://github.com/inoue0426/Paper-reading/issues/82)
+
+- **[https://arxiv.org/pdf/2604.11661](https://arxiv.org/pdf/2604.11661)**
+- **[[2604.10452] NOSE: Neural Olfactory-Semantic Embedding with Tri-Modal Orthogonal Contrastive Learning](https://arxiv.org/abs/2604.10452)**
 
 ---
 
