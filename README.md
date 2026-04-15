@@ -44,6 +44,26 @@ A curated collection of research papers organized by conference and topic.
 - [ICLR 2026 Papers That Were Skipped but May Be Interesting](#iclr2026)
 - [Scholar Inbox new](#scholar-inbox-new)
 - [AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)](#ai-methods-in-translational-cancer-research-yates--van-allen-cancer-cell-2025)
+- [Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.](#drug-perturbation-10)
+
+---
+
+## Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.
+
+> Issue [#85](https://github.com/inoue0426/Paper-reading/issues/85)
+
+- **[A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles](https://doi.org/10.1016/j.cell.2017.10.049)**
+- **[scGen Predicts Single-Cell Perturbation Responses](https://www.nature.com/articles/s41592-019-0494-8)**
+- **[Predicting Single-Cell Perturbation Responses for Unseen Drugs (CPA)](https://www.embopress.org/doi/full/10.15252/msb.2022115)**
+- **[Predicting transcriptional outcomes of novel multi-gene perturbations with GEARS](https://www.nature.com/articles/s41587-023-01905-6)**
+- **[Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA](https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/)**
+- **[In silico biological discovery with large perturbation models](https://www.nature.com/articles/s43588-025-00870-1)**
+- **[PRNet: Predicting transcriptional responses to novel chemical perturbations using deep generative model](https://doi.org/10.1038/s41467-024-53457-1)**
+- **[TranSiGen: Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery](https://doi.org/10.1038/s41467-024-49620-3)**
+- **[Gex2SGen: Designing drug-like molecules from desired gene expression signatures](https://doi.org/10.1021/acs.jcim.2c01301)**
+- **[DRUML: Drug ranking using machine learning systematically predicts the efficacy of anti-cancer drugs](https://doi.org/10.1038/s41467-021-22170-8)**
+- **[PaccMannRL: De novo generation of hit-like anticancer molecules from transcriptomic data via reinforcement learning](https://doi.org/10.1016/j.isci.2021.102269)**
+- **[Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/39190)**
 
 ---
 
