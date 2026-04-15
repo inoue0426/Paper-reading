@@ -5959,5 +5959,14 @@ const papers = [
     "id": 445,
     "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
     "issue": 83
+  },
+  {
+    "id": 446,
+    "title": "https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf",
+    "url": "https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "この論文にでてくる手法に関してまとめて.",
+    "issue": 83
   }
 ];
