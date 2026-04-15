@@ -43,15 +43,69 @@ A curated collection of research papers organized by conference and topic.
 - [ICLR2026](#iclr2026-1)
 - [ICLR 2026 Papers That Were Skipped but May Be Interesting](#iclr2026)
 - [Scholar Inbox new](#scholar-inbox-new)
-- [この論文にでてくる手法に関してまとめて.](#)
+- [AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)](#ai-methods-in-translational-cancer-research-yates--van-allen-cancer-cell-2025)
 
 ---
 
-## この論文にでてくる手法に関してまとめて.
+## AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)
 
 > Issue [#83](https://github.com/inoue0426/Paper-reading/issues/83)
 
-- **[https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf](https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf)**
+- **[New horizons at the interface of artificial intelligence and translational cancer research](https://doi.org/10.1016/j.ccell.2025.03.018)**
+- **[scVI: Deep generative modeling for single-cell transcriptomics](https://doi.org/10.1038/s41592-018-0229-2)**
+- **[Portal: Adversarial domain translation networks for integrating large-scale atlas-level single-cell datasets](https://doi.org/10.1038/s43588-022-00233-y)**
+- **[scArches: Mapping single-cell data to reference atlases by transfer learning](https://doi.org/10.1038/s41587-021-01001-7)**
+- **[TIGON: Reconstructing growth and dynamic trajectories from single-cell transcriptomics data](https://doi.org/10.1038/s42256-023-00763-w)**
+- **[Numbat: Haplotype-aware analysis of somatic copy number variations from single-cell transcriptomes](https://doi.org/10.1038/s41587-022-01468-y)**
+- **[CaSpER: CNV event identification by integrative analysis of single-cell or bulk RNA-sequencing data](https://doi.org/10.1038/s41467-019-13696-z)**
+- **[CellCharter: Spatial cell niches associated with tissue remodeling and cell plasticity](https://doi.org/10.1038/s41588-023-01588-4)**
+- **[STAGATE: Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder](https://doi.org/10.1038/s41467-022-29439-6)**
+- **[NCEM: Modeling intercellular communication in tissues using spatial graphs of cells](https://doi.org/10.1038/s41587-022-01467-z)**
+- **[DeepTalk: Deciphering cell-cell communication at single-cell resolution for spatial transcriptomics](https://doi.org/10.1038/s41467-024-51329-2)**
+- **[COMMOT: Screening cell-cell communication in spatial transcriptomics via collective optimal transport](https://doi.org/10.1038/s41592-022-01728-4)**
+- **[PRNet: Predicting transcriptional responses to novel chemical perturbations using deep generative model](https://doi.org/10.1038/s41467-024-53457-1)**
+- **[MOGONET: Multi-omics integration using graph convolutional networks for biomarker identification](https://doi.org/10.1038/s41467-021-23774-w)**
+- **[GLUE: Multi-omics single-cell data integration and regulatory inference with graph-linked embedding](https://doi.org/10.1038/s41587-022-01284-4)**
+- **[MultiVI: Deep generative model for the integration of multimodal data](https://doi.org/10.1038/s41592-023-01909-9)**
+- **[SpatialGLUE: Deciphering spatial domains from spatial multi-omics](https://doi.org/10.1038/s41592-024-02316-4)**
+- **[LINGER: Inferring gene regulatory networks from single-cell multiome data using atlas-scale external data](https://doi.org/10.1038/s41587-024-02211-z)**
+- **[MIDAS: Mosaic integration and knowledge transfer of single-cell multimodal data](https://doi.org/10.1038/s41587-023-02040-y)**
+- **[Concerto: Contrastive learning enables rapid mapping to multimodal single-cell atlas of multimillion scale](https://doi.org/10.1038/s42256-022-00518-z)**
+- **[Multigrate: Integration and querying of multimodal single-cell data with PoE-VAE](https://doi.org/10.1101/2022.03.16.484643)**
+- **[scButterfly: A versatile single-cell cross-modality translation method via dual-aligned variational autoencoders](https://doi.org/10.1038/s41467-024-47418-x)**
+- **[JAMIE: Joint variational autoencoders for multimodal imputation and embedding](https://doi.org/10.1038/s42256-023-00691-9)**
+- **[scPair: Boosting single cell multimodal analysis by leveraging implicit feature selection and single cell atlases](https://doi.org/10.1038/s41467-024-54355-4)**
+- **[sciPENN: A multi-use deep learning method for CITE-seq and single-cell RNA-seq data integration with cell surface protein prediction](https://doi.org/10.1038/s42256-022-00545-w)**
+- **[Geneformer: Transfer learning enables predictions in network biology](https://doi.org/10.1038/s41586-023-06139-9)**
+- **[scGPT: Toward building a foundation model for single-cell multi-omics using generative AI](https://doi.org/10.1038/s41592-024-02201-0)**
+- **[scFoundation: Large-scale foundation model on single-cell transcriptomics](https://doi.org/10.1038/s41592-024-02305-7)**
+- **[SATURN: Toward universal cell embeddings integrating single-cell RNA-seq datasets across species](https://doi.org/10.1038/s41592-024-02191-z)**
+- **[CellPLM: Pre-training of Cell Language Model Beyond Single Cells](https://openreview.net/forum?id=93BaDqkjIm)**
+- **[CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer](https://doi.org/10.1101/2024.11.01.621087)**
+- **[GenePT: Simple and effective embedding model for single-cell biology built from ChatGPT](https://doi.org/10.1038/s44222-024-00243-3)**
+- **[Nicheformer: A foundation model for single-cell and spatial omics](https://doi.org/10.1101/2024.04.15.589472)**
+- **[scGPT-spatial: Continual pretraining of single-cell foundation model for spatial transcriptomics](https://doi.org/10.1101/2025.02.05.636714)**
+- **[Triage-driven diagnosis of Barrett's esophagus for early detection of esophageal adenocarcinoma using deep learning](https://doi.org/10.1038/s41591-021-01287-x)**
+- **[DoMore-v1-CRC: A clinical decision support system optimising adjuvant chemotherapy for colorectal cancers](https://doi.org/10.1016/S1470-2045(22)00449-9)**
+- **[PORPOISE: Pan-cancer integrative histology-genomic analysis via multimodal deep learning](https://doi.org/10.1016/j.ccell.2022.07.004)**
+- **[Pathomic Fusion: An integrated framework for fusing histopathology and genomic features for cancer diagnosis and prognosis](https://doi.org/10.1109/TMI.2020.3021387)**
+- **[DiffSBDD: Structure-based drug design with equivariant diffusion models](https://doi.org/10.48550/arXiv.2210.13695)**
+- **[ReLeaSE: Deep reinforcement learning for de novo drug design](https://doi.org/10.1126/sciadv.aap7885)**
+- **[REINVENT: Molecular de-novo design through deep reinforcement learning](https://doi.org/10.1186/s13321-017-0235-x)**
+- **[RFDiffusion: De novo design of protein structure and function with RFdiffusion](https://doi.org/10.1038/s41586-023-06415-8)**
+- **[PaccMannRL: De novo generation of hit-like anticancer molecules from transcriptomic data via reinforcement learning](https://doi.org/10.1016/j.isci.2021.102269)**
+- **[DRUML: Drug ranking using machine learning systematically predicts the efficacy of anti-cancer drugs](https://doi.org/10.1038/s41467-021-22170-8)**
+- **[Gex2SGen: Designing drug-like molecules from desired gene expression signatures](https://doi.org/10.1021/acs.jcim.2c01301)**
+- **[TranSiGen: Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery](https://doi.org/10.1038/s41467-024-49620-3)**
+- **[Dermatologist-level classification of skin cancer with deep neural networks](https://doi.org/10.1038/nature21056)**
+- **[Clinical-grade computational pathology using weakly supervised deep learning on whole slide images](https://doi.org/10.1038/s41591-019-0508-1)**
+- **[UNI: Towards a general-purpose foundation model for computational pathology](https://doi.org/10.1038/s41591-024-02857-3)**
+- **[Virchow: A million-slide digital pathology foundation model](https://doi.org/10.48550/arXiv.2309.07778)**
+- **[TOAD: AI-based pathology predicts origins for cancers of unknown primary](https://doi.org/10.1038/s41586-021-03512-4)**
+- **[PLIP: A visual-language foundation model for pathology image analysis using medical Twitter](https://doi.org/10.1038/s41591-023-02504-3)**
+- **[MUSK: A vision-language foundation model for precision oncology](https://doi.org/10.1038/s41586-024-08378-w)**
+- **[AI-based pathology as a biomarker of sensitivity to atezolizumab-bevacizumab in hepatocellular carcinoma](https://doi.org/10.1016/S1470-2045(23)00468-0)**
+- **[Histo-genomic knowledge distillation for cancer prognosis from histopathology whole slide images](https://doi.org/10.48550/arXiv.2403.10040)**
 
 ---
 

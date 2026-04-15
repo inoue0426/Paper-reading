@@ -5090,12 +5090,874 @@ const papers = [
     "issue": 82
   },
   {
+    "title": "New horizons at the interface of artificial intelligence and translational cancer research",
+    "url": "https://doi.org/10.1016/j.ccell.2025.03.018",
+    "summary": "A comprehensive review of AI applications in multiomics analysis and translational oncology. Covers computational approaches for single-cell and spatial omics, multimodal integration, biological foundation models, AI-aided diagnostics, computer-aided drug discovery, and computational pathology. Discusses challenges including reproducibility, interpretability, and clinical integration of AI models. Emphasizes the role of AI in advancing biomarker discovery, patient stratification, and precision medicine for cancer care.",
+    "tags": [
+      "Cancer Cell",
+      "2025",
+      "Review",
+      "AI",
+      "Multiomics",
+      "Translational Oncology",
+      "Precision Medicine"
+    ],
     "id": 391,
-    "title": "https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf",
-    "url": "https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf",
-    "summary": "",
-    "tags": [],
-    "section": "この論文にでてくる手法に関してまとめて.",
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "scVI: Deep generative modeling for single-cell transcriptomics",
+    "url": "https://doi.org/10.1038/s41592-018-0229-2",
+    "summary": "A seminal method for batch integration that utilizes conditional variational autoencoders (CVAEs) to obtain a latent space independent of the batch of origin. Enables downstream tasks including imputation and differential gene expression analysis of scRNA-seq data.",
+    "tags": [
+      "Nature Methods",
+      "2018",
+      "scRNA-seq",
+      "VAE",
+      "Batch Integration"
+    ],
+    "id": 392,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Portal: Adversarial domain translation networks for integrating large-scale atlas-level single-cell datasets",
+    "url": "https://doi.org/10.1038/s43588-022-00233-y",
+    "summary": "Performs batch integration for large scRNA-seq datasets using adversarial training and VAE for integration with conservation of biological signal. Enables scalable analysis across atlas-level single-cell data.",
+    "tags": [
+      "Nature Computational Science",
+      "2022",
+      "scRNA-seq",
+      "VAE",
+      "Batch Integration"
+    ],
+    "id": 393,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "scArches: Mapping single-cell data to reference atlases by transfer learning",
+    "url": "https://doi.org/10.1038/s41587-021-01001-7",
+    "summary": "Performs reference-query mapping on large-scale atlases for cell type annotation using transfer learning. Applied on top of CVAE-based core methods like scVI, supporting scRNA-seq, CITE-seq, and any modality with a specialized CVAE-based core model.",
+    "tags": [
+      "Nature Biotechnology",
+      "2022",
+      "scRNA-seq",
+      "Transfer Learning",
+      "CVAE",
+      "Cell Type Annotation"
+    ],
+    "id": 394,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "TIGON: Reconstructing growth and dynamic trajectories from single-cell transcriptomics data",
+    "url": "https://doi.org/10.1038/s42256-023-00763-w",
+    "summary": "Leverages neural optimal transport to infer cell trajectories while accommodating individual gene expression dynamics and population-level growth from scRNA-seq data.",
+    "tags": [
+      "Nature Machine Intelligence",
+      "2024",
+      "scRNA-seq",
+      "Optimal Transport",
+      "Trajectory Inference"
+    ],
+    "id": 395,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Numbat: Haplotype-aware analysis of somatic copy number variations from single-cell transcriptomes",
+    "url": "https://doi.org/10.1038/s41587-022-01468-y",
+    "summary": "Harnesses hidden Markov models (HMMs) on scRNA-seq data to infer copy number variation (CNV) events without the need for DNA sequencing, enabling haplotype-aware somatic CNV analysis.",
+    "tags": [
+      "Nature Biotechnology",
+      "2023",
+      "scRNA-seq",
+      "HMM",
+      "CNV"
+    ],
+    "id": 396,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "CaSpER: CNV event identification by integrative analysis of single-cell or bulk RNA-sequencing data",
+    "url": "https://doi.org/10.1038/s41467-019-13696-z",
+    "summary": "Uses hidden Markov models to identify and visualize CNV events by integrative analysis of single-cell or bulk RNA-sequencing data without DNA sequencing.",
+    "tags": [
+      "Nature Communications",
+      "2020",
+      "scRNA-seq",
+      "HMM",
+      "CNV"
+    ],
+    "id": 397,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "CellCharter: Spatial cell niches associated with tissue remodeling and cell plasticity",
+    "url": "https://doi.org/10.1038/s41588-023-01588-4",
+    "summary": "Uses a combination of VAEs and Gaussian mixture models to identify cellular niches in spatial transcriptomics data. Supports ST, spatial proteomics, spatial ATAC, and spatial RNA+ATAC modalities.",
+    "tags": [
+      "Nature Genetics",
+      "2024",
+      "Spatial Transcriptomics",
+      "VAE",
+      "Niche Discovery"
+    ],
+    "id": 398,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "STAGATE: Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder",
+    "url": "https://doi.org/10.1038/s41467-022-29439-6",
+    "summary": "Uses cell-type aware graph attention convolutions on spatial neighborhood graphs to identify spatial domains in spatial transcriptomics data.",
+    "tags": [
+      "Nature Communications",
+      "2022",
+      "Spatial Transcriptomics",
+      "GNN",
+      "Attention"
+    ],
+    "id": 399,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "NCEM: Modeling intercellular communication in tissues using spatial graphs of cells",
+    "url": "https://doi.org/10.1038/s41587-022-01467-z",
+    "summary": "Uses a linear graph neural network to predict the effect of a niche on the gene expression of the center cell from spatial transcriptomics and spatial proteomics data.",
+    "tags": [
+      "Nature Biotechnology",
+      "2023",
+      "Spatial Transcriptomics",
+      "GNN",
+      "Cell-Cell Communication"
+    ],
+    "id": 400,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "DeepTalk: Deciphering cell-cell communication at single-cell resolution for spatial transcriptomics",
+    "url": "https://doi.org/10.1038/s41467-024-51329-2",
+    "summary": "Uses matched scRNA-seq and spatial transcriptomics to predict cell-cell communication through a graph attention network with subgraph-based attention mechanisms.",
+    "tags": [
+      "Nature Communications",
+      "2024",
+      "Spatial Transcriptomics",
+      "scRNA-seq",
+      "GNN",
+      "Cell-Cell Communication"
+    ],
+    "id": 401,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "COMMOT: Screening cell-cell communication in spatial transcriptomics via collective optimal transport",
+    "url": "https://doi.org/10.1038/s41592-022-01728-4",
+    "summary": "Uses a formulation of optimal transport and a predefined set of ligand/receptor pairs to infer cell-cell interactions in a spatial context from spatial transcriptomics data.",
+    "tags": [
+      "Nature Methods",
+      "2023",
+      "Spatial Transcriptomics",
+      "Optimal Transport",
+      "Cell-Cell Communication"
+    ],
+    "id": 402,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "PRNet: Predicting transcriptional responses to novel chemical perturbations using deep generative model",
+    "url": "https://doi.org/10.1038/s41467-024-53457-1",
+    "summary": "Uses deep generative modeling with a conditional VAE architecture to predict transcriptional responses to previously untested compounds from both bulk and single-cell RNA-seq data, supporting drug discovery applications.",
+    "tags": [
+      "Nature Communications",
+      "2024",
+      "Perturbation",
+      "VAE",
+      "Drug Discovery",
+      "scRNA-seq"
+    ],
+    "id": 403,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "MOGONET: Multi-omics integration using graph convolutional networks for biomarker identification",
+    "url": "https://doi.org/10.1038/s41467-021-23774-w",
+    "summary": "A supervised multi-omics classification framework that integrates omics-specific learning using graph convolutional networks for multi-omics integration, enabling patient classification and biomarker identification from bulk multimodal measurements.",
+    "tags": [
+      "Nature Communications",
+      "2021",
+      "GNN",
+      "Multiomics",
+      "Classification"
+    ],
+    "id": 404,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "GLUE: Multi-omics single-cell data integration and regulatory inference with graph-linked embedding",
+    "url": "https://doi.org/10.1038/s41587-022-01284-4",
+    "summary": "Combines modality-specific VAEs with knowledge-based guidance graphs to integrate several unpaired single-cell omics measurements for multi-omics regulatory inference.",
+    "tags": [
+      "Nature Biotechnology",
+      "2022",
+      "VAE",
+      "Multiomics",
+      "Single-Cell",
+      "Regulatory Networks"
+    ],
+    "id": 405,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "MultiVI: Deep generative model for the integration of multimodal data",
+    "url": "https://doi.org/10.1038/s41592-023-01909-9",
+    "summary": "Uses deep generative probabilistic models to create a joint representation and potentially enhance cell measurements with single modalities, supporting single-cell multiomics (RNA-seq, proteomics, ATAC-seq) integration.",
+    "tags": [
+      "Nature Methods",
+      "2023",
+      "CVAE",
+      "Multiomics",
+      "Single-Cell"
+    ],
+    "id": 406,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "SpatialGLUE: Deciphering spatial domains from spatial multi-omics",
+    "url": "https://doi.org/10.1038/s41592-024-02316-4",
+    "summary": "Combines single-omics with spatial localization followed by multiomics integration using attention-based graph neural networks to uncover spatial domains from spatial multiomics data.",
+    "tags": [
+      "Nature Methods",
+      "2024",
+      "GNN",
+      "Spatial Transcriptomics",
+      "Multiomics",
+      "Attention"
+    ],
+    "id": 407,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "LINGER: Inferring gene regulatory networks from single-cell multiome data using atlas-scale external data",
+    "url": "https://doi.org/10.1038/s41587-024-02211-z",
+    "summary": "Harnesses pretraining on bulk data to model gene regulatory networks in single-cell data from paired scRNA+ATAC-seq measurements, achieving high-precision GRN inference.",
+    "tags": [
+      "Nature Biotechnology",
+      "2024",
+      "Neural Network",
+      "Gene Regulatory Networks",
+      "scRNA-seq",
+      "ATAC-seq"
+    ],
+    "id": 408,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "MIDAS: Mosaic integration and knowledge transfer of single-cell multimodal data",
+    "url": "https://doi.org/10.1038/s41587-023-02040-y",
+    "summary": "Uses deep generative learning to simultaneously perform dimensionality reduction, batch correction, and imputation for mosaic integration and knowledge transfer of single-cell multiomics data.",
+    "tags": [
+      "Nature Biotechnology",
+      "2024",
+      "VAE",
+      "Mosaic Integration",
+      "Single-Cell",
+      "Multiomics"
+    ],
+    "id": 409,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Concerto: Contrastive learning enables rapid mapping to multimodal single-cell atlas of multimillion scale",
+    "url": "https://doi.org/10.1038/s42256-022-00518-z",
+    "summary": "Harnesses self-supervised contrastive learning and self-distillation to learn a shared, batch-corrected multimodal space from single-cell multiomics data, which can be used for reference-query mapping.",
+    "tags": [
+      "Nature Machine Intelligence",
+      "2022",
+      "Contrastive Learning",
+      "Self-Supervised",
+      "Single-Cell",
+      "Multiomics"
+    ],
+    "id": 410,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Multigrate: Integration and querying of multimodal single-cell data with PoE-VAE",
+    "url": "https://doi.org/10.1101/2022.03.16.484643",
+    "summary": "Uses a product-of-expert CVAE-based architecture to allow for modular mapping of unimodal and multimodal single-cell data onto a reference for mosaic integration.",
+    "tags": [
+      "bioRxiv",
+      "2022",
+      "CVAE",
+      "Mosaic Integration",
+      "Single-Cell",
+      "Multiomics"
+    ],
+    "id": 411,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "scButterfly: A versatile single-cell cross-modality translation method via dual-aligned variational autoencoders",
+    "url": "https://doi.org/10.1038/s41467-024-47418-x",
+    "summary": "Uses a dual-aligned VAE architecture trained on paired and unpaired multiomics data to enable translation of one single-cell modality into another.",
+    "tags": [
+      "Nature Communications",
+      "2024",
+      "VAE",
+      "Modality Translation",
+      "Single-Cell",
+      "Multiomics"
+    ],
+    "id": 412,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "JAMIE: Joint variational autoencoders for multimodal imputation and embedding",
+    "url": "https://doi.org/10.1038/s42256-023-00691-9",
+    "summary": "Utilizes a joint variational autoencoder structure to perform multimodal integration and imputation of single-cell multiomics data.",
+    "tags": [
+      "Nature Machine Intelligence",
+      "2023",
+      "VAE",
+      "Multiomics",
+      "Imputation",
+      "Single-Cell"
+    ],
+    "id": 413,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "scPair: Boosting single cell multimodal analysis by leveraging implicit feature selection and single cell atlases",
+    "url": "https://doi.org/10.1038/s41467-024-54355-4",
+    "summary": "Uses two feedforward networks interconnected through a bidirectional network to predict one single-cell modality using the other, boosting multimodal analysis.",
+    "tags": [
+      "Nature Communications",
+      "2024",
+      "Autoencoder",
+      "Modality Prediction",
+      "Single-Cell",
+      "Multiomics"
+    ],
+    "id": 414,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "sciPENN: A multi-use deep learning method for CITE-seq and single-cell RNA-seq data integration with cell surface protein prediction",
+    "url": "https://doi.org/10.1038/s42256-022-00545-w",
+    "summary": "Harnesses a recurrent neural network to simultaneously predict protein expression, provide an uncertainty estimate, and transfer cell-type labels from CITE-seq and scRNA-seq data.",
+    "tags": [
+      "Nature Machine Intelligence",
+      "2022",
+      "RNN",
+      "CITE-seq",
+      "Protein Prediction",
+      "Single-Cell"
+    ],
+    "id": 415,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Geneformer: Transfer learning enables predictions in network biology",
+    "url": "https://doi.org/10.1038/s41586-023-06139-9",
+    "summary": "A seminal single-cell transcriptomics foundation model that uses a standard encoder-only transformer architecture with attention to learn universal cell embeddings, pretrained on ~30 million single cells. Enables transfer learning for network biology predictions.",
+    "tags": [
+      "Nature",
+      "2023",
+      "Transformer",
+      "Foundation Model",
+      "scRNA-seq",
+      "Cell Embeddings"
+    ],
+    "id": 416,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "scGPT: Toward building a foundation model for single-cell multi-omics using generative AI",
+    "url": "https://doi.org/10.1038/s41592-024-02201-0",
+    "summary": "Adapts the standard encoder-only self-attention transformer architecture to non-sequential data to simultaneously learn cell and gene embeddings from scRNA-seq data. Pretrained on 33 million single cells.",
+    "tags": [
+      "Nature Methods",
+      "2024",
+      "Transformer",
+      "Foundation Model",
+      "scRNA-seq",
+      "Generative AI"
+    ],
+    "id": 417,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "scFoundation: Large-scale foundation model on single-cell transcriptomics",
+    "url": "https://doi.org/10.1038/s41592-024-02305-7",
+    "summary": "Uses an encoder-decoder transformer-based architecture to learn a unified cell embedding, pretrained on over 50 million single cells for diverse downstream tasks.",
+    "tags": [
+      "Nature Methods",
+      "2024",
+      "Transformer",
+      "Foundation Model",
+      "scRNA-seq"
+    ],
+    "id": 418,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "SATURN: Toward universal cell embeddings integrating single-cell RNA-seq datasets across species",
+    "url": "https://doi.org/10.1038/s41592-024-02191-z",
+    "summary": "Combines gene expression and protein sequences processed through a protein language model to learn unified, multi-species cell embeddings using transformers.",
+    "tags": [
+      "Nature Methods",
+      "2024",
+      "Transformer",
+      "Foundation Model",
+      "scRNA-seq",
+      "Multi-Species"
+    ],
+    "id": 419,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "CellPLM: Pre-training of Cell Language Model Beyond Single Cells",
+    "url": "https://openreview.net/forum?id=93BaDqkjIm",
+    "summary": "Uses cell-level masked language modeling rather than gene-level for pretraining, with a Gaussian mixture latent space to learn cell embeddings. Takes a cell-centric approach for imputing spatial transcriptomics data.",
+    "tags": [
+      "ICLR",
+      "2024",
+      "Transformer",
+      "Foundation Model",
+      "scRNA-seq",
+      "Spatial Transcriptomics"
+    ],
+    "id": 420,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer",
+    "url": "https://doi.org/10.1101/2024.11.01.621087",
+    "summary": "Uses a standard encoder-only transformer architecture exclusively trained on a curated dataset of malignant cells to learn embeddings specific to cancer, focusing on deciphering drug resistance.",
+    "tags": [
+      "bioRxiv",
+      "2024",
+      "Transformer",
+      "Foundation Model",
+      "scRNA-seq",
+      "Cancer",
+      "Drug Resistance"
+    ],
+    "id": 421,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "GenePT: Simple and effective embedding model for single-cell biology built from ChatGPT",
+    "url": "https://doi.org/10.1038/s44222-024-00243-3",
+    "summary": "Uses ChatGPT to encode textual descriptions of genes to obtain gene embeddings, which are subsequently used to obtain cell embeddings using corresponding gene expression, achieving performance comparable to models trained on millions of cells.",
+    "tags": [
+      "Nature Biomedical Engineering",
+      "2024",
+      "Transformer",
+      "LLM",
+      "scRNA-seq",
+      "Cell Embeddings"
+    ],
+    "id": 422,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Nicheformer: A foundation model for single-cell and spatial omics",
+    "url": "https://doi.org/10.1101/2024.04.15.589472",
+    "summary": "Uses a standard self-attention transformer encoder-only architecture with the addition of positional embeddings to add information about the spatial position of cells. Supports both scRNA-seq and spatial transcriptomics.",
+    "tags": [
+      "bioRxiv",
+      "2024",
+      "Transformer",
+      "Foundation Model",
+      "scRNA-seq",
+      "Spatial Transcriptomics"
+    ],
+    "id": 423,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "scGPT-spatial: Continual pretraining of single-cell foundation model for spatial transcriptomics",
+    "url": "https://doi.org/10.1101/2025.02.05.636714",
+    "summary": "Extends scGPT by adapting the training procedure to incorporate spatial information and uses a mixture-of-experts decoder for spatial transcriptomics analysis.",
+    "tags": [
+      "bioRxiv",
+      "2025",
+      "Transformer",
+      "Foundation Model",
+      "Spatial Transcriptomics",
+      "Mixture-of-Experts"
+    ],
+    "id": 424,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Triage-driven diagnosis of Barrett's esophagus for early detection of esophageal adenocarcinoma using deep learning",
+    "url": "https://doi.org/10.1038/s41591-021-01287-x",
+    "summary": "Trains a CNN on H&E and TFF3-stained slides from a routine, non-invasive test to aid triage of patients for early detection of esophageal cancer.",
+    "tags": [
+      "Nature Medicine",
+      "2021",
+      "CNN",
+      "Cancer Detection",
+      "Pathology"
+    ],
+    "id": 425,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "DoMore-v1-CRC: A clinical decision support system optimising adjuvant chemotherapy for colorectal cancers",
+    "url": "https://doi.org/10.1016/S1470-2045(22)00449-9",
+    "summary": "Introduces a CNN-based architecture that provides a biomarker of patient outcome after resection based on H&E slides, integrating deep learning and pathological staging markers for clinical decision support.",
+    "tags": [
+      "Lancet Oncology",
+      "2022",
+      "CNN",
+      "Patient Stratification",
+      "Colorectal Cancer",
+      "Pathology"
+    ],
+    "id": 426,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "PORPOISE: Pan-cancer integrative histology-genomic analysis via multimodal deep learning",
+    "url": "https://doi.org/10.1016/j.ccell.2022.07.004",
+    "summary": "Integrates pathology images (H&E slides) and molecular data (RNA-seq, mutations, CNVs) using CNN and attention mechanisms to obtain better biomarkers for patient stratification in pan-cancer settings.",
+    "tags": [
+      "Cancer Cell",
+      "2022",
+      "CNN",
+      "Attention",
+      "Multimodal",
+      "Biomarker Discovery",
+      "Pathology"
+    ],
+    "id": 427,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Pathomic Fusion: An integrated framework for fusing histopathology and genomic features for cancer diagnosis and prognosis",
+    "url": "https://doi.org/10.1109/TMI.2020.3021387",
+    "summary": "Trains unimodal-specific networks (CNN, GNN) to extract features from images and molecular data, then integrates them through an attention gating mechanism for survival prediction.",
+    "tags": [
+      "IEEE TMI",
+      "2022",
+      "CNN",
+      "GNN",
+      "Attention",
+      "Multimodal",
+      "Pathology",
+      "Prognosis"
+    ],
+    "id": 428,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "DiffSBDD: Structure-based drug design with equivariant diffusion models",
+    "url": "https://doi.org/10.48550/arXiv.2210.13695",
+    "summary": "Harnesses a diffusion model to generate molecules and binding conformations for a protein target, enabling structure-based drug design.",
+    "tags": [
+      "arXiv",
+      "2022",
+      "Diffusion",
+      "Drug Discovery",
+      "Structure-Based Drug Design"
+    ],
+    "id": 429,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "ReLeaSE: Deep reinforcement learning for de novo drug design",
+    "url": "https://doi.org/10.1126/sciadv.aap7885",
+    "summary": "Trains a generative and predictive model in two phases, first in a supervised manner then using reinforcement learning with LSTM, to generate in silico compounds with desired properties.",
+    "tags": [
+      "Science Advances",
+      "2018",
+      "LSTM",
+      "Reinforcement Learning",
+      "Drug Discovery",
+      "De Novo Design"
+    ],
+    "id": 430,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "REINVENT: Molecular de-novo design through deep reinforcement learning",
+    "url": "https://doi.org/10.1186/s13321-017-0235-x",
+    "summary": "Uses an RNN-based architecture combined with reinforcement learning to generate de novo molecules with desired properties from SMILES strings.",
+    "tags": [
+      "Journal of Cheminformatics",
+      "2017",
+      "RNN",
+      "Reinforcement Learning",
+      "Drug Discovery",
+      "De Novo Design"
+    ],
+    "id": 431,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "RFDiffusion: De novo design of protein structure and function with RFdiffusion",
+    "url": "https://doi.org/10.1038/s41586-023-06415-8",
+    "summary": "Generates de novo proteins with specific structural and functional properties by training a probabilistic diffusion model on top of the RoseTTAFold backbone.",
+    "tags": [
+      "Nature",
+      "2023",
+      "Diffusion",
+      "Protein Design",
+      "De Novo Design"
+    ],
+    "id": 432,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "PaccMannRL: De novo generation of hit-like anticancer molecules from transcriptomic data via reinforcement learning",
+    "url": "https://doi.org/10.1016/j.isci.2021.102269",
+    "summary": "Harnesses deep generative modeling (VAE) and reinforcement learning to generate novel compounds with predicted efficacy given a disease context from bulk RNA-seq and SMILES data.",
+    "tags": [
+      "iScience",
+      "2021",
+      "VAE",
+      "Reinforcement Learning",
+      "Drug Discovery",
+      "Cancer"
+    ],
+    "id": 433,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "DRUML: Drug ranking using machine learning systematically predicts the efficacy of anti-cancer drugs",
+    "url": "https://doi.org/10.1038/s41467-021-22170-8",
+    "summary": "Uses ensemble learning by combining standard ML methods with deep learning methodologies to rank anti-cancer drugs based on proteomics and RNA-seq molecular features.",
+    "tags": [
+      "Nature Communications",
+      "2021",
+      "Ensemble Learning",
+      "Neural Network",
+      "Drug Ranking",
+      "Cancer"
+    ],
+    "id": 434,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Gex2SGen: Designing drug-like molecules from desired gene expression signatures",
+    "url": "https://doi.org/10.1021/acs.jcim.2c01301",
+    "summary": "Uses an autoencoder framework that accepts gene expression as input and outputs generated drug-like compounds adapted to the gene expression profile.",
+    "tags": [
+      "JCIM",
+      "2023",
+      "Autoencoder",
+      "Drug Discovery",
+      "Gene Expression"
+    ],
+    "id": 435,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "TranSiGen: Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery",
+    "url": "https://doi.org/10.1038/s41467-024-49620-3",
+    "summary": "Uses a dual-VAE architecture that utilizes unperturbed and perturbed gene expression profiles to perform ligand-based virtual screening, drug response prediction, and drug repurposing.",
+    "tags": [
+      "Nature Communications",
+      "2024",
+      "VAE",
+      "Drug Discovery",
+      "Virtual Screening",
+      "Drug Repurposing"
+    ],
+    "id": 436,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Dermatologist-level classification of skin cancer with deep neural networks",
+    "url": "https://doi.org/10.1038/nature21056",
+    "summary": "Introduces a deep convolutional neural network that can accurately classify skin cancer from images at dermatologist-level performance, demonstrating AI's potential in clinical diagnostics.",
+    "tags": [
+      "Nature",
+      "2017",
+      "CNN",
+      "Computational Pathology",
+      "Skin Cancer",
+      "Diagnostics"
+    ],
+    "id": 437,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Clinical-grade computational pathology using weakly supervised deep learning on whole slide images",
+    "url": "https://doi.org/10.1038/s41591-019-0508-1",
+    "summary": "Introduces a multiple instance learning deep convolutional network to identify tumor regions in whole slide images using weakly supervised learning for clinical-grade computational pathology.",
+    "tags": [
+      "Nature Medicine",
+      "2019",
+      "CNN",
+      "RNN",
+      "Multiple Instance Learning",
+      "Computational Pathology"
+    ],
+    "id": 438,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "UNI: Towards a general-purpose foundation model for computational pathology",
+    "url": "https://doi.org/10.1038/s41591-024-02857-3",
+    "summary": "Uses vision transformers and a self-supervised distillation framework to learn tile representations of pathology images from H&E slides, which can be used for classification and segmentation tasks.",
+    "tags": [
+      "Nature Medicine",
+      "2024",
+      "Transformer",
+      "Self-Supervised",
+      "Foundation Model",
+      "Computational Pathology"
+    ],
+    "id": 439,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Virchow: A million-slide digital pathology foundation model",
+    "url": "https://doi.org/10.48550/arXiv.2309.07778",
+    "summary": "A transformer-based self-supervised foundation model trained on over one million H&E slides for digital pathology, learning general-purpose tile representations for diverse downstream applications.",
+    "tags": [
+      "arXiv",
+      "2023",
+      "Transformer",
+      "Self-Supervised",
+      "Foundation Model",
+      "Computational Pathology"
+    ],
+    "id": 440,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "TOAD: AI-based pathology predicts origins for cancers of unknown primary",
+    "url": "https://doi.org/10.1038/s41586-021-03512-4",
+    "summary": "Uses a CNN-based architecture combined with attention and multiple instance learning to predict the metastatic status and infer site of origin of the tumor from whole slide images.",
+    "tags": [
+      "Nature",
+      "2021",
+      "CNN",
+      "Attention",
+      "Multiple Instance Learning",
+      "Cancer of Unknown Primary"
+    ],
+    "id": 441,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "PLIP: A visual-language foundation model for pathology image analysis using medical Twitter",
+    "url": "https://doi.org/10.1038/s41591-023-02504-3",
+    "summary": "Uses Twitter-scraped matched images and descriptions to train a transformer-based contrastive learning model, whose embeddings can be used for image classification or text-to-image retrieval in pathology.",
+    "tags": [
+      "Nature Medicine",
+      "2023",
+      "Contrastive Learning",
+      "Transformer",
+      "Vision-Language",
+      "Computational Pathology"
+    ],
+    "id": 442,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "MUSK: A vision-language foundation model for precision oncology",
+    "url": "https://doi.org/10.1038/s41586-024-08378-w",
+    "summary": "Uses a transformer-based architecture to analyze multimodal paired text and image data to produce embeddings for text-to-image and image-to-text retrieval, as well as biomarker prediction in precision oncology.",
+    "tags": [
+      "Nature",
+      "2025",
+      "Transformer",
+      "Vision-Language",
+      "Precision Oncology",
+      "Multimodal"
+    ],
+    "id": 443,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "AI-based pathology as a biomarker of sensitivity to atezolizumab-bevacizumab in hepatocellular carcinoma",
+    "url": "https://doi.org/10.1016/S1470-2045(23)00468-0",
+    "summary": "Introduces a deep-learning model using transformers that learns molecular-derived biomarkers from pathology images for accurate patient stratification in hepatocellular carcinoma immunotherapy.",
+    "tags": [
+      "Lancet Oncology",
+      "2023",
+      "Transformer",
+      "Knowledge Distillation",
+      "Pathology",
+      "Immunotherapy",
+      "Biomarker"
+    ],
+    "id": 444,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
+    "issue": 83
+  },
+  {
+    "title": "Histo-genomic knowledge distillation for cancer prognosis from histopathology whole slide images",
+    "url": "https://doi.org/10.48550/arXiv.2403.10040",
+    "summary": "Trains jointly on histopathological and genomic data (H&E slides, RNA-seq, mutations, CNVs) using transformers to distill molecular information, enabling enhanced patient stratification at inference using only whole slide images.",
+    "tags": [
+      "arXiv",
+      "2024",
+      "Transformer",
+      "Knowledge Distillation",
+      "Pathology",
+      "Genomics",
+      "Prognosis"
+    ],
+    "id": 445,
+    "section": "AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)",
     "issue": 83
   }
 ];
