@@ -5088,5 +5088,14 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 391,
+    "title": "https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf",
+    "url": "https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "この論文にでてくる手法に関してまとめて.",
+    "issue": 83
   }
 ];

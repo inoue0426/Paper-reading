@@ -43,6 +43,15 @@ A curated collection of research papers organized by conference and topic.
 - [ICLR2026](#iclr2026-1)
 - [ICLR 2026 Papers That Were Skipped but May Be Interesting](#iclr2026)
 - [Scholar Inbox new](#scholar-inbox-new)
+- [この論文にでてくる手法に関してまとめて.](#)
+
+---
+
+## この論文にでてくる手法に関してまとめて.
+
+> Issue [#83](https://github.com/inoue0426/Paper-reading/issues/83)
+
+- **[https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf](https://github.com/user-attachments/files/26752709/1-s2.0-S1535610825001199-main.pdf)**
 
 ---
 
