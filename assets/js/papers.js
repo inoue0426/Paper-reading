@@ -6004,5 +6004,181 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 451,
+    "title": "A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles",
+    "url": "https://doi.org/10.1016/j.cell.2017.10.049",
+    "summary": "Landmark paper introducing the L1000 assay and the large-scale Connectivity Map resource, establishing a core foundation for computational drug perturbation analysis and mechanism-of-action discovery.",
+    "tags": [
+      "Cell",
+      "2017",
+      "Drug Perturbation",
+      "LINCS L1000"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 452,
+    "title": "scGen Predicts Single-Cell Perturbation Responses",
+    "url": "https://www.nature.com/articles/s41592-019-0494-8",
+    "summary": "A foundational single-cell perturbation model that learns latent perturbation vectors and predicts transcriptomic responses under unseen perturbation conditions.",
+    "tags": [
+      "Nature Methods",
+      "2019",
+      "Single-cell",
+      "Drug Perturbation"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 453,
+    "title": "Predicting Single-Cell Perturbation Responses for Unseen Drugs (CPA)",
+    "url": "https://www.embopress.org/doi/full/10.15252/msb.2022115",
+    "summary": "Compositional Perturbation Autoencoder (CPA) models dose-aware and combinatorial perturbations at single-cell resolution and generalizes to unseen drug settings.",
+    "tags": [
+      "Molecular Systems Biology",
+      "2023",
+      "Single-cell",
+      "Drug Perturbation",
+      "Generative Model"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 454,
+    "title": "Predicting transcriptional outcomes of novel multi-gene perturbations with GEARS",
+    "url": "https://www.nature.com/articles/s41587-023-01905-6",
+    "summary": "Graph-based model for predicting out-of-distribution single and combinatorial perturbation outcomes from single-cell expression data.",
+    "tags": [
+      "Nature Biotechnology",
+      "2023",
+      "Perturbation",
+      "Single-cell",
+      "GNN"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 455,
+    "title": "Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11643044/",
+    "summary": "Disentangled generative framework for single-cell perturbation prediction that improves generalization to unobserved and combinatorial perturbations.",
+    "tags": [
+      "Genome Research",
+      "2024",
+      "Perturbation",
+      "Single-cell",
+      "VAE"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 456,
+    "title": "In silico biological discovery with large perturbation models",
+    "url": "https://www.nature.com/articles/s43588-025-00870-1",
+    "summary": "Large perturbation model (LPM) trained across heterogeneous perturbation datasets to support mechanism discovery and broader perturbation generalization.",
+    "tags": [
+      "Nature Computational Science",
+      "2025",
+      "Drug Perturbation",
+      "Foundation Model"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 457,
+    "title": "PRNet: Predicting transcriptional responses to novel chemical perturbations using deep generative model",
+    "url": "https://doi.org/10.1038/s41467-024-53457-1",
+    "summary": "Conditional deep generative model for predicting transcriptomic outcomes of novel chemical perturbations in both bulk and single-cell settings.",
+    "tags": [
+      "Nature Communications",
+      "2024",
+      "Chemical Perturbation",
+      "Drug Discovery",
+      "VAE"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 458,
+    "title": "TranSiGen: Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery",
+    "url": "https://doi.org/10.1038/s41467-024-49620-3",
+    "summary": "Deep representation learning framework for chemical perturbation signatures, supporting virtual screening and drug repurposing use cases.",
+    "tags": [
+      "Nature Communications",
+      "2024",
+      "Chemical Perturbation",
+      "Drug Repurposing",
+      "VAE"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 459,
+    "title": "Gex2SGen: Designing drug-like molecules from desired gene expression signatures",
+    "url": "https://doi.org/10.1021/acs.jcim.2c01301",
+    "summary": "Generative modeling approach that designs candidate molecules conditioned on target perturbation gene-expression signatures.",
+    "tags": [
+      "JCIM",
+      "2023",
+      "Drug Perturbation",
+      "Molecule Generation"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 460,
+    "title": "DRUML: Drug ranking using machine learning systematically predicts the efficacy of anti-cancer drugs",
+    "url": "https://doi.org/10.1038/s41467-021-22170-8",
+    "summary": "Machine-learning framework that ranks anti-cancer compounds by integrating omics-derived features, connecting perturbation signatures to efficacy.",
+    "tags": [
+      "Nature Communications",
+      "2021",
+      "Drug Response",
+      "Perturbation",
+      "Cancer"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 461,
+    "title": "PaccMannRL: De novo generation of hit-like anticancer molecules from transcriptomic data via reinforcement learning",
+    "url": "https://doi.org/10.1016/j.isci.2021.102269",
+    "summary": "Reinforcement-learning and generative modeling framework that uses transcriptomic context to produce compounds with targeted perturbation outcomes.",
+    "tags": [
+      "iScience",
+      "2021",
+      "Drug Perturbation",
+      "Reinforcement Learning",
+      "Cancer"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
+  },
+  {
+    "id": 462,
+    "title": "Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges | Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39190",
+    "summary": "Distributional transport approach with neural Schrödinger bridges for predicting full single-cell response distributions under unseen perturbations.",
+    "tags": [
+      "AAAI 2026",
+      "2026",
+      "Single-cell",
+      "Perturbation",
+      "Optimal Transport"
+    ],
+    "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
+    "issue": 85
   }
 ];
