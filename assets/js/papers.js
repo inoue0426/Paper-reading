@@ -5968,5 +5968,41 @@ const papers = [
     "tags": [],
     "section": "この論文にでてくる手法に関してまとめて.",
     "issue": 83
+  },
+  {
+    "id": 447,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.10.717709v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717709v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 448,
+    "title": "[2604.12806] Interpretable Relational Inference with LLM-Guided Symbolic Dynamics Modeling",
+    "url": "https://arxiv.org/abs/2604.12806",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 449,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 450,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.11.717183v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.11.717183v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
