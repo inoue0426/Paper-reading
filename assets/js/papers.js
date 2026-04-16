@@ -6180,5 +6180,14 @@ const papers = [
     ],
     "section": "Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.",
     "issue": 85
+  },
+  {
+    "id": 463,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
