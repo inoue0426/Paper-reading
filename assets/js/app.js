@@ -29,6 +29,7 @@
   const noResults     = document.getElementById('no-results');
   const resultsCount  = document.getElementById('results-count');
   const searchInput   = document.getElementById('search-input');
+  const searchClear   = document.getElementById('search-clear');
   const clearBtn      = document.getElementById('clear-filters');
   const resetLink     = document.getElementById('reset-link');
   const venueCont     = document.getElementById('venue-tags');
@@ -208,11 +209,20 @@
   // ── Event listeners ─────────────────────────────────────────────────────
   searchInput.addEventListener('input', () => {
     searchQuery = searchInput.value.trim();
+    searchClear.hidden = searchQuery === '';
+    renderPapers();
+  });
+
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    searchQuery = '';
+    searchClear.hidden = true;
+    searchInput.focus();
     renderPapers();
   });
 
   clearBtn.addEventListener('click', clearFilters);
-  resetLink.addEventListener('click', e => { e.preventDefault(); clearFilters(); searchInput.value = ''; searchQuery = ''; renderPapers(); });
+  resetLink.addEventListener('click', e => { e.preventDefault(); clearFilters(); searchInput.value = ''; searchQuery = ''; searchClear.hidden = true; renderPapers(); });
 
   toggleBtn.addEventListener('click', () => {
     sidebar.classList.toggle('open');

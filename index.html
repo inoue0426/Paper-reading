@@ -13,14 +13,6 @@
         <h1>📄 Paper Reading</h1>
         <p class="subtitle">AI for Life Sciences · Drug Discovery · Biological Modeling</p>
       </div>
-      <div class="header-search">
-        <input
-          type="search"
-          id="search-input"
-          placeholder="Search papers by title or keyword…"
-          aria-label="Search papers"
-        />
-      </div>
     </div>
   </header>
 
@@ -44,6 +36,19 @@
 
     <!-- Main content -->
     <main class="main-content">
+      <div class="search-section">
+        <div class="search-wrapper">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search papers by title, keyword, or summary…"
+            aria-label="Search papers"
+            autocomplete="off"
+          />
+          <button class="search-clear-btn" id="search-clear" aria-label="Clear search" hidden>✕</button>
+        </div>
+      </div>
       <div class="results-bar">
         <span id="results-count"></span>
         <button class="toggle-sidebar-btn" id="toggle-sidebar" aria-label="Toggle filters">
