@@ -6189,5 +6189,32 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 464,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.22.719826v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.22.719826v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 465,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 466,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.21.719959v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.21.719959v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
