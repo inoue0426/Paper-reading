@@ -524,6 +524,8 @@
   });
 
   // ── State ────────────────────────────────────────────────
+  const TOOLTIP_W = 300; // max tooltip width (matches CSS max-width)
+  const TOOLTIP_H = 140; // estimated tooltip height for overflow avoidance
   let activeTopic = null;
   let searchQuery = '';
   let currentView = 'cluster'; // 'cluster' | 'network'
@@ -771,10 +773,9 @@
   }
 
   function positionTooltip(event) {
-    const tw = 300, th = 140;
     let x = event.clientX + 14, y = event.clientY + 14;
-    if (x + tw > window.innerWidth - 10) x = event.clientX - tw - 10;
-    if (y + th > window.innerHeight - 10) y = event.clientY - th - 10;
+    if (x + TOOLTIP_W > window.innerWidth - 10) x = event.clientX - TOOLTIP_W - 10;
+    if (y + TOOLTIP_H > window.innerHeight - 10) y = event.clientY - TOOLTIP_H - 10;
     tooltip.style.left = x + 'px';
     tooltip.style.top  = y + 'px';
   }
