@@ -6234,5 +6234,14 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 469,
+    "title": "https://github.com/user-attachments/assets/f0015db8-2dfa-47db-bbfc-1a681b921f9e",
+    "url": "https://github.com/user-attachments/assets/f0015db8-2dfa-47db-bbfc-1a681b921f9e",
+    "summary": "",
+    "tags": [],
+    "section": "MAPのドットと枠線がちょっとズレてるの直して",
+    "issue": 93
   }
 ];

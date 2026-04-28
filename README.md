@@ -45,6 +45,15 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar Inbox new](#scholar-inbox-new)
 - [AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)](#ai-methods-in-translational-cancer-research-yates--van-allen-cancer-cell-2025)
 - [Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.](#drug-perturbation-10)
+- [MAPのドットと枠線がちょっとズレてるの直して](#map)
+
+---
+
+## MAPのドットと枠線がちょっとズレてるの直して
+
+> Issue [#93](https://github.com/inoue0426/Paper-reading/issues/93)
+
+- **[https://github.com/user-attachments/assets/f0015db8-2dfa-47db-bbfc-1a681b921f9e](https://github.com/user-attachments/assets/f0015db8-2dfa-47db-bbfc-1a681b921f9e)**
 
 ---
 
