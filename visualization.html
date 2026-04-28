@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paper Map – AI for Life Sciences</title>
+  <style>
+    /* ── Variables ──────────────────────────────────────── */
+    :root {
+      --bg: #f8f9fb;
+      --surface: #ffffff;
+      --border: #e2e5ea;
+      --text: #1a1f2e;
+      --text-muted: #6b7280;
+      --primary: #4361ee;
+      --primary-hover: #3450d4;
+      --primary-light: #eef1fd;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+      --shadow-md: 0 4px 10px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.05);
+      --radius: 10px;
+      --header-h: 60px;
+      --panel-w: 240px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Header ────────────────────────────────────────── */
+    .site-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 200;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      gap: 16px;
+    }
+    .header-nav a {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background .15s, color .15s;
+    }
+    .header-nav a:hover { background: var(--bg); color: var(--text); text-decoration: none; }
+    .header-nav a.active { background: var(--primary-light); color: var(--primary); font-weight: 600; }
+    .header-sep { color: var(--border); }
+    .header-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .header-subtitle {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .header-right {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .view-btn {
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1.5px solid var(--border);
+      background: var(--surface);
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .view-btn.active, .view-btn:hover {
+      border-color: var(--primary);
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+
+    /* ── Layout ────────────────────────────────────────── */
+    .viz-layout {
+      position: fixed;
+      top: var(--header-h);
+      left: 0; right: 0; bottom: 0;
+      display: flex;
+    }
+
+    /* ── Side Panel ────────────────────────────────────── */
+    .side-panel {
+      width: var(--panel-w);
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      overflow-y: auto;
+      padding: 16px 12px;
+      flex-shrink: 0;
+    }
+    .panel-section { margin-bottom: 20px; }
+    .panel-section h3 {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background .12s;
+      font-size: 0.82rem;
+    }
+    .legend-item:hover { background: var(--bg); }
+    .legend-item.dimmed { opacity: 0.35; }
+    .legend-dot {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .legend-label { flex: 1; color: var(--text); }
+    .legend-count {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .panel-search {
+      width: 100%;
+      padding: 7px 10px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: var(--text);
+      background: var(--surface);
+      outline: none;
+      margin-bottom: 12px;
+      transition: border-color .15s;
+    }
+    .panel-search:focus { border-color: var(--primary); }
+    .clear-topic-btn {
+      width: 100%;
+      padding: 6px;
+      background: none;
+      border: 1.5px solid var(--border);
+      border-radius: 7px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all .15s;
+      margin-top: 4px;
+    }
+    .clear-topic-btn:hover { background: var(--bg); color: var(--text); }
+
+    /* ── SVG Canvas ────────────────────────────────────── */
+    #viz-canvas {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+    }
+    #viz-canvas svg {
+      width: 100%;
+      height: 100%;
+      cursor: grab;
+    }
+    #viz-canvas svg:active { cursor: grabbing; }
+
+    /* ── Tooltip ───────────────────────────────────────── */
+    #tooltip {
+      position: fixed;
+      z-index: 300;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      box-shadow: var(--shadow-md);
+      max-width: 300px;
+      pointer-events: none;
+      display: none;
+    }
+    .tt-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+    .tt-summary {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .tt-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .tt-tag {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+    .tt-hint {
+      font-size: 0.72rem;
+      color: var(--primary);
+      margin-top: 6px;
+    }
+
+    /* ── Cluster Labels (rendered inside SVG) ─────────── */
+    .cluster-label {
+      font-size: 13px;
+      font-weight: 700;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      pointer-events: none;
+      opacity: 0.55;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    /* ── Loading overlay ───────────────────────────────── */
+    #loading {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 500;
+      flex-direction: column;
+      gap: 12px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .spinner {
+      width: 32px; height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Paper detail panel ────────────────────────────── */
+    #detail-panel {
+      position: fixed;
+      bottom: 16px;
+      right: 16px;
+      width: 320px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      box-shadow: var(--shadow-md);
+      z-index: 250;
+      display: none;
+    }
+    #detail-panel .detail-close {
+      float: right;
+      background: none;
+      border: none;
+      font-size: 1.1rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      line-height: 1;
+      padding: 0;
+    }
+    #detail-panel .detail-close:hover { color: var(--text); }
+    #detail-panel .detail-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 8px;
+      padding-right: 20px;
+    }
+    #detail-panel .detail-summary {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 10px;
+    }
+    #detail-panel .detail-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-bottom: 10px;
+    }
+    #detail-panel .detail-tag {
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+    #detail-panel .detail-open {
+      display: inline-block;
+      padding: 7px 14px;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 7px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background .15s;
+    }
+    #detail-panel .detail-open:hover { background: var(--primary-hover); text-decoration: none; }
+
+    /* ── Stats bar ─────────────────────────────────────── */
+    .stats-bar {
+      position: fixed;
+      bottom: 16px;
+      left: calc(var(--panel-w) + 16px);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 8px;
+      box-shadow: var(--shadow-sm);
+      z-index: 150;
+    }
+
+    /* ── Responsive ─────────────────────────────────────── */
+    @media (max-width: 700px) {
+      :root { --panel-w: 0px; }
+      .side-panel { display: none; }
+      .stats-bar { left: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <span>Building paper map…</span>
+</div>
+
+<header class="site-header">
+  <div class="header-title">📄 Paper Reading</div>
+  <div class="header-subtitle">AI for Life Sciences</div>
+  <nav class="header-nav" style="display:flex;align-items:center;gap:4px;margin-left:12px;">
+    <a href="index.html">Papers</a>
+    <span class="header-sep">›</span>
+    <a href="visualization.html" class="active">Map</a>
+  </nav>
+  <div class="header-right">
+    <button class="view-btn active" id="btn-cluster">Cluster View</button>
+    <button class="view-btn" id="btn-network">Network View</button>
+  </div>
+</header>
+
+<div class="viz-layout">
+  <!-- Side legend panel -->
+  <aside class="side-panel">
+    <div class="panel-section">
+      <h3>Search</h3>
+      <input class="panel-search" id="panel-search" type="search" placeholder="Filter papers…" autocomplete="off" />
+    </div>
+    <div class="panel-section">
+      <h3>Topics <span id="topic-filter-hint" style="font-size:0.65rem;text-transform:none;letter-spacing:0;font-weight:400;color:var(--primary)">(click to highlight)</span></h3>
+      <div id="legend-list"></div>
+      <button class="clear-topic-btn" id="clear-topic-btn">Show all</button>
+    </div>
+  </aside>
+
+  <!-- D3 SVG -->
+  <div id="viz-canvas">
+    <svg id="main-svg"></svg>
+  </div>
+</div>
+
+<!-- Hover tooltip -->
+<div id="tooltip"></div>
+
+<!-- Click detail panel -->
+<div id="detail-panel">
+  <button class="detail-close" id="detail-close">✕</button>
+  <div class="detail-title" id="detail-title"></div>
+  <div class="detail-summary" id="detail-summary"></div>
+  <div class="detail-tags" id="detail-tags"></div>
+  <a class="detail-open" id="detail-open" href="#" target="_blank" rel="noopener">Open paper ↗</a>
+</div>
+
+<!-- Stats -->
+<div class="stats-bar" id="stats-bar"></div>
+
+<script src="assets/js/papers.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  // ── Tag category helpers ──────────────────────────────────
+  const VENUE_TAGS = new Set([
+    'ICLR 2026', 'AAAI 2026',
+    'NeurIPS 2025', 'ICML 2025', 'ICLR 2025',
+    'ICML 2024', 'ICLR 2024', 'IJCAI 2024', 'ACL 2024', 'AAAI 2024',
+    'ACM TIST 2024', 'Information Processing & Management 2024', 'TMLR 2024',
+    'IEEE TKDE 2024', 'Expert Systems with Applications 2024', 'Artificial Intelligence Review 2024',
+    'NeurIPS 2023', 'IJCAI 2023', 'LoG 2023', 'BIBM 2023', 'EMNLP 2023', 'ACL 2023',
+    'EMNLP Findings 2023', 'TMLR 2023', 'ACM CSUR 2023', 'ACM BCB', 'arXiv',
+    'From Scholar Inbox',
+  ]);
+  const YEAR_TAGS = new Set(['2016','2018','2019','2020','2021','2022','2023','2024','2025','2026']);
+  // Meta-tags that are not scientific topics
+  const META_TAGS = new Set([
+    'Copilot','GitHub','bioRxiv','Nature','Nature Methods','Nature Communications',
+    'Nature Biotechnology','Nature Machine Intelligence','Nature Medicine',
+    'Arc Institute','Science','Cell','Scholar Inbox',
+  ]);
+
+  function isTopicTag(t) {
+    return !VENUE_TAGS.has(t) && !YEAR_TAGS.has(t) && !META_TAGS.has(t);
+  }
+
+  // ── Count topics ─────────────────────────────────────────
+  const topicCount = {};
+  papers.forEach(p => p.tags.filter(isTopicTag).forEach(t => {
+    topicCount[t] = (topicCount[t] || 0) + 1;
+  }));
+
+  // Top topics (those with at least 5 papers)
+  const TOP_N = 18;
+  const topTopics = Object.entries(topicCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, TOP_N)
+    .map(([t]) => t);
+
+  // Merge near-duplicate single-cell tags
+  const TAG_ALIAS = {
+    'scRNA-seq': 'Single-cell',
+    'Single-Cell': 'Single-cell',
+    'spatial transcriptomics': 'Spatial Transcriptomics',
+  };
+
+  // Normalize tag (handles aliases and case variants)
+  function normTag(t) {
+    const a = TAG_ALIAS[t];
+    if (a) return a;
+    const lower = t.toLowerCase();
+    if (lower === 'single-cell' || lower === 'scrna-seq' || lower === 'single cell') return 'Single-cell';
+    if (lower === 'spatial transcriptomics') return 'Spatial Transcriptomics';
+    if (lower === 'optimal transport') return 'Optimal Transport';
+    if (lower === 'graph neural network') return 'GNN';
+    return t;
+  }
+
+  // Reassign topTopics after normalization
+  const normCount = {};
+  papers.forEach(p => p.tags.filter(isTopicTag).forEach(t => {
+    const nt = normTag(t);
+    normCount[nt] = (normCount[nt] || 0) + 1;
+  }));
+  const normTopics = Object.entries(normCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, TOP_N)
+    .map(([t]) => t);
+
+  // ── Assign primary topic to each paper ──────────────────
+  function getPrimaryTopic(paper) {
+    const topics = paper.tags.filter(isTopicTag).map(normTag);
+    for (const t of normTopics) {
+      if (topics.includes(t)) return t;
+    }
+    // Fallback to first topic tag
+    return topics[0] || 'Other';
+  }
+
+  // Build node data
+  const nodeData = papers.map(p => ({
+    ...p,
+    primaryTopic: getPrimaryTopic(p),
+    topicTags: [...new Set(p.tags.filter(isTopicTag).map(normTag))],
+  }));
+
+  // ── Color scale ──────────────────────────────────────────
+  const allTopics = [...normTopics, 'Other'];
+  const COLOR_PALETTE = [
+    '#4361ee', '#f72585', '#7209b7', '#3a0ca3',
+    '#4cc9f0', '#06d6a0', '#fb8500', '#ef233c',
+    '#8338ec', '#3d405b', '#e07a5f', '#81b29a',
+    '#f2cc8f', '#264653', '#2a9d8f', '#e9c46a',
+    '#f4a261', '#457b9d', '#a8dadc',
+  ];
+  const colorScale = d3.scaleOrdinal()
+    .domain(allTopics)
+    .range(COLOR_PALETTE.slice(0, allTopics.length));
+
+  // ── Build legend ─────────────────────────────────────────
+  const legendList = document.getElementById('legend-list');
+  const legendItems = allTopics.map(topic => {
+    const count = normCount[topic] || nodeData.filter(d => d.primaryTopic === topic).length;
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    item.dataset.topic = topic;
+    item.innerHTML = `
+      <div class="legend-dot" style="background:${colorScale(topic)}"></div>
+      <span class="legend-label">${topic}</span>
+      <span class="legend-count">${count}</span>`;
+    legendList.appendChild(item);
+    return item;
+  });
+
+  // ── State ────────────────────────────────────────────────
+  const TOOLTIP_W = 300; // max tooltip width (matches CSS max-width)
+  const TOOLTIP_H = 140; // estimated tooltip height for overflow avoidance
+  let activeTopic = null;
+  let searchQuery = '';
+  let currentView = 'cluster'; // 'cluster' | 'network'
+  let simulation = null;
+
+  // ── DOM refs ─────────────────────────────────────────────
+  const tooltip   = document.getElementById('tooltip');
+  const detailPanel = document.getElementById('detail-panel');
+  const detailClose = document.getElementById('detail-close');
+  const statsBar  = document.getElementById('stats-bar');
+  const panelSearch = document.getElementById('panel-search');
+  const clearTopicBtn = document.getElementById('clear-topic-btn');
+  const btnCluster = document.getElementById('btn-cluster');
+  const btnNetwork = document.getElementById('btn-network');
+
+  // ── SVG / D3 setup ───────────────────────────────────────
+  const svgEl = document.getElementById('main-svg');
+  const svg = d3.select(svgEl);
+  const g = svg.append('g').attr('class', 'zoom-group');
+  const zoom = d3.zoom()
+    .scaleExtent([0.15, 5])
+    .on('zoom', e => g.attr('transform', e.transform));
+  svg.call(zoom);
+
+  let width, height;
+  function resize() {
+    const rect = svgEl.getBoundingClientRect();
+    width = rect.width;
+    height = rect.height;
+  }
+  resize();
+  window.addEventListener('resize', () => { resize(); if (simulation) restartSim(); });
+
+  // ── Cluster positions ────────────────────────────────────
+  function getClusterPositions() {
+    const cx = width / 2, cy = height / 2;
+    const n = normTopics.length;
+    const r = Math.min(width, height) * 0.34;
+    const positions = {};
+    normTopics.forEach((t, i) => {
+      const angle = (2 * Math.PI * i / n) - Math.PI / 2;
+      positions[t] = { x: cx + r * Math.cos(angle), y: cy + r * Math.sin(angle) };
+    });
+    positions['Other'] = { x: cx, y: cy };
+    return positions;
+  }
+
+  // ── Build links (network view only) ──────────────────────
+  function buildLinks(nodes) {
+    const links = [];
+    // Only link papers sharing 2+ topic tags (strong similarity)
+    const n = nodes.length;
+    for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n; j++) {
+        const shared = nodes[i].topicTags.filter(t => nodes[j].topicTags.includes(t));
+        if (shared.length >= 2) {
+          links.push({ source: nodes[i].id, target: nodes[j].id, strength: shared.length });
+        }
+      }
+    }
+    return links;
+  }
+
+  // ── Render ───────────────────────────────────────────────
+  let linkSel, nodeSel, clusterLabelSel;
+  let visibleNodes = [];
+  let visibleLinks = [];
+
+  function getVisibleNodes() {
+    return nodeData.filter(d => {
+      if (activeTopic && d.primaryTopic !== activeTopic) return false;
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        return (d.title + ' ' + (d.summary || '') + ' ' + d.topicTags.join(' ')).toLowerCase().includes(q);
+      }
+      return true;
+    });
+  }
+
+  function render() {
+    resize();
+    visibleNodes = getVisibleNodes();
+    const clusterPos = getClusterPositions();
+    const nodeMap = new Map(visibleNodes.map(d => [d.id, d]));
+
+    // Links (network view only)
+    visibleLinks = currentView === 'network' ? buildLinks(visibleNodes) : [];
+
+    // Update stats
+    statsBar.textContent = `${visibleNodes.length} paper${visibleNodes.length !== 1 ? 's' : ''} · ${normTopics.length} topics · drag to pan · scroll to zoom`;
+
+    // Stop existing simulation
+    if (simulation) simulation.stop();
+
+    // ── Cluster label backgrounds ──────────────────────────
+    g.selectAll('.cluster-bg').remove();
+    g.selectAll('.cluster-label').remove();
+
+    if (currentView === 'cluster') {
+      normTopics.forEach(topic => {
+        const pos = clusterPos[topic];
+        const count = visibleNodes.filter(d => d.primaryTopic === topic).length;
+        if (count === 0) return;
+        g.append('circle')
+          .attr('class', 'cluster-bg')
+          .attr('cx', pos.x).attr('cy', pos.y)
+          .attr('r', Math.max(40, Math.sqrt(count) * 18))
+          .attr('fill', colorScale(topic))
+          .attr('opacity', 0.06)
+          .attr('stroke', colorScale(topic))
+          .attr('stroke-width', 1.5)
+          .attr('stroke-dasharray', '4,3')
+          .attr('stroke-opacity', 0.3);
+
+        g.append('text')
+          .attr('class', 'cluster-label')
+          .attr('x', pos.x)
+          .attr('y', pos.y - Math.max(40, Math.sqrt(count) * 18) - 8)
+          .attr('fill', colorScale(topic))
+          .text(topic);
+      });
+    }
+
+    // ── Links ──────────────────────────────────────────────
+    g.selectAll('.link').remove();
+    linkSel = g.selectAll('.link')
+      .data(visibleLinks, d => d.source + '-' + d.target)
+      .join('line')
+        .attr('class', 'link')
+        .attr('stroke', '#c0c0c0')
+        .attr('stroke-width', d => Math.min(d.strength - 1, 2))
+        .attr('stroke-opacity', 0.4);
+
+    // ── Nodes ──────────────────────────────────────────────
+    g.selectAll('.paper-node').remove();
+    nodeSel = g.selectAll('.paper-node')
+      .data(visibleNodes, d => d.id)
+      .join('circle')
+        .attr('class', 'paper-node')
+        .attr('r', 7)
+        .attr('fill', d => colorScale(d.primaryTopic))
+        .attr('fill-opacity', 0.85)
+        .attr('stroke', '#fff')
+        .attr('stroke-width', 1.5)
+        .style('cursor', 'pointer')
+        .on('mouseover', onNodeHover)
+        .on('mousemove', onNodeMove)
+        .on('mouseout', onNodeOut)
+        .on('click', onNodeClick)
+        .call(d3.drag()
+          .on('start', dragStarted)
+          .on('drag', dragged)
+          .on('end', dragEnded));
+
+    // ── Initialize positions ───────────────────────────────
+    visibleNodes.forEach(d => {
+      const cp = clusterPos[d.primaryTopic] || clusterPos['Other'] || { x: width/2, y: height/2 };
+      if (!d.x) { d.x = cp.x + (Math.random() - 0.5) * 60; }
+      if (!d.y) { d.y = cp.y + (Math.random() - 0.5) * 60; }
+    });
+
+    // ── Force simulation ───────────────────────────────────
+    simulation = d3.forceSimulation(visibleNodes)
+      .force('charge', d3.forceManyBody().strength(-60).distanceMax(200))
+      .force('collision', d3.forceCollide(9))
+      .force('x', d3.forceX(d => (clusterPos[d.primaryTopic] || { x: width/2 }).x).strength(currentView === 'cluster' ? 0.25 : 0.04))
+      .force('y', d3.forceY(d => (clusterPos[d.primaryTopic] || { y: height/2 }).y).strength(currentView === 'cluster' ? 0.25 : 0.04))
+      .force('center', d3.forceCenter(width / 2, height / 2).strength(0.02))
+      .alphaDecay(0.025)
+      .on('tick', ticked);
+
+    if (currentView === 'network' && visibleLinks.length > 0) {
+      const idToNode = new Map(visibleNodes.map(d => [d.id, d]));
+      const resolvedLinks = visibleLinks.map(l => ({
+        source: idToNode.get(typeof l.source === 'object' ? l.source.id : l.source),
+        target: idToNode.get(typeof l.target === 'object' ? l.target.id : l.target),
+        strength: l.strength,
+      })).filter(l => l.source && l.target);
+
+      simulation.force('link', d3.forceLink(resolvedLinks)
+        .id(d => d.id)
+        .distance(50)
+        .strength(d => Math.min(d.strength * 0.08, 0.4)));
+    }
+  }
+
+  function ticked() {
+    linkSel
+      .attr('x1', d => (d.source.x || 0))
+      .attr('y1', d => (d.source.y || 0))
+      .attr('x2', d => (d.target.x || 0))
+      .attr('y2', d => (d.target.y || 0));
+
+    nodeSel
+      .attr('cx', d => d.x)
+      .attr('cy', d => d.y);
+  }
+
+  function restartSim() {
+    if (simulation) {
+      simulation.alpha(0.3).restart();
+    }
+  }
+
+  // ── Drag ─────────────────────────────────────────────────
+  function dragStarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x; d.fy = d.y;
+  }
+  function dragged(event, d) {
+    d.fx = event.x; d.fy = event.y;
+  }
+  function dragEnded(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null; d.fy = null;
+  }
+
+  // ── Tooltip ──────────────────────────────────────────────
+  function onNodeHover(event, d) {
+    const color = colorScale(d.primaryTopic);
+    const tagsHtml = d.topicTags.slice(0, 6).map(t =>
+      `<span class="tt-tag" style="background:${colorScale(t)}22;color:${colorScale(t)};border:1px solid ${colorScale(t)}44">${t}</span>`
+    ).join('');
+    tooltip.innerHTML = `
+      <div class="tt-title">${escHtml(d.title)}</div>
+      ${d.summary ? `<div class="tt-summary">${escHtml(d.summary)}</div>` : ''}
+      <div class="tt-tags">${tagsHtml}</div>
+      <div class="tt-hint">Click to see details</div>`;
+    tooltip.style.display = 'block';
+    positionTooltip(event);
+
+    // Highlight
+    nodeSel.attr('fill-opacity', n => {
+      if (n.id === d.id) return 1;
+      const shared = n.topicTags.filter(t => d.topicTags.includes(t)).length;
+      return shared > 0 ? 0.7 : 0.25;
+    }).attr('r', n => n.id === d.id ? 10 : 7);
+  }
+
+  function onNodeMove(event) { positionTooltip(event); }
+
+  function onNodeOut() {
+    tooltip.style.display = 'none';
+    nodeSel.attr('fill-opacity', 0.85).attr('r', 7);
+  }
+
+  function positionTooltip(event) {
+    let x = event.clientX + 14, y = event.clientY + 14;
+    if (x + TOOLTIP_W > window.innerWidth - 10) x = event.clientX - TOOLTIP_W - 10;
+    if (y + TOOLTIP_H > window.innerHeight - 10) y = event.clientY - TOOLTIP_H - 10;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top  = y + 'px';
+  }
+
+  // ── Node click ───────────────────────────────────────────
+  function onNodeClick(event, d) {
+    event.stopPropagation();
+    const color = colorScale(d.primaryTopic);
+
+    document.getElementById('detail-title').textContent = d.title;
+    document.getElementById('detail-summary').textContent = d.summary || '(no summary)';
+
+    const tagsEl = document.getElementById('detail-tags');
+    tagsEl.innerHTML = d.topicTags.slice(0, 8).map(t =>
+      `<span class="detail-tag" style="background:${colorScale(t)}22;color:${colorScale(t)};border:1px solid ${colorScale(t)}44">${t}</span>`
+    ).join('');
+
+    const openEl = document.getElementById('detail-open');
+    if (d.url) {
+      openEl.href = d.url;
+      openEl.style.display = 'inline-block';
+    } else {
+      openEl.style.display = 'none';
+    }
+
+    detailPanel.style.display = 'block';
+    detailPanel.style.borderTop = `3px solid ${color}`;
+  }
+
+  detailClose.addEventListener('click', () => { detailPanel.style.display = 'none'; });
+
+  // ── Legend click (topic filter) ───────────────────────────
+  legendItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const topic = item.dataset.topic;
+      if (activeTopic === topic) {
+        activeTopic = null;
+      } else {
+        activeTopic = topic;
+      }
+      updateLegendState();
+      render();
+    });
+  });
+
+  function updateLegendState() {
+    legendItems.forEach(item => {
+      item.classList.toggle('dimmed', activeTopic !== null && item.dataset.topic !== activeTopic);
+    });
+  }
+
+  clearTopicBtn.addEventListener('click', () => {
+    activeTopic = null;
+    updateLegendState();
+    render();
+  });
+
+  // ── Search ───────────────────────────────────────────────
+  panelSearch.addEventListener('input', () => {
+    searchQuery = panelSearch.value.trim();
+    render();
+  });
+
+  // ── View toggle ──────────────────────────────────────────
+  btnCluster.addEventListener('click', () => {
+    currentView = 'cluster';
+    btnCluster.classList.add('active');
+    btnNetwork.classList.remove('active');
+    // Reset positions so simulation re-clusters
+    nodeData.forEach(d => { d.x = undefined; d.y = undefined; });
+    render();
+  });
+
+  btnNetwork.addEventListener('click', () => {
+    currentView = 'network';
+    btnNetwork.classList.add('active');
+    btnCluster.classList.remove('active');
+    // Reset positions
+    nodeData.forEach(d => { d.x = undefined; d.y = undefined; });
+    render();
+  });
+
+  // ── Reset zoom ───────────────────────────────────────────
+  svg.on('dblclick.zoom', () => {
+    svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+  });
+
+  // ── Helpers ──────────────────────────────────────────────
+  function escHtml(str) {
+    if (!str) return '';
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  // ── Boot ─────────────────────────────────────────────────
+  function boot() {
+    document.getElementById('loading').style.display = 'none';
+    render();
+  }
+
+  // Small delay for layout to settle
+  setTimeout(boot, 100);
+})();
+</script>
+</body>
+</html>
