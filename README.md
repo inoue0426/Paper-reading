@@ -45,6 +45,23 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar Inbox new](#scholar-inbox-new)
 - [AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)](#ai-methods-in-translational-cancer-research-yates--van-allen-cancer-cell-2025)
 - [Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.](#drug-perturbation-10)
+- [これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?](#network)
+
+---
+
+## これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?
+
+> Issue [#89](https://github.com/inoue0426/Paper-reading/issues/89)
+
+- **[UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction](https://arxiv.org/abs/1802.03426)**
+- **[Visualizing Data using t-SNE](https://jmlr.org/papers/v9/vandermaaten08a.html)**
+- **[Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)**
+- **[Graph Attention Networks](https://arxiv.org/abs/1710.10903)**
+- **[node2vec: Scalable Feature Learning for Networks](https://arxiv.org/abs/1607.00653)**
+- **[Inductive Representation Learning on Large Graphs (GraphSAGE)](https://arxiv.org/abs/1706.02216)**
+- **[scGNN: a Novel Graph Neural Network Framework for Single-cell RNA-sequencing Analyses](https://www.nature.com/articles/s41467-021-22197-x)**
+- **[Comprehensive Integration of Single-Cell Data (Seurat v3)](https://www.cell.com/cell/fulltext/S0092-8674(19)30559-8)**
+- **[Data-Driven Phenotypic Dissection of AML Reveals Progenitor-like Cells that Correlate with Prognosis (PhenoGraph)](https://www.cell.com/cell/fulltext/S0092-8674(15)00637-6)**
 
 ---
 

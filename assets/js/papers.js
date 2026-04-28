@@ -6234,5 +6234,140 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 469,
+    "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+    "url": "https://arxiv.org/abs/1802.03426",
+    "summary": "A nonlinear dimensionality-reduction algorithm grounded in Riemannian geometry and algebraic topology. Constructs a fuzzy topological representation of high-dimensional data and optimises a low-dimensional equivalent. Widely used to visualise and inspect cluster structure (e.g. cell-type separation) in single-cell omics and molecular embedding spaces.",
+    "tags": [
+      "Representation Learning",
+      "Visualization",
+      "Dimensionality Reduction",
+      "2018"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 470,
+    "title": "Visualizing Data using t-SNE",
+    "url": "https://jmlr.org/papers/v9/vandermaaten08a.html",
+    "summary": "t-Distributed Stochastic Neighbor Embedding converts high-dimensional pairwise similarities to 2-D/3-D coordinates. A foundational technique for visualising learned embeddings; cell-type or drug-class structure often becomes visible as distinct 2-D clusters without explicit supervision.",
+    "tags": [
+      "Representation Learning",
+      "Visualization",
+      "Dimensionality Reduction",
+      "2008"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 471,
+    "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+    "url": "https://arxiv.org/abs/1609.02907",
+    "summary": "Introduces GCN, where a spectral graph convolution is approximated by a first-order Chebyshev polynomial. Each layer aggregates neighbour features; stacking two layers enables semi-supervised node classification. Foundational work for network-based type prediction in biology (PPI, cell-type graphs).",
+    "tags": [
+      "GNN",
+      "Graph Neural Network",
+      "Node Classification",
+      "2017"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 472,
+    "title": "Graph Attention Networks",
+    "url": "https://arxiv.org/abs/1710.10903",
+    "summary": "Introduces attention coefficients on graph edges so that each node can weight its neighbours differently during message passing. Achieves state-of-the-art node classification on several benchmarks and allows interpretable visualisation of which network connections matter for a given classification decision.",
+    "tags": [
+      "GNN",
+      "Graph Attention",
+      "Node Classification",
+      "2018"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 473,
+    "title": "node2vec: Scalable Feature Learning for Networks",
+    "url": "https://arxiv.org/abs/1607.00653",
+    "summary": "Learns continuous feature representations for nodes via biased second-order random walks that smoothly interpolate between BFS and DFS neighbourhoods. The resulting embeddings can be projected to 2-D (PCA/t-SNE) to visually confirm functional clusters, and used directly for node/edge classification.",
+    "tags": [
+      "Graph Embedding",
+      "Network Embedding",
+      "Node Classification",
+      "2016"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 474,
+    "title": "Inductive Representation Learning on Large Graphs (GraphSAGE)",
+    "url": "https://arxiv.org/abs/1706.02216",
+    "summary": "GraphSAGE samples and aggregates features from local node neighbourhoods to generate embeddings for previously unseen nodes (inductive setting). Enables scalable type classification on large biological networks without retraining from scratch.",
+    "tags": [
+      "GNN",
+      "Graph Embedding",
+      "Node Classification",
+      "2017"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 475,
+    "title": "scGNN: a Novel Graph Neural Network Framework for Single-cell RNA-sequencing Analyses",
+    "url": "https://www.nature.com/articles/s41467-021-22197-x",
+    "summary": "Constructs a cell–cell graph from scRNA-seq data and uses a graph autoencoder with attention to jointly impute expression values and learn cell-type embeddings. UMAP of the learned graph embeddings separates cell types clearly, and the framework supports downstream classification and trajectory analysis.",
+    "tags": [
+      "Single-cell",
+      "GNN",
+      "Cell Type Classification",
+      "Genomics",
+      "Visualization",
+      "Nature Communications",
+      "2021"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 476,
+    "title": "Comprehensive Integration of Single-Cell Data (Seurat v3)",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(19)30559-8",
+    "summary": "Seurat v3 introduces anchor-based integration of single-cell datasets from multiple experiments or modalities. It builds a weighted nearest-neighbour graph in a shared embedding space and uses UMAP and Louvain/Leiden clustering to visually define and classify cell types across datasets.",
+    "tags": [
+      "Single-cell",
+      "Integration",
+      "Cell Type Classification",
+      "Genomics",
+      "Visualization",
+      "Cell",
+      "2019"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
+  },
+  {
+    "id": 477,
+    "title": "Data-Driven Phenotypic Dissection of AML Reveals Progenitor-like Cells that Correlate with Prognosis (PhenoGraph)",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(15)00637-6",
+    "summary": "PhenoGraph constructs a k-nearest-neighbour graph over single-cell mass-cytometry measurements and applies community-detection (Louvain) to identify phenotypically distinct cell populations. The approach enables unsupervised network-based classification of heterogeneous cancer cell types.",
+    "tags": [
+      "Single-cell",
+      "Network",
+      "Cell Type Classification",
+      "Cancer",
+      "Visualization",
+      "Cell",
+      "2015"
+    ],
+    "section": "これどういう論文があるか, Networkか埋め込みの可視化で種類の分類を出来たりする?",
+    "issue": 89
   }
 ];
