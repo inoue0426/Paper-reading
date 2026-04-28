@@ -44,12 +44,12 @@ A curated collection of research papers organized by conference and topic.
 - [ICLR 2026 Papers That Were Skipped but May Be Interesting](#iclr2026)
 - [Scholar Inbox new](#scholar-inbox-new)
 - [AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)](#ai-methods-in-translational-cancer-research-yates--van-allen-cancer-cell-2025)
-- [Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.](#drug-perturbation-10)
-- [MAPのドットと枠線がちょっとズレてるの直して](#map)
+- [Drug Perturbation – Comprehensive Survey (Last 10 Years)](#drug-perturbation--comprehensive-survey-last-10-years)
+- [MAP Dot and Border Alignment Fix](#map-dot-and-border-alignment-fix)
 
 ---
 
-## MAPのドットと枠線がちょっとズレてるの直して
+## MAP Dot and Border Alignment Fix
 
 > Issue [#93](https://github.com/inoue0426/Paper-reading/issues/93)
 
@@ -57,7 +57,7 @@ A curated collection of research papers organized by conference and topic.
 
 ---
 
-## Drug Perturbationについて網羅的に調べてきて. ここ10年くらいのを広く見てきてほしい.
+## Drug Perturbation – Comprehensive Survey (Last 10 Years)
 
 > Issue [#85](https://github.com/inoue0426/Paper-reading/issues/85)
 
