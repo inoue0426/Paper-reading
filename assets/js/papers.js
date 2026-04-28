@@ -6216,5 +6216,23 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 467,
+    "title": "[2604.22832] Intervention-Aware Multiscale Representation Learning from Imaging Phenomics and Perturbation Transcriptomics",
+    "url": "https://arxiv.org/abs/2604.22832",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 468,
+    "title": "HyperMap: An Efficient Framework for Transferring Perturbation Responses Across Diverse Biological Contexts | bioRxiv",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720505v1#:~:text=To%20address%20this%20challenge%2C%20we,stem%20cells%2C%20HyperMap%20accurately%20captures",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
