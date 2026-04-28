@@ -625,28 +625,36 @@
     g.selectAll('.cluster-label').remove();
 
     if (currentView === 'cluster') {
-      normTopics.forEach(topic => {
-        const pos = clusterPos[topic];
-        const count = visibleNodes.filter(d => d.primaryTopic === topic).length;
-        if (count === 0) return;
-        g.append('circle')
+      const clusterData = normTopics
+        .map(topic => ({
+          topic,
+          pos: clusterPos[topic],
+          count: visibleNodes.filter(d => d.primaryTopic === topic).length,
+        }))
+        .filter(d => d.count > 0);
+
+      g.selectAll('.cluster-bg')
+        .data(clusterData, d => d.topic)
+        .join('circle')
           .attr('class', 'cluster-bg')
-          .attr('cx', pos.x).attr('cy', pos.y)
-          .attr('r', Math.max(40, Math.sqrt(count) * 18))
-          .attr('fill', colorScale(topic))
+          .attr('cx', d => d.pos.x)
+          .attr('cy', d => d.pos.y)
+          .attr('r', d => Math.max(40, Math.sqrt(d.count) * 18))
+          .attr('fill', d => colorScale(d.topic))
           .attr('opacity', 0.06)
-          .attr('stroke', colorScale(topic))
+          .attr('stroke', d => colorScale(d.topic))
           .attr('stroke-width', 1.5)
           .attr('stroke-dasharray', '4,3')
           .attr('stroke-opacity', 0.3);
 
-        g.append('text')
+      g.selectAll('.cluster-label')
+        .data(clusterData, d => d.topic)
+        .join('text')
           .attr('class', 'cluster-label')
-          .attr('x', pos.x)
-          .attr('y', pos.y - Math.max(40, Math.sqrt(count) * 18) - 8)
-          .attr('fill', colorScale(topic))
-          .text(topic);
-      });
+          .attr('x', d => d.pos.x)
+          .attr('y', d => d.pos.y - Math.max(40, Math.sqrt(d.count) * 18) - 8)
+          .attr('fill', d => colorScale(d.topic))
+          .text(d => d.topic);
     }
 
     // ── Links ──────────────────────────────────────────────
@@ -722,6 +730,28 @@
     nodeSel
       .attr('cx', d => d.x)
       .attr('cy', d => d.y);
+
+    if (currentView === 'cluster') {
+      // Compute actual centroid of each cluster from live node positions
+      const positionSum = {}, nodeCount = {};
+      visibleNodes.forEach(d => {
+        const topic = d.primaryTopic;
+        if (!positionSum[topic]) { positionSum[topic] = { x: 0, y: 0 }; nodeCount[topic] = 0; }
+        positionSum[topic].x += d.x; positionSum[topic].y += d.y; nodeCount[topic]++;
+      });
+      const centroid = {};
+      Object.keys(positionSum).forEach(topic => {
+        centroid[topic] = { x: positionSum[topic].x / nodeCount[topic], y: positionSum[topic].y / nodeCount[topic] };
+      });
+
+      g.selectAll('.cluster-bg')
+        .attr('cx', d => (centroid[d.topic] || d.pos).x)
+        .attr('cy', d => (centroid[d.topic] || d.pos).y);
+
+      g.selectAll('.cluster-label')
+        .attr('x', d => (centroid[d.topic] || d.pos).x)
+        .attr('y', d => (centroid[d.topic] || d.pos).y - Math.max(40, Math.sqrt(d.count) * 18) - 8);
+    }
   }
 
   function restartSim() {
