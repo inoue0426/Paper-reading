@@ -6243,5 +6243,23 @@ const papers = [
     "tags": [],
     "section": "MAPのドットと枠線がちょっとズレてるの直して",
     "issue": 93
+  },
+  {
+    "id": 470,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 471,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.25.720773v1.full.pdf",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.25.720773v1.full.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
