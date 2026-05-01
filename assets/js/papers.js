@@ -6261,5 +6261,41 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 472,
+    "title": "[2604.27646v1] Benchmarking virtual cell models for in-the-wild perturbation response",
+    "url": "https://arxiv.org/abs/2604.27646v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 473,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.27.721076v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.27.721076v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 474,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.27.721113v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.27.721113v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 475,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.19.718223v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.19.718223v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
