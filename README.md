@@ -46,6 +46,16 @@ A curated collection of research papers organized by conference and topic.
 - [AI Methods in Translational Cancer Research (Yates & Van Allen, Cancer Cell 2025)](#ai-methods-in-translational-cancer-research-yates--van-allen-cancer-cell-2025)
 - [Drug Perturbation – Comprehensive Survey (Last 10 Years)](#drug-perturbation--comprehensive-survey-last-10-years)
 - [MAP Dot and Border Alignment Fix](#map-dot-and-border-alignment-fix)
+- [X](#x)
+
+---
+
+## X
+
+> Issue [#97](https://github.com/inoue0426/Paper-reading/issues/97)
+
+- **[TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects | Nature Biotechnology](https://www.nature.com/articles/s41587-026-03113-4)**
+- **[[2604.28119v1] Do Sparse Autoencoders Capture Concept Manifolds?](https://arxiv.org/abs/2604.28119v1)**
 
 ---
 

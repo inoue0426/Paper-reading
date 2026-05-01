@@ -6297,5 +6297,23 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 476,
+    "title": "TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects | Nature Biotechnology",
+    "url": "https://www.nature.com/articles/s41587-026-03113-4",
+    "summary": "",
+    "tags": [],
+    "section": "X",
+    "issue": 97
+  },
+  {
+    "id": 477,
+    "title": "[2604.28119v1] Do Sparse Autoencoders Capture Concept Manifolds?",
+    "url": "https://arxiv.org/abs/2604.28119v1",
+    "summary": "",
+    "tags": [],
+    "section": "X",
+    "issue": 97
   }
 ];
