@@ -6315,5 +6315,32 @@ const papers = [
     "tags": [],
     "section": "X",
     "issue": 97
+  },
+  {
+    "id": 478,
+    "title": "[2604.26498] Do Larger Models Really Win in Drug Discovery? A Benchmark Assessment of Model Scaling in AI-Driven Molecular Property and Activity Prediction",
+    "url": "https://arxiv.org/abs/2604.26498",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 479,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.29.721775v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721775v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 480,
+    "title": "[2605.00925v1] Linking spatial biology and clinical histology via Haiku",
+    "url": "https://arxiv.org/abs/2605.00925v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
