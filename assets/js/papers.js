@@ -6342,5 +6342,32 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 481,
+    "title": "https://academic.oup.com/nar/article/48/D1/D504/5608992?login=false",
+    "url": "https://academic.oup.com/nar/article/48/D1/D504/5608992?login=false",
+    "summary": "",
+    "tags": [],
+    "section": "Dataset",
+    "issue": 98
+  },
+  {
+    "id": 482,
+    "title": "https://academic.oup.com/nar/article/54/D1/D652/8326458#google_vignette",
+    "url": "https://academic.oup.com/nar/article/54/D1/D652/8326458#google_vignette",
+    "summary": "",
+    "tags": [],
+    "section": "Dataset",
+    "issue": 98
+  },
+  {
+    "id": 483,
+    "title": "https://academic.oup.com/nar/article/46/D1/D380/4566018?login=false",
+    "url": "https://academic.oup.com/nar/article/46/D1/D380/4566018?login=false",
+    "summary": "",
+    "tags": [],
+    "section": "Dataset",
+    "issue": 98
   }
 ];

@@ -47,6 +47,17 @@ A curated collection of research papers organized by conference and topic.
 - [Drug Perturbation – Comprehensive Survey (Last 10 Years)](#drug-perturbation--comprehensive-survey-last-10-years)
 - [MAP Dot and Border Alignment Fix](#map-dot-and-border-alignment-fix)
 - [X](#x)
+- [Dataset](#dataset)
+
+---
+
+## Dataset
+
+> Issue [#98](https://github.com/inoue0426/Paper-reading/issues/98)
+
+- **[https://academic.oup.com/nar/article/48/D1/D504/5608992?login=false](https://academic.oup.com/nar/article/48/D1/D504/5608992?login=false)**
+- **[https://academic.oup.com/nar/article/54/D1/D652/8326458#google_vignette](https://academic.oup.com/nar/article/54/D1/D652/8326458#google_vignette)**
+- **[https://academic.oup.com/nar/article/46/D1/D380/4566018?login=false](https://academic.oup.com/nar/article/46/D1/D380/4566018?login=false)**
 
 ---
 
