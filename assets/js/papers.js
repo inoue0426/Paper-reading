@@ -6369,5 +6369,14 @@ const papers = [
     "tags": [],
     "section": "Dataset",
     "issue": 98
+  },
+  {
+    "id": 484,
+    "title": "[2604.25917] Recursive Multi-Agent Systems",
+    "url": "https://arxiv.org/abs/2604.25917",
+    "summary": "",
+    "tags": [],
+    "section": "X",
+    "issue": 97
   }
 ];
