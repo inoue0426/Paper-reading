@@ -48,6 +48,26 @@ A curated collection of research papers organized by conference and topic.
 - [MAP Dot and Border Alignment Fix](#map-dot-and-border-alignment-fix)
 - [X](#x)
 - [Dataset](#dataset)
+- [ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい](#ismb)
+
+---
+
+## ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい
+
+> Issue [#99](https://github.com/inoue0426/Paper-reading/issues/99)
+
+- **[https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf](https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf)**
+
+- **研究のまとめ（ISMB/ECCB 2025の要旨全体）**
+  - タンパク質設計・構造予測・変異効果予測など、**protein foundation model** を核にした研究が非常に多い。
+  - **single-cell / spatial omics / multi-omics** を対象に、統合・予測・解釈を同時に行う手法が増えている。
+  - モデル提案だけでなく、**ベンチマーク・再現可能なツール化・データ基盤整備** を重視する発表が目立つ。
+- **流行り**
+  - LLM・RAG・エージェントの活用がバイオインフォマティクスの実運用（探索、注釈、知識活用）に入り始めている。
+  - GNN・拡散モデル・幾何学的表現学習を組み合わせた、構造生物学/創薬向けの生成・予測が主流化。
+- **今後の方向性（見立て）**
+  - 「大規模事前学習モデル」＋「ドメイン特化データ」＋「実験検証」の統合パイプラインが標準になっていく。
+  - 単体タスクSOTAよりも、臨床・創薬で使える **頑健性、解釈性、実装可能性** を満たす統合システムへのシフトが進む。
 
 ---
 

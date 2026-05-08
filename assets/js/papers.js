@@ -6378,5 +6378,14 @@ const papers = [
     "tags": [],
     "section": "X",
     "issue": 97
+  },
+  {
+    "id": 485,
+    "title": "https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf",
+    "url": "https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf",
+    "summary": "ISMB/ECCB 2025要旨集では、protein foundation model、single-cell/spatial/multi-omics統合、LLM・RAG活用、そして再現可能なベンチマーク/ツール化を重視する流れが強く、今後は実験検証までつなぐ統合的な実装志向が加速すると見られる。",
+    "tags": [],
+    "section": "ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい",
+    "issue": 99
   }
 ];
