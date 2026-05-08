@@ -6378,5 +6378,14 @@ const papers = [
     "tags": [],
     "section": "X",
     "issue": 97
+  },
+  {
+    "id": 485,
+    "title": "https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf",
+    "url": "https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい",
+    "issue": 99
   }
 ];

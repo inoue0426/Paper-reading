@@ -48,6 +48,15 @@ A curated collection of research papers organized by conference and topic.
 - [MAP Dot and Border Alignment Fix](#map-dot-and-border-alignment-fix)
 - [X](#x)
 - [Dataset](#dataset)
+- [ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい](#ismb)
+
+---
+
+## ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい
+
+> Issue [#99](https://github.com/inoue0426/Paper-reading/issues/99)
+
+- **[https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf](https://github.com/user-attachments/files/27539569/document.AbstractsBook.ISMBECCB.2025.pdf)**
 
 ---
 
