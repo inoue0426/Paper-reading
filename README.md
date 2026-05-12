@@ -49,6 +49,19 @@ A curated collection of research papers organized by conference and topic.
 - [X](#x)
 - [Dataset](#dataset)
 - [ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい](#ismb)
+- [Spatial transcriptomics with drug](#spatial-transcriptomics-with-drug)
+
+---
+
+## Spatial transcriptomics with drug
+
+> Issue [#101](https://github.com/inoue0426/Paper-reading/issues/101)
+
+- **[https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2](https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2)**
+- **[https://www.biorxiv.org/content/10.64898/2026.04.03.715101v1.full](https://www.biorxiv.org/content/10.64898/2026.04.03.715101v1.full)**
+- **[Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response | Nature Communications](https://www.nature.com/articles/s41467-023-40271-4?utm_source=chatgpt.com)**
+- **[https://www.cell.com/cell/fulltext/S0092-8674(25](https://www.cell.com/cell/fulltext/S0092-8674(25)**
+- **[https://academic.oup.com/nar/article/54/D1/D1634/8296756](https://academic.oup.com/nar/article/54/D1/D1634/8296756)**
 
 ---
 

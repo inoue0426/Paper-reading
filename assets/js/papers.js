@@ -6387,5 +6387,50 @@ const papers = [
     "tags": [],
     "section": "ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい",
     "issue": 99
+  },
+  {
+    "id": 486,
+    "title": "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2",
+    "summary": "",
+    "tags": [],
+    "section": "Spatial transcriptomics with drug",
+    "issue": 101
+  },
+  {
+    "id": 487,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.04.03.715101v1.full",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.715101v1.full",
+    "summary": "",
+    "tags": [],
+    "section": "Spatial transcriptomics with drug",
+    "issue": 101
+  },
+  {
+    "id": 488,
+    "title": "Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response | Nature Communications",
+    "url": "https://www.nature.com/articles/s41467-023-40271-4?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "Spatial transcriptomics with drug",
+    "issue": 101
+  },
+  {
+    "id": 489,
+    "title": "https://www.cell.com/cell/fulltext/S0092-8674(25",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(25",
+    "summary": "",
+    "tags": [],
+    "section": "Spatial transcriptomics with drug",
+    "issue": 101
+  },
+  {
+    "id": 490,
+    "title": "https://academic.oup.com/nar/article/54/D1/D1634/8296756",
+    "url": "https://academic.oup.com/nar/article/54/D1/D1634/8296756",
+    "summary": "",
+    "tags": [],
+    "section": "Spatial transcriptomics with drug",
+    "issue": 101
   }
 ];
