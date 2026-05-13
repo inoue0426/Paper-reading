@@ -6432,5 +6432,14 @@ const papers = [
     "tags": [],
     "section": "Spatial transcriptomics with drug",
     "issue": 101
+  },
+  {
+    "id": 491,
+    "title": "[2605.10876] AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents",
+    "url": "https://arxiv.org/abs/2605.10876",
+    "summary": "",
+    "tags": [],
+    "section": "X",
+    "issue": 97
   }
 ];
