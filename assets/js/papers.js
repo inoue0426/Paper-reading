@@ -6441,5 +6441,59 @@ const papers = [
     "tags": [],
     "section": "X",
     "issue": 97
+  },
+  {
+    "id": 492,
+    "title": "[2605.12009] Estimating Subgraph Importance with Structural Prior Domain Knowledge",
+    "url": "https://arxiv.org/abs/2605.12009",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 493,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.07.723544v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.07.723544v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 494,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.07.723555v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.07.723555v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 495,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.08.723913v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.08.723913v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 496,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.08.723625v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.08.723625v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 497,
+    "title": "https://www.biorxiv.org/content/10.1101/2025.02.27.640494v3",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.02.27.640494v3",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
