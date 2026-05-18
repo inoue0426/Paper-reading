@@ -6513,5 +6513,23 @@ const papers = [
     "tags": [],
     "section": "Positional papers",
     "issue": 102
+  },
+  {
+    "id": 500,
+    "title": "[2605.13932] Rethinking Molecular OOD Generalization via Target-Aware Source Selection",
+    "url": "https://arxiv.org/abs/2605.13932",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
+  },
+  {
+    "id": 501,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.11.724149v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.11.724149v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox new",
+    "issue": 82
   }
 ];
