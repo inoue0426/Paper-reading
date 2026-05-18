@@ -6495,5 +6495,23 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 498,
+    "title": "[2510.25368] Position: Biology is the Challenge Physics-Informed ML Needs to Evolve",
+    "url": "https://arxiv.org/abs/2510.25368",
+    "summary": "",
+    "tags": [],
+    "section": "Positional papers",
+    "issue": 102
+  },
+  {
+    "id": 499,
+    "title": "[2602.01230] Toward Interpretable and Generalizable AI in Regulatory Genomics",
+    "url": "https://arxiv.org/abs/2602.01230?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "Positional papers",
+    "issue": 102
   }
 ];

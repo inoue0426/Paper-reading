@@ -50,6 +50,16 @@ A curated collection of research papers organized by conference and topic.
 - [Dataset](#dataset)
 - [ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい](#ismb)
 - [Spatial transcriptomics with drug](#spatial-transcriptomics-with-drug)
+- [Positional papers](#positional-papers)
+
+---
+
+## Positional papers
+
+> Issue [#102](https://github.com/inoue0426/Paper-reading/issues/102)
+
+- **[[2510.25368] Position: Biology is the Challenge Physics-Informed ML Needs to Evolve](https://arxiv.org/abs/2510.25368)**
+- **[[2602.01230] Toward Interpretable and Generalizable AI in Regulatory Genomics](https://arxiv.org/abs/2602.01230?utm_source=chatgpt.com)**
 
 ---
 
