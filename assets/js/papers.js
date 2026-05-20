@@ -6531,5 +6531,50 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox new",
     "issue": 82
+  },
+  {
+    "id": 502,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.16.725005v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.16.725005v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 503,
+    "title": "[2605.18055v1] FLAG: Foundation model representation with Latent diffusion Alignment via Graph for spatial gene expression prediction",
+    "url": "https://arxiv.org/abs/2605.18055v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 504,
+    "title": "[2605.16799] Cross-Domain Molecular Relational Learning: Leveraging Chemical Structure-Activity Analysis",
+    "url": "https://arxiv.org/abs/2605.16799",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 505,
+    "title": "[2605.16104v1] StateXDiff: Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction",
+    "url": "https://arxiv.org/abs/2605.16104v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 506,
+    "title": "ICML Poster What Makes a Good Representation for Single-Cell Perturbation Prediction?",
+    "url": "https://icml.cc/virtual/2026/poster/66228",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
   }
 ];

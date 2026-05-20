@@ -51,6 +51,19 @@ A curated collection of research papers organized by conference and topic.
 - [ISMBの要旨集からこのときの研究のまとめ, 流行り, どういう方向性に行きそうかを調べてまとめてほしい](#ismb)
 - [Spatial transcriptomics with drug](#spatial-transcriptomics-with-drug)
 - [Positional papers](#positional-papers)
+- [Scholar inbox 3](#scholar-inbox-3)
+
+---
+
+## Scholar inbox 3
+
+> Issue [#103](https://github.com/inoue0426/Paper-reading/issues/103)
+
+- **[https://www.biorxiv.org/content/10.64898/2026.05.16.725005v1](https://www.biorxiv.org/content/10.64898/2026.05.16.725005v1)**
+- **[[2605.18055v1] FLAG: Foundation model representation with Latent diffusion Alignment via Graph for spatial gene expression prediction](https://arxiv.org/abs/2605.18055v1)**
+- **[[2605.16799] Cross-Domain Molecular Relational Learning: Leveraging Chemical Structure-Activity Analysis](https://arxiv.org/abs/2605.16799)**
+- **[[2605.16104v1] StateXDiff: Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction](https://arxiv.org/abs/2605.16104v1)**
+- **[ICML Poster What Makes a Good Representation for Single-Cell Perturbation Prediction?](https://icml.cc/virtual/2026/poster/66228)**
 
 ---
 
