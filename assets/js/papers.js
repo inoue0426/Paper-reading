@@ -6585,5 +6585,14 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 3",
     "issue": 103
+  },
+  {
+    "id": 508,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.20.726698v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726698v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
   }
 ];
