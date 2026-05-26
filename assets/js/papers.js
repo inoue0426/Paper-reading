@@ -6594,5 +6594,32 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 3",
     "issue": 103
+  },
+  {
+    "id": 509,
+    "title": "[2511.22107] HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction",
+    "url": "https://arxiv.org/abs/2511.22107",
+    "summary": "",
+    "tags": [],
+    "section": "CVPR2026",
+    "issue": 104
+  },
+  {
+    "id": 510,
+    "title": "https://openaccess.thecvf.com//content/CVPR2026/papers/Zhu_Multi-View_Hierarchical_Alignment_Learning_for_Spatial_Transcriptomics_CVPR_2026_paper.pdf",
+    "url": "https://openaccess.thecvf.com//content/CVPR2026/papers/Zhu_Multi-View_Hierarchical_Alignment_Learning_for_Spatial_Transcriptomics_CVPR_2026_paper.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "CVPR2026",
+    "issue": 104
+  },
+  {
+    "id": 511,
+    "title": "https://openaccess.thecvf.com//content/CVPR2026/papers/Yang_H2-Surv_Hierarchical_Hyperbolic_Multimodal_Representation_Learning_for_Survival_Prediction_CVPR_2026_paper.pdf",
+    "url": "https://openaccess.thecvf.com//content/CVPR2026/papers/Yang_H2-Surv_Hierarchical_Hyperbolic_Multimodal_Representation_Learning_for_Survival_Prediction_CVPR_2026_paper.pdf",
+    "summary": "",
+    "tags": [],
+    "section": "CVPR2026",
+    "issue": 104
   }
 ];

@@ -52,6 +52,17 @@ A curated collection of research papers organized by conference and topic.
 - [Spatial transcriptomics with drug](#spatial-transcriptomics-with-drug)
 - [Positional papers](#positional-papers)
 - [Scholar inbox 3](#scholar-inbox-3)
+- [CVPR2026](#cvpr2026)
+
+---
+
+## CVPR2026
+
+> Issue [#104](https://github.com/inoue0426/Paper-reading/issues/104)
+
+- **[[2511.22107] HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction](https://arxiv.org/abs/2511.22107)**
+- **[https://openaccess.thecvf.com//content/CVPR2026/papers/Zhu_Multi-View_Hierarchical_Alignment_Learning_for_Spatial_Transcriptomics_CVPR_2026_paper.pdf](https://openaccess.thecvf.com//content/CVPR2026/papers/Zhu_Multi-View_Hierarchical_Alignment_Learning_for_Spatial_Transcriptomics_CVPR_2026_paper.pdf)**
+- **[https://openaccess.thecvf.com//content/CVPR2026/papers/Yang_H2-Surv_Hierarchical_Hyperbolic_Multimodal_Representation_Learning_for_Survival_Prediction_CVPR_2026_paper.pdf](https://openaccess.thecvf.com//content/CVPR2026/papers/Yang_H2-Surv_Hierarchical_Hyperbolic_Multimodal_Representation_Learning_for_Survival_Prediction_CVPR_2026_paper.pdf)**
 
 ---
 
