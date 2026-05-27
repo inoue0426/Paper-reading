@@ -18,11 +18,18 @@
 
   const YEAR_TAGS = new Set(['2016', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']);
 
+  const STOP_WORDS = new Set([
+    'a', 'an', 'and', 'or', 'the', 'to', 'of', 'in', 'on', 'for', 'with', 'without',
+    'about', 'from', 'show', 'find', 'paper', 'papers', 'study', 'studies', 'review',
+    'survey', 'latest', 'new', 'related'
+  ]);
+
   // Everything else is a topic tag
 
   // ── State ────────────────────────────────────────────────────────────────
   let activeFilters = new Set();
   let searchQuery = '';
+  let searchTokens = [];
 
   // ── DOM refs ─────────────────────────────────────────────────────────────
   const grid          = document.getElementById('papers-grid');
@@ -47,27 +54,52 @@
       .replace(/"/g, '&quot;');
   }
 
-  function highlight(text, query) {
-    if (!query) return escHtml(text);
-    const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  function tokenizeQuery(query) {
+    if (!query) return [];
+    const normalized = query
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .trim();
+    if (!normalized) return [];
+    return normalized.split(/\s+/).filter(token => !STOP_WORDS.has(token));
+  }
+
+  function highlight(text, tokens) {
+    if (!tokens || tokens.length === 0) return escHtml(text);
+    const uniqueTokens = Array.from(new Set(tokens));
+    const escapedTokens = uniqueTokens
+      .map(token => token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+      .filter(Boolean);
+    if (escapedTokens.length === 0) return escHtml(text);
+    const pattern = escapedTokens.sort((a, b) => b.length - a.length).join('|');
     return escHtml(text).replace(
-      new RegExp(`(${escaped})`, 'gi'),
+      new RegExp(`(${pattern})`, 'gi'),
       '<mark>$1</mark>'
     );
+  }
+
+  function updateSearch(value) {
+    searchQuery = value.trim();
+    searchTokens = tokenizeQuery(searchQuery);
+    searchClear.hidden = searchQuery === '';
+    renderPapers();
   }
 
   // ── Filter logic ─────────────────────────────────────────────────────────
   function matchesPaper(paper) {
     // Search filter
     if (searchQuery) {
-      const q = searchQuery.toLowerCase();
       const haystack = (
         paper.title + ' ' +
         (paper.summary || '') + ' ' +
         paper.tags.join(' ') + ' ' +
         paper.section
       ).toLowerCase();
-      if (!haystack.includes(q)) return false;
+      if (searchTokens.length > 0) {
+        if (!searchTokens.every(token => haystack.includes(token))) return false;
+      } else if (!haystack.includes(searchQuery.toLowerCase())) {
+        return false;
+      }
     }
 
     // Tag filter (AND across tag categories, OR within same category)
@@ -123,7 +155,7 @@
       : '';
 
     const summaryHtml = paper.summary
-      ? `<p class="paper-summary">${highlight(paper.summary, searchQuery)}</p>`
+      ? `<p class="paper-summary">${highlight(paper.summary, searchTokens)}</p>`
       : '';
 
     const footerContent = (issueHtml || scoreHtml)
@@ -131,8 +163,8 @@
       : '';
 
     const titleHtml = paper.url
-      ? `<a href="${escHtml(paper.url)}" target="_blank" rel="noopener">${highlight(paper.title, searchQuery)}</a>`
-      : highlight(paper.title, searchQuery);
+      ? `<a href="${escHtml(paper.url)}" target="_blank" rel="noopener">${highlight(paper.title, searchTokens)}</a>`
+      : highlight(paper.title, searchTokens);
 
     return `
 <article class="paper-card">
@@ -207,22 +239,21 @@
   }
 
   // ── Event listeners ─────────────────────────────────────────────────────
-  searchInput.addEventListener('input', () => {
-    searchQuery = searchInput.value.trim();
-    searchClear.hidden = searchQuery === '';
-    renderPapers();
-  });
+  searchInput.addEventListener('input', () => updateSearch(searchInput.value));
 
   searchClear.addEventListener('click', () => {
     searchInput.value = '';
-    searchQuery = '';
-    searchClear.hidden = true;
+    updateSearch('');
     searchInput.focus();
-    renderPapers();
   });
 
   clearBtn.addEventListener('click', clearFilters);
-  resetLink.addEventListener('click', e => { e.preventDefault(); clearFilters(); searchInput.value = ''; searchQuery = ''; searchClear.hidden = true; renderPapers(); });
+  resetLink.addEventListener('click', e => {
+    e.preventDefault();
+    clearFilters();
+    searchInput.value = '';
+    updateSearch('');
+  });
 
   toggleBtn.addEventListener('click', () => {
     sidebar.classList.toggle('open');
@@ -236,6 +267,15 @@
         !toggleBtn.contains(e.target)) {
       sidebar.classList.remove('open');
     }
+  });
+
+  document.querySelectorAll('.prompt-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const query = btn.dataset.query || '';
+      searchInput.value = query;
+      updateSearch(query);
+      searchInput.focus();
+    });
   });
 
   // ── Init ────────────────────────────────────────────────────────────────

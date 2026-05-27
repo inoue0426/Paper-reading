@@ -41,12 +41,18 @@
     <!-- Main content -->
     <main class="main-content">
       <div class="search-section">
+        <p class="search-hint">Search by keywords or phrases:</p>
+        <div class="search-suggestions" aria-label="Search examples">
+          <button class="prompt-chip" type="button" data-query="ICLR 2025 single-cell perturbation">ICLR 2025 single-cell perturbation</button>
+          <button class="prompt-chip" type="button" data-query="drug response prediction 2024">drug response prediction 2024</button>
+          <button class="prompt-chip" type="button" data-query="virtual cell foundation models">virtual cell foundation models</button>
+        </div>
         <div class="search-wrapper">
           <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input
             type="search"
             id="search-input"
-            placeholder="Search papers by title, keyword, or summary…"
+            placeholder="Search by title, year, venue, topic, or summary…"
             aria-label="Search papers"
             autocomplete="off"
           />
