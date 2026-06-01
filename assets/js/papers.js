@@ -6702,5 +6702,77 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 3",
     "issue": 103
+  },
+  {
+    "id": 521,
+    "title": "https://www.sciencedirect.com/science/article/pii/S0092867422001957",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0092867422001957",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
+  },
+  {
+    "id": 522,
+    "title": "Client Challenge",
+    "url": "https://link.springer.com/article/10.1186/s13073-025-01518-5",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
+  },
+  {
+    "id": 523,
+    "title": "https://www.science.org/doi/10.1126/sciadv.adj0785",
+    "url": "https://www.science.org/doi/10.1126/sciadv.adj0785",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
+  },
+  {
+    "id": 524,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41698-023-00444-2#data-availability",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
+  },
+  {
+    "id": 525,
+    "title": "Client Challenge",
+    "url": "https://link.springer.com/article/10.1186/s13073-023-01218-y#availability-of-data-and-materials",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
+  },
+  {
+    "id": 526,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.17.725770v1.article-info",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.17.725770v1.article-info",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
+  },
+  {
+    "id": 527,
+    "title": "[2406.16192] HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis",
+    "url": "https://arxiv.org/abs/2406.16192",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
+  },
+  {
+    "id": 528,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41592-025-02643-0",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
   }
 ];

@@ -53,6 +53,22 @@ A curated collection of research papers organized by conference and topic.
 - [Positional papers](#positional-papers)
 - [Scholar inbox 3](#scholar-inbox-3)
 - [CVPR2026](#cvpr2026)
+- [Cell-cell communication for drug response prediction](#cell-cell-communication-for-drug-response-prediction)
+
+---
+
+## Cell-cell communication for drug response prediction
+
+> Issue [#107](https://github.com/inoue0426/Paper-reading/issues/107)
+
+- **[https://www.sciencedirect.com/science/article/pii/S0092867422001957](https://www.sciencedirect.com/science/article/pii/S0092867422001957)**
+- **[Client Challenge](https://link.springer.com/article/10.1186/s13073-025-01518-5)**
+- **[https://www.science.org/doi/10.1126/sciadv.adj0785](https://www.science.org/doi/10.1126/sciadv.adj0785)**
+- **[Client Challenge](https://www.nature.com/articles/s41698-023-00444-2#data-availability)**
+- **[Client Challenge](https://link.springer.com/article/10.1186/s13073-023-01218-y#availability-of-data-and-materials)**
+- **[https://www.biorxiv.org/content/10.64898/2026.05.17.725770v1.article-info](https://www.biorxiv.org/content/10.64898/2026.05.17.725770v1.article-info)**
+- **[[2406.16192] HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis](https://arxiv.org/abs/2406.16192)**
+- **[Client Challenge](https://www.nature.com/articles/s41592-025-02643-0)**
 
 ---
 
