@@ -54,6 +54,19 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar inbox 3](#scholar-inbox-3)
 - [CVPR2026](#cvpr2026)
 - [Cell-cell communication for drug response prediction](#cell-cell-communication-for-drug-response-prediction)
+- [Activity Cliffについて最新の論文を漁ってまとめてほしい.](#activity-cliff)
+
+---
+
+## Activity Cliffについて最新の論文を漁ってまとめてほしい.
+
+> Issue [#108](https://github.com/inoue0426/Paper-reading/issues/108)
+
+- **[Predicting Activity Cliffs for Autonomous Medicinal Chemistry](https://arxiv.org/abs/2604.07560)**
+- **[Activity cliff-aware reinforcement learning for de novo drug design](https://pmc.ncbi.nlm.nih.gov/articles/PMC12013064/)**
+- **[iCliff: Robust and Efficient Activity Cliff Determination](https://doi.org/10.1021/acs.jcim.5c00506)**
+- **[Activity Cliff-Informed Contrastive Learning for Molecular Property Prediction](https://doi.org/10.26434/chemrxiv-2023-5cz7s-v2)**
+- **[Large-scale prediction of activity cliffs using machine and deep learning methods of increasing complexity](https://pmc.ncbi.nlm.nih.gov/articles/PMC9825040/)**
 
 ---
 

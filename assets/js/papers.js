@@ -6774,5 +6774,75 @@ const papers = [
     "tags": [],
     "section": "Cell-cell communication for drug response prediction",
     "issue": 107
+  },
+  {
+    "id": 529,
+    "title": "Predicting Activity Cliffs for Autonomous Medicinal Chemistry",
+    "url": "https://arxiv.org/abs/2604.07560",
+    "summary": "25 million matched molecular pairsから、わずかな置換で活性が急変する“cliff-prone”部位を予測。自律的なメディシナルケミストリー向けに、Activity Cliffを探索優先度として扱う実践的な枠組みを示す。",
+    "tags": [
+      "2026",
+      "Activity Cliff",
+      "Medicinal Chemistry",
+      "Machine Learning"
+    ],
+    "section": "Activity Cliffについて最新の論文を漁ってまとめてほしい.",
+    "issue": 108
+  },
+  {
+    "id": 530,
+    "title": "Activity cliff-aware reinforcement learning for de novo drug design",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12013064/",
+    "summary": "分子生成の強化学習にActivity Cliff情報を直接組み込み、SARの急峻な領域を意識した探索を実現。従来法より高品質な候補分子を得られることを示した。",
+    "tags": [
+      "2025",
+      "Activity Cliff",
+      "Drug Design",
+      "Reinforcement Learning"
+    ],
+    "section": "Activity Cliffについて最新の論文を漁ってまとめてほしい.",
+    "issue": 108
+  },
+  {
+    "id": 531,
+    "title": "iCliff: Robust and Efficient Activity Cliff Determination",
+    "url": "https://doi.org/10.1021/acs.jcim.5c00506",
+    "summary": "Activity Cliffの定量化を高速・頑健に行うiCliffを提案。従来のSALI系指標より計算効率を改善しつつ、活性地形の粗さを実用的に評価できる。",
+    "tags": [
+      "2025",
+      "Activity Cliff",
+      "Cheminformatics",
+      "Methodology"
+    ],
+    "section": "Activity Cliffについて最新の論文を漁ってまとめてほしい.",
+    "issue": 108
+  },
+  {
+    "id": 532,
+    "title": "Activity Cliff-Informed Contrastive Learning for Molecular Property Prediction",
+    "url": "https://doi.org/10.26434/chemrxiv-2023-5cz7s-v2",
+    "summary": "コントラスト学習にActivity Cliff制約を導入し、似た構造でも活性差が大きいペアを明示的に学習。分子表現の識別性を高め、下流予測精度を改善した。",
+    "tags": [
+      "2024",
+      "Activity Cliff",
+      "Molecular Property Prediction",
+      "Contrastive Learning"
+    ],
+    "section": "Activity Cliffについて最新の論文を漁ってまとめてほしい.",
+    "issue": 108
+  },
+  {
+    "id": 533,
+    "title": "Large-scale prediction of activity cliffs using machine and deep learning methods of increasing complexity",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9825040/",
+    "summary": "100の活性クラスで、古典的MLから深層学習までActivity Cliff予測性能を大規模比較。複雑なモデルが常に優位とは限らず、課題特性に応じたモデル選択の重要性を示す。",
+    "tags": [
+      "2023",
+      "Activity Cliff",
+      "QSAR",
+      "Machine Learning"
+    ],
+    "section": "Activity Cliffについて最新の論文を漁ってまとめてほしい.",
+    "issue": 108
   }
 ];
