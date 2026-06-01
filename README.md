@@ -54,6 +54,17 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar inbox 3](#scholar-inbox-3)
 - [CVPR2026](#cvpr2026)
 - [Cell-cell communication for drug response prediction](#cell-cell-communication-for-drug-response-prediction)
+- [activity cliff](#activity-cliff)
+
+---
+
+## activity cliff
+
+> Issue [#110](https://github.com/inoue0426/Paper-reading/issues/110)
+
+- **[https://pubs.acs.org/doi/10.1021/acsomega.9b02221](https://pubs.acs.org/doi/10.1021/acsomega.9b02221)**
+- **[[2302.07541] Activity Cliff Prediction: Dataset and Benchmark](https://arxiv.org/abs/2302.07541)**
+- **[https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-5cz7s-v2](https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-5cz7s-v2)**
 
 ---
 

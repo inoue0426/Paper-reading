@@ -6774,5 +6774,32 @@ const papers = [
     "tags": [],
     "section": "Cell-cell communication for drug response prediction",
     "issue": 107
+  },
+  {
+    "id": 529,
+    "title": "https://pubs.acs.org/doi/10.1021/acsomega.9b02221",
+    "url": "https://pubs.acs.org/doi/10.1021/acsomega.9b02221",
+    "summary": "",
+    "tags": [],
+    "section": "activity cliff",
+    "issue": 110
+  },
+  {
+    "id": 530,
+    "title": "[2302.07541] Activity Cliff Prediction: Dataset and Benchmark",
+    "url": "https://arxiv.org/abs/2302.07541",
+    "summary": "",
+    "tags": [],
+    "section": "activity cliff",
+    "issue": 110
+  },
+  {
+    "id": 531,
+    "title": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-5cz7s-v2",
+    "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-5cz7s-v2",
+    "summary": "",
+    "tags": [],
+    "section": "activity cliff",
+    "issue": 110
   }
 ];
