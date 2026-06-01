@@ -6639,5 +6639,68 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 3",
     "issue": 103
+  },
+  {
+    "id": 514,
+    "title": "[2605.31522] Chem-PerturBridge: a harmonized compendium of small molecule perturbation transcriptomic effects",
+    "url": "https://arxiv.org/abs/2605.31522",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 515,
+    "title": "[2605.30247v1] OOD-GraphLLM: Graph Large Language Model for Out-of-Distribution Generalized Drug Synergy Prediction",
+    "url": "https://arxiv.org/abs/2605.30247v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 516,
+    "title": "[2605.29926] A Triple-Modal Contrastive Learning Framework with Sequence, Graph, and 3D Features for Drug-Target Interaction Prediction",
+    "url": "https://arxiv.org/abs/2605.29926",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 517,
+    "title": "https://arxiv.org/pdf/2605.29184",
+    "url": "https://arxiv.org/pdf/2605.29184",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 518,
+    "title": "[2605.30635] CellBRIDGE: Learning Cellular Trajectories via Interaction-Aware Alignment",
+    "url": "https://arxiv.org/abs/2605.30635",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 519,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.27.728125v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728125v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 520,
+    "title": "CVPR Poster BiGMINT: Biologically-guided Hierarchical Multimodal Integration for Modeling Multiple Compound Activities in Drug Discovery",
+    "url": "https://cvpr.thecvf.com/virtual/2026/poster/39673",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
   }
 ];
