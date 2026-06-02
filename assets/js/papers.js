@@ -6801,5 +6801,41 @@ const papers = [
     "tags": [],
     "section": "activity cliff",
     "issue": 110
+  },
+  {
+    "id": 532,
+    "title": "[2606.01042] Plausibility Is Not Prediction: Contrastive Evidence for LLM-Based Cellular Perturbation Reasoning",
+    "url": "https://arxiv.org/abs/2606.01042",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 533,
+    "title": "[2606.01461] Genotype-Conditioned Molecular Generation via Evidence-Grounded Multi-Objective Latent Perturbation in Diffusion Models",
+    "url": "https://arxiv.org/abs/2606.01461",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 534,
+    "title": "[2606.01595v1] Uncertainty-Calibrated Diffusion for Reliable 3D Molecular Graph Generation",
+    "url": "https://arxiv.org/abs/2606.01595v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
+  },
+  {
+    "id": 535,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.05.27.728114v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728114v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 3",
+    "issue": 103
   }
 ];
