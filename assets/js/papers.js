@@ -6837,5 +6837,14 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 3",
     "issue": 103
+  },
+  {
+    "id": 536,
+    "title": "[1910.09457] Aleatoric and Epistemic Uncertainty in Machine Learning: An Introduction to Concepts and Methods",
+    "url": "https://arxiv.org/abs/1910.09457",
+    "summary": "",
+    "tags": [],
+    "section": "Uncertainty Quantification",
+    "issue": 111
   }
 ];

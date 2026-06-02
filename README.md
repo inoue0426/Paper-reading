@@ -55,6 +55,15 @@ A curated collection of research papers organized by conference and topic.
 - [CVPR2026](#cvpr2026)
 - [Cell-cell communication for drug response prediction](#cell-cell-communication-for-drug-response-prediction)
 - [activity cliff](#activity-cliff)
+- [Uncertainty Quantification](#uncertainty-quantification)
+
+---
+
+## Uncertainty Quantification
+
+> Issue [#111](https://github.com/inoue0426/Paper-reading/issues/111)
+
+- **[[1910.09457] Aleatoric and Epistemic Uncertainty in Machine Learning: An Introduction to Concepts and Methods](https://arxiv.org/abs/1910.09457)**
 
 ---
 
