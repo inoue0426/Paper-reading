@@ -6846,5 +6846,86 @@ const papers = [
     "tags": [],
     "section": "Uncertainty Quantification",
     "issue": 111
+  },
+  {
+    "id": 537,
+    "title": "GANDALF: Generative AttentioN based Data Augmentation and predictive modeLing Framework for personalized cancer treatment | OpenReview",
+    "url": "https://openreview.net/forum?id=WwmtcGr4lP",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 538,
+    "title": "WISER: Weak Supervision and Supervised Representation Learning to Improve Drug Response Prediction in Cancer",
+    "url": "https://proceedings.mlr.press/v235/shubham24a.html",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 539,
+    "title": "https://ojs.aaai.org/index.php/AAAI/article/view/33153",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33153",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 540,
+    "title": "Transferring Preclinical Drug Response to Patient via Tumor Heterogeneity-Aware Alignment and Perturbation Modeling | OpenReview",
+    "url": "https://openreview.net/forum?id=prYPSWtKCC",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 541,
+    "title": "Harnessing biomedical foundation models for genomic feature engineering to investigate patient drug response | OpenReview",
+    "url": "https://openreview.net/forum?id=TnPtpP3xud",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 542,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41467-022-33291-z",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 543,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s42256-022-00541-0",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 544,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s43018-024-00756-7",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
+  },
+  {
+    "id": 545,
+    "title": "https://academic.oup.com/bib/article/26/3/bbaf268/8160682",
+    "url": "https://academic.oup.com/bib/article/26/3/bbaf268/8160682",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
   }
 ];

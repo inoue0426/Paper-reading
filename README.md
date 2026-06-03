@@ -56,6 +56,23 @@ A curated collection of research papers organized by conference and topic.
 - [Cell-cell communication for drug response prediction](#cell-cell-communication-for-drug-response-prediction)
 - [activity cliff](#activity-cliff)
 - [Uncertainty Quantification](#uncertainty-quantification)
+- [Patient response prediction in ML conferences over the past five years](#patient-response-prediction-in-ml-conferences-over-the-past-five-years)
+
+---
+
+## Patient response prediction in ML conferences over the past five years
+
+> Issue [#112](https://github.com/inoue0426/Paper-reading/issues/112)
+
+- **[GANDALF: Generative AttentioN based Data Augmentation and predictive modeLing Framework for personalized cancer treatment | OpenReview](https://openreview.net/forum?id=WwmtcGr4lP)**
+- **[WISER: Weak Supervision and Supervised Representation Learning to Improve Drug Response Prediction in Cancer](https://proceedings.mlr.press/v235/shubham24a.html)**
+- **[https://ojs.aaai.org/index.php/AAAI/article/view/33153](https://ojs.aaai.org/index.php/AAAI/article/view/33153)**
+- **[Transferring Preclinical Drug Response to Patient via Tumor Heterogeneity-Aware Alignment and Perturbation Modeling | OpenReview](https://openreview.net/forum?id=prYPSWtKCC)**
+- **[Harnessing biomedical foundation models for genomic feature engineering to investigate patient drug response | OpenReview](https://openreview.net/forum?id=TnPtpP3xud)**
+- **[Client Challenge](https://www.nature.com/articles/s41467-022-33291-z)**
+- **[Client Challenge](https://www.nature.com/articles/s42256-022-00541-0)**
+- **[Client Challenge](https://www.nature.com/articles/s43018-024-00756-7)**
+- **[https://academic.oup.com/bib/article/26/3/bbaf268/8160682](https://academic.oup.com/bib/article/26/3/bbaf268/8160682)**
 
 ---
 
