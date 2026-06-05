@@ -6945,5 +6945,32 @@ const papers = [
     "tags": [],
     "section": "GNN",
     "issue": 113
+  },
+  {
+    "id": 548,
+    "title": "https://academic.oup.com/bib/article/26/6/bbaf628/8342209?guestAccessKey=",
+    "url": "https://academic.oup.com/bib/article/26/6/bbaf628/8342209?guestAccessKey=",
+    "summary": "",
+    "tags": [],
+    "section": "Any",
+    "issue": 113
+  },
+  {
+    "id": 549,
+    "title": "https://chatgpt.com/c/6a22ec05-be88-8332-8fe4-013404782ee4",
+    "url": "https://chatgpt.com/c/6a22ec05-be88-8332-8fe4-013404782ee4",
+    "summary": "",
+    "tags": [],
+    "section": "Any",
+    "issue": 113
+  },
+  {
+    "id": 550,
+    "title": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i130/7700850?guestAccessKey=",
+    "url": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i130/7700850?guestAccessKey=",
+    "summary": "",
+    "tags": [],
+    "section": "Any",
+    "issue": 113
   }
 ];
