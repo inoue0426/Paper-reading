@@ -6927,5 +6927,23 @@ const papers = [
     "tags": [],
     "section": "Patient response prediction in ML conferences over the past five years",
     "issue": 112
+  },
+  {
+    "id": 546,
+    "title": "https://www.sciencedirect.com/science/article/pii/S2001037024001235?fr=RR-2&ref=pdf_download&rr=a0700f02ecd88f7d",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2001037024001235?fr=RR-2&ref=pdf_download&rr=a0700f02ecd88f7d",
+    "summary": "",
+    "tags": [],
+    "section": "GNN",
+    "issue": 113
+  },
+  {
+    "id": 547,
+    "title": "https://academic.oup.com/bioinformatics/article/36/12/3818/5811233?guestAccessKey=",
+    "url": "https://academic.oup.com/bioinformatics/article/36/12/3818/5811233?guestAccessKey=",
+    "summary": "",
+    "tags": [],
+    "section": "GNN",
+    "issue": 113
   }
 ];

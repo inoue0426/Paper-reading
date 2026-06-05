@@ -57,6 +57,16 @@ A curated collection of research papers organized by conference and topic.
 - [activity cliff](#activity-cliff)
 - [Uncertainty Quantification](#uncertainty-quantification)
 - [Patient response prediction in ML conferences over the past five years](#patient-response-prediction-in-ml-conferences-over-the-past-five-years)
+- [GNN](#gnn)
+
+---
+
+## GNN
+
+> Issue [#113](https://github.com/inoue0426/Paper-reading/issues/113)
+
+- **[https://www.sciencedirect.com/science/article/pii/S2001037024001235?fr=RR-2&ref=pdf_download&rr=a0700f02ecd88f7d](https://www.sciencedirect.com/science/article/pii/S2001037024001235?fr=RR-2&ref=pdf_download&rr=a0700f02ecd88f7d)**
+- **[https://academic.oup.com/bioinformatics/article/36/12/3818/5811233?guestAccessKey=](https://academic.oup.com/bioinformatics/article/36/12/3818/5811233?guestAccessKey=)**
 
 ---
 
