@@ -7071,5 +7071,23 @@ const papers = [
     "tags": [],
     "section": "ICML 2026 Workshop on GenBio",
     "issue": 116
+  },
+  {
+    "id": 562,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.06.03.729735v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729735v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
+  },
+  {
+    "id": 563,
+    "title": "[2606.05925] Towards World Models in Biomedical Research",
+    "url": "https://arxiv.org/abs/2606.05925",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
   }
 ];

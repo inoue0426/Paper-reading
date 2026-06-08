@@ -60,6 +60,16 @@ A curated collection of research papers organized by conference and topic.
 - [GNN](#gnn)
 - [ICML 2026 Workshop FM4LS](#icml-2026-workshop-fm4ls)
 - [ICML 2026 Workshop on GenBio](#icml-2026-workshop-on-genbio)
+- [Scholar inbox 4](#scholar-inbox-4)
+
+---
+
+## Scholar inbox 4
+
+> Issue [#117](https://github.com/inoue0426/Paper-reading/issues/117)
+
+- **[https://www.biorxiv.org/content/10.64898/2026.06.03.729735v1](https://www.biorxiv.org/content/10.64898/2026.06.03.729735v1)**
+- **[[2606.05925] Towards World Models in Biomedical Research](https://arxiv.org/abs/2606.05925)**
 
 ---
 
