@@ -7017,5 +7017,59 @@ const papers = [
     "tags": [],
     "section": "ICML 2026 Workshop FM4LS",
     "issue": 115
+  },
+  {
+    "id": 556,
+    "title": "[2604.11661] Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+    "url": "https://arxiv.org/abs/2604.11661",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop on GenBio",
+    "issue": 116
+  },
+  {
+    "id": 557,
+    "title": "Identification of Heterogeneous Erlotinib Response Gene Sets Using Sample-Specific Counterfactual Causal Attribution | OpenReview",
+    "url": "https://openreview.net/forum?id=hUN4otaZoi",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop on GenBio",
+    "issue": 116
+  },
+  {
+    "id": 558,
+    "title": "[2602.07408] Progressive Multi-Agent Reasoning for Biological Perturbation Prediction",
+    "url": "https://arxiv.org/abs/2602.07408",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop on GenBio",
+    "issue": 116
+  },
+  {
+    "id": 559,
+    "title": "[2605.15461] DrugSAGE:Self-evolving Agent Experience for Efficient State-of-the-Art Drug Discovery",
+    "url": "https://arxiv.org/abs/2605.15461",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop on GenBio",
+    "issue": 116
+  },
+  {
+    "id": 560,
+    "title": "[2603.11872] ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics",
+    "url": "https://arxiv.org/abs/2603.11872",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop on GenBio",
+    "issue": 116
+  },
+  {
+    "id": 561,
+    "title": "ST-JEPA: Joint-Embedding Predictive Architecture for Spatial Transcriptomics | OpenReview",
+    "url": "https://openreview.net/forum?id=yxVgpY33qS",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop on GenBio",
+    "issue": 116
   }
 ];

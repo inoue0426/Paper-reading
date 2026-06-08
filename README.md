@@ -59,6 +59,20 @@ A curated collection of research papers organized by conference and topic.
 - [Patient response prediction in ML conferences over the past five years](#patient-response-prediction-in-ml-conferences-over-the-past-five-years)
 - [GNN](#gnn)
 - [ICML 2026 Workshop FM4LS](#icml-2026-workshop-fm4ls)
+- [ICML 2026 Workshop on GenBio](#icml-2026-workshop-on-genbio)
+
+---
+
+## ICML 2026 Workshop on GenBio
+
+> Issue [#116](https://github.com/inoue0426/Paper-reading/issues/116)
+
+- **[[2604.11661] Towards Autonomous Mechanistic Reasoning in Virtual Cells](https://arxiv.org/abs/2604.11661)**
+- **[Identification of Heterogeneous Erlotinib Response Gene Sets Using Sample-Specific Counterfactual Causal Attribution | OpenReview](https://openreview.net/forum?id=hUN4otaZoi)**
+- **[[2602.07408] Progressive Multi-Agent Reasoning for Biological Perturbation Prediction](https://arxiv.org/abs/2602.07408)**
+- **[[2605.15461] DrugSAGE:Self-evolving Agent Experience for Efficient State-of-the-Art Drug Discovery](https://arxiv.org/abs/2605.15461)**
+- **[[2603.11872] ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics](https://arxiv.org/abs/2603.11872)**
+- **[ST-JEPA: Joint-Embedding Predictive Architecture for Spatial Transcriptomics | OpenReview](https://openreview.net/forum?id=yxVgpY33qS)**
 
 ---
 
