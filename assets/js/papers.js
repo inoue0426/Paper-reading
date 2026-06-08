@@ -6972,5 +6972,50 @@ const papers = [
     "tags": [],
     "section": "Any",
     "issue": 113
+  },
+  {
+    "id": 551,
+    "title": "[2605.07554] ProteinJEPA: Latent prediction complements protein language models",
+    "url": "https://arxiv.org/abs/2605.07554",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop FM4LS",
+    "issue": 115
+  },
+  {
+    "id": 552,
+    "title": "Cross-modal transfer learning for mapping bulk transcriptomes at cellular level | OpenReview",
+    "url": "https://openreview.net/forum?id=5bHHy81McV",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop FM4LS",
+    "issue": 115
+  },
+  {
+    "id": 553,
+    "title": "Single-Cell Cross-Modal Transfer by Adversarial Fine-Tuning of Foundation Models | OpenReview",
+    "url": "https://openreview.net/forum?id=XpyWPRksDS",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop FM4LS",
+    "issue": 115
+  },
+  {
+    "id": 554,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.02.04.703804v1.full",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703804v1.full",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop FM4LS",
+    "issue": 115
+  },
+  {
+    "id": 555,
+    "title": "https://www.biorxiv.org/content/10.64898/2025.12.23.696273v1.abstract",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696273v1.abstract",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 Workshop FM4LS",
+    "issue": 115
   }
 ];

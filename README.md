@@ -58,6 +58,19 @@ A curated collection of research papers organized by conference and topic.
 - [Uncertainty Quantification](#uncertainty-quantification)
 - [Patient response prediction in ML conferences over the past five years](#patient-response-prediction-in-ml-conferences-over-the-past-five-years)
 - [GNN](#gnn)
+- [ICML 2026 Workshop FM4LS](#icml-2026-workshop-fm4ls)
+
+---
+
+## ICML 2026 Workshop FM4LS
+
+> Issue [#115](https://github.com/inoue0426/Paper-reading/issues/115)
+
+- **[[2605.07554] ProteinJEPA: Latent prediction complements protein language models](https://arxiv.org/abs/2605.07554)**
+- **[Cross-modal transfer learning for mapping bulk transcriptomes at cellular level | OpenReview](https://openreview.net/forum?id=5bHHy81McV)**
+- **[Single-Cell Cross-Modal Transfer by Adversarial Fine-Tuning of Foundation Models | OpenReview](https://openreview.net/forum?id=XpyWPRksDS)**
+- **[https://www.biorxiv.org/content/10.64898/2026.02.04.703804v1.full](https://www.biorxiv.org/content/10.64898/2026.02.04.703804v1.full)**
+- **[https://www.biorxiv.org/content/10.64898/2025.12.23.696273v1.abstract](https://www.biorxiv.org/content/10.64898/2025.12.23.696273v1.abstract)**
 
 ---
 
