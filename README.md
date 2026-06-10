@@ -61,6 +61,15 @@ A curated collection of research papers organized by conference and topic.
 - [ICML 2026 Workshop FM4LS](#icml-2026-workshop-fm4ls)
 - [ICML 2026 Workshop on GenBio](#icml-2026-workshop-on-genbio)
 - [Scholar inbox 4](#scholar-inbox-4)
+- [Learning Theory](#learning-theory)
+
+---
+
+## Learning Theory
+
+> Issue [#118](https://github.com/inoue0426/Paper-reading/issues/118)
+
+- **[[2605.27734] Learn from your own latents and not from tokens: A sample-complexity theory](https://arxiv.org/abs/2605.27734)**
 
 ---
 

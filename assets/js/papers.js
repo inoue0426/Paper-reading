@@ -7089,5 +7089,14 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 4",
     "issue": 117
+  },
+  {
+    "id": 564,
+    "title": "[2605.27734] Learn from your own latents and not from tokens: A sample-complexity theory",
+    "url": "https://arxiv.org/abs/2605.27734",
+    "summary": "",
+    "tags": [],
+    "section": "Learning Theory",
+    "issue": 118
   }
 ];
