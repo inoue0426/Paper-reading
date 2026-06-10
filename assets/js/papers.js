@@ -7098,5 +7098,41 @@ const papers = [
     "tags": [],
     "section": "Learning Theory",
     "issue": 118
+  },
+  {
+    "id": 565,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v2",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v2",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
+  },
+  {
+    "id": 566,
+    "title": "[2602.18885] Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction",
+    "url": "https://arxiv.org/abs/2602.18885",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
+  },
+  {
+    "id": 567,
+    "title": "[2606.07327] Six Open Questions in Machine-Learned Interatomic Potential Foundation Models",
+    "url": "https://arxiv.org/abs/2606.07327",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
+  },
+  {
+    "id": 568,
+    "title": "[2605.27295] Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini",
+    "url": "https://arxiv.org/abs/2605.27295",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
   }
 ];
