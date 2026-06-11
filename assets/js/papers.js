@@ -7134,5 +7134,14 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 4",
     "issue": 117
+  },
+  {
+    "id": 569,
+    "title": "http://gsciencedirect.com/science/article/pii/S2667237525000219",
+    "url": "http://gsciencedirect.com/science/article/pii/S2667237525000219",
+    "summary": "",
+    "tags": [],
+    "section": "Cell-cell communication for drug response prediction",
+    "issue": 107
   }
 ];
