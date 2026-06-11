@@ -7143,5 +7143,32 @@ const papers = [
     "tags": [],
     "section": "Cell-cell communication for drug response prediction",
     "issue": 107
+  },
+  {
+    "id": 570,
+    "title": "[2606.11382] GLACIER: A Multimodal Student-Teacher Foundation Model for Molecular Property Prediction",
+    "url": "https://arxiv.org/abs/2606.11382",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
+  },
+  {
+    "id": 571,
+    "title": "[2606.12113] Augmenting Molecular Language Models with Local $n$-gram Memory",
+    "url": "https://arxiv.org/abs/2606.12113",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
+  },
+  {
+    "id": 572,
+    "title": "[2606.11286] FreeBridge: Variational Schrödinger Bridges for Cellular Transition Dynamics",
+    "url": "https://arxiv.org/abs/2606.11286",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
   }
 ];
