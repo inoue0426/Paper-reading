@@ -62,6 +62,15 @@ A curated collection of research papers organized by conference and topic.
 - [ICML 2026 Workshop on GenBio](#icml-2026-workshop-on-genbio)
 - [Scholar inbox 4](#scholar-inbox-4)
 - [Learning Theory](#learning-theory)
+- [Scholar Inbox 5](#scholar-inbox-5)
+
+---
+
+## Scholar Inbox 5
+
+> Issue [#119](https://github.com/inoue0426/Paper-reading/issues/119)
+
+- **[https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1](https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1)**
 
 ---
 
