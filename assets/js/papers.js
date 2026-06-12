@@ -7197,5 +7197,14 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox 5",
     "issue": 119
+  },
+  {
+    "id": 576,
+    "title": "tahoebio/Rhaister · Hugging Face",
+    "url": "https://huggingface.co/tahoebio/Rhaister",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
   }
 ];
