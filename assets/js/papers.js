@@ -7170,5 +7170,23 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 4",
     "issue": 117
+  },
+  {
+    "id": 573,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41592-026-03120-y",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
+  },
+  {
+    "id": 574,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41467-024-51059-5",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 4",
+    "issue": 117
   }
 ];
