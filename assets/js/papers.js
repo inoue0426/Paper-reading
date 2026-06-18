@@ -7206,5 +7206,14 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox 5",
     "issue": 119
+  },
+  {
+    "id": 577,
+    "title": "https://ojs.aaai.org/index.php/AAAI/article/view/32032",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32032",
+    "summary": "",
+    "tags": [],
+    "section": "Patient response prediction in ML conferences over the past five years",
+    "issue": 112
   }
 ];
