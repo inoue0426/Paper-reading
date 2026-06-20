@@ -7215,5 +7215,122 @@ const papers = [
     "tags": [],
     "section": "Patient response prediction in ML conferences over the past five years",
     "issue": 112
+  },
+  {
+    "id": 578,
+    "title": "ICML Poster Explicit representation of germline and non-germline residues improves antibody language modeling",
+    "url": "https://icml.cc/virtual/2026/poster/64954",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 579,
+    "title": "ICML Poster Revisiting the Platonic Representation Hypothesis: An Aristotelian View",
+    "url": "https://icml.cc/virtual/2026/poster/60968",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 580,
+    "title": "ICML Poster RiboSphere: Learning Unified and Efficient Representations of RNA Structures",
+    "url": "https://icml.cc/virtual/2026/poster/65642",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 581,
+    "title": "ICML Poster Quantifying and Optimizing Simplicity via Polynomial Representations",
+    "url": "https://icml.cc/virtual/2026/poster/65296",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 582,
+    "title": "ICML Poster Representational Similarity and Model Behavior in Multi-Agent Interaction",
+    "url": "https://icml.cc/virtual/2026/poster/60905",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 583,
+    "title": "ICML Poster Modeling temporal scRNA-seq data with latent Gaussian process and optimal transport",
+    "url": "https://icml.cc/virtual/2026/poster/65964",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 584,
+    "title": "ICML Poster Causal-JEPA: Learning World Models through Object-Level Latent Interventions",
+    "url": "https://icml.cc/virtual/2026/poster/63623",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 585,
+    "title": "ICML Poster Var-JEPA: Variational Joint-Embedding Predictive Architecture – Bridging Predictive and Generative Self-Supervised Learning",
+    "url": "https://icml.cc/virtual/2026/poster/61472",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 586,
+    "title": "ICML Poster Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction",
+    "url": "https://icml.cc/virtual/2026/poster/61574",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 587,
+    "title": "ICML Poster Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction",
+    "url": "https://icml.cc/virtual/2026/poster/63076",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 588,
+    "title": "ICML Poster Reading the Cell, Designing the Cure: Perturbation-Conditioned Molecular Diffusion for Function-Oriented Drug Design",
+    "url": "https://icml.cc/virtual/2026/poster/66023",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 589,
+    "title": "ICML Poster PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling",
+    "url": "https://icml.cc/virtual/2026/poster/60643",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
+  },
+  {
+    "id": 590,
+    "title": "ICML Poster Interpretable Neural ODEs for Gene Regulatory Network Discovery under Perturbations",
+    "url": "https://icml.cc/virtual/2026/poster/61747",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026",
+    "issue": 121
   }
 ];

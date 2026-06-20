@@ -63,6 +63,27 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar inbox 4](#scholar-inbox-4)
 - [Learning Theory](#learning-theory)
 - [Scholar Inbox 5](#scholar-inbox-5)
+- [ICML 2026](#icml-2026)
+
+---
+
+## ICML 2026
+
+> Issue [#121](https://github.com/inoue0426/Paper-reading/issues/121)
+
+- **[ICML Poster Explicit representation of germline and non-germline residues improves antibody language modeling](https://icml.cc/virtual/2026/poster/64954)**
+- **[ICML Poster Revisiting the Platonic Representation Hypothesis: An Aristotelian View](https://icml.cc/virtual/2026/poster/60968)**
+- **[ICML Poster RiboSphere: Learning Unified and Efficient Representations of RNA Structures](https://icml.cc/virtual/2026/poster/65642)**
+- **[ICML Poster Quantifying and Optimizing Simplicity via Polynomial Representations](https://icml.cc/virtual/2026/poster/65296)**
+- **[ICML Poster Representational Similarity and Model Behavior in Multi-Agent Interaction](https://icml.cc/virtual/2026/poster/60905)**
+- **[ICML Poster Modeling temporal scRNA-seq data with latent Gaussian process and optimal transport](https://icml.cc/virtual/2026/poster/65964)**
+- **[ICML Poster Causal-JEPA: Learning World Models through Object-Level Latent Interventions](https://icml.cc/virtual/2026/poster/63623)**
+- **[ICML Poster Var-JEPA: Variational Joint-Embedding Predictive Architecture – Bridging Predictive and Generative Self-Supervised Learning](https://icml.cc/virtual/2026/poster/61472)**
+- **[ICML Poster Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction](https://icml.cc/virtual/2026/poster/61574)**
+- **[ICML Poster Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction](https://icml.cc/virtual/2026/poster/63076)**
+- **[ICML Poster Reading the Cell, Designing the Cure: Perturbation-Conditioned Molecular Diffusion for Function-Oriented Drug Design](https://icml.cc/virtual/2026/poster/66023)**
+- **[ICML Poster PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling](https://icml.cc/virtual/2026/poster/60643)**
+- **[ICML Poster Interpretable Neural ODEs for Gene Regulatory Network Discovery under Perturbations](https://icml.cc/virtual/2026/poster/61747)**
 
 ---
 
