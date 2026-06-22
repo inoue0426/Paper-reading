@@ -7332,5 +7332,14 @@ const papers = [
     "tags": [],
     "section": "ICML 2026",
     "issue": 121
+  },
+  {
+    "id": 591,
+    "title": "https://openai.com/index/introducing-life-sci-bench/",
+    "url": "https://openai.com/index/introducing-life-sci-bench/",
+    "summary": "",
+    "tags": [],
+    "section": "Any",
+    "issue": 113
   }
 ];
