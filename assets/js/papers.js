@@ -7341,5 +7341,32 @@ const papers = [
     "tags": [],
     "section": "Any",
     "issue": 113
+  },
+  {
+    "id": 592,
+    "title": "[2606.21109] Chem2Gen-Bench: Benchmarking Chemical-to-Genetic Translation in Perturbation Response Space",
+    "url": "https://arxiv.org/abs/2606.21109",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
+  },
+  {
+    "id": 593,
+    "title": "[2606.23443] What Does a Chemical Language Model Know About Molecules?",
+    "url": "https://arxiv.org/abs/2606.23443",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
+  },
+  {
+    "id": 594,
+    "title": "[2606.22375] ARIA: A Causal-Aware Framework for Rescuing LLM Reasoning in Trustworthy Materials Discovery",
+    "url": "https://arxiv.org/abs/2606.22375",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
   }
 ];
