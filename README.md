@@ -64,6 +64,17 @@ A curated collection of research papers organized by conference and topic.
 - [Learning Theory](#learning-theory)
 - [Scholar Inbox 5](#scholar-inbox-5)
 - [ICML 2026](#icml-2026)
+- [MLCB](#mlcb)
+
+---
+
+## MLCB
+
+> Issue [#122](https://github.com/inoue0426/Paper-reading/issues/122)
+
+- **[STAGED: A Multi-Agent Neural Network for Learning Cellular Interaction Dynamics](https://proceedings.mlr.press/v311/rocha25a.html)**
+- **[Proceedings of Machine Learning Research | Proceedings of the 20th Machine Learning in Computational Biology meeting Held in New York, NY, USA on 10-11 September 2025 Published as Volume 311 by the Proceedings of Machine Learning Research on 31 December 2025. Volume Edited by: David A Knowles Peter K Koo Series Editors: Neil D. Lawrence](https://proceedings.mlr.press/v311/)**
+- **[Can sparse autoencoders make sense of gene expression latent variable models?](https://proceedings.mlr.press/v311/schuster25a.html)**
 
 ---
 

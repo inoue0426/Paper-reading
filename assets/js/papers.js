@@ -7368,5 +7368,32 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox 5",
     "issue": 119
+  },
+  {
+    "id": 595,
+    "title": "STAGED: A Multi-Agent Neural Network for Learning Cellular Interaction Dynamics",
+    "url": "https://proceedings.mlr.press/v311/rocha25a.html",
+    "summary": "",
+    "tags": [],
+    "section": "MLCB",
+    "issue": 122
+  },
+  {
+    "id": 596,
+    "title": "Proceedings of Machine Learning Research | Proceedings of the 20th Machine Learning in Computational Biology meeting Held in New York, NY, USA on 10-11 September 2025 Published as Volume 311 by the Proceedings of Machine Learning Research on 31 December 2025. Volume Edited by: David A Knowles Peter K Koo Series Editors: Neil D. Lawrence",
+    "url": "https://proceedings.mlr.press/v311/",
+    "summary": "",
+    "tags": [],
+    "section": "MLCB",
+    "issue": 122
+  },
+  {
+    "id": 597,
+    "title": "Can sparse autoencoders make sense of gene expression latent variable models?",
+    "url": "https://proceedings.mlr.press/v311/schuster25a.html",
+    "summary": "",
+    "tags": [],
+    "section": "MLCB",
+    "issue": 122
   }
 ];
