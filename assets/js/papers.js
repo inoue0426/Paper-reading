@@ -7485,5 +7485,14 @@ const papers = [
     "tags": [],
     "section": "ICML 2026 workshops",
     "issue": 124
+  },
+  {
+    "id": 608,
+    "title": "Graph-Based Cross-Modal Learning for Drug–Target Affinity Prediction | OpenReview",
+    "url": "https://openreview.net/forum?id=aakl14l0sJ#discussion",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 workshops",
+    "issue": 124
   }
 ];
