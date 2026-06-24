@@ -7431,5 +7431,23 @@ const papers = [
     "tags": [],
     "section": "KDD2026",
     "issue": 123
+  },
+  {
+    "id": 602,
+    "title": "A Supervised Contrastive Framework for Learning Disentangled Representations of Cellular Perturbation Data",
+    "url": "https://proceedings.mlr.press/v240/tu24a.html",
+    "summary": "",
+    "tags": [],
+    "section": "MLCB",
+    "issue": 122
+  },
+  {
+    "id": 603,
+    "title": "[2403.06338] Disentangling shared and private latent factors in multimodal Variational Autoencoders",
+    "url": "https://arxiv.org/abs/2403.06338",
+    "summary": "",
+    "tags": [],
+    "section": "MLCB",
+    "issue": 122
   }
 ];
