@@ -7449,5 +7449,41 @@ const papers = [
     "tags": [],
     "section": "MLCB",
     "issue": 122
+  },
+  {
+    "id": 604,
+    "title": "Don’t Blind Your VLA: Aligning Visual Representations for OOD Generalization",
+    "url": "https://blind-vla-paper.github.io/",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 workshops",
+    "issue": 124
+  },
+  {
+    "id": 605,
+    "title": "Reasoning Phases Are Continuous, Not Discrete: Evidence from Switching Linear Dynamical Systems Applied to Chain-of-Thought Residual Streams | OpenReview",
+    "url": "https://openreview.net/forum?id=5zrmHynvNv",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 workshops",
+    "issue": 124
+  },
+  {
+    "id": 606,
+    "title": "MELON: Multimodal Learning Framework for Spatial Multimodal Omics Data Integration | OpenReview",
+    "url": "https://openreview.net/forum?id=gAMmsl8yOs#discussion",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 workshops",
+    "issue": 124
+  },
+  {
+    "id": 607,
+    "title": "[2606.24235] SP-Mind: An Autonomous Reasoning Agent for Spatial Proteomics Analysis",
+    "url": "https://arxiv.org/abs/2606.24235",
+    "summary": "",
+    "tags": [],
+    "section": "ICML 2026 workshops",
+    "issue": 124
   }
 ];

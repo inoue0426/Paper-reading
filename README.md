@@ -66,6 +66,18 @@ A curated collection of research papers organized by conference and topic.
 - [ICML 2026](#icml-2026)
 - [MLCB](#mlcb)
 - [KDD2026](#kdd2026)
+- [ICML 2026 workshops](#icml-2026-workshops)
+
+---
+
+## ICML 2026 workshops
+
+> Issue [#124](https://github.com/inoue0426/Paper-reading/issues/124)
+
+- **[Don’t Blind Your VLA: Aligning Visual Representations for OOD Generalization](https://blind-vla-paper.github.io/)**
+- **[Reasoning Phases Are Continuous, Not Discrete: Evidence from Switching Linear Dynamical Systems Applied to Chain-of-Thought Residual Streams | OpenReview](https://openreview.net/forum?id=5zrmHynvNv)**
+- **[MELON: Multimodal Learning Framework for Spatial Multimodal Omics Data Integration | OpenReview](https://openreview.net/forum?id=gAMmsl8yOs#discussion)**
+- **[[2606.24235] SP-Mind: An Autonomous Reasoning Agent for Spatial Proteomics Analysis](https://arxiv.org/abs/2606.24235)**
 
 ---
 
