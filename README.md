@@ -65,6 +65,18 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar Inbox 5](#scholar-inbox-5)
 - [ICML 2026](#icml-2026)
 - [MLCB](#mlcb)
+- [KDD2026](#kdd2026)
+
+---
+
+## KDD2026
+
+> Issue [#123](https://github.com/inoue0426/Paper-reading/issues/123)
+
+- **[https://dl.acm.org/doi/10.1145/3770854.3780210](https://dl.acm.org/doi/10.1145/3770854.3780210)**
+- **[https://dl.acm.org/doi/10.1145/3770854.3780173](https://dl.acm.org/doi/10.1145/3770854.3780173)**
+- **[https://dl.acm.org/doi/10.1145/3770854.3780241](https://dl.acm.org/doi/10.1145/3770854.3780241)**
+- **[https://dl.acm.org/doi/10.1145/3770854.3780239](https://dl.acm.org/doi/10.1145/3770854.3780239)**
 
 ---
 

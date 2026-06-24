@@ -7395,5 +7395,41 @@ const papers = [
     "tags": [],
     "section": "MLCB",
     "issue": 122
+  },
+  {
+    "id": 598,
+    "title": "https://dl.acm.org/doi/10.1145/3770854.3780210",
+    "url": "https://dl.acm.org/doi/10.1145/3770854.3780210",
+    "summary": "",
+    "tags": [],
+    "section": "KDD2026",
+    "issue": 123
+  },
+  {
+    "id": 599,
+    "title": "https://dl.acm.org/doi/10.1145/3770854.3780173",
+    "url": "https://dl.acm.org/doi/10.1145/3770854.3780173",
+    "summary": "",
+    "tags": [],
+    "section": "KDD2026",
+    "issue": 123
+  },
+  {
+    "id": 600,
+    "title": "https://dl.acm.org/doi/10.1145/3770854.3780241",
+    "url": "https://dl.acm.org/doi/10.1145/3770854.3780241",
+    "summary": "",
+    "tags": [],
+    "section": "KDD2026",
+    "issue": 123
+  },
+  {
+    "id": 601,
+    "title": "https://dl.acm.org/doi/10.1145/3770854.3780239",
+    "url": "https://dl.acm.org/doi/10.1145/3770854.3780239",
+    "summary": "",
+    "tags": [],
+    "section": "KDD2026",
+    "issue": 123
   }
 ];
