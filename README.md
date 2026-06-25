@@ -67,6 +67,18 @@ A curated collection of research papers organized by conference and topic.
 - [MLCB](#mlcb)
 - [KDD2026](#kdd2026)
 - [ICML 2026 workshops](#icml-2026-workshops)
+- [LLM Sycophancy](#llm-sycophancy)
+
+---
+
+## LLM Sycophancy
+
+> Issue [#125](https://github.com/inoue0426/Paper-reading/issues/125)
+
+- **[[2310.13548] Towards Understanding Sycophancy in Language Models](https://arxiv.org/abs/2310.13548)**
+- **[Client Challenge](https://www.nature.com/articles/s41586-026-10410-0)**
+- **[Discovering Language Model Behaviors with Model-Written Evaluations - ACL Anthology](https://aclanthology.org/2023.findings-acl.847/)**
+- **[Simple synthetic data reduces sycophancy in large language models | OpenReview](https://openreview.net/forum?id=WDheQxWAo4)**
 
 ---
 

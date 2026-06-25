@@ -7539,5 +7539,41 @@ const papers = [
     "tags": [],
     "section": "Scholar Inbox 5",
     "issue": 119
+  },
+  {
+    "id": 614,
+    "title": "[2310.13548] Towards Understanding Sycophancy in Language Models",
+    "url": "https://arxiv.org/abs/2310.13548",
+    "summary": "",
+    "tags": [],
+    "section": "LLM Sycophancy",
+    "issue": 125
+  },
+  {
+    "id": 615,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41586-026-10410-0",
+    "summary": "",
+    "tags": [],
+    "section": "LLM Sycophancy",
+    "issue": 125
+  },
+  {
+    "id": 616,
+    "title": "Discovering Language Model Behaviors with Model-Written Evaluations - ACL Anthology",
+    "url": "https://aclanthology.org/2023.findings-acl.847/",
+    "summary": "",
+    "tags": [],
+    "section": "LLM Sycophancy",
+    "issue": 125
+  },
+  {
+    "id": 617,
+    "title": "Simple synthetic data reduces sycophancy in large language models | OpenReview",
+    "url": "https://openreview.net/forum?id=WDheQxWAo4",
+    "summary": "",
+    "tags": [],
+    "section": "LLM Sycophancy",
+    "issue": 125
   }
 ];
