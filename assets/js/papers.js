@@ -7503,5 +7503,41 @@ const papers = [
     "tags": [],
     "section": "ICML 2026 workshops",
     "issue": 124
+  },
+  {
+    "id": 610,
+    "title": "[2605.08678] MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI",
+    "url": "https://arxiv.org/abs/2605.08678",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
+  },
+  {
+    "id": 611,
+    "title": "[2606.25865] Molexar: A Unified Multimodal Molecular Foundation Model for Drug Design",
+    "url": "https://arxiv.org/abs/2606.25865",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
+  },
+  {
+    "id": 612,
+    "title": "[2606.24940] Stable-Shift: Biologically Structured Prediction of Transcriptional Responses to Unseen Gene Perturbations",
+    "url": "https://arxiv.org/abs/2606.24940",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
+  },
+  {
+    "id": 613,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.06.22.733870v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733870v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar Inbox 5",
+    "issue": 119
   }
 ];
