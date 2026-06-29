@@ -7575,5 +7575,14 @@ const papers = [
     "tags": [],
     "section": "LLM Sycophancy",
     "issue": 125
+  },
+  {
+    "id": 618,
+    "title": "[2606.27752] PerturbCellRL: Verifier-Guided Reinforcement Learning for Single-Cell Perturbation Prediction",
+    "url": "https://arxiv.org/abs/2606.27752",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 5",
+    "issue": 126
   }
 ];

@@ -68,6 +68,15 @@ A curated collection of research papers organized by conference and topic.
 - [KDD2026](#kdd2026)
 - [ICML 2026 workshops](#icml-2026-workshops)
 - [LLM Sycophancy](#llm-sycophancy)
+- [Scholar inbox 5](#scholar-inbox-5)
+
+---
+
+## Scholar inbox 5
+
+> Issue [#126](https://github.com/inoue0426/Paper-reading/issues/126)
+
+- **[[2606.27752] PerturbCellRL: Verifier-Guided Reinforcement Learning for Single-Cell Perturbation Prediction](https://arxiv.org/abs/2606.27752)**
 
 ---
 
