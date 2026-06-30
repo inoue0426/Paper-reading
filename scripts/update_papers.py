@@ -104,6 +104,10 @@ def main() -> int:
     issue_title = os.environ.get("ISSUE_TITLE", "").strip()
     issue_body = os.environ.get("ISSUE_BODY", "").strip()
 
+    if issue_title.upper().startswith("MEMO"):
+        print(f"Issue title starts with MEMO – skip visualization update: {issue_title!r}")
+        return 0
+
     if not issue_number_raw:
         print("ISSUE_NUMBER is not set – nothing to do.", file=sys.stderr)
         return 0
