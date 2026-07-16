@@ -7584,5 +7584,32 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 5",
     "issue": 126
+  },
+  {
+    "id": 619,
+    "title": "[2508.12104] Generative Medical Event Models Improve with Scale",
+    "url": "https://arxiv.org/abs/2508.12104",
+    "summary": "",
+    "tags": [],
+    "section": "ISMB2026",
+    "issue": 128
+  },
+  {
+    "id": 620,
+    "title": "https://www.cell.com/cell/fulltext/S0092-8674%2825%2901312-1",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674%2825%2901312-1",
+    "summary": "",
+    "tags": [],
+    "section": "ISMB2026",
+    "issue": 128
+  },
+  {
+    "id": 621,
+    "title": "https://academic.oup.com/nar/article/54/D1/D1616/8306130",
+    "url": "https://academic.oup.com/nar/article/54/D1/D1616/8306130",
+    "summary": "",
+    "tags": [],
+    "section": "ISMB2026",
+    "issue": 128
   }
 ];

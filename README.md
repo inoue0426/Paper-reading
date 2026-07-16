@@ -69,6 +69,17 @@ A curated collection of research papers organized by conference and topic.
 - [ICML 2026 workshops](#icml-2026-workshops)
 - [LLM Sycophancy](#llm-sycophancy)
 - [Scholar inbox 5](#scholar-inbox-5)
+- [ISMB2026](#ismb2026)
+
+---
+
+## ISMB2026
+
+> Issue [#128](https://github.com/inoue0426/Paper-reading/issues/128)
+
+- **[[2508.12104] Generative Medical Event Models Improve with Scale](https://arxiv.org/abs/2508.12104)**
+- **[https://www.cell.com/cell/fulltext/S0092-8674%2825%2901312-1](https://www.cell.com/cell/fulltext/S0092-8674%2825%2901312-1)**
+- **[https://academic.oup.com/nar/article/54/D1/D1616/8306130](https://academic.oup.com/nar/article/54/D1/D1616/8306130)**
 
 ---
 
