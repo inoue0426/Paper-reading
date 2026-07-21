@@ -70,6 +70,38 @@ A curated collection of research papers organized by conference and topic.
 - [LLM Sycophancy](#llm-sycophancy)
 - [Scholar inbox 5](#scholar-inbox-5)
 - [ISMB2026](#ismb2026)
+- [[MEMO] DL4Sci](#memo-dl4sci)
+
+---
+
+## [MEMO] DL4Sci
+
+> Issue [#130](https://github.com/inoue0426/Paper-reading/issues/130)
+
+- **[Diffusion Schrodinger Bridge - James Thornton](https://jtt94.github.io/papers/schrodinger_bridge)**
+- **[[2603.18992] Foundations of Schrödinger Bridges for Generative Modeling](https://arxiv.org/abs/2603.18992)**
+- **[[2410.14171] Heavy-Tailed Diffusion Models](https://arxiv.org/abs/2410.14171)**
+- **[[2501.19393] s1: Simple test-time scaling](https://arxiv.org/abs/2501.19393)**
+- **[What, How, Where, and How Well? A Survey on Test-Time Scaling in Large Language Models](https://testtimescaling.github.io/)**
+- **[[2212.09748] Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748)**
+- **[[2508.20095] Discrete-Guided Diffusion for Scalable and Safe Multi-Robot Motion Planning](https://arxiv.org/abs/2508.20095)**
+- **[[2510.14989] Constrained Diffusion for Protein Design with Hard Structural Constraints](https://arxiv.org/abs/2510.14989)**
+- **[[2602.22661] dLLM: Simple Diffusion Language Modeling](https://arxiv.org/abs/2602.22661)**
+- **[https://onlinelibrary.wiley.com/doi/10.1002/qub2.70016](https://onlinelibrary.wiley.com/doi/10.1002/qub2.70016)**
+- **[Client Challenge](https://www.nature.com/articles/s43018-024-00756-7?utm_source=chatgpt.com)**
+- **[Client Challenge](https://www.nature.com/articles/s41698-025-01082-6?utm_source=chatgpt.com)**
+- **[Client Challenge](https://www.nature.com/articles/s41467-020-19313-8?utm_source=chatgpt.com)**
+- **[A disentangled generative model for improved drug response prediction in patients via sample synthesis - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268049/?utm_source=chatgpt.com)**
+- **[[2304.05366] The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning](https://arxiv.org/abs/2304.05366)**
+- **[[2003.02139] Rethinking Parameter Counting in Deep Models: Effective Dimensionality Revisited](https://arxiv.org/abs/2003.02139)**
+- **[[1511.02222] Deep Kernel Learning](https://arxiv.org/abs/1511.02222)**
+- **[[2210.02984] The Lie Derivative for Measuring Learned Equivariance](https://arxiv.org/abs/2210.02984)**
+- **[[2601.03220] From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](https://arxiv.org/abs/2601.03220)**
+- **[[1912.02292] Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/abs/1912.02292)**
+- **[Superposition, Memorization, and Double Descent](https://transformer-circuits.pub/2023/toy-double-descent/index.html)**
+- **[Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)**
+- **[Tracing Attention Computation Through Feature Interactions](https://transformer-circuits.pub/2025/attention-qk/index.html)**
+- **[Circuit Tracing: Revealing Computational Graphs in Language Models](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)**
 
 ---
 

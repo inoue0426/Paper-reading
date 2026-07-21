@@ -7611,5 +7611,221 @@ const papers = [
     "tags": [],
     "section": "ISMB2026",
     "issue": 128
+  },
+  {
+    "id": 622,
+    "title": "Diffusion Schrodinger Bridge - James Thornton",
+    "url": "https://jtt94.github.io/papers/schrodinger_bridge",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 623,
+    "title": "[2603.18992] Foundations of Schrödinger Bridges for Generative Modeling",
+    "url": "https://arxiv.org/abs/2603.18992",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 624,
+    "title": "[2410.14171] Heavy-Tailed Diffusion Models",
+    "url": "https://arxiv.org/abs/2410.14171",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 625,
+    "title": "[2501.19393] s1: Simple test-time scaling",
+    "url": "https://arxiv.org/abs/2501.19393",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 626,
+    "title": "What, How, Where, and How Well? A Survey on Test-Time Scaling in Large Language Models",
+    "url": "https://testtimescaling.github.io/",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 627,
+    "title": "[2212.09748] Scalable Diffusion Models with Transformers",
+    "url": "https://arxiv.org/abs/2212.09748",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 628,
+    "title": "[2508.20095] Discrete-Guided Diffusion for Scalable and Safe Multi-Robot Motion Planning",
+    "url": "https://arxiv.org/abs/2508.20095",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 629,
+    "title": "[2510.14989] Constrained Diffusion for Protein Design with Hard Structural Constraints",
+    "url": "https://arxiv.org/abs/2510.14989",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 630,
+    "title": "[2602.22661] dLLM: Simple Diffusion Language Modeling",
+    "url": "https://arxiv.org/abs/2602.22661",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 631,
+    "title": "https://onlinelibrary.wiley.com/doi/10.1002/qub2.70016",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/qub2.70016",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 632,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s43018-024-00756-7?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 633,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41698-025-01082-6?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 634,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41467-020-19313-8?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 635,
+    "title": "A disentangled generative model for improved drug response prediction in patients via sample synthesis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12268049/?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 636,
+    "title": "[2304.05366] The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning",
+    "url": "https://arxiv.org/abs/2304.05366",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 637,
+    "title": "[2003.02139] Rethinking Parameter Counting in Deep Models: Effective Dimensionality Revisited",
+    "url": "https://arxiv.org/abs/2003.02139",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 638,
+    "title": "[1511.02222] Deep Kernel Learning",
+    "url": "https://arxiv.org/abs/1511.02222",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 639,
+    "title": "[2210.02984] The Lie Derivative for Measuring Learned Equivariance",
+    "url": "https://arxiv.org/abs/2210.02984",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 640,
+    "title": "[2601.03220] From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence",
+    "url": "https://arxiv.org/abs/2601.03220",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 641,
+    "title": "[1912.02292] Deep Double Descent: Where Bigger Models and More Data Hurt",
+    "url": "https://arxiv.org/abs/1912.02292",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 642,
+    "title": "Superposition, Memorization, and Double Descent",
+    "url": "https://transformer-circuits.pub/2023/toy-double-descent/index.html",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 643,
+    "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+    "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 644,
+    "title": "Tracing Attention Computation Through Feature Interactions",
+    "url": "https://transformer-circuits.pub/2025/attention-qk/index.html",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 645,
+    "title": "Circuit Tracing: Revealing Computational Graphs in Language Models",
+    "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
   }
 ];
