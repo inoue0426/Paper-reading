@@ -7908,5 +7908,14 @@ const papers = [
     "tags": [],
     "section": "[MEMO] DL4Sci",
     "issue": 130
+  },
+  {
+    "id": 655,
+    "title": "[2506.07003] End-to-End Probabilistic Framework for Learning with Hard Constraints",
+    "url": "https://arxiv.org/abs/2506.07003",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
   }
 ];
