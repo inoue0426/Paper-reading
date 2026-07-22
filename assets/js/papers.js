@@ -7827,5 +7827,23 @@ const papers = [
     "tags": [],
     "section": "[MEMO] DL4Sci",
     "issue": 130
+  },
+  {
+    "id": 646,
+    "title": "[2504.09762] Position: Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces!",
+    "url": "https://arxiv.org/abs/2504.09762",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 647,
+    "title": "[2602.14147] LaViDa-R1: Advancing Reasoning for Unified Multimodal Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2602.14147",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
   }
 ];
