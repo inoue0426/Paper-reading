@@ -7872,5 +7872,41 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 5",
     "issue": 126
+  },
+  {
+    "id": 651,
+    "title": "Science in the age of foundation models - Amazon Science",
+    "url": "https://www.amazon.science/blog/science-in-the-age-of-foundation-models",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 652,
+    "title": "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=IPDByA8AAAAJ&sortby=pubdate&citft=1&email_for_op=inoue.yoshitaka.iv1%40gmail.com",
+    "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=IPDByA8AAAAJ&sortby=pubdate&citft=1&email_for_op=inoue.yoshitaka.iv1%40gmail.com",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 653,
+    "title": "https://dl.acm.org/doi/10.1145/3690624.3709286",
+    "url": "https://dl.acm.org/doi/10.1145/3690624.3709286",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 654,
+    "title": "Day 3 - Lecture #4 - Science in the Age of Foundation Models - Danielle Maddix Robinson - Google Drive",
+    "url": "https://drive.google.com/file/d/1bpgnbpsMCO9vm3DH8ff_MHWwwhFpsLfZ/view",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
   }
 ];
