@@ -7845,5 +7845,23 @@ const papers = [
     "tags": [],
     "section": "[MEMO] DL4Sci",
     "issue": 130
+  },
+  {
+    "id": 648,
+    "title": "Introduction • Intro to Reinforcement Learning — DL4Sci 2026",
+    "url": "https://elynncc.github.io/rl-book/",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
+  },
+  {
+    "id": 649,
+    "title": "An introduction to Multi-Agents Reinforcement Learning (MARL) · Hugging Face",
+    "url": "https://huggingface.co/learn/deep-rl-course/unit7/introduction-to-marl",
+    "summary": "",
+    "tags": [],
+    "section": "[MEMO] DL4Sci",
+    "issue": 130
   }
 ];
