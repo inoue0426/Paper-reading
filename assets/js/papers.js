@@ -7863,5 +7863,14 @@ const papers = [
     "tags": [],
     "section": "[MEMO] DL4Sci",
     "issue": 130
+  },
+  {
+    "id": 650,
+    "title": "[2607.18777] PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects",
+    "url": "https://arxiv.org/abs/2607.18777",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 5",
+    "issue": 126
   }
 ];
