@@ -7935,5 +7935,50 @@ const papers = [
     "tags": [],
     "section": "[TMP] Velocity",
     "issue": 129
+  },
+  {
+    "id": 658,
+    "title": "[2511.08544] LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics",
+    "url": "https://arxiv.org/abs/2511.08544",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 5",
+    "issue": 126
+  },
+  {
+    "id": 659,
+    "title": "SIGReg from First Principles",
+    "url": "https://rezabyt.github.io/blogposts/sigreg-tutorial.html#:~:text=A%20step%2Dby%2Dstep%20construction,for%20joint%2Dembedding%20predictive%20architectures",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 5",
+    "issue": 126
+  },
+  {
+    "id": 660,
+    "title": "[2605.09542] LLM-Guided Monte Carlo Tree Search over Knowledge Graphs: Composing Mechanistic Explanations for Drug-Disease Pairs",
+    "url": "https://arxiv.org/abs/2605.09542",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 5",
+    "issue": 126
+  },
+  {
+    "id": 661,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41551-025-01481-x?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 5",
+    "issue": 126
+  },
+  {
+    "id": 662,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s42256-026-01242-8",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 5",
+    "issue": 126
   }
 ];
