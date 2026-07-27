@@ -7917,5 +7917,23 @@ const papers = [
     "tags": [],
     "section": "[MEMO] DL4Sci",
     "issue": 130
+  },
+  {
+    "id": 656,
+    "title": "Optimal transport reveals dynamic gene regulatory networks via gene velocity estimation | PLOS Computational Biology",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012476",
+    "summary": "",
+    "tags": [],
+    "section": "[TMP] Velocity",
+    "issue": 129
+  },
+  {
+    "id": 657,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41467-024-45661-w",
+    "summary": "",
+    "tags": [],
+    "section": "[TMP] Velocity",
+    "issue": 129
   }
 ];

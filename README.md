@@ -71,6 +71,16 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar inbox 5](#scholar-inbox-5)
 - [ISMB2026](#ismb2026)
 - [[MEMO] DL4Sci](#memo-dl4sci)
+- [[TMP] Velocity](#tmp-velocity)
+
+---
+
+## [TMP] Velocity
+
+> Issue [#129](https://github.com/inoue0426/Paper-reading/issues/129)
+
+- **[Optimal transport reveals dynamic gene regulatory networks via gene velocity estimation | PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012476)**
+- **[Client Challenge](https://www.nature.com/articles/s41467-024-45661-w)**
 
 ---
 
