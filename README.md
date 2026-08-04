@@ -72,6 +72,15 @@ A curated collection of research papers organized by conference and topic.
 - [ISMB2026](#ismb2026)
 - [[MEMO] DL4Sci](#memo-dl4sci)
 - [[TMP] Velocity](#tmp-velocity)
+- [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
+
+---
+
+## AI4D3-Northeast 2026
+
+> Issue [#132](https://github.com/inoue0426/Paper-reading/issues/132)
+
+- **[https://www.cell.com/cell/fulltext/S0092-8674(24](https://www.cell.com/cell/fulltext/S0092-8674(24)**
 
 ---
 

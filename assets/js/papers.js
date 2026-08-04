@@ -7980,5 +7980,14 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 5",
     "issue": 126
+  },
+  {
+    "id": 663,
+    "title": "https://www.cell.com/cell/fulltext/S0092-8674(24",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(24",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
   }
 ];
