@@ -7989,5 +7989,230 @@ const papers = [
     "tags": [],
     "section": "AI4D3-Northeast 2026",
     "issue": 132
+  },
+  {
+    "id": 664,
+    "title": "https://ieeexplore.ieee.org/document/8886705",
+    "url": "https://ieeexplore.ieee.org/document/8886705",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 665,
+    "title": "https://news.stanford.edu/stories/2024/10/ten-tips-for-picking-and-solving-the-next-great-problem",
+    "url": "https://news.stanford.edu/stories/2024/10/ten-tips-for-picking-and-solving-the-next-great-problem",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 666,
+    "title": "https://chatgpt.com/c/6a70a1e6-14d4-832b-aeb8-ccb15c40265b",
+    "url": "https://chatgpt.com/c/6a70a1e6-14d4-832b-aeb8-ccb15c40265b",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 667,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41467-026-71441-9",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 668,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41467-026-74167-w",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 669,
+    "title": "[2505.07086] Multi-Objective-Guided Discrete Flow Matching for Controllable Biological Sequence Design",
+    "url": "https://arxiv.org/abs/2505.07086",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 670,
+    "title": "https://arxiv.org/pdf/2508.13408",
+    "url": "https://arxiv.org/pdf/2508.13408",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 671,
+    "title": "http://arxiv.org/pdf/2508.13408",
+    "url": "http://arxiv.org/pdf/2508.13408",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 672,
+    "title": "https://arxiv.org/pdf/2607.28090",
+    "url": "https://arxiv.org/pdf/2607.28090",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 673,
+    "title": "http://arxiv.org/pdf/2607.28090",
+    "url": "http://arxiv.org/pdf/2607.28090",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 674,
+    "title": "https://arxiv.org/pdf/2607.26346",
+    "url": "https://arxiv.org/pdf/2607.26346",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 675,
+    "title": "http://arxiv.org/pdf/2607.26346",
+    "url": "http://arxiv.org/pdf/2607.26346",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 676,
+    "title": "https://arxiv.org/pdf/2607.25322",
+    "url": "https://arxiv.org/pdf/2607.25322",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 677,
+    "title": "http://arxiv.org/pdf/2607.25322",
+    "url": "http://arxiv.org/pdf/2607.25322",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 678,
+    "title": "https://chatgpt.com/c/6a70fdc0-a2f4-8333-9af2-38b39b961271",
+    "url": "https://chatgpt.com/c/6a70fdc0-a2f4-8333-9af2-38b39b961271",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 679,
+    "title": "Verifying your browser | OpenReview",
+    "url": "https://openreview.net/forum?id=5OPItDY07C",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 680,
+    "title": "CVPR 2025 Open Access Repository",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Luo_STINR_Deciphering_Spatial_Transcriptomics_via_Implicit_Neural_Representation_CVPR_2025_paper.html?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 681,
+    "title": "SUICA: Learning Super-high Dimensional Sparse Implicit Neural Representations for Spatial Transcriptomics",
+    "url": "https://proceedings.mlr.press/v267/zhu25af.html?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 682,
+    "title": "Client Challenge",
+    "url": "https://link.springer.com/article/10.1186/s13059-026-04160-5?utm_source=chatgpt.com",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 683,
+    "title": "Google Search",
+    "url": "https://www.google.com/search?q=Neural+Fields+in+Visual+Computing+and+Beyond&amp;rlz=1C5OZZY_enUS1138US1138&amp;oq=Neural+Fields+in+Visual+Computing+and+Beyond&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzI0MmowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 684,
+    "title": "Google Search",
+    "url": "https://www.google.com/search?q=Ultra-efficient+High+Resolution+3D+Reconstruction+of+Spatial+Omics+Data+with+Neural+Transcriptomic+Field&amp;rlz=1C5OZZY_enUS1138US1138&amp;oq=Ultra-efficient+High+Resolution+3D+Reconstruction+of+Spatial+Omics+Data+with+Neural+Transcriptomic+Field&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzE5MWowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 685,
+    "title": "Google Search",
+    "url": "https://www.google.com/search?q=Where+Do+We+Stand+with+Implicit+Neural+Representations%3F+A+Technical+and+Performance+Survey&amp;rlz=1C5OZZY_enUS1138US1138&amp;oq=Where+Do+We+Stand+with+Implicit+Neural+Representations%3F+A+Technical+and+Performance+Survey&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEHMjA4ajBqN6gCALACAA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 686,
+    "title": "Google Search",
+    "url": "https://www.google.com/search?q=INST-Align%3A+Implicit+Neural+Alignment+for+Spatial+Transcriptomics+via+Canonical+Expression+Fields&amp;rlz=1C5OZZY_enUS1138US1138&amp;oq=INST-Align%3A+Implicit+Neural+Alignment+for+Spatial+Transcriptomics+via+Canonical+Expression+Fields&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHMjMzajBqN6gCALACAA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 687,
+    "title": "Google Search",
+    "url": "https://www.google.com/search?q=CPS%3A+Mapping+Physical+Coordinates+to+High-Fidelity+Spatial+Transcriptomics+via+Privileged+Multi-Scale+Context+Distillation&amp;rlz=1C5OZZY_enUS1138US1138&amp;oq=CPS%3A+Mapping+Physical+Coordinates+to+High-Fidelity+Spatial+Transcriptomics+via+Privileged+Multi-Scale+Context+Distillation&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHNDEyajBqN6gCALACAA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
+  },
+  {
+    "id": 688,
+    "title": "Google Search",
+    "url": "https://www.google.com/search?q=Registration+of+Spatial+Transcriptomics+Images+to+an+Atlas+using+Implicit+Neural+Representations&amp;rlz=1C5OZZY_enUS1138US1138&amp;oq=Registration+of+Spatial+Transcriptomics+Images+to+an+Atlas+using+Implicit+Neural+Representations&amp;gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzIxMGowajeoAgCwAgA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 132
   }
 ];
