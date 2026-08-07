@@ -73,6 +73,18 @@ A curated collection of research papers organized by conference and topic.
 - [[MEMO] DL4Sci](#memo-dl4sci)
 - [[TMP] Velocity](#tmp-velocity)
 - [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
+- [Scholar inbox 6](#scholar-inbox-6)
+
+---
+
+## Scholar inbox 6
+
+> Issue [#133](https://github.com/inoue0426/Paper-reading/issues/133)
+
+- **[[2606.32026] AdaJEPA: An Adaptive Latent World Model](https://arxiv.org/abs/2606.32026)**
+- **[Client Challenge](https://www.nature.com/articles/s41586-026-10843-7)**
+- **[Client Challenge](https://www.nature.com/articles/s41586-026-10830-y)**
+- **[https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1](https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1)**
 
 ---
 

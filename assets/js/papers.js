@@ -8214,5 +8214,41 @@ const papers = [
     "tags": [],
     "section": "AI4D3-Northeast 2026",
     "issue": 132
+  },
+  {
+    "id": 689,
+    "title": "[2606.32026] AdaJEPA: An Adaptive Latent World Model",
+    "url": "https://arxiv.org/abs/2606.32026",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 6",
+    "issue": 133
+  },
+  {
+    "id": 690,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41586-026-10843-7",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 6",
+    "issue": 133
+  },
+  {
+    "id": 691,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41586-026-10830-y",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 6",
+    "issue": 133
+  },
+  {
+    "id": 692,
+    "title": "https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 6",
+    "issue": 133
   }
 ];
