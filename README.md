@@ -75,6 +75,16 @@ A curated collection of research papers organized by conference and topic.
 - [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
 - [Scholar inbox 6](#scholar-inbox-6)
 - [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
+- [DL4Sci](#dl4sci)
+
+---
+
+## DL4Sci
+
+> Issue [#136](https://github.com/inoue0426/Paper-reading/issues/136)
+
+- **[[2106.01357] Diffusion Schrödinger Bridge with Applications to Score-Based Generative Modeling](https://arxiv.org/abs/2106.01357)**
+- **[[2602.19685] PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling](https://arxiv.org/abs/2602.19685)**
 
 ---
 

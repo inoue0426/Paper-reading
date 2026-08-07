@@ -8268,5 +8268,23 @@ const papers = [
     "tags": [],
     "section": "AI4D3-Northeast 2026",
     "issue": 134
+  },
+  {
+    "id": 695,
+    "title": "[2106.01357] Diffusion Schrödinger Bridge with Applications to Score-Based Generative Modeling",
+    "url": "https://arxiv.org/abs/2106.01357",
+    "summary": "",
+    "tags": [],
+    "section": "DL4Sci",
+    "issue": 136
+  },
+  {
+    "id": 696,
+    "title": "[2602.19685] PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling",
+    "url": "https://arxiv.org/abs/2602.19685",
+    "summary": "",
+    "tags": [],
+    "section": "DL4Sci",
+    "issue": 136
   }
 ];
