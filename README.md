@@ -74,6 +74,16 @@ A curated collection of research papers organized by conference and topic.
 - [[TMP] Velocity](#tmp-velocity)
 - [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
 - [Scholar inbox 6](#scholar-inbox-6)
+- [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
+
+---
+
+## AI4D3-Northeast 2026
+
+> Issue [#134](https://github.com/inoue0426/Paper-reading/issues/134)
+
+- **[[2508.13408] NovoMolGen: Rethinking Molecular Language Model Pretraining](https://arxiv.org/abs/2508.13408)**
+- **[[2607.25322] From Cellular Responses to Pharmacological Domains: Multimodal Zero-Shot Drug Representation Learning](https://arxiv.org/abs/2607.25322)**
 
 ---
 

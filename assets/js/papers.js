@@ -8250,5 +8250,23 @@ const papers = [
     "tags": [],
     "section": "Scholar inbox 6",
     "issue": 133
+  },
+  {
+    "id": 693,
+    "title": "[2508.13408] NovoMolGen: Rethinking Molecular Language Model Pretraining",
+    "url": "https://arxiv.org/abs/2508.13408",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 134
+  },
+  {
+    "id": 694,
+    "title": "[2607.25322] From Cellular Responses to Pharmacological Domains: Multimodal Zero-Shot Drug Representation Learning",
+    "url": "https://arxiv.org/abs/2607.25322",
+    "summary": "",
+    "tags": [],
+    "section": "AI4D3-Northeast 2026",
+    "issue": 134
   }
 ];
