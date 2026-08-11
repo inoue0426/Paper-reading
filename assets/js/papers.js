@@ -8286,5 +8286,23 @@ const papers = [
     "tags": [],
     "section": "DL4Sci",
     "issue": 136
+  },
+  {
+    "id": 697,
+    "title": "[2502.03569] Controllable Sequence Editing for Biological and Clinical Trajectories",
+    "url": "https://arxiv.org/abs/2502.03569",
+    "summary": "",
+    "tags": [],
+    "section": "tmp",
+    "issue": 137
+  },
+  {
+    "id": 698,
+    "title": "[2608.08430] Human-Guided Causal Knowledge Injection for Virtual Cells",
+    "url": "https://arxiv.org/abs/2608.08430",
+    "summary": "",
+    "tags": [],
+    "section": "tmp",
+    "issue": 137
   }
 ];

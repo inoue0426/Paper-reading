@@ -76,6 +76,16 @@ A curated collection of research papers organized by conference and topic.
 - [Scholar inbox 6](#scholar-inbox-6)
 - [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
 - [DL4Sci](#dl4sci)
+- [tmp](#tmp)
+
+---
+
+## tmp
+
+> Issue [#137](https://github.com/inoue0426/Paper-reading/issues/137)
+
+- **[[2502.03569] Controllable Sequence Editing for Biological and Clinical Trajectories](https://arxiv.org/abs/2502.03569)**
+- **[[2608.08430] Human-Guided Causal Knowledge Injection for Virtual Cells](https://arxiv.org/abs/2608.08430)**
 
 ---
 
