@@ -77,6 +77,44 @@ A curated collection of research papers organized by conference and topic.
 - [AI4D3-Northeast 2026](#ai4d3-northeast-2026)
 - [DL4Sci](#dl4sci)
 - [tmp](#tmp)
+- [Preference Optimization, Multi-Objective Alignment, and Selective Prediction](#preference-optimization-multi-objective-alignment-and-selective-prediction)
+
+---
+
+## Preference Optimization, Multi-Objective Alignment, and Selective Prediction
+
+> Issue [#138](https://github.com/inoue0426/Paper-reading/issues/138)
+
+- **[Verifying your browser | OpenReview](https://openreview.net/forum?id=HPuSIXJaa9)**
+- **[[2203.02155] Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)**
+- **[Deep Reinforcement Learning from Human Preferences](https://proceedings.neurips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html)**
+- **[[2009.01325] Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325)**
+- **[[2212.08073] Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)**
+- **[[2310.12036] A General Theoretical Paradigm to Understand Learning from Human Preferences](https://arxiv.org/abs/2310.12036)**
+- **[[2402.01306] KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/abs/2402.01306)**
+- **[ORPO: Monolithic Preference Optimization without Reference Model - ACL Anthology](https://aclanthology.org/2024.emnlp-main.626/)**
+- **[[2405.14734] SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734)**
+- **[Verifying your browser | OpenReview](https://openreview.net/forum?id=yhpDKSw7yA)**
+- **[[1402.0590] A Survey of Multi-Objective Sequential Decision-Making](https://arxiv.org/abs/1402.0590)**
+- **[Client Challenge](https://link.springer.com/article/10.1007/s10458-022-09552-y)**
+- **[[2306.04488] Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards](https://arxiv.org/abs/2306.04488)**
+- **[[2310.03708] Beyond One-Preference-Fits-All Alignment: Multi-Objective Direct Preference Optimization](https://arxiv.org/abs/2310.03708)**
+- **[Rewards-in-Context: Multi-objective Alignment of Foundation Models with Dynamic Preference Adjustment](https://proceedings.mlr.press/v235/yang24q.html)**
+- **[[2402.19085] Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment](https://arxiv.org/abs/2402.19085)**
+- **[[2310.11564] Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging](https://arxiv.org/abs/2310.11564)**
+- **[[2310.05344] SteerLM: Attribute Conditioned SFT as an (User-Steerable) Alternative to RLHF](https://arxiv.org/abs/2310.05344)**
+- **[HelpSteer: Multi-attribute Helpfulness Dataset for SteerLM - ACL Anthology](https://aclanthology.org/2024.naacl-long.185/)**
+- **[[2204.05036] Pareto Conditioned Networks](https://arxiv.org/abs/2204.05036)**
+- **[On the Foundations of Noise-free Selective Classification](https://jmlr.org/papers/v11/el-yaniv10a.html)**
+- **[Selective Classification for Deep Neural Networks](https://proceedings.neurips.cc/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html)**
+- **[SelectiveNet: A Deep Neural Network with an Integrated Reject Option](https://proceedings.mlr.press/v97/geifman19a.html)**
+- **[[1907.00208] Deep Gamblers: Learning to Abstain with Portfolio Theory](https://arxiv.org/abs/1907.00208)**
+- **[On Calibration of Modern Neural Networks](https://proceedings.mlr.press/v70/guo17a.html)**
+- **[Language Models (Mostly) Know What They Know \ Anthropic](https://www.anthropic.com/research/language-models-mostly-know-what-they-know)**
+- **[[2305.14975] Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback](https://arxiv.org/abs/2305.14975)**
+- **[Client Challenge](https://www.nature.com/articles/s41586-024-07421-0)**
+- **[SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models - ACL Anthology](https://aclanthology.org/2023.emnlp-main.557/)**
+- **[[2407.16221] Do LLMs Know When to NOT Answer? Investigating Abstention Abilities of Large Language Models](https://arxiv.org/abs/2407.16221)**
 
 ---
 

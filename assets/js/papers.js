@@ -8304,5 +8304,275 @@ const papers = [
     "tags": [],
     "section": "tmp",
     "issue": 137
+  },
+  {
+    "id": 699,
+    "title": "Verifying your browser | OpenReview",
+    "url": "https://openreview.net/forum?id=HPuSIXJaa9",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 700,
+    "title": "[2203.02155] Training language models to follow instructions with human feedback",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 701,
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "url": "https://proceedings.neurips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 702,
+    "title": "[2009.01325] Learning to summarize from human feedback",
+    "url": "https://arxiv.org/abs/2009.01325",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 703,
+    "title": "[2212.08073] Constitutional AI: Harmlessness from AI Feedback",
+    "url": "https://arxiv.org/abs/2212.08073",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 704,
+    "title": "[2310.12036] A General Theoretical Paradigm to Understand Learning from Human Preferences",
+    "url": "https://arxiv.org/abs/2310.12036",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 705,
+    "title": "[2402.01306] KTO: Model Alignment as Prospect Theoretic Optimization",
+    "url": "https://arxiv.org/abs/2402.01306",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 706,
+    "title": "ORPO: Monolithic Preference Optimization without Reference Model - ACL Anthology",
+    "url": "https://aclanthology.org/2024.emnlp-main.626/",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 707,
+    "title": "[2405.14734] SimPO: Simple Preference Optimization with a Reference-Free Reward",
+    "url": "https://arxiv.org/abs/2405.14734",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 708,
+    "title": "Verifying your browser | OpenReview",
+    "url": "https://openreview.net/forum?id=yhpDKSw7yA",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 709,
+    "title": "[1402.0590] A Survey of Multi-Objective Sequential Decision-Making",
+    "url": "https://arxiv.org/abs/1402.0590",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 710,
+    "title": "Client Challenge",
+    "url": "https://link.springer.com/article/10.1007/s10458-022-09552-y",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 711,
+    "title": "[2306.04488] Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards",
+    "url": "https://arxiv.org/abs/2306.04488",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 712,
+    "title": "[2310.03708] Beyond One-Preference-Fits-All Alignment: Multi-Objective Direct Preference Optimization",
+    "url": "https://arxiv.org/abs/2310.03708",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 713,
+    "title": "Rewards-in-Context: Multi-objective Alignment of Foundation Models with Dynamic Preference Adjustment",
+    "url": "https://proceedings.mlr.press/v235/yang24q.html",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 714,
+    "title": "[2402.19085] Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment",
+    "url": "https://arxiv.org/abs/2402.19085",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 715,
+    "title": "[2310.11564] Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging",
+    "url": "https://arxiv.org/abs/2310.11564",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 716,
+    "title": "[2310.05344] SteerLM: Attribute Conditioned SFT as an (User-Steerable) Alternative to RLHF",
+    "url": "https://arxiv.org/abs/2310.05344",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 717,
+    "title": "HelpSteer: Multi-attribute Helpfulness Dataset for SteerLM - ACL Anthology",
+    "url": "https://aclanthology.org/2024.naacl-long.185/",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 718,
+    "title": "[2204.05036] Pareto Conditioned Networks",
+    "url": "https://arxiv.org/abs/2204.05036",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 719,
+    "title": "On the Foundations of Noise-free Selective Classification",
+    "url": "https://jmlr.org/papers/v11/el-yaniv10a.html",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 720,
+    "title": "Selective Classification for Deep Neural Networks",
+    "url": "https://proceedings.neurips.cc/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 721,
+    "title": "SelectiveNet: A Deep Neural Network with an Integrated Reject Option",
+    "url": "https://proceedings.mlr.press/v97/geifman19a.html",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 722,
+    "title": "[1907.00208] Deep Gamblers: Learning to Abstain with Portfolio Theory",
+    "url": "https://arxiv.org/abs/1907.00208",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 723,
+    "title": "On Calibration of Modern Neural Networks",
+    "url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 724,
+    "title": "Language Models (Mostly) Know What They Know \\ Anthropic",
+    "url": "https://www.anthropic.com/research/language-models-mostly-know-what-they-know",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 725,
+    "title": "[2305.14975] Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+    "url": "https://arxiv.org/abs/2305.14975",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 726,
+    "title": "Client Challenge",
+    "url": "https://www.nature.com/articles/s41586-024-07421-0",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 727,
+    "title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models - ACL Anthology",
+    "url": "https://aclanthology.org/2023.emnlp-main.557/",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
+  },
+  {
+    "id": 728,
+    "title": "[2407.16221] Do LLMs Know When to NOT Answer? Investigating Abstention Abilities of Large Language Models",
+    "url": "https://arxiv.org/abs/2407.16221",
+    "summary": "",
+    "tags": [],
+    "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
+    "issue": 138
   }
 ];
