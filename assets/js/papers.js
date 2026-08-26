@@ -8574,5 +8574,14 @@ const papers = [
     "tags": [],
     "section": "Preference Optimization, Multi-Objective Alignment, and Selective Prediction",
     "issue": 138
+  },
+  {
+    "id": 729,
+    "title": "[2608.23646] MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models",
+    "url": "https://arxiv.org/abs/2608.23646",
+    "summary": "",
+    "tags": [],
+    "section": "Scholar inbox 6",
+    "issue": 133
   }
 ];
